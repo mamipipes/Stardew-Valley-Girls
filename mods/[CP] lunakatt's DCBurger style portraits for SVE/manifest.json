@@ -1,0 +1,16 @@
+{
+  "Name": "lunakatt's DCBurger Style Portraits for SVE",
+  "Author": "lunakatt",
+  "Version": "1.0.1",
+  "Description": "Portraits for Stardew Valley Expanded NPCs in the style of DCBurger's Portrait Mod.",
+  "UniqueID": "lunakatt.lunakattsDCBurgerStylePortraitsforSVE",
+  "UpdateKeys": [9029],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+   "Dependencies": [
+      {
+           "UniqueID": "Platonymous.Toolkit",
+      }
+	],
+}

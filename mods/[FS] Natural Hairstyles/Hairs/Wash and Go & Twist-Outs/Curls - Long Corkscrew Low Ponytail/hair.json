@@ -1,0 +1,61 @@
+{
+  "Name": "Curls - Long Corkscrew Low Ponytail",
+  "FrontHair": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": 4
+    },
+    "HairSize": {
+      "Width": 32,
+      "Length": 32
+    },
+  },
+  "RightHair": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": 5
+    },
+    "HairSize": {
+      "Width": 32,
+      "Length": 32
+    },
+    
+  },
+  "LeftHair": {
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": 5
+    },
+    "HairSize": {
+      "Width": 32,
+      "Length": 32
+    },
+  },
+  "BackHair": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 64
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": 4
+    },
+    "HairSize": {
+      "Width": 32,
+      "Length": 32
+    },
+  }
+}

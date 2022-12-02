@@ -1,0 +1,13 @@
+{
+  "Name": "Natural Hair for Fashion Sense",
+  "Author": "mystix",
+  "Version": "2.0",
+  "Description": "Adds 72 static natural hairstyles for use with the Fashion Sense mod.",
+  "UniqueID": "mxstix.NaturalHairstyles.FS",
+  "UpdateKeys": ["Nexus:7668"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "4.5.1"
+  }
+}
