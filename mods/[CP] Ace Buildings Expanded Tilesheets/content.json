@@ -1,0 +1,21 @@
+{
+  "Format": "1.19.0",
+  "ConfigSchema": {
+    "Color": {
+      "AllowValues": "Ace, Classy, DustBeauty, DustBeautyLight, MellowYellow, Rose, Starblue, TweakedVanilla, Vanilla, VibrantPastoral",
+      "Default": "Vanilla"
+    }
+  },
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "AceDecor, Maps/AceDecor",
+      "FromFile": "assets/AceDecor_{{Color}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "AceWallFloor, Maps/AceWallFloor",
+      "FromFile": "assets/AceWallFloor_{{Color}}.png"
+    }
+  ]
+}

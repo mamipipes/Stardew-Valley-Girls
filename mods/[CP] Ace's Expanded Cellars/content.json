@@ -1,0 +1,17 @@
+{
+  "Format": "1.18.0",
+  "ConfigSchema": {
+    "CellarStyle": {
+      "AllowValues": "acerbicon, eemie, flumme, karmylla, lealmightypanda, lunasilverhart, niccolopogi, nuwudlebear, scalesofgray, themikatoon, ty2manie",
+      "Default": "acerbicon"
+    }
+  },
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Maps/Cellar",
+      "FromFile": "assets/Cellar_{{CellarStyle}}.tbin",
+      "Enabled": true
+    }
+  ]
+}
