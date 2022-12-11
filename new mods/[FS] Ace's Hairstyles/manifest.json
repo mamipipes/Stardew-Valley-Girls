@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Ace's Hairstyles",
+  "Author": "acerbicon",
+  "Version": "1.0.0",
+  "Description": "Ace's 48 hairstyles",
+  "UniqueID": "ace.FSHair",
+  "UpdateKeys": ["Nexus:13042"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "4.3.0"
+  }
+}
