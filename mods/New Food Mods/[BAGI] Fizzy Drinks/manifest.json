@@ -1,0 +1,13 @@
+{
+   "Name": "Fizzy Drinks for BAGI",
+   "Author": "fwippy and MelindaC",
+   "Version": "1.0.0",
+   "Description": "Enables vanilla-style BAGI icons for some of the crops added by Fizzy Drinks.",
+   "UniqueID": "MelindaC.FizzyDrinksBAGI",
+    "MinimumApiVersion": "3.2.0",
+   "ContentPackFor": {
+      "UniqueID": "cat.betterartisangoodicons",
+"MinimumVersion": "1.4.0",
+    "UpdateKeys": [  ]
+   }
+}

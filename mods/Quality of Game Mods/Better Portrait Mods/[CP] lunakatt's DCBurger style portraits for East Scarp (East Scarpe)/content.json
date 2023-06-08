@@ -1,0 +1,77 @@
+{
+   "Format": "1.22.0",
+
+
+   "Changes": [
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Aideen",
+         "FromFile": "assets/Aideen/Aideen.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Eloise",
+         "FromFile": "assets/Eloise/Eloise_spring_2.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Eloise",
+         "FromFile": "assets/Eloise/Eloise_{{season}}_1.png",
+            "When": {
+                "DayofWeek": "Tuesday, Wednesday, Friday"}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Eloise",
+         "FromFile": "assets/Eloise/Eloise_{{season}}_2.png",
+            "When": {
+                "DayofWeek": "Monday, Thursday, Saturday, Sunday"}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Eloise",
+         "FromFile": "assets/Eloise/Eloise_rain.png",
+            "Update": "OnLocationChange",
+            "When": {
+                "IsOutdoors": true,
+                "Weather": "rain, storm"}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Jacob",
+         "FromFile": "assets/Jacob/Jacob.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Jacob",
+         "FromFile": "assets/Jacob/Jacob_{{season}}.png",
+            "When": {
+                "season": "summer, fall, winter"}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/JosephineK",
+         "FromFile": "assets/JosephineK/Josephine.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Leximonster",
+         "FromFile": "assets/Lexi/Lexi_portrait.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/LKKataryna",
+         "FromFile": "assets/LKKataryna/Kataryna.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/OliverK",
+         "FromFile": "assets/OliverK/Oliver.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Rosa",
+         "FromFile": "assets/Rosa/Rosa.png",
+      },
+   ]
+}

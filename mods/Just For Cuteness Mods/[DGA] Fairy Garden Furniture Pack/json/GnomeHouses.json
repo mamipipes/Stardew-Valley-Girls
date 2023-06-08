@@ -1,0 +1,543 @@
+[
+
+
+	//Aesthete Gnome House
+	{
+		"$ItemType": "Furniture",
+		"ID": "GnomeHouseAesthete",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Houses/GnomeHouseAesthete.png:0",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/Houses/GnomeHouseAesthete.png:1",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/GnomeHouseAesthete"
+		}
+	},
+
+	//Angel Trumpet Gnome House
+	{
+		"$ItemType": "Furniture",
+		"ID": "GnomeHouseAngelTrumpet",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Houses/GnomeHouseAngelTrumpet.png:0",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/Houses/GnomeHouseAngelTrumpet.png:1",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/GnomeHouseAngelTrumpet"
+		}
+	},
+
+	//Artsy Gnome House
+	{
+		"$ItemType": "Furniture",
+		"ID": "GnomeHouseArtsy",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Houses/GnomeHouseArtsy.png:0",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/Houses/GnomeHouseArtsy.png:1",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/GnomeHouseArtsy"
+		}
+	},
+
+	//Belladonna Gnome House
+	{
+		"$ItemType": "Furniture",
+		"ID": "GnomeHouseBelladonna",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Houses/GnomeHouseBelladona.png:0",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/Houses/GnomeHouseBelladona.png:1",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/GnomeHouseBelladonna"
+		}
+	},
+
+	//Dainty Gnome House
+	{
+		"$ItemType": "Furniture",
+		"ID": "GnomeHouseDainty",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Houses/GnomeHouseDainty.png:0",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/Houses/GnomeHouseDainty.png:1",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/GnomeHouseDainty"
+		}
+	},
+
+		//Droopy Gnome House
+		{
+			"$ItemType": "Furniture",
+			"ID": "GnomeHouseDroopy",
+			"Type": "Decoration",
+			"Configurations": [
+				{
+					"Texture": "assets/Houses/GnomeHouseDroopy.png:0",
+					"DisplaySize": { "X": 2, "Y": 3 },
+					"CollisionHeight": 1
+				},
+				{
+					"Texture": "assets/Houses/GnomeHouseDroopy.png:1",
+					"DisplaySize": { "X": 2, "Y": 3 },
+					"CollisionHeight": 1
+				},
+				
+			]
+		},	
+		{
+			"$ItemType": "ShopEntry",
+			"ShopId": "Carpenter",
+			"Cost": 200,
+			"Item":  
+			{
+				"Type": "DGAItem",
+				"Value": "himewildflour.fairygardenfurniture/GnomeHouseDroopy"
+			}
+		},
+
+	//Duplex Gnome House
+	{
+		"$ItemType": "Furniture",
+		"ID": "GnomeHouseDuplex",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Houses/GnomeHouseDuplex.png:0",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/Houses/GnomeHouseDuplex.png:1",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/GnomeHouseDuplex"
+		}
+	},
+
+	//Fancy Gnome House
+	{
+		"$ItemType": "Furniture",
+		"ID": "GnomeHouseFancy",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Houses/GnomeHouseFancy.png:0",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/Houses/GnomeHouseFancy.png:1",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/GnomeHouseFancy"
+		}
+	},
+
+		//Flowering Gnome House
+	{
+		"$ItemType": "Furniture",
+		"ID": "GnomeHouseFlowering",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Houses/GnomeHouseFlowering.png:0",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/Houses/GnomeHouseFlowering.png:1",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/GnomeHouseFlowering"
+		}
+	},
+	//Leafy Gnome House
+	{
+		"$ItemType": "Furniture",
+		"ID": "GnomeHouseLeafy",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Houses/GnomeHouseLeafy.png:0",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/Houses/GnomeHouseLeafy.png:1",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/GnomeHouseLeafy"
+		}
+	},
+
+	//Lively Gnome House
+	{
+		"$ItemType": "Furniture",
+		"ID": "GnomeHouseLively",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Houses/GnomeHouseLively.png:0",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/Houses/GnomeHouseLively.png:1",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/GnomeHouseLively"
+		}
+	},
+
+	//Minacious Gnome House
+	{
+		"$ItemType": "Furniture",
+		"ID": "GnomeHouseMinacious",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Houses/GnomeHouseMinacious.png:0",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/Houses/GnomeHouseMinacious.png:1",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/GnomeHouseMinacious"
+		}
+	},
+
+//Old Stump Gnome House
+{
+	"$ItemType": "Furniture",
+	"ID": "GnomeHouseOldStump",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/Houses/GnomeHouseOldStump.png:0",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/Houses/GnomeHouseOldStump.png:1",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		
+	]
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.fairygardenfurniture/GnomeHouseOldStump"
+	}
+},
+
+//Quaint Gnome House
+{
+	"$ItemType": "Furniture",
+	"ID": "GnomeHouseQuaint",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/Houses/GnomeHouseQuaint.png:0",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/Houses/GnomeHouseQuaint.png:1",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		
+	]
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.fairygardenfurniture/GnomeHouseQuaint"
+	}
+},
+
+//Simple Gnome House
+{
+	"$ItemType": "Furniture",
+	"ID": "GnomeHouseSimple",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/Houses/GnomeHouseSimple.png:0",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/Houses/GnomeHouseSimple.png:1",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		
+	]
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.fairygardenfurniture/GnomeHouseSimple"
+	}
+},
+
+//Sweet Gnome House
+{
+	"$ItemType": "Furniture",
+	"ID": "GnomeHouseSweet",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/Houses/GnomeHouseSweet.png:0",
+			"DisplaySize": { "X": 3, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/Houses/GnomeHouseSweet.png:1",
+			"DisplaySize": { "X": 3, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		
+	]
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.fairygardenfurniture/GnomeHouseSweet"
+	}
+},
+
+//Tall Gnome House
+{
+	"$ItemType": "Furniture",
+	"ID": "GnomeHouseTall",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/Houses/GnomeHouseTall.png:0",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/Houses/GnomeHouseTall.png:1",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		
+	]
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.fairygardenfurniture/GnomeHouseTall"
+	}
+},
+
+//Watering Can Gnome House
+{
+	"$ItemType": "Furniture",
+	"ID": "GnomeHouseWateringCan",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/Houses/GnomeHouseWateringCan.png:0",
+			"DisplaySize": { "X": 3, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/Houses/GnomeHouseWateringCan.png:1",
+			"DisplaySize": { "X": 3, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		
+	]
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.fairygardenfurniture/GnomeHouseWateringCan"
+	}
+},
+
+]

@@ -1,0 +1,14 @@
+
+
+   { "Fruits": ["Bitter Orange", "Kokum", "Muscat Grape"],
+    "Vegetables": ["Burdock Root", "Red Sorrel Leaf", "Shiso Leaf"],
+    "Flowers": ["Elderflower", "Lemon Balm"],
+    "Honey": "assets/honey.png",
+    "Jelly": "assets/jelly.png",
+    "Juice": "assets/juice.png",
+    "Pickles": "assets/pickles.png",
+    "Wine": "assets/wine.png",
+}
+
+/*If you want the alternate jelly version, replace -assets/jelly.png- with -assets/jelly2.png- under -Jelly-.
+Note not all crops and trees are represented.*/

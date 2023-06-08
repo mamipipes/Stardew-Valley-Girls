@@ -1,0 +1,1499 @@
+{
+ 		"Format": "1.28.0",
+		//Hey! What're you doing here?
+		"ConfigSchema": {
+			"Abigail's SR": {
+				"AllowValues": "true, false",
+				"Default": "true",
+				"Section": "Bachelorettes"
+				},
+			"Abigail's SR Type": {
+				"AllowValues": "Default_SR, NoWindow_SR, KindaEmpty_SR, VeryEmpty_SR",
+				"Default": "Default_SR",
+				"Section": "Bachelorettes"
+				},
+			"Alex's SR": {
+				"AllowValues": "true, false",
+				"Default": "true",
+				"Section": "Bachelors"
+				},
+			"Alex's SR Type": {
+				"AllowValues": "Default_SR, NoWindow_SR, KindaEmpty_SR, VeryEmpty_SR",
+				"Default": "Default_SR",
+				"Section": "Bachelors"
+				},
+			"Elliott's SR": {
+				"AllowValues": "true, false",
+				"Default": "true",
+				"Section": "Bachelors"
+				},
+			"Elliott's SR Type": {
+				"AllowValues": "Default_SR, Optional_SR, KindaEmpty_SR, VeryEmpty_SR",
+				"Default": "Optional_SR",
+				"Description": "Default has his giant Piano.",
+				"Section": "Bachelors"
+				},
+			"Emily's SR": {
+				"AllowValues": "true, false",
+				"Default": "true",
+				"Section": "Bachelorettes"
+				},
+			"Emily's SR Type": {
+				"AllowValues": "Default_SR, NoWindow_SR, KindaEmpty_SR, VeryEmpty_SR",
+				"Default": "Default_SR",
+				"Section": "Bachelorettes"
+				},
+			"Haley's SR": {
+				"AllowValues": "true, false",
+				"Default": "true",
+				"Section": "Bachelorettes"
+				},
+			"Haley's SR Type": {
+				"AllowValues": "Default_SR, NoWindow_SR, KindaEmpty_SR, VeryEmpty_SR",
+				"Default": "Default_SR",
+				"Section": "Bachelorettes"
+				},
+			"Harvey's SR": {
+				"AllowValues": "true, false",
+				"Default": "true",
+				"Section": "Bachelors"
+				},
+			"Harvey's SR Type": {
+				"AllowValues": "Default_SR, NoWindow_SR, KindaEmpty_SR, VeryEmpty_SR",
+				"Default": "Default_SR",
+				"Section": "Bachelors"
+				},
+			"Leah's SR": {
+				"AllowValues": "true, false",
+				"Default": "true",
+				"Section": "Bachelorettes"
+				},
+			"Leah's SR Type": {
+				"AllowValues": "Default_SR, NoWindow_SR, KindaEmpty_SR, VeryEmpty_SR",
+				"Default": "Default_SR",
+				"Section": "Bachelorettes"
+				},
+			"Maru's SR": {
+				"AllowValues": "true, false",
+				"Default": "true",
+				"Section": "Bachelorettes"
+				},
+			"Maru's SR Type": {
+				"AllowValues": "Default_SR, NoWindow_SR, KindaEmpty_SR, VeryEmpty_SR",
+				"Default": "Default_SR",
+				"Section": "Bachelorettes"
+				},
+			"Penny's SR": {
+				"AllowValues": "true, false",
+				"Default": "true",
+				"Section": "Bachelorettes"
+				},
+			"Penny's SR Type": {
+				"AllowValues": "Default_SR, NoWindow_SR, KindaEmpty_SR, VeryEmpty_SR",
+				"Default": "Default_SR",
+				"Section": "Bachelorettes"
+				},
+			"Sam's SR": {
+				"AllowValues": "true, false",
+				"Default": "true",
+				"Section": "Bachelors"
+				},
+			"Sam's SR Type": {
+				"AllowValues": "Default_SR, NoWindow_SR, KindaEmpty_SR, VeryEmpty_SR",
+				"Default": "Default_SR",
+				"Section": "Bachelors"
+				},
+			"Sebastian's SR": {
+				"AllowValues": "true, false",
+				"Default": "true",
+				"Section": "Bachelors"
+				},
+			"Sebastian's SR Type": {
+				"AllowValues": "Default_SR, Optional_SR, KindaEmpty_SR, VeryEmpty_SR",
+				"Default": "Default_SR",
+				"Description": "Optional puts his Keyboard back in.",
+				"Section": "Bachelors"
+				},
+			"Shane's SR": {
+				"AllowValues": "true, false",
+				"Default": "true",
+				"Section": "Bachelors"
+				},
+			"Shane's SR Type": {
+				"AllowValues": "Default_SR, NoWindow_SR, KindaEmpty_SR, VeryEmpty_SR",
+				"Default": "Default_SR",
+				"Section": "Bachelors"
+				},
+			"Krobus' SR": {
+				"AllowValues": "true, false",
+				"Default": "true",
+				"Section": "Bachelor..Err.. Roommate?"
+				},
+			"Krobus' SR Type": {
+				"AllowValues": "Default_SR, KindaEmpty_SR, VeryEmpty_SR",
+				"Default": "Default_SR",
+				"Section": "Bachelor..Err.. Roommate?"
+				},
+		},
+
+		//Maps
+
+		"Changes": [
+		{
+			"LogName": "LUSR Abigail DayDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Default_SR.tmx",
+				"When": {"Abigail's SR": "true",
+						"Abigail's SR Type": "Default_SR",
+						"Time": "{{Range: 600, 1900}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Abigail NightDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/DefaultNight_SR.tmx",
+				"When": {"Abigail's SR": "true",
+						"Abigail's SR Type": "Default_SR",
+						"Time": "{{Range: 2000, 2600}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Abigail NW",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/NoWindow_SR.tmx",
+				"When": {"Abigail's SR": "true",
+						"Abigail's SR Type": "NoWindow_SR"},
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Abigail KE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/KindaEmpty_SR.tmx",
+				"When": {"Abigail's SR": "true",
+						"Abigail's SR Type": "KindaEmpty_SR"},
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Abigail VE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/VeryEmpty_SR.tmx",
+				"When": {"Abigail's SR": "true",
+						"Abigail's SR Type": "VeryEmpty_SR"},
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Alex DayDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Default_SR.tmx",
+				"When": {"Alex's SR": "true",
+						"Alex's SR Type": "Default_SR",
+						"Time": "{{Range: 600, 1900}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 6,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 6,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Alex NightDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/DefaultNight_SR.tmx",
+				"When": {"Alex's SR": "true",
+						"Alex's SR Type": "Default_SR",
+						"Time": "{{Range: 2000, 2600}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 6,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 6,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Alex NW",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/NoWindow_SR.tmx",
+				"When": {"Alex's SR": "true",
+						"Alex's SR Type": "NoWindow_SR"},
+			"FromArea": {
+				"X": 6,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 6,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Alex KE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/KindaEmpty_SR.tmx",
+				"When": {"Alex's SR": "true",
+						"Alex's SR Type": "KindaEmpty_SR"},
+			"FromArea": {
+				"X": 6,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 6,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Alex VE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/VeryEmpty_SR.tmx",
+				"When": {"Alex's SR": "true",
+						"Alex's SR Type": "VeryEmpty_SR"},
+			"FromArea": {
+				"X": 6,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 6,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Elliott DayDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Default_SR.tmx",
+				"When": {"Elliott's SR": "true",
+						"Elliott's SR Type": "Default_SR",
+						"Time": "{{Range: 600, 1900}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 18,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 18,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Elliott NightDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/DefaultNight_SR.tmx",
+				"When": {"Elliott's SR": "true",
+						"Elliott's SR Type": "Default_SR",
+						"Time": "{{Range: 2000, 2600}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 18,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 18,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Elliott DayOP",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Optional_SR.tmx",
+				"When": {"Elliott's SR": "true",
+						"Elliott's SR Type": "Optional_SR",
+						"Time": "{{Range: 600, 1900}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 6,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 18,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Elliott NightOP",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/OptionalNight_SR.tmx",
+				"When": {"Elliott's SR": "true",
+						"Elliott's SR Type": "Optional_SR",
+						"Time": "{{Range: 2000, 2600}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 6,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 18,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Elliott KE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/KindaEmpty_SR.tmx",
+				"When": {"Elliott's SR": "true",
+						"Elliott's SR Type": "KindaEmpty_SR"},
+			"FromArea": {
+				"X": 18,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 18,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Elliott VE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/VeryEmpty_SR.tmx",
+				"When": {"Elliott's SR": "true",
+						"Elliott's SR Type": "VeryEmpty_SR"},
+			"FromArea": {
+				"X": 18,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 18,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Emily DayDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Default_SR.tmx",
+				"When": {"Emily's SR": "true",
+						"Emily's SR Type": "Default_SR",
+						"Time": "{{Range: 600, 1900}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 6,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 6,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Emily NightDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/DefaultNight_SR.tmx",
+				"When": {"Emily's SR": "true",
+						"Emily's SR Type": "Default_SR",
+						"Time": "{{Range: 2000, 2600}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 6,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 6,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Emily NW",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/NoWindow_SR.tmx",
+				"When": {"Emily's SR": "true",
+						"Emily's SR Type": "NoWindow_SR"},
+			"FromArea": {
+				"X": 6,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 6,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Emily KE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/KindaEmpty_SR.tmx",
+				"When": {"Emily's SR": "true",
+						"Emily's SR Type": "KindaEmpty_SR"},
+			"FromArea": {
+				"X": 6,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 6,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Emily VE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/VeryEmpty_SR.tmx",
+				"When": {"Emily's SR": "true",
+						"Emily's SR Type": "VeryEmpty_SR"},
+			"FromArea": {
+				"X": 6,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 6,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Haley DayDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Default_SR.tmx",
+				"When": {"Haley's SR": "true",
+						"Haley's SR Type": "Default_SR",
+						"Time": "{{Range: 600, 1900}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 18,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 18,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Haley NightDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/DefaultNight_SR.tmx",
+				"When": {"Haley's SR": "true",
+						"Haley's SR Type": "Default_SR",
+						"Time": "{{Range: 2000, 2600}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 18,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 18,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Haley NW",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/NoWindow_SR.tmx",
+				"When": {"Haley's SR": "true",
+						"Haley's SR Type": "NoWindow_SR"},
+			"FromArea": {
+				"X": 18,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 18,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Haley KE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/KindaEmpty_SR.tmx",
+				"When": {"Haley's SR": "true",
+						"Haley's SR Type": "KindaEmpty_SR"},
+			"FromArea": {
+				"X": 18,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 18,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Haley VE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/VeryEmpty_SR.tmx",
+				"When": {"Haley's SR": "true",
+						"Haley's SR Type": "VeryEmpty_SR"},
+			"FromArea": {
+				"X": 18,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 18,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Harvey DayDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Default_SR.tmx",
+				"When": {"Harvey's SR": "true",
+						"Harvey's SR Type": "Default_SR",
+						"Time": "{{Range: 600, 1900}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 12,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 12,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Harvey NightDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/DefaultNight_SR.tmx",
+				"When": {"Harvey's SR": "true",
+						"Harvey's SR Type": "Default_SR",
+						"Time": "{{Range: 2000, 2600}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 12,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 12,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Harvey NW",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/NoWindow_SR.tmx",
+				"When": {"Harvey's SR": "true",
+						"Harvey's SR Type": "NoWindow_SR"},
+			"FromArea": {
+				"X": 12,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 12,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Harvey KE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/KindaEmpty_SR.tmx",
+				"When": {"Harvey's SR": "true",
+						"Harvey's SR Type": "KindaEmpty_SR"},
+			"FromArea": {
+				"X": 12,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 12,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Harvey VE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/VeryEmpty_SR.tmx",
+				"When": {"Harvey's SR": "true",
+						"Harvey's SR Type": "VeryEmpty_SR"},
+			"FromArea": {
+				"X": 12,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 12,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Leah DayDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Default_SR.tmx",
+				"When": {"Leah's SR": "true",
+						"Leah's SR Type": "Default_SR",
+						"Time": "{{Range: 600, 1900}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 12,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 12,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Leah NightDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/DefaultNight_SR.tmx",
+				"When": {"Leah's SR": "true",
+						"Leah's SR Type": "Default_SR",
+						"Time": "{{Range: 2000, 2600}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 12,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 12,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Leah NW",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/NoWindow_SR.tmx",
+				"When": {"Leah's SR": "true",
+						"Leah's SR Type": "NoWindow_SR"},
+			"FromArea": {
+				"X": 12,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 12,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Leah KE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/KindaEmpty_SR.tmx",
+				"When": {"Leah's SR": "true",
+						"Leah's SR Type": "KindaEmpty_SR"},
+			"FromArea": {
+				"X": 12,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 12,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Leah VE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/VeryEmpty_SR.tmx",
+				"When": {"Leah's SR": "true",
+						"Leah's SR Type": "VeryEmpty_SR"},
+			"FromArea": {
+				"X": 12,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 12,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Maru DayDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Default_SR.tmx",
+				"When": {"Maru's SR": "true",
+						"Maru's SR Type": "Default_SR",
+						"Time": "{{Range: 600, 1900}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 24,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 24,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Maru NightDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/DefaultNight_SR.tmx",
+				"When": {"Maru's SR": "true",
+						"Maru's SR Type": "Default_SR",
+						"Time": "{{Range: 2000, 2600}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 24,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 24,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Maru NW",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/NoWindow_SR.tmx",
+				"When": {"Maru's SR": "true",
+						"Maru's SR Type": "NoWindow_SR"},
+			"FromArea": {
+				"X": 24,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 24,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Maru KE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/KindaEmpty_SR.tmx",
+				"When": {"Maru's SR": "true",
+						"Maru's SR Type": "KindaEmpty_SR"},
+			"FromArea": {
+				"X": 24,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 24,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Maru VE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/VeryEmpty_SR.tmx",
+				"When": {"Maru's SR": "true",
+						"Maru's SR Type": "VeryEmpty_SR"},
+			"FromArea": {
+				"X": 24,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 24,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Penny DayDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Default_SR.tmx",
+				"When": {"Penny's SR": "true",
+						"Penny's SR Type": "Default_SR",
+						"Time": "{{Range: 600, 1900}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 6,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 6,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Penny NightDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/DefaultNight_SR.tmx",
+				"When": {"Penny's SR": "true",
+						"Penny's SR Type": "Default_SR",
+						"Time": "{{Range: 2000, 2600}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 6,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 6,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Penny NW",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/NoWindow_SR.tmx",
+				"When": {"Penny's SR": "true",
+						"Penny's SR Type": "NoWindow_SR"},
+			"FromArea": {
+				"X": 6,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 6,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Penny KE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/KindaEmpty_SR.tmx",
+				"When": {"Penny's SR": "true",
+						"Penny's SR Type": "KindaEmpty_SR"},
+			"FromArea": {
+				"X": 6,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 6,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Penny VE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/VeryEmpty_SR.tmx",
+				"When": {"Penny's SR": "true",
+						"Penny's SR Type": "VeryEmpty_SR"},
+			"FromArea": {
+				"X": 6,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 6,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Sam DayDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Default_SR.tmx",
+				"When": {"Sam's SR": "true",
+						"Sam's SR Type": "Default_SR",
+						"Time": "{{Range: 600, 1900}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 24,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 24,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Sam NightDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/DefaultNight_SR.tmx",
+				"When": {"Sam's SR": "true",
+						"Sam's SR Type": "Default_SR",
+						"Time": "{{Range: 2000, 2600}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 24,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 24,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Sam NW",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/NoWindow_SR.tmx",
+				"When": {"Sam's SR": "true",
+						"Sam's SR Type": "NoWindow_SR"},
+			"FromArea": {
+				"X": 24,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 24,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Sam KE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/KindaEmpty_SR.tmx",
+				"When": {"Sam's SR": "true",
+						"Sam's SR Type": "KindaEmpty_SR"},
+			"FromArea": {
+				"X": 24,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 24,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Sam VE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/VeryEmpty_SR.tmx",
+				"When": {"Sam's SR": "true",
+						"Sam's SR Type": "VeryEmpty_SR"},
+			"FromArea": {
+				"X": 24,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 24,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Sebastian DayDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Default_SR.tmx",
+				"When": {"Sebastian's SR": "true",
+						"Sebastian's SR Type": "Default_SR",
+						"Time": "{{Range: 600, 1900}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 0,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Sebastian NightDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/DefaultNight_SR.tmx",
+				"When": {"Sebastian's SR": "true",
+						"Sebastian's SR Type": "Default_SR",
+						"Time": "{{Range: 2000, 2600}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 0,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Sebastian DayOP",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Optional_SR.tmx",
+				"When": {"Sebastian's SR": "true",
+						"Sebastian's SR Type": "Optional_SR",
+						"Time": "{{Range: 600, 1900}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Sebastian NightOP",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Optional_SR.tmx",
+				"When": {"Sebastian's SR": "true",
+						"Sebastian's SR Type": "Optional_SR",
+						"Time": "{{Range: 2000, 2600}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Sebastian KE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/KindaEmpty_SR.tmx",
+				"When": {"Sebastian's SR": "true",
+						"Sebastian's SR Type": "KindaEmpty_SR"},
+			"FromArea": {
+				"X": 0,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Sebastian VE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/VeryEmpty_SR.tmx",
+				"When": {"Sebastian's SR": "true",
+						"Sebastian's SR Type": "VeryEmpty_SR"},
+			"FromArea": {
+				"X": 0,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 9,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Shane DayDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Default_SR.tmx",
+				"When": {"Shane's SR": "true",
+						"Shane's SR Type": "Default_SR",
+						"Time": "{{Range: 600, 1900}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 0,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Shane NightDF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/DefaultNight_SR.tmx",
+				"When": {"Shane's SR": "true",
+						"Shane's SR Type": "Default_SR",
+						"Time": "{{Range: 2000, 2600}}"},
+			"Update": "OnTimeChange",
+			"FromArea": {
+				"X": 0,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Shane NW",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/NoWindow_SR.tmx",
+				"When": {"Shane's SR": "true",
+						"Shane's SR Type": "NoWindow_SR"},
+			"FromArea": {
+				"X": 0,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Shane KE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/KindaEmpty_SR.tmx",
+				"When": {"Shane's SR": "true",
+						"Shane's SR Type": "KindaEmpty_SR"},
+			"FromArea": {
+				"X": 0,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Shane VE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/VeryEmpty_SR.tmx",
+				"When": {"Shane's SR": "true",
+						"Shane's SR Type": "VeryEmpty_SR"},
+			"FromArea": {
+				"X": 0,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Krobus DF",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/Default_SR.tmx",
+				"When": {"Krobus' SR": "true",
+						"Krobus' SR Type": "Default_SR"},
+			"FromArea": {
+				"X": 12,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 12,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Krobus KE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/KindaEmpty_SR.tmx",
+				"When": {"Krobus' SR": "true",
+						"Krobus' SR Type": "KindaEmpty_SR"},
+			"FromArea": {
+				"X": 12,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 12,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+		{
+			"LogName": "LUSR Krobus VE",
+			"Action": "EditMap",
+			"Target": "Maps/spouseRooms",
+			"FromFile": "assets/VeryEmpty_SR.tmx",
+				"When": {"Krobus' SR": "true",
+						"Krobus' SR Type": "VeryEmpty_SR"},
+			"FromArea": {
+				"X": 12,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			},
+			"ToArea": {
+				"X": 12,
+				"Y": 18,
+				"Width": 6,
+				"Height": 9
+			}
+		},
+	]
+}

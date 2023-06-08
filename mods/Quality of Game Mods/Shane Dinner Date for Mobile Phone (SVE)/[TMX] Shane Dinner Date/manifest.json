@@ -1,0 +1,17 @@
+{
+   "Name": "[TMX] ShaneDinnerDateMap",
+   "Author": "MissMarlot",
+   "Description": "adds the saloon for dinner date invite",
+   "Version": "1.0.0",
+   "UniqueID": "missmarlot.dinnerdatemap",
+   "ContentPackFor": {
+       "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.3.4"
+    },
+"Dependencies": [
+      {
+			"UniqueID": "Platonymous.Toolkit",
+			"IsRequired": true
+      },
+]
+}

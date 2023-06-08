@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="30" height="27" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="1">
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+  <tile id="546">
+   <animation>
+    <frame tileid="546" duration="250"/>
+    <frame tileid="547" duration="250"/>
+    <frame tileid="548" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="32" columns="4">
+  <image source="paths" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="2209" name="sewer" tilewidth="16" tileheight="16" tilecount="88" columns="8">
+  <image source="SewerTiles" width="128" height="176"/>
+ </tileset>
+ <tileset firstgid="2297" name="z_townInterior_2" tilewidth="16" tileheight="16" tilecount="128" columns="32">
+  <image source="townInterior_2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="2425" name="zz_ElliottHouseTiles" tilewidth="16" tileheight="16" tilecount="56" columns="4">
+  <image source="ElliottHouseTiles.png" width="64" height="224"/>
+ </tileset>
+ <layer id="1" name="Back" width="30" height="27">
+  <data encoding="base64" compression="zlib">
+   eJy1ls9KHEEQxmvWmWHNIadcotmNl0gSQXKQXFx1LwnRgyAEL0oUcgkIQiDsIQczT5Fj1Fx9Cb3pxRcwoJds4p8X8E/Ur+gutrftcmdg8sGPGnpq+tvqna7pUSLa8hgFI1GYfQrzKgrz0GOzQvQTzAZ8Z/+j707FsIpnDshE5hf4bH1X6C4fA5Cdw5fMJbCvXE/B+3dC1AbH4AQ0MVajMJzP9904VyXaxb09cOxFP79mWQJJSpSCfvAAZBiboDCcv1zpjuz713r1R90xlM/xG3gGr2HwArxMzbjmy/mXWJMrcAMoNb7nuLywXDq/gfOzyt3I/m/w7FswDWZy1DuOnAaYAs3UrN9jeAxYBqNO/Zy/FsMPZHF3vVlgHe6rdwFei2CJ1yY1Y+IjsRp16v0Bv3WwEet+vXy1fPGR6NYbytd0ajnz4nMFTd8VNImP7/1OoSxf9pE9furwyUP6iSaZI6+v9IG8UVO7z7Ad58v330+JV+Cf5doZ1/Snz7CMvb4SddBU8/LqiXlPn4Cape68v718H8XdaDrEvQHqcBQbjwaYsExG+ette2i6cXy/8kBiPPx9mrdeH01PzTo3haHEeGj/e1Ff7TvungNeW8bumb+o8vjOW96X7OueCcT3C9p3C7Flx1tmrDSFzg8ci/aHotK+F0Xfn6IKnR+ywHet134pqtD5get1+6H0xLLr5fPDB+f8wPW6/VB6Ytn1hv5ftx9KTyyz3ltaoAOw
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="30" height="27">
+  <data encoding="base64" compression="zlib">
+   eJzFlr9PFEEUx9/uHu4dRy+tlcSGWFMhjeGqayDGxMROgw0NgspBNMFQKLJcYwKEyh+FosQEIxqtVIiFepIzUStMAENxf4Lfl5nNjHMz3O3tEb/JJ/Nj37w3O7Pv3S10EEVgQVLW+kmILHOmL31cJKINEi3zWrYFB0UHG8a47Ctfpm9mFPR1iJbZ9Yj2wAj6PVh7BgyAB+Chr+xMeoxnLzAmzV8V/Z/gEeYfgwhz5xG3hHYKhJjLcryA6Czam+AWeA8+SPt5MJ4hGgOL4HRG2M6A26ACvoFtX/ljTcLnR/Q35TjWskd12tFs8kH9cxbHTaJNS5xWVHTEfenb5226gb1Myv3cwbq7YE6u39L8DDd4xypsv2v2S5p9o/N5gnVPwaovznjLsv97fOe+2uecZnPc8b4ctxvPrsLniidaVk07/y7tTv8Yftj+GebWwIEn9rkq+7HYV2Tcp+teWM3UAR2XktqbdSDOe1c9cclVZ1z6QSrn41rAeT9iMIgzKxxybjtY/9urrzMu9QYq5/s8Ad/TFXlXlxDrcubfumBTgGcZX6x7Ba6B6ynyN58gN49KnqOOtaqhY0QTIdF6KMa2/O3E3ImEcd80cc73Q9U343LNmAf9CeLOIuavhPdr1g2uGc/BxUPidvv1dYNriS2ny0aNiJrI96Qy8zmbo+kQ6P8N9BrSLnEO73vqfwCPTyKunuMXso3zvRXlOPdxR7lA3cVnnOkXea4lxP2KfqWN5/y/NYR3PWf5Lj9p37Atf9PoFPyNI+ZEIPqx4vyMf9fbHdelOD/XZDwzf9OKfyveoi69k7Wp5qgnZv6n0V+8j6U4
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="7" name="Front" width="30" height="27">
+  <data encoding="base64" compression="zlib">
+   eJzVlj1MVEEQx+c9jhO18QqNURu18SPRQgW1EwogMUGFqKBoIonEBORTExq42tARDEGMFjYSC45DsbexvCgW2lFJwEIbINj42+y+sHl5H/cOT8M/+Wd2387OzH7M7BtzRJ6JSB7OwSnROMv3L8ga5BryPHIWeWCHyEF4CD5NSXYjLfI7rW3kROt8Ej1X2XrMvMUKkYJl28MNxj4jF0x/wNkcq3VF6lzd3s/3K/AqvAbf4deLw8YY+l2VIuOuhKLf+LiDvAuPoHvU6F9C3oMd8BUcdbV+H7yZErme0noZ5GHG7sNOmNd+s2+RHxnbZ/TaWXcXPFURHo+HD1bMKyHxz1XG27Hx2onXKQYLIX4nIvbZj9vE0m7i6WbeQ9hj5k9bdmpS0XbmI3xmYuYqNBFDr6P3+EmArV515u5mnD2WzlrIfqbxu27GspZOwWr/sOzUBdwHZaPJ0u/27bmy1e/zv7eI9f5rqDrQQpyP4KCJV+V9K+1zsIqYd8JdcHdE/M3sV4vZM1V7VK1oLeE+D5k5x/B1HJ6AJyP8DuBz0DorFfNQjN8Zxi9YOuqcLpt+A74a4Xf6SxF22qq0VPMmYRu8tYX8XflLub8VLCaoD8WgmndmnJq/anJjOsD+MuuuLaLe2niecK8u+vRVzehLuNYHJZxPzjdH1ZH6mBqwHlA3Cv/5bpzB/xRcpd3s6Pqg+BP+El1D3pfJt/fu29hDP2O+zZfB52nOaRj7I9ZZzHCHc1aNn6WdT/i+b0e8sfIkKH/LAS8/vXc96X9UqfgKv8Fqc+Zh/1GlQr0VL6iHL81/cFhe+/N/O+IPliNkHg==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Front"/>
+ <layer id="5" name="Paths" width="100" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt2bEJAEAIA0BLR3fsn0HQx+KuzACSYAQA7KjczQG63BMAgD+m9p3+BgAAcJO/HnDZA4eTBaE=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Paths"/>
+</map>

@@ -1,0 +1,30 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "VerticalPlanter",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/VerticalPlanters.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/VerticalPlanters.png:1",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 100,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/VerticalPlanter"
+		}
+	},
+]

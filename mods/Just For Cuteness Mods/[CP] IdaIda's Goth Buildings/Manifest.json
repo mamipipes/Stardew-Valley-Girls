@@ -1,0 +1,10 @@
+{
+   "Name": "IdaIda's Goth Buildings",
+   "Author": "IdaIda",
+   "Version": "1.0.0",
+   "Description": "changes all the farm buildings",
+   "UniqueID": "IdaIda.GothBuildings",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

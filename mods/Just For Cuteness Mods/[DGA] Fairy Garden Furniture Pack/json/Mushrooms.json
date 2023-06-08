@@ -1,0 +1,404 @@
+[
+	{
+		//Brave Lil Mushroom
+		"$ItemType": "Furniture",
+		"ID": "MushroomBrave",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Mushrooms/MushroomBrave.png:0",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1,
+
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Any",
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 50,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/MushroomBrave"
+		}
+	},
+
+	//Chantrelle Mushroom
+	{
+		"$ItemType": "Furniture",
+		"ID": "MushroomChantrelle",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Mushrooms/MushroomChantrelle.png:0",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1,
+
+				"Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Any",
+			},
+
+			{
+				"Texture": "assets/Mushrooms/MushroomChantrelle.png:1",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1,
+
+				"Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Any",
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 50,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/MushroomChantrelle"
+		}
+	},
+
+	//Classic Mushroom
+
+	{
+		"$ItemType": "Furniture",
+		"ID": "MushroomClassic",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Mushrooms/MushroomClassic.png:0",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1,
+
+				"Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Any",
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 50,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/MushroomClassic"
+		}
+	},
+
+	// Double Trouble Mushroom
+	
+	{
+		"$ItemType": "Furniture",
+		"ID": "MushroomDoubleTrouble",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Mushrooms/MushroomDoubleTrouble.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/Mushrooms/MushroomDoubleTrouble.png:1",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+		]
+		
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 100,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/MushroomDoubleTrouble"
+		}
+	},
+
+	// Doughty Mushroom
+	
+	{
+		"$ItemType": "Furniture",
+		"ID": "MushroomDoughty",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Mushrooms/MushroomDoughty.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+		]
+		
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 50,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/MushroomDoughty"
+		}
+	},
+
+	// Elegabt Mushroom
+	
+	{
+		"$ItemType": "Furniture",
+		"ID": "MushroomElegant",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Mushrooms/MushroomElegant.png:0",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1,
+
+				"Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Any",
+			},
+		]
+		
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 50,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/MushroomElegant"
+		}
+	},
+
+	// Full Mushroom
+	
+	{
+		"$ItemType": "Furniture",
+		"ID": "MushroomFull",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Mushrooms/MushroomFull.png:0",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1,
+
+				"Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Any",
+			},
+		]
+		
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 50,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/MushroomFull"
+		}
+	},
+//Just  Fun-gi
+	{
+		"$ItemType": "Furniture",
+		"ID": "MushroomFungi",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Mushrooms/MushroomFungi.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+
+			{
+				"Texture": "assets/Mushrooms/MushroomFungi.png:1",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+		]
+		
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 50,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/MushroomFungi"
+		}
+	},
+// Perky Mushroom
+	{
+		"$ItemType": "Furniture",
+		"ID": "MushroomPerky1",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Mushrooms/MushroomPerky1.png:0",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1,
+
+				"Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Any",
+			},
+		]
+		
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 50,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/MushroomPerky1"
+		}
+	},
+
+	// Perkier Mushroom
+	{
+		"$ItemType": "Furniture",
+		"ID": "MushroomPerky2",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Mushrooms/MushroomPerky2.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+		]
+		
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 50,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/MushroomPerky2"
+		}
+	},
+// Perkiest Mushroom
+	{
+		"$ItemType": "Furniture",
+		"ID": "MushroomPerky3",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Mushrooms/MushroomPerky3.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+		]
+		
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 50,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/MushroomPerky3"
+		}
+	},
+	// Sturdy Mushroom
+	{
+		"$ItemType": "Furniture",
+		"ID": "MushroomSturdy",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Mushrooms/MushroomSturdy.png:0",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1,
+
+				"Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Any",
+			},
+		]
+		
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 50,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/MushroomSturdy"
+		}
+	},
+	// Tall Mushroom
+	{
+		"$ItemType": "Furniture",
+		"ID": "MushroomTall",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Mushrooms/MushroomTall.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+		]
+		
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 50,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/MushroomTall"
+		}
+	},
+]

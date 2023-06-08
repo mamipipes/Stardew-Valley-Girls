@@ -1,0 +1,35 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "SteppingStone",
+		"Type": "Rug",
+		"Configurations": [
+			{
+				"Texture": "assets/SteppingStones.png:0",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1,
+			},
+			{
+				"Texture": "assets/SteppingStones.png:1",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1,
+			},
+			{
+				"Texture": "assets/SteppingStones.png:2",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1,
+			},
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 100,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/SteppingStone"
+		}
+	},
+]

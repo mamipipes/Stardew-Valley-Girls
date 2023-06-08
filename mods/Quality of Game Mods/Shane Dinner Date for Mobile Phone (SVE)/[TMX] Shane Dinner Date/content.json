@@ -1,0 +1,9 @@
+{
+  "loadLate": true,
+  "addMaps": [
+    {
+      "name": "SaloonDateSVE",
+      "file": "assets/Maps/SaloonDateSVE.tbin"
+    },
+	  ],
+}

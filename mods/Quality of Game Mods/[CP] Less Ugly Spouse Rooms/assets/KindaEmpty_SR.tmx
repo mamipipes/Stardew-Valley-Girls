@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="30" height="27" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="1">
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+  <tile id="546">
+   <animation>
+    <frame tileid="546" duration="250"/>
+    <frame tileid="547" duration="250"/>
+    <frame tileid="548" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="32" columns="4">
+  <image source="paths" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="2209" name="sewer" tilewidth="16" tileheight="16" tilecount="88" columns="8">
+  <image source="SewerTiles" width="128" height="176"/>
+ </tileset>
+ <tileset firstgid="2297" name="z_townInterior_2" tilewidth="16" tileheight="16" tilecount="128" columns="32">
+  <image source="townInterior_2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="2425" name="zz_ElliottHouseTiles" tilewidth="16" tileheight="16" tilecount="56" columns="4">
+  <image source="ElliottHouseTiles.png" width="64" height="224"/>
+ </tileset>
+ <layer id="1" name="Back" width="30" height="27">
+  <data encoding="base64" compression="zlib">
+   eJy9lr1uE0EQx+cu55NNkYqGgJ00oACSRYFoSLAbEKRIhShIlKRPRUtB7iko+Wp5CDBunCClyQNAgyGEF8gHcf6j3cXr8ezFPgwr/TT27fh+N7cf3joRvRfUwc1IZ5d0bkU604K3MdE7sKx4l/+htxUb/ld7Jr434P5WIuqCffATNHGtSjqcz/0ydtC3TcMxlL8OSilRCirgAshwbZF0OH8jHo4/0HcIjizHYD8nfwtchesauA5upOZ6yMv5x3gnJ6AHyD5nGWN3CcxYLoNKZPKzeDiy/z5++wA8Aksj1HsXOQugAZqpuRfXy24/unpfJMgBWTJYb6a8h7x6V+BaBev8blLzG+kse/W+gu81eJOEfed5tfzz6tXuX490DsjwS8T5AHIPcLwMEPI6j3Q/DFDE+zdt0xJqIa+2phs5+0AofsCcOQKHXvwIulMG/uzn8xifouYe123HPIv782LUOIu1vBlR02cO175PGTZM/x/YUQOzYM462V0VebWSWRcncPy2nFJ/vbBb7lf8TM57MRlkS5nj7P6CvqfU52tiHFdA1VLz1ktF2a8433m7Arf+/D2M3T14ZsjwnCdIyTgWcK9Fy71osF5tDJxXEqpXjhePlb8fyFjxnsGPIW/of9xfg3cst3PWy7htFO8Ty+MJekdp8qwwiTbu+eFTWWfclnd+0ObPNhxtz9cCnQLevPODNkfZsSdoF6xXnh9cvXJv4no/K96dgvXy+WHNOz+4euXexPW2FW9rwuMr9yZ/fHcsnYLv+Qx6wTr0
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="30" height="27">
+  <data encoding="base64" compression="zlib">
+   eJztlD0KwkAQhYcQMTmJd9EqF/ACVrmA5Aia5Ag2amO00qTUTjvFIjmML7jgsOxqfjCC7IOP+WHZV82LekQhiAQx6+sQKnbyX3z2iCilZy3JRB1p8DSkil32ZvZBLmpJIepEg68hV+wK1t+l2cjon9QmB9q877tEjls9B3R5UiU3OANXffO6HJBzZGjD1/6cGzJG3WlmEc1BaHXru4FfArYd+/5CqpuOpZvnmbB0iFYSa6e+r3zPyJAAWRLwm+eZkMBjAY7gJPpdA1/VrSNLAr4bO69+j/4AzuAi+rSBbxVNFf9esbt9yc/IqKkeynN9XA==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="7" name="Front" width="30" height="27">
+  <data encoding="base64" compression="zlib">
+   eJztlElKA0EUhv9uy9jqRsGAJB7AYami94gacws1UczOOwgimEs4oC70Dk45gDcw4ADqwq+oahKC0oskruqDj1dd9Wqg4b3DSDqRdI4X2JBjifkmcYX4QVwlnhELI1IRZ/DI6OAzJ33l3BmncjkPcnvtWXvsex6S7jrOTimz9kh88t/VSL8y3TV/yb3pOwKBwP9zj8fU5SvxDTcZb/heskbcxZqvW1v3FcbLmBhpFMdw3Lh8O2/7yDc2h11+Keac2O23vcf2ikpHH5hinMf9P3pGSt2vz3LXHM7jgmmvF3wvS6lyZy1uf9u31TPuCPSXLf7/Nu7E2bn9Zt1k5wR6Y5F6auA741Lk6t36gi25nnDdtecmkW6TwbxngjdM+hq/GswVgUCgB34AOIUwVw==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Front"/>
+ <layer id="5" name="Paths" width="100" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt17ENAEAIAkBLR/+xncHkSSzuSgYgUAUAGa+zOcCWPgEA+Cv9++w3AACAm/w74LIB7BQHUQ==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Paths"/>
+</map>

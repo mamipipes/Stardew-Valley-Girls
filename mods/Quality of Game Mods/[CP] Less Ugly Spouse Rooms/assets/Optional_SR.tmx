@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="12" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="26">
+ <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="32" columns="4">
+  <image source="paths" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="33" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2209" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+  <tile id="546">
+   <animation>
+    <frame tileid="546" duration="250"/>
+    <frame tileid="547" duration="250"/>
+    <frame tileid="548" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="4385" name="z_townInterior_2" tilewidth="16" tileheight="16" tilecount="128" columns="32">
+  <image source="townInterior_2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="4513" name="zz_ElliottHouseTiles" tilewidth="16" tileheight="16" tilecount="56" columns="4">
+  <image source="ElliottHouseTiles.png" width="64" height="224"/>
+ </tileset>
+ <layer id="1" name="Back" width="12" height="9">
+  <data encoding="base64" compression="zlib">
+   eJyFjOENQDAQhe+vNiEmYBT/LWEPo0jpJJjACuwhwWtO40JxyZev17x7U0Q0BShfCGX/8nLSiKlPyz83syJa1NPyXWjG7TsgzW5BByxoYuzAgkozLpPBuWb32AcwghW5DVBy9UnLu3uPtFFsf2dUuO9ulzMfvd4HvVE00w==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="12" height="9">
+  <data encoding="base64" compression="zlib">
+   eJwz5mNgMMaCrTkZMIANUExfkIHBAIg/cqDiaE5MsRigmD9QrSAnAntwMzB4AvETLgaGp1yoYjVQO6WA4tJAzAPEGUDxTCBWAWJVbog8TMyIC9ONIJCJRRwktpAbu3pcAKbeAEgbguxD048ufhBKBwDpQCAOQlKvyYUp/hCHe5D9tRqJzcjDwAAA9pUbGQ==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="12" height="9">
+  <data encoding="base64" compression="zlib">
+   eJwr5GRgsOBiYJgCpKcC8Q8g/gbEs/gZGGYD8RwgXsgJwVeBGAa2ANlbkfi7gOp2A/EeID7ICcEw8AvI/g3Eb4CYh4eB4Rw3A8N7IFuLGyLvDKTXMDEwCHExYAWeWMRBYo3c2NXjAo+h6gWAtCAQC6HpRxd/j+SHrzyoajmB9gcA8T5BwvYi+6sbhx+JBQBtGRp1
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="12" height="9" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg+gINE8aEIAA8wABE=
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+</map>

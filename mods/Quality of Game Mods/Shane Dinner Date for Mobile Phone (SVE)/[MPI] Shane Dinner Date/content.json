@@ -1,0 +1,456 @@
+{
+	invites: [
+		{
+			name: "Dinner Date",
+			location: "SaloonDateSVE",
+			allowedNPCs:"Shane",
+			allowMarried: false,
+			minTimeOfDay: "1700",
+			maxTimeOfDay: "2000",
+			requiredMods: [
+				"FlashShifter.StardewValleyExpandedALL"
+			],
+			date: true,
+			nodes: [
+				{
+					defaultNode: "playful/11 20/{name} -30 -30 0 farmer 14 24 0 Clint 18 22 2 Leah 2 20 1 Marnie 9 22 3 Pam 7 18 1 Lewis 8 22 1 Willy 17 22 2 Gus 14 18 2 Emily 16 18 2 Olivia 20 19 3/skippable/pause 200/textAboveHead Gus \"Hello!\"/move farmer 0 -3 0/warp {name} 14 24/playSound doorClose/pause 500/advancedMove {name} 0 -3 -2 0 0 -1 -1 0/move farmer -2 0 3/move farmer 0 -1 0/ move farmer -2 0 0/faceDirection {name} 0/pause 250/face Direction {name} 3/faceDirection farmer 1/pause 250",
+					customNodes: {
+						"Shane": "playful/11 20/Shane 21 17 2 farmer 14 24 0 Clint 18 22 2 Pam 7 18 1 Leah 2 20 1 Willy 17 22 2 Gus 14 18 2 Emily 16 18 2 Olivia 20 19 3/skippable/pause 500/emote Shane 16/pause 250/textAboveHead Gus \"Welcome!\"/advancedMove Shane false 0 4 -6 0/move farmer 0 -3 1/pause 3000/showFrame Shane 12/speak Shane \"Hey you!$6#$b#I'm all yours for the evening - Marnie and Jas said they're happy to have dinner just the two of them.$6\"/pause 250/emote farmer 32/pause 100/advancedMove Shane false -3 0 0 -1 -1 0/move farmer -2 0 3/move farmer 0 -1 0/move farmer -2 0 0/faceDirection Shane 0/showFrame Shane 8/pause 250/faceDirection Shane 3/pause 100/faceDirection farmer 1/pause 100",
+					}
+				},
+				{
+					defaultNode: "speak {name} \"It'll be nice to sit down and talk for a while.$h#$b#Do you know what you're going to order yet?\"",
+					customNodes: {
+						"Shane": "speak Shane \"I know EXACTLY what I'm going to order.$h#$b#What about you?$6\"",
+					}
+				},
+				{
+					defaultNode: "pause 100/move Gus -3 0 2/pause 100/faceDirection {name} 0 true/faceDirection farmer 0/pause 100/speak Gus \"Hello! What can I get for you this fine evening?$h#\"/pause 100/emote farmer 40/pause 100/speak Gus \"Yes, of course. Why don't you two use the private dining room in the back?#$b#If you already know what you'd like, you can order with me now and I'll bring it to your table once it's ready.\"/pause 100/faceDirection {name} 3/pause 100/faceDirection farmer 1/pause 100/speak {name} \"That sounds good, right? Let's do that.$6\"/pause 150/faceDirection {name} 0 true/faceDirection farmer 0/pause 50",
+				},
+				{
+					defaultNode: "speak {name} \"I don't really have a preference.#$b#Why don't you choose something for both of us?\"",
+					customNodes: {
+						"Shane": "speak {name} \"One pepperoni pizza, please!$h\"",
+					}
+				},
+				{
+					defaultNode: "pause 250/speak Gus \"Wonderful choice!$h#$b#What would you like, @?#$b#$q -1 null#STARDROP SALOON DINNER MENU#$r -1 0 date_salad#Salad - a healthy garden salad#$r -1 0 date_spaghetti#Spaghetti - with Gus' secret sauce!#$r -1 0 date_pizza#Pizza - different toppings available#$r -1 0 date_tomkha#Tom Kha Soup - rich and creamy coconut soup#$r -1 0 date_spicyeel#Spicy Eel - careful! extremely spicy!#$r -1 0 date_pumpkinsoup#Pumpkin Soup - made from locally sourced pumpkins#$r -1 0 date_salmondinner#Salmon Dinner - pan seared salmon, served with salad#$r -1 0 date_supermeal#Super Meal - chock-full of locally grown produce!#$r -1 0 date_random#Random - Let Gus choose your meal for you\"/pause 300/switchEvent ChargeMoney",
+				},
+			],
+
+			forks: [
+				{
+					key: "datepays",
+					nodes: [
+				{
+					defaultNode: "faceDirection {name} 3/pause 50/faceDirection farmer 1/pause 100/speak {name} \"How about I take this one?\"/pause 150/emote farmer 32/pause 100/faceDirection {name} 0/pause 50/faceDirection farmer 0/speak {name} \"Here you go.$h\"/playSound purchase/pause 250/speak Gus \"Thank you very much.$h#$b#Why don't you head to the dining room down the hallway and I will bring you your food shortly.\"/pause 300/switchEvent datecontinue",
+				},
+			],
+				},
+				{
+					key: "datecontinue",
+					nodes: [
+				{
+					defaultNode: "advancedMove {name} false -6 0 0 -2 -1 0/move farmer -5 0 3/move farmer 0 -2 0/move farmer -1 0 3/move farmer 0 -1 0/viewport move -1 -3 3900/doAction 4 16/advancedMove {name} false 0 -7 7 0/move farmer 0 -6 0/move farmer 7 0 1/move farmer 0 -1 0/faceDirection {name} 0/pause 100/doAction 11 9/pause 100/advancedMove {name} false 0 -4 -1 0 0 -1 -1 0/move farmer 0 -3 0/move farmer -6 0 1/move farmer 0 -1 1/pause 250/showFrame {name} 12/pause 250",
+				},
+				{
+					defaultNode: "speak {name} \"Dinner was such a good idea.#$b#I've missed you today.$l\"",
+					customNodes: {
+						"Shane": "speak {name} \"Man, I can't wait for that pizza!$h#$b#Dinner was a great idea, babe.$6\"",
+					}
+				},
+				{	
+					defaultNode: "pause 800/emote farmer 20/pause 500",
+				},
+				{
+					defaultNode: "speak {name} \"$q -1 null#So, what did you get up to today?#$r -1 0 date_crops#Took care of my crops, mainly.#$r -1 0 date_foraging#I focused on foraging today.#$r -1 0 date_animals#My animals needed some attention.#$r -1 0 date_fishing#I got a bit of fishing done today.#$r -1 0 date_mines#I visited the mines.#$r -1 0 date_monster#Actually, I fought some monsters.#$r -1 0 date_people#I used the day to catch up with some people.#$r -1 0 date_nothing#Absolutely nothing productive!\"/pause 500/emote farmer 40/pause 300/emote {name} 40/pause 500",
+				},
+				{
+					defaultNode: "globalFade/viewport -1000 -1000/message \"a little bit later\"/fork 6681008 SaladForDinner/fork 6681001 SpaghettiForDinner/fork 6681002 PizzaForDinner/fork 6681003 TomKhaForDinner/fork 6681004 SpicyEelForDinner/fork 6681005 PSoupForDinner/fork 6681006 SalmonForDinner/fork 6681007 SMealForDinner/fork 6681009 FateDecides",
+				},
+			],
+				},
+				{
+					key: "SaladForDinner",
+					nodes: [
+				{
+					defaultNode: "addObject 6 5 196",
+				},
+				{
+					defaultNode: "addObject 8 5 196",
+					customNodes: {
+						"Shane": "addObject 8 5 206",
+					}
+				},
+				{
+					defaultNode: "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak {name} \"Delicious! Just what I needed.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, {name},#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How is work coming along?\"",
+					customNodes: {
+						"Shane": "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak Shane \"Ah, @. You always know what I need.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, Shane,#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How are the chickens?#$r -1 0 date_answer3#How is Jas?\"",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 32/pause 1000/removeSprite 6 5/addObject 6 5 193/farmerEat 196/globalFade/viewport -1000 -1000/pause 300/playSound gulp/message \"after dinner\"/removeSprite 8 5/addObject 8 5 193/warp {name} 8 7/faceDirection {name} 3/warp farmer 7 7/faceDirection farmer 1/positionOffset farmer 0 16/pause 250/viewport 7 7/pause 1100",
+				},
+				{
+					defaultNode: "speak {name} \"This was really wonderful.#$b#I know how busy you are so I appreciate that you took this time for me.$l\"",
+					customNodes: {
+						"Shane": "speak Shane \"...$3\"/pause 250/faceDirection Shane 2/showFrame Shane 19/pause 500/emote farmer 8/pause 500/showFrame Shane 0/pause 150/speak Shane \"It's nothing. I just-$3\"/pause 250/faceDirection Shane 3/pause 500/speak Shane \"I just want to say that-#$b#That you are really important to me and I don't ever want to screw this up.\"/pause 250/faceDirection Shane 3",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 20/pause 1000/globalFade/viewport -1000 -1000/pause 2000",
+					customNodes: {
+						"Shane": "pause 500/emote farmer 20/pause 500/animate farmer false true 100 101/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 50/showFrame Shane 34/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 100/specificTemporarySprite heart 8 6/pause 3000/globalFade/viewport -1000 -1000/pause 1000",
+					}
+				},
+				{
+					defaultNode: "speak {name} \"So... what are you doing after this?$l\"",
+				},
+				{
+					defaultNode: "pause 1000/friendship {name} 75",
+				},
+				{
+					defaultNode: "end dialogue {name} \"You didn't get enough of me on our date?$h#$b#I guess I feel the same way.$l\"",
+					customNodes: {
+						"Shane": "end dialogue Shane \"What? Having dinner with me wasn't enough for you?$6#$b#You're such a dweeb.$6#$b#Seriously though, feel free to stick to me like a barnacle.$l\"",
+					}
+				},
+
+
+
+					],
+				},
+				{
+					key: "SpaghettiForDinner",
+					nodes: [
+						{
+							defaultNode: "addObject 6 5 224",
+				},
+				{
+					defaultNode: "addObject 8 5 224",
+					customNodes: {
+						"Shane": "addObject 8 5 206",
+					}
+				},
+				{
+					defaultNode: "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak {name} \"Delicious! Just what I needed.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, {name},#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How is work coming along?\"",
+					customNodes: {
+						"Shane": "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak Shane \"Ah, @. You always know what I need.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, Shane,#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How are the chickens?#$r -1 0 date_answer3#How is Jas?\"",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 32/pause 1000/removeSprite 6 5/addObject 6 5 193/farmerEat 224/globalFade/viewport -1000 -1000/pause 300/playSound gulp/message \"after dinner\"/removeSprite 8 5/addObject 8 5 193/warp {name} 8 7/faceDirection {name} 3/warp farmer 7 7/faceDirection farmer 1/positionOffset farmer 0 16/pause 250/viewport 7 7/pause 1100",
+				},
+				{
+					defaultNode: "speak {name} \"This was really wonderful.#$b#I know how busy you are so I appreciate that you took this time for me.$l\"",
+					customNodes: {
+						"Shane": "speak Shane \"Should we get going? Gus will probably want his room back at some point.$6\"/pause 250/faceDirection Shane 1/pause 500/emote Shane 40/pause 500/faceDirection Shane 3/speak Shane \"Hey. I just want to say thanks for sticking with me.#$b#I know I'm not the easiest person to be with.\"/speak Shane \"Okay... so, should we head out now or...?$6\"",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 20/pause 1000/globalFade/viewport -1000 -1000/pause 2000",
+					customNodes: {
+						"Shane": "pause 500/emote farmer 20/pause 500/animate farmer false true 100 101/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 50/showFrame Shane 34/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 100/specificTemporarySprite heart 8 6/pause 3000/globalFade/viewport -1000 -1000/pause 1000",
+					}
+				},
+				{
+					defaultNode: "speak {name} \"Right, can't forget that part now, can we?$l#$b#Goodnight, @.$6\"",
+				},
+				{
+					defaultNode: "pause 1000/friendship {name} 75",
+				},
+				{
+					defaultNode: "end dialogue {name} \"You didn't get enough of me on our date?$h#$b#I guess I feel the same way.$l\"",
+					customNodes: {
+						"Shane": "end dialogue Shane \"Hey, bugaboo.$6#$b#Didn't think I'd see you so soon again tonight.$h\"",
+					}
+				},
+					],
+				},
+				{
+					key: "PizzaForDinner",
+					nodes: [
+						{
+							defaultNode: "addObject 6 5 206",
+				},
+				{
+					defaultNode: "addObject 8 5 206",
+					customNodes: {
+						"Shane": "addObject 8 5 206",
+					}
+				},
+				{
+					defaultNode: "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak {name} \"Delicious! Just what I needed.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, {name},#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How is work coming along?\"",
+					customNodes: {
+						"Shane": "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak Shane \"Ah, @. You always know what I need.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, Shane,#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How are the chickens?#$r -1 0 date_answer3#How is Jas?\"",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 32/pause 1000/removeSprite 6 5/addObject 6 5 193/farmerEat 206/globalFade/viewport -1000 -1000/pause 300/playSound gulp/message \"after dinner\"/removeSprite 8 5/addObject 8 5 193/warp {name} 8 7/faceDirection {name} 3/warp farmer 7 7/faceDirection farmer 1/positionOffset farmer 0 16/pause 250/viewport 7 7/pause 1100",
+				},
+				{
+					defaultNode: "speak {name} \"This was really wonderful.#$b#I know how busy you are so I appreciate that you took this time for me.$l\"",
+					customNodes: {
+						"Shane": "speak Shane \"Before we go...\"/pause 500/emote farmer 8/pause 500/speak Shane \"You make me so damn happy, you know that?$6#$b#This dinner was literally the highlight of my day.$l\"/pause 250/speak Shane \"I guess what I'm trying to say is thank you for dinner.$6\"",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 20/pause 1000/globalFade/viewport -1000 -1000/pause 2000",
+					customNodes: {
+						"Shane": "pause 500/emote farmer 20/pause 500/animate farmer false true 100 101/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 50/showFrame Shane 34/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 100/specificTemporarySprite heart 8 6/pause 3000/globalFade/viewport -1000 -1000/pause 1000",
+					}
+				},
+				{
+					defaultNode: "speak {name} \"Good night, @.$l\"",
+				},
+				{
+					defaultNode: "pause 1000/friendship {name} 75",
+				},
+				{
+					defaultNode: "end dialogue {name} \"You didn't get enough of me on our date?$h#$b#I guess I feel the same way.$l\"",
+					customNodes: {
+						"Shane": "end dialogue Shane \"Hey dork.$l#$b#I'm still stuffed from dinner. You?$h\"",
+					}
+				},
+					],
+				},
+				{
+					key: "TomKhaForDinner",
+					nodes: [
+						{
+							defaultNode: "addObject 6 5 218",
+				},
+				{
+					defaultNode: "addObject 8 5 218",
+					customNodes: {
+						"Shane": "addObject 8 5 206",
+					}
+				},
+				{
+					defaultNode: "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak {name} \"Delicious! Just what I needed.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, {name},#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How is work coming along?\"",
+					customNodes: {
+						"Shane": "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak Shane \"Ah, @. You always know what I need.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, Shane,#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How are the chickens?#$r -1 0 date_answer3#How is Jas?\"",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 32/pause 1000/removeSprite 6 5/farmerEat 218/globalFade/viewport -1000 -1000/pause 300/playSound gulp/message \"after dinner\"/removeSprite 8 5/addObject 8 5 193/warp {name} 8 7/faceDirection {name} 3/warp farmer 7 7/faceDirection farmer 1/positionOffset farmer 0 16/pause 250/viewport 7 7/pause 1100",
+				},
+				{
+					defaultNode: "speak {name} \"This was really wonderful.#$b#I know how busy you are so I appreciate that you took this time for me.$l\"",
+					customNodes: {
+						"Shane": "speak Shane \"Gus must really trust us if he just lets us use his private room like this.$3\"/pause 250/emote farmer 8/pause 500/speak Shane \"We should totally make out in here just to prove him wrong.$l\"/pause 250/emote farmer 16/pause 250/jump Shane 4/emote Shane 16/pause 300/speak Shane \"I didn't- I wasn't-$10#$b#...#$b#You are teasing me, aren't you?$6\"",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 20/pause 1000/globalFade/viewport -1000 -1000/pause 2000",
+					customNodes: {
+						"Shane": "pause 500/emote farmer 20/pause 500/animate farmer false true 100 101/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 50/showFrame Shane 34/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 100/specificTemporarySprite heart 8 6/pause 3000/globalFade/viewport -1000 -1000/pause 1000",
+					}
+				},
+				{
+					defaultNode: "speak {name} \"We should probably get going before Gus comes in and kicks us out.$6#$b#This was pretty fun though.$6\"",
+				},
+				{
+					defaultNode: "pause 1000/friendship {name} 75",
+				},
+				{
+					defaultNode: "end dialogue {name} \"You didn't get enough of me on our date?$h#$b#I guess I feel the same way.$l\"",
+					customNodes: {
+						"Shane": "end dialogue Shane \"What? Having dinner with me wasn't enough for you?$6#$b#You're such a dweeb.$l\"",
+					}
+				},
+					],
+				},
+				{
+					key: "SpicyEelForDinner",
+					nodes: [
+						{
+							defaultNode: "addObject 6 5 226",
+				},
+				{
+					defaultNode: "addObject 8 5 226",
+					customNodes: {
+						"Shane": "addObject 8 5 206",
+					}
+				},
+				{
+					defaultNode: "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak {name} \"Delicious! Just what I needed.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, {name},#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How is work coming along?\"",
+					customNodes: {
+						"Shane": "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak Shane \"Ah, @. You always know what I need.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, Shane,#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How are the chickens?#$r -1 0 date_answer3#How is Jas?\"",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 32/pause 1000/removeSprite 6 5/addObject 6 5 193/farmerEat 226/globalFade/viewport -1000 -1000/pause 300/playSound gulp/message \"after dinner\"/removeSprite 8 5/addObject 8 5 193/warp {name} 8 7/faceDirection {name} 3/warp farmer 7 7/faceDirection farmer 1/positionOffset farmer 0 16/pause 250/viewport 7 7/pause 1100",
+				},
+				{
+					defaultNode: "speak {name} \"This was really wonderful.#$b#I know how busy you are so I appreciate that you took this time for me.$l\"",
+					customNodes: {
+						"Shane": "speak Shane \"@...\"/pause 250/faceDirection Shane 2/showFrame Shane 19/pause 500/emote farmer 8/pause 500/showFrame Shane 0/pause 150/speak Shane \"It's nothing. I just-$3\"/pause 250/faceDirection Shane 3/pause 500/speak Shane \"I just want to say that-\"pause 250/faceDirection Shane 2/pause 500/speak Shane \"Damn it.#$b#Why am I so bad at the emotional stuff?$3\"/pause 250/faceDirection Shane 3/pause 500/speak Shane \"I might complain a lot, but...$6#$b#I am really happy. With you. And I hope I can make you just as happy.$l\"",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 20/pause 1000/globalFade/viewport -1000 -1000/pause 2000",
+					customNodes: {
+						"Shane": "pause 500/emote farmer 20/pause 500/animate farmer false true 100 101/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 50/showFrame Shane 34/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 100/specificTemporarySprite heart 8 6/pause 3000/globalFade/viewport -1000 -1000/pause 1000",
+					}
+				},
+				{
+					defaultNode: "speak {name} \"So... *clears throat*. That was something.$l#$b#Should we get going?$6\"",
+				},
+				{
+					defaultNode: "pause 1000/friendship {name} 75",
+				},
+				{
+					defaultNode: "end dialogue {name} \"You didn't get enough of me on our date?$h#$b#I guess I feel the same way.$l\"",
+					customNodes: {
+						"Shane": "end dialogue Shane \"Hey, bugaboo.$6#$b#So... dinner again tomorrow?$h\"",
+					}
+				},
+					],
+				},
+				{
+					key: "PSoupForDinner",
+					nodes: [
+						{
+							defaultNode: "addObject 6 5 236",
+				},
+				{
+					defaultNode: "addObject 8 5 236",
+					customNodes: {
+						"Shane": "addObject 8 5 206",
+					}
+				},
+				{
+					defaultNode: "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak {name} \"Delicious! Just what I needed.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, {name},#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How is work coming along?\"",
+					customNodes: {
+						"Shane": "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak Shane \"Ah, @. You always know what I need.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, Shane,#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How are the chickens?#$r -1 0 date_answer3#How is Jas?\"",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 32/pause 1000/removeSprite 6 5/farmerEat 236/globalFade/viewport -1000 -1000/pause 300/playSound gulp/message \"after dinner\"/removeSprite 8 5/addObject 8 5 193/warp {name} 8 7/faceDirection {name} 3/warp farmer 7 7/faceDirection farmer 1/positionOffset farmer 0 16/pause 250/viewport 7 7/pause 1100",
+				},
+				{
+					defaultNode: "speak {name} \"This was really wonderful.#$b#I know how busy you are so I appreciate that you took this time for me.$l\"",
+					customNodes: {
+						"Shane": "textAboveHead Shane \"That was a good pizza!\"/pause 600/speak Shane \"So, is dinner going to become regular thing? Because I could really get used to this.$h\"/pause 600/speak Shane \"I could really get used to *you*.$l#$b#Wait, I think I phrased that weird... Um...$3\"",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 20/pause 1000/globalFade/viewport -1000 -1000/pause 2000",
+					customNodes: {
+						"Shane": "pause 500/emote farmer 20/pause 500/animate farmer false true 100 101/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 50/showFrame Shane 34/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 100/specificTemporarySprite heart 8 6/pause 3000/globalFade/viewport -1000 -1000/pause 1000",
+					}
+				},
+				{
+					defaultNode: "speak {name} \"That was good.$l#$b#Um, I mean, dinner was good. Should we head out?$6\"",
+				},
+				{
+					defaultNode: "pause 1000/friendship {name} 75",
+				},
+				{
+					defaultNode: "end dialogue {name} \"You didn't get enough of me on our date?$h#$b#I guess I feel the same way.$l\"",
+					customNodes: {
+						"Shane": "end dialogue Shane \"What? Having dinner with me wasn't enough for you?$6#$b#You're such a dweeb.$6#$b#You're my dweeb, though.$l\"",
+					}
+				},
+					],
+				},
+				{
+					key: "SalmonForDinner",
+					nodes: [
+						{
+							defaultNode: "addObject 6 5 212",
+				},
+				{
+					defaultNode: "addObject 8 5 212",
+					customNodes: {
+						"Shane": "addObject 8 5 206",
+					}
+				},
+				{
+					defaultNode: "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak {name} \"Delicious! Just what I needed.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, {name},#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How is work coming along?\"",
+					customNodes: {
+						"Shane": "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak Shane \"Ah, @. You always know what I need.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, Shane,#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How are the chickens?#$r -1 0 date_answer3#How is Jas?\"",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 32/pause 1000/removeSprite 6 5/addObject 6 5 193/farmerEat 212/globalFade/viewport -1000 -1000/pause 300/playSound gulp/message \"after dinner\"/removeSprite 8 5/addObject 8 5 193/warp {name} 8 7/faceDirection {name} 3/warp farmer 7 7/faceDirection farmer 1/positionOffset farmer 0 16/pause 250/viewport 7 7/pause 1100",
+				},
+				{
+					defaultNode: "speak {name} \"This was really wonderful.#$b#I know how busy you are so I appreciate that you took this time for me.$l\"",
+					customNodes: {
+						"Shane": "speak Shane \"I know we're done eating, but I don't want to leave yet.\"/pause 250/emote farmer 8/pause 500/speak Shane \"Why? Because Jas and Marnie will take one look at this dorky grin on my face and make fun of me for WEEKS.$6#$b#I can't give them this kind of ammunition, @. I'm already outnumbered.$6\"/pause 250/faceDirection farmer 2/animate farmer false true 200 103 102/pause 500/speak Shane \"Don't laugh! You're the one responsible for this...$6#$b#%Shane gestures to his face.#$b#... this problem!$6\"/pause 250/stopAnimation farmer/faceDirection farmer 1",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 20/pause 1000/globalFade/viewport -1000 -1000/pause 2000",
+					customNodes: {
+						"Shane": "pause 700/emote farmer 20/pause 500/animate farmer false true 100 101/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 50/showFrame Shane 34/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 100/specificTemporarySprite heart 8 6/pause 3000/globalFade/viewport -1000 -1000/pause 1000",
+					}
+				},
+				{
+					defaultNode: "speak {name} \"Okay. Maybe I can live with wearing a dorky grin all the time.$l#$b#Should we get going? Gus probably wants his room back at some point.$6\"",
+				},
+				{
+					defaultNode: "pause 1000/friendship {name} 75",
+				},
+				{
+					defaultNode: "end dialogue {name} \"You didn't get enough of me on our date?$h#$b#I guess I feel the same way.$l\"",
+					customNodes: {
+						"Shane": "end dialogue Shane \"Hey, bud.$6#$b#Not a bad evening so far, huh?$l\"",
+					}
+				},
+					],
+				},
+				{
+					key: "SMealForDinner",
+					nodes: [
+						{
+							defaultNode: "addObject 6 5 237",
+				},
+				{
+					defaultNode: "addObject 8 5 237",
+					customNodes: {
+						"Shane": "addObject 8 5 206",
+					}
+				},
+				{
+					defaultNode: "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak {name} \"Delicious! Just what I needed.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, {name},#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How is work coming along?\"",
+					customNodes: {
+						"Shane": "viewport 7 6/pause 300/playSound eat/pause 800/playSound gulp/pause 400/speak Shane \"Ah, @. You always know what I need.$h\"/pause 500/playSound eat/pause 250/speak {name} \"$q -1 null#So, Shane,#$r -1 0 date_answer1#How was your day?#$r -1 0 date_answer2#How are the chickens?#$r -1 0 date_answer3#How is Jas?\"",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 32/pause 1000/removeSprite 6 5/addObject 6 5 193/farmerEat 237/globalFade/viewport -1000 -1000/pause 300/playSound gulp/message \"after dinner\"/removeSprite 8 5/addObject 8 5 193/warp {name} 8 7/faceDirection {name} 3/warp farmer 7 7/faceDirection farmer 1/positionOffset farmer 0 16/pause 250/viewport 7 7/pause 1000",
+				},
+				{
+					defaultNode: "speak {name} \"This was really wonderful.#$b#I know how busy you are so I appreciate that you took this time for me.$l\"",
+					customNodes: {
+						"Shane": "speak Shane \"...$3\"/pause 250/faceDirection Shane 2/pause 500/emote farmer 8/pause 500/showFrame Shane 0/pause 150/speak Shane \"It's nothing. I just-$3\"/pause 250/faceDirection Shane 3/pause 500/speak Shane \"I guess I don't quite want the evening to be over yet.#$b#I really like spending time with you like this.$6\"",
+					}
+				},
+				{
+					defaultNode: "pause 500/emote farmer 20/pause 1000/globalFade/viewport -1000 -1000/pause 2000",
+					customNodes: {
+						"Shane": "pause 500/emote farmer 20/pause 500/animate farmer false true 100 101/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 20/positionOffset farmer 2 0/pause 50/showFrame Shane 34/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 20/positionOffset Shane -2 0/pause 100/specificTemporarySprite heart 8 6/pause 3000/globalFade/viewport -1000 -1000/pause 1000",
+					}
+				},
+				{
+					defaultNode: "speak {name} \"Okay, enough fooling around. Let's give Gus his room back.$l\"",
+				},
+				{
+					defaultNode: "pause 1000/friendship {name} 75",
+				},
+				{
+					defaultNode: "end dialogue {name} \"You didn't get enough of me on our date?$h#$b#I guess I feel the same way.$l\"",
+					customNodes: {
+						"Shane": "end dialogue Shane \"...$l.#$b#Nice night, isn't it?$l\"",
+					}
+				},
+					],
+				},
+			],
+			
+		},
+	],
+}

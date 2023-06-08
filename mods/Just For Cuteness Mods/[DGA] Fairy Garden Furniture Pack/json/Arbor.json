@@ -1,0 +1,33 @@
+[
+
+	{
+		"$ItemType": "Furniture",
+		"ID": "Arbor",
+		"Type": "Rug",
+		"Configurations": [
+			{
+				"Texture": "assets/arbors.png:0",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/arbors.png:1",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 50,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/Arbor"
+		}
+	}
+	
+]

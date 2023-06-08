@@ -1,0 +1,469 @@
+{
+  "Format": "1.18.0",
+	"ConfigSchema": {
+		"CostsMoney": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"AllowBlank": false,
+			"Description": "If true the date will cost money."
+		},
+		"AmountDateCosts": {
+			"Default": "1000",
+			"AllowBlank": false,
+			"Description": "Enter here how much the date should cost. If you chose 'false' above, this field is irrelevant and can be ignored."
+		},
+		"DateMayPay": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+			"Description": "If true there is a one in four chance your date will offer to pay."
+		},
+	},
+  "Changes": [  
+    { 
+     "Action": "Load",
+	 "Target": "Data/Events/SaloonDateSVE",
+	 "FromFile": "assets/XNBs/SaloonDateSVE.xnb"
+    },
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Gus",
+        "When": {
+        "CostsMoney": "false"
+		},
+        "Entries":
+        {
+		"date_salad": "$1 6681008#Wonderful! Why don't you head to the dining room down the hallway and I will bring you your food shortly.$h#$e#Wonderful.$h#$b#The dining room is the first door down the hallway to our left.#$b#I will bring you your food shortly.$h",
+		"date_spaghetti": "$1 6681001#Wonderful! Why don't you head to the dining room down the hallway and I will bring you your food shortly.$h#$e#Wonderful.$h#$b#The dining room is the first door down the hallway to our left.#$b#I will bring you your food shortly.$h",
+		"date_pizza": "$1 6681002#Wonderful. The dining room is the first door down the hallway to our left. I will bring you your food shortly.$h#$e#Wonderful.$h#$b#The dining room is the first door down the hallway to our left.#$b#I will bring you your food shortly.$h",
+		"date_tomkha": "$1 6681003#Wonderful! Why don't you head to the dining room down the hallway and I will bring you your food shortly.$h#$e#Wonderful.$h#$b#The dining room is the first door down the hallway to our left.#$b#I will bring you your food shortly.$h",
+		"date_spicyeel": "$1 6681004#Wonderful! Why don't you head to the dining room down the hallway and I will bring you your food shortly.$h#$e#Wonderful.$h#$b#The dining room is the first door down the hallway to our left.#$b#I will bring you your food shortly.$h",
+		"date_pumpkinsoup": "$1 6681005#Wonderful! Why don't you head to the dining room down the hallway and I will bring you your food shortly.$h#$e#Wonderful.$h#$b#The dining room is the first door down the hallway to our left.#$b#I will bring you your food shortly.$h",
+		"date_salmondinner": "$1 6681006#Wonderful! Why don't you head to the dining room down the hallway and I will bring you your food shortly.$h#$e#Wonderful.$h#$b#The dining room is the first door down the hallway to our left.#$b#I will bring you your food shortly.$h",
+		"date_supermeal": "$1 6681007#Wonderful! Why don't you head to the dining room down the hallway and I will bring you your food shortly.$h#$e#Wonderful.$h#$b#The dining room is the first door down the hallway to our left.#$b#I will bring you your food shortly.$h",
+		"date_random": "$1 6681009#Sure, no problem. Why don't you head to the dining room down the hallway and I will bring you your food shortly.$h#$e#Wonderful.$h#$b#The dining room is the first door down the hallway to our left.#$b#I will bring you your food shortly.$h",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Gus",
+        "When": {
+        "CostsMoney": "true"
+		},
+        "Entries":
+        {
+		"date_salad": "$1 6681008#Wonderful! That will be {{AmountDateCosts}}G please.$h#$e#Wonderful! That will be {{AmountDateCosts}}G please.$h",
+		"date_spaghetti": "$1 6681001#Wonderful! That will be {{AmountDateCosts}}G please.$h#$e#Wonderful! That will be {{AmountDateCosts}}G please.$h",
+		"date_pizza": "$1 6681002#Wonderful! That will be {{AmountDateCosts}}G please.$h#$e#Wonderful! That will be {{AmountDateCosts}}G please.$h",
+		"date_tomkha": "$1 6681003#Wonderful! That will be {{AmountDateCosts}}G please.$h#$e#Wonderful! That will be {{AmountDateCosts}}G please.$h",
+		"date_spicyeel": "$1 6681004#Wonderful! That will be {{AmountDateCosts}}G please.$h#$e#Wonderful! That will be {{AmountDateCosts}}G please.$h",
+		"date_pumpkinsoup": "$1 6681005#Wonderful! That will be {{AmountDateCosts}}G please.$h#$e#Wonderful! That will be {{AmountDateCosts}}G please.$h",
+		"date_salmondinner": "$1 6681006#Wonderful! That will be {{AmountDateCosts}}G please.$h#$e#Wonderful! That will be {{AmountDateCosts}}G please.$h",
+		"date_supermeal": "$1 6681007#Wonderful! That will be {{AmountDateCosts}}G please.$h#$e#Wonderful! That will be {{AmountDateCosts}}G please.$h",
+		"date_random": "$1 6681009#Sure, no problem. That will be {{AmountDateCosts}}G please.$h#$e#Sure, no problem. That will be {{AmountDateCosts}}G please.$h",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "Entries":
+        {
+		"date_mines": "Yeah? Find anything good? I’ve never actually been down there, what’s it like?$6",
+		"date_monster": "Damn, @. I know you can take care of yourself, but...$3#$b#I forget sometimes that you’re the monster slaying type.#$b#Come on, regale me with the tale of your heroic efforts.$6",
+		"date_fishing": "I can’t imagine having the patience for fishing!$6#$b#So? Did you catch anything good?$6",
+		"date_people": "Ah yes, my boyfriend: The town’s darling.$6^Ah yes, my girlfriend: The town’s darling.$6#$b#So? Heard anything interesting I can tell Marnie over breakfast tomorrow?$6",
+		"date_nothing": "Nothing productive? You? Okay, now this I have to hear.$h",
+		"date_answer2": "They’re doing well!$h#$b#{{Random: Did I tell you that Charlie flew straight into the kitchen the other day? Boy was Marnie not amused.$3 !i! Still laying eggs like champs, of course!$6#$b#Though I’m a bit worried about %rival... she’s getting up in the years.$3 !i! I could talk about my girls for hours, you’ll be so sorry you asked!$6#$b#So, Charlie and %rival have been having somewhat of a hen fight the last few days... !i! I could talk about my girls for hours, you’ll be so sorry you asked!$6#$b#So, little %name has been a huge trouble maker lately... !i! I could talk about my girls for hours, you’ll be so sorry you asked!$6#$b#I've been noticing that %rival has been looking... let's call it 'plump', lately. So I ask Jas if...$h !i! I could talk about my girls for hours, you’ll be so sorry you asked!$6#$b#I swear, %rival is the clumsiest chicken in the world. Yesterday... $h|inputSeparator=!i!}}",
+		"date_answer3": "{{Random: Well, you know how she is. She’s a fighter. Been asking about you A LOT lately.$6 !i! *sigh*$3#$b#She’s been having tough time sleeping lately.#$b#I’m thinking about dragging her to therapy one of these days, what do you think? !i! Penny called the other day to tell me how well Jas is doing in school.$h#$b#She said Jas is 'a very advanced reader for her age'.$6#$b#I could have told her that!$h !i! Oh, is this how it’s going to be?$6#$b#When I’m with Jas I get pelted with questions about ‘Mr. @‘ and when I’m with you I get asked about Jas?$6^When I’m with Jas I get pelted with questions about ‘Miss @‘ and when I’m with you I get asked about Jas?$6#$b#She’s great. And EXTREMELY curious about our relationship, by the way.$6 |inputSeparator=!i!}}",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Summer"
+		},
+        "Entries":
+        {
+		"date_crops": "Yeah?$6#$b#How is the hot pepper harvest looking this year?$h#$b#Don't break my heart and tell me you aren't growing any.",
+		"date_animals": "Yeah, they can be like that sometimes.$h#$b#How are your critters doing anyway? The heat isn't giving them too much trouble, right?$6",
+		"date_foraging": "Is that much fresh air even healthy for you?$h#$b#So, what was the haul like? lots of sweet peas and spice berries?$6",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Fall"
+		},
+        "Entries":
+        {
+		"date_crops": "Right, harvest season...$3#$b#You're not overworking yourself, are you? How is it going?",
+		"date_animals": "Yeah, they can be like that sometimes.$h#$b#How are your critters doing anyway? Any new additions I don't know about?$6",
+		"date_foraging": "Yeah? What was the haul like?$6#$b#Jas has been collecting wild plums like crazy lately. I think she's trying to convince Marnie to make her some plum pudding.$h",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Spring"
+		},
+        "Entries":
+        {
+		"date_crops": "Yeah?$6#$b#Wait, I’m sure I can think of what’s in season right now.$3#$b#Rhubarbs and cauliflower, right? Tulips, maybe?",
+		"date_animals": "Yeah, they can be like that sometimes.$h#$b#How are your critters doing anyway? Any new additions I don't know about?$6",
+		"date_foraging": "Is that much fresh air even healthy for you?$h#$b#So, what was the haul like? Lots of leeks and spring onions?$6",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Winter"
+		},
+        "Entries":
+        {
+		"date_crops": "In winter, seriously?#$b#What exactly are you growing? Winter roots and snow yams?$6",
+		"date_foraging": "Damn. All day? In this cold?#$b#Let me know if you need me to heat you up.$l#$b#Anyway, what was the haul like?$6",
+		"date_animals": "Yeah, they can be like that sometimes.$h#$b#How are your critters doing anyway? Are they handling the cold?$6",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "IsCommunityCenterComplete": "true"
+		},
+        "Entries":
+        {
+		"date_answer1": "{{Random: Yeah, it was good actually. !i! Not bad, not bad. |inputSeparator=!i!}}#$b#Working the ranch, taking care of my chickens. The usual.$6#$b#{{Random: Hey, did I tell you about what Jas did this morning?$6#$b#So, the little missy decides she can milk Betsy all by herself...$6 !i! Marnie did almost yell at a customer the other day, did I tell you about that?$6#$b#Okay, settle in for a doozy. So, there’s this guy... !i! Two little blue chicks hatched this morning. Jas was over the moon, of course.$6 !i! Don’t get me wrong. I like the work. But boy my bones are aching by the time the day is done.$3#$b#Guess you know all about that, huh?$6 !i! Oh, but I did catch Lewis sneak out of Marnie’s room this morning though. So damn awkward.$3#$b#I just don't like that guy.$2 !i! Life has become about 20 times better since Joja closed. That job was soul-sucking.$3#$b#Well, you know. You escaped their clutches, too.$6 !i! I did think about you a lot today, though.$l#$b#No reason. You were just on my mind, I guess.$6 |inputSeparator=!i!}}",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "IsCommunityCenterComplete": "false",
+        "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday"
+		},
+        "Entries":
+        {
+		"date_answer1": "Ugh, just the usual Joja bullshit.$2#$b#{{Random: But, hey, did I tell you about what Jas did this morning?$6#$b#So, the little missy decides she can milk Betsy all by herself...$6 !i! At least it's over for today.#$b#But Morris did almost yell at a customer today. So, this woman comes in... !i! Oh! But I did have two little blue chicks hatch this morning! !i! Today was just one of those garbage days I never want to think about again.$3#$b#But hey, now we’re here, so at least it’s ending well, right?$l !i! There is nothing about this job I don't hate.#$b#Sure, Claire is nice, but Morris is just the worst f-$2#$b#%You are suddenly glad that you are in a private room.#$b#Sorry. I guess I really needed to get that off my chest.#$b#Let's talk about something nicer?$6 |inputSeparator=!i!}}",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "IsCommunityCenterComplete": "false",
+        "DayOfWeek": "Friday"
+		},
+        "Entries":
+        {
+		"date_answer1": "Ugh, just the usual Joja bullshit.$2#$b#{{Random: But, hey, did I tell you about what Jas did this morning?$6#$b#So, the little missy decides she can milk Betsy all by herself...$6 !i! Thank God it's Friday, I guess.$6#$b#But Morris did almost yell at his supervisor today. So, it's almost four... !i! Oh! But I did have two little blue chicks hatch this morning! !i! Today was just one of those garbage days I never want to think about again.$3#$b#But hey, now we’re here, so at least it’s ending well, right?$l !i! There is nothing about this job I don't hate.#$b#Sure, Claire is nice, but Morris is just the worst f-$2#$b#%You are suddenly glad that you are in a private room.#$b#Sorry. I guess I really needed to get that off my chest.#$b#Let's talk about something nicer. Any plans this weekend?$6 |inputSeparator=!i!}}",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "IsCommunityCenterComplete": "false",
+        "DayOfWeek": "Saturday, Sunday"
+		},
+        "Entries":
+        {
+		"date_answer1": "It’s the weekend, so I can’t complain.$h#$b#{{Random: I actually got up in time to watch cartoons with Jas this morning and she likes this weird show about... !i! Ugh, I did catch Lewis sneak out of Marnie’s room this morning though. So damn awkward.$3#$b#I really don't like the guy sometimes.$2 !i! Jas and Marnie made these amazing waffles this morning. Apparently they... !i! Okay, I *could* complain.$3#$b#Jas has been somewhat temperamental lately...$3#$b#Is it too early to blame her mood on puberty you think?$6 |inputSeparator=!i!}}",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Summer",
+        "Day": "4",
+        "HasSeenEvent |contains=3910974": "true",
+        "Weather |contains=Rain, Storm": "false",
+		},
+        "Entries":
+        {
+		"date_answer1": "Well, I spent the day with Jas since it's her birthday and all.$6#$b#She got presents, we went to the beach, we had some cake... she was really happy. It was nice.$6",
+		"date_answer3": "Well, considering it's her birthday, I think she's doing great.$h#$b#Seriously, she's been bursting with excitement all day, it's actually kind of great.$6",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Winter",
+        "Day": "18",
+        "HasSeenEvent |contains=3910974": "true",
+        "Weather |contains=Rain, Storm": "false",
+        "HasMod": "tenthousandcats.ImmersiveCShane"
+		},
+        "Entries":
+        {
+		"date_answer1": "Yeah, it was alright. Took Jas to the doctor today for her annual check-up.$6#$b#She actually really likes going to the doctor. She's a weird kid.$6",
+		"date_answer3": "She's doing really well. I took her to the doctor today and even he confirmed it: Healthy as a horse!$h",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Winter",
+        "Day": "15",
+		},
+        "Entries":
+        {
+		"date_answer1": "Nothing special happened really. I am taking Jas to the night market though, which she's pretty excited about.$6",
+		"date_answer3": "Yeah, the little missy has been talking my ear off for two weeks now about the night market.$3#$b#I'll be taking her tonight, let's hope she has fun.$6",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Spring",
+        "Day": "20",
+        "IsCommunityCenterComplete": "false",
+		},
+        "Entries":
+        {
+		"date_answer1": "Hm, let's see.#$b#It's my birthday and I've been spoiled rotten by Jas and Marnie.$6#$b#It's Saturday, so I have the day off.$6#And, last but not least, my boyfriend is taking me out to dinner.$l^And, last but not least, my girlfriend is taking me out to dinner.$l#$b#I guess my day's been okay.$h",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Spring",
+        "Day": "12",
+		},
+        "Entries":
+        {
+		"date_answer2": "The hens have been working overtime for the Egg Festival tomorrow, so I've been preparing a little feast to reward them for it.$h#$b#Heck, I might even let them have some strawberries, that's how well they did.$6",
+		"date_answer3": "She's probably covered in paint as we speak.#$6#$b#She's been painting eggs like her life depends on it.$h#$b#I'm serious, there's no stopping her. Or Marnie. Or Emily, for that matter.",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Spring",
+        "Day": "12",
+        "IsCommunityCenterComplete": "false",
+		},
+        "Entries":
+        {
+		"date_answer1": "Ugh, just the usual Joja bullshit.$2#$b#But hey, at least it's finally Egg Festival time tomorrow!$h#$b#You're going tomorrow, right?$6",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Spring",
+        "Day": "12",
+        "IsCommunityCenterComplete": "true",
+		},
+        "Entries":
+        {
+		"date_answer1": "Considering the Egg Festival is tomorrow...$3#$b#I'd say it's been stressful at the ranch the last couple of days.#$b#But it will all be worth it! You'll be there, right?$h",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Spring",
+        "Day": "23",
+        "PlayerGender": "Male",
+		},
+        "Entries":
+        {
+		"date_answer1": "Eh, it was whatever. Fine, I guess.#$b#...$3#$b#So... the Flower Dance is tomorrow.#$b#Don't give me that look! You KNOW I'll dance with you if you ask me to.$6#$b#But if it wasn't for Jas and Marnie, I would be doing my absolute best to convince you to play hooky with me.$6",
+		"date_answer3": "I caught her practicing the Flower Dance moves in the mirror yesterday. It was so cute.$h#$b#She thinks it's this whole magical thing.$6#$b#In reality, of course, it's incredibly embarrassing and the women in my life are expert bullies and guilt-trippers.$3",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Spring",
+        "Day": "23",
+        "PlayerGender": "Female",
+		},
+        "Entries":
+        {
+		"date_answer1": "Eh, it was whatever. Fine, I guess.#$b#...$3#$b#So... the Flower Dance is tomorrow.#$b#Don't give me that look! You KNOW I'll dance with you if you ask me to.$6#$b#But if it wasn't for Jas and Marnie, I would be doing my absolute best to convince you to play hooky with me.$6",
+		"date_answer3": "I caught her practicing the Flower Dance moves in the mirror yesterday. It was so cute.$h#$b#She thinks it's this whole magical thing.$6#$b#In reality, of course, it's incredibly embarrassing and the women in my life are expert bullies and guilt-trippers.$3#$b#...I didn't mean you, of course.$l",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Summer",
+        "Day": "10",
+        "IsCommunityCenterComplete": "false",
+		},
+        "Entries":
+        {
+		"date_answer1": "Ugh, just the usual Joja bullshit.$2#$b#But hey, tomorrow's the Luau, so I get a day off and get to enjoy a soup of questionable ingredients.$6",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Summer",
+        "Day": "28",
+		},
+        "Entries":
+        {
+		"date_answer1": "Not bad. I can't complain.#$b#I'm really looking forward to watching the jellies with you later.$6#It'll give me a chance to get a last look at your face before the harvest season starts. I might not get to see it for a while!$h",
+		"date_answer3": "Ugh, don't even get me started.$3#$b#No matter what I did, I could not get her to take a nap before the jellies tonight.#$b#I can just hope her sheer excitement will keep her energy levels up, or I don't know what I'll do.#$b#Maybe I should give her some Joja Cola before we go.$h",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Fall",
+        "Day": "27",
+		},
+        "Entries":
+        {
+		"date_answer1": "Alright, all things considering.#$b#I did get glimpse of the festival set-up on my way here, though. Pretty crazy stuff.#$b#Do you think it was a mistake to eat before the festival? What if I'm too full to enjoy Gus' pumpkin dishes?$10",
+		"date_answer3": "She's nothing but an excited little ball of energy right now.#$b#She just LOVES Spirit's Eve, she can't wait until she's old enough to conquer the maze.$6#$b#We'll see you there later, right?$6",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Winter",
+        "Day": "24",
+        "IsCommunityCenterComplete": "false",
+		},
+        "Entries":
+        {
+		"date_answer1": "Thanks for asking. It was hell.$2#$b#The day before Winter Star is the. Worst. Day. Listen to this-#$b#%Shane starts ranting about his shift. Sounds stressful.#$b#*sigh*$3#$b#Whatever. I have the day off tomorrow. I'm having dinner with my boyfriend. Let's focus on that.$6^Whatever. I have the day off tomorrow. I'm having dinner with my girlfriend. Let's focus on that.$6",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Winter",
+        "Day": "24",
+        "IsCommunityCenterComplete": "true",
+		},
+        "Entries":
+        {
+		"date_answer1": "Marnie's been baking cookies all day. Made the whole ranch smell like cinnamon. It was nice.$6#$b#I always thought I didn't like the holiday season, but I guess what I really hated was working at Joja DURING the holiday season.$3#$b#I kind of like the holidays now.$6",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "When": {
+        "Season": "Winter",
+        "Day": "24",
+		},
+        "Entries":
+        {
+		"date_answer3": "Are you seriously asking how a kid is doing the day before Winter Star?$6#$b#Jas is driving Marnie and me NUTS right now. She might invent time travel by the sheer power of her impatience.$h",
+        }
+    },
+
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Events/SaloonDateSVE",
+        "When": {
+        "CostsMoney": "true",
+        "DateMayPay": "true",
+		},
+        "Entries":
+        {
+		"ChargeMoney": "{{Random: money -{{AmountDateCosts}}/playSound purchase/pause 250/speak Gus \"Thank you very much.$h#$b#Why don't you head to the dining room down the hallway and I will bring you your food shortly.\"/pause 300/switchEvent datecontinue !i! money -{{AmountDateCosts}}/playSound purchase/pause 250/speak Gus \"Thank you very much.$h#$b#Why don't you head to the dining room down the hallway and I will bring you your food shortly.\"/pause 300/switchEvent datecontinue !i! money -{{AmountDateCosts}}/playSound purchase/pause 250/speak Gus \"Thank you very much.$h#$b#Why don't you head to the dining room down the hallway and I will bring you your food shortly.\"/pause 300/switchEvent datecontinue !i! switchEvent datepays |inputSeparator=!i!}}",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Events/SaloonDateSVE",
+        "When": {
+        "CostsMoney": "true",
+        "DateMayPay": "false",
+		},
+        "Entries":
+        {
+		"ChargeMoney": "money -{{AmountDateCosts}}/playSound purchase/pause 250/speak Gus \"Thank you very much.$h#$b#Why don't you head to the dining room down the hallway and I will bring you your food shortly.\"/pause 300/switchEvent datecontinue",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Events/SaloonDateSVE",
+        "When": {
+        "CostsMoney": "false",
+		},
+        "Entries":
+        {
+		"ChargeMoney": "switchEvent datecontinue",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Events/SaloonDateSVE",
+        "Entries":
+        {
+		"FateDecides": "{{Random:switchEvent SaladForDinner, switchEvent SpaghettiForDinner, switchEvent PizzaForDinner, switchEvent TomKhaForDinner, switchEvent SpicyEelForDinner, switchEvent PSoupForDinner, switchEvent SalmonForDinner, switchEvent SMealForDinner}}",
+        }
+    },
+
+
+	  ],
+
+  "RepeatMail": [
+    "6681001",
+    "6681002",
+    "6681003",
+    "6681004",
+    "6681005",
+    "6681006",
+    "6681007",
+    "6681008",
+    "6681009",
+   ],
+
+}

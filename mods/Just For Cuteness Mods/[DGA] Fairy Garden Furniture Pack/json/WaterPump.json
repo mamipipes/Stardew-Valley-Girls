@@ -1,0 +1,41 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "WaterPump",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/WaterPumps.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1,
+				"TileProperties": {
+                    "0, 0": {
+                        "Back": { "WaterSource": true, },
+                    }
+                },
+			},
+			{
+				"Texture": "assets/WaterPumps.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1,
+				"Flipped": true,
+				"TileProperties": {
+                    "0, 0": {
+                        "Back": { "WaterSource": true, },
+                    }
+                },
+			},
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 100,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/WaterPump"
+		}
+	},
+]

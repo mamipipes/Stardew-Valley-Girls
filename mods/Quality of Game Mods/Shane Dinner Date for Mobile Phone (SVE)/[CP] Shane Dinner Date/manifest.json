@@ -1,0 +1,25 @@
+{
+   "Name": "Shane Dinner Date CP",
+   "Author": "MissMarlot",
+   "Description": "adds the correct files for the event",
+   "Version": "1.0.2",
+   "UniqueID": "missmarlot.dinnerdateCP",
+   "UpdateKeys": [ "Nexus:7225" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher",
+    },
+"Dependencies": [
+      {
+     	"UniqueID": "missmarlot.dinnerdatemap",
+     	"IsRequired": true
+      },
+   		{
+      	"UniqueID": "misscoriel.eventrepeater",
+      	"IsRequired": true,
+   		},
+      {
+      	"UniqueID": "tenthousandcats.ImmersiveCShane",
+      	"IsRequired": false,
+      },
+]
+}

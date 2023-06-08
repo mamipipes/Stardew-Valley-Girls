@@ -1,0 +1,126 @@
+{
+  "Name": "(Prismatic) Bun-Bangs",
+  "FrontHair": {
+    "IsPrismatic": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": true,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+      {
+        "Frame": 2,
+        "Duration": 100
+      },
+    ],
+  },
+  "RightHair": {
+    "IsPrismatic": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": true,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+      {
+        "Frame": 2,
+        "Duration": 100
+      },
+    ],
+  },
+  "LeftHair": {
+    "IsPrismatic": true,
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": true,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+      {
+        "Frame": 2,
+        "Duration": 100
+      },
+    ],
+  },
+  "BackHair": {
+    "IsPrismatic": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 64
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": true,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+      {
+        "Frame": 2,
+        "Duration": 100
+      },
+    ],
+  },
+}	
+	
+	

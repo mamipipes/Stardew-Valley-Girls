@@ -1,0 +1,32 @@
+{
+  "Name": "Invite Shane Dinner Date",
+  "Author": "MissMarlot",
+  "Version": "1.0.2",
+  "Description": "Adds an event invite to the mobile phone to go on a dinner date",
+  "UniqueID": "missmarlot.dinnerdateInvite",
+  "MinimumApiVersion": "3.5.0",
+  "UpdateKeys": [ "Nexus:7225" ],
+  "ContentPackFor": {
+    "UniqueID": "aedenthorn.MobilePhone",
+    "MinimumVersion": "0.1.0"
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "aedenthorn.MobilePhone",
+      "IsRequired": true,
+	  "MinimumVersion": "1.4.2"
+   },
+   {
+      "UniqueID": "missmarlot.dinnerdatemap",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "missmarlot.dinnerdateCP",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+      "IsRequired": true
+   },
+  ]
+}

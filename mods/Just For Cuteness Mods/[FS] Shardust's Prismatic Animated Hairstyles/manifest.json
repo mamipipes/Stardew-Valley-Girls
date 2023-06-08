@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Shardust's (Prismatic) Animated Hairstyles for Fashion Sense",
+  "Author": "Shardust",
+  "Version": "6.0.0",
+  "Description": "Prismatic Animated hairstyles for the Fashion Sense framework.",
+  "UniqueID": "Shardust.Prismatic.AnimatedHairstylesFashionSensePack",
+  "UpdateKeys": ["Nexus:10294@Prismatic"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "3.0.3"
+  }
+}

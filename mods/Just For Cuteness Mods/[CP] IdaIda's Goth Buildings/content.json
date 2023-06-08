@@ -1,0 +1,156 @@
+{
+	"Format": "1.20.0",
+	"Changes": [
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Coop",
+	"FromFile": "assets/{{season}}/Goth Coop.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Big Coop",
+	"FromFile": "assets/{{season}}/Goth Big Coop.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Deluxe Coop",
+	"FromFile": "assets/{{season}}/Goth Deluxe Coop.png",
+       },
+
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Barn",
+	"FromFile": "assets/{{season}}/Goth Barn.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Big Barn",
+	"FromFile": "assets/{{season}}/Goth Big Barn.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Deluxe Barn",
+	"FromFile": "assets/{{season}}/Goth Deluxe Barn.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Shed",
+	"FromFile": "assets/{{season}}/Goth Shed.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Big Shed",
+	"FromFile": "assets/{{season}}/Goth Big Shed.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Desert Obelisk",
+	"FromFile": "assets/Goth Desert Obelisk.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Earth Obelisk",
+	"FromFile": "assets/Goth Earth Obelisk.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Island Obelisk",
+	"FromFile": "assets/Goth Island Obelisk.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Water Obelisk",
+	"FromFile": "assets/Goth Water Obelisk.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Fish Pond",
+	"FromFile": "assets/{{season}}/Goth Fish Pond.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Gold Clock",
+	"FromFile": "assets/{{season}}/Goth Gold Clock.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Greenhouse",
+	"FromFile": "assets/{{season}}/Goth Greenhouse.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/houses",
+	"FromFile": "assets/{{season}}/Goth houses.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Junimo Hut",
+	"FromFile": "assets/Goth Junimo Hut.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Log Cabin",
+	"FromFile": "assets/Goth Log Cabin.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Mill",
+	"FromFile": "assets/{{season}}/Goth Mill.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Plank Cabin",
+	"FromFile": "assets/Goth Plank Cabin.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Silo",
+	"FromFile": "assets/{{season}}/Goth Silo.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Slime Hutch",
+	"FromFile": "assets/{{season}}/Goth Slime Hutch.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Stable",
+	"FromFile": "assets/{{season}}/Goth Stable.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Stone Cabin",
+	"FromFile": "assets/Goth Stone Cabin.png",
+       },
+        {
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Buildings/Well",
+	"FromFile": "assets/{{season}}/Goth Well.png",
+       },
+]
+}

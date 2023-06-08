@@ -1,0 +1,9 @@
+{
+	"Format": "1.4",
+
+	"Changes": [{
+		"Action": "Load",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/craftables.png"
+	}]
+}

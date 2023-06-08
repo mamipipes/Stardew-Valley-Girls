@@ -1,0 +1,31 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "Well",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/Wells.png:0",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1,
+				"TileProperties": {
+                    "0, 0": {
+                        "Back": { "Water": true, },
+                    }
+                },
+			},
+			
+			
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 100,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairygardenfurniture/Well"
+		}
+	},
+]
