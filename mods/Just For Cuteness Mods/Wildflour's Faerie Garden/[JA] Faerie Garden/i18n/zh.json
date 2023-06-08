@@ -1,0 +1,380 @@
+{
+
+//MUSHROOMS
+
+"amanita-trio.name":"毒蝇伞三菇组",
+"amanita-trio.description":"聚在一起生长的三朵毒蘑菇。酿造特定药水时很有用，但是直接食用有致命风险。",
+
+"dawns-trumpet.name":"晨曦杏鲍菇",
+"dawns-trumpet.description":"一簇生长于黎明时分附近的奇特蘑菇。",
+
+"dusk-cap.name":"薄暮鹅膏菌",
+"dusk-cap.description":"一簇生长于黄昏时分附近的奇特蘑菇。",
+
+"giant-amanita.name":"巨型毒蝇伞",
+"giant-amanita.description":"大得不寻常的有毒蘑菇。",
+
+"gold-mushroom.name":"黄金光环",
+"gold-mushroom.description":"令人叹为观止的金色蘑菇，常用于魔法制程中。",
+
+"coral-cone.name":"珊瑚角",
+"coral-cone.description":"奇妙的蔷薇色蘑菇。传闻中它们以前是制作衣服与化妆品的染料原料。",
+
+"teal-umbrella.name":"风暴雨伞菇",
+"teal-umbrella.description":"经常出现于暴风雨中的高耸蘑菇。",
+
+"faerie-helmets.name":"小鬼伞",
+"faerie-helmets.description":"因为体积小以及外观像帽子，所以它们又被称为妖精帽！",
+
+"slime-cap.name":"潮红松树伞",
+"slime-cap.description":"一种只应由技巧高超的女巫或采集者采集的剧毒蘑菇！",
+
+"white-mushroom.name":"白色雨伞菇",
+"white-mushroom.description":"传说中被小妖精用来在雷雨中躲雨的高耸白色蘑菇。",
+
+//FLOWERS
+
+"angel-geranium.name": "天使天竺葵",
+"angel-geranium.description": "因注目色彩而备受喜爱的丛生天竺葵。",
+
+"arctic-fox.name": "北极狐",
+"arctic-fox.description": "可爱的蓝色洋地黄，又称指顶花。尽管美丽灿烂，但它对人类极具毒性。",
+
+"avalune.name": "羽扇豆",
+"avalune.description": "蔷薇色的鲁冰花。传说中是送礼给仙子时的良好选择。",
+
+"blue-chiffon.name": "蓝雪纺",
+"blue-chiffon.description": "令人叹为观止的蓝色木槿。",
+
+"daisy.name": "白晶菊",
+"daisy.description": "尽管常被视为普通花朵而被忽略，但许多普通的雏菊能用于烹饪用、药用…还有魔法用。",
+
+"dawn-lily.name": "晨曦百合",
+"dawn-lily.description": "跟全日开百合相比起来，这品种极其稀有且只开在黎明时分。传闻说它们只生长于拥有强烈灵力的地方。",
+
+"dusk-lily.name": "薄暮百合",
+"dusk-lily.description": "跟全日开百合相比起来，这品种极其稀有且只开在黄昏时分。传闻说它们只生长于拥有强烈灵力的地方。",
+
+"faerie-puffball.name": "妖精蒲公英",
+"faerie-puffball.description": "这种花如云般柔软；或许这就是它经常被认为与仙子和它们的空灵魔法有关的原因。",
+
+"meadow-buttercup.name": "草甸毛茛",
+"meadow-buttercup.description": "经常开花于草甸的毛茛，在春日绽放金色花朵。",
+
+"meadow-violet.name": "草甸紫罗兰",
+"meadow-violet.description": "快速蔓延，用深紫色调覆盖草甸的紫罗兰。",
+
+"milk-and-honey.name": "牛奶糖蜜",
+"milk-and-honey.description": "由技巧高超的树林女巫们栽培，开花于树上的奶白色落新妇。",
+
+"moonlight-blues.name": "月光蓝调",
+"moonlight-blues.description": "开花在树上的稀有飞燕草。很可能是奥术魔法的杰作，毕竟这种花看起来根本…不像会出现在地球上。",
+
+"moon-maiden.name": "月下美人",
+"moon-maiden.description": "传闻中这精美的花是善良精灵送给人类以迎接春天到来的赠礼。",
+
+"summer-bell.name": "盛夏铃铛",
+"summer-bell.description": "美丽的粉红色锺型花朵。",
+
+"pixies-breath.name": "满天精灵",
+"pixies-breath.description": "就像是满天星，不过再更魔幻一点。",
+
+"quartz-primrose.name": "粉晶樱草",
+"quartz-primrose.description": "适合生长在棚组上的木玫瑰。无论是颜色还是香味都备受喜爱，这些花使你想起玫瑰石英宝石。",
+
+"secret-poppy.name": "秘密罂粟",
+"secret-poppy.description": "开花在树上的稀有罂粟，传闻中只生长在受到仙子祝福的花园。",
+
+"twinblooms.name": "双生花",
+"twinblooms.description": "成熟时都会一次开两朵的花，被认为是许多魔法制程中的强力原料。",
+
+//FRUITS
+
+"amber-moondrop.name": "琥珀月泪",
+"amber-moondrop.description": "美丽又稀有的金黄葡萄，传闻最初是由芬吉尔共和国的仙子培育出的。",
+
+"ambrosia-apple.name": "圣芳苹果",
+"ambrosia-apple.description": "因为太甜而被以仙馔蜜酒命名的明亮绿苹果。",
+
+"blood-orange.name": "血橙",
+"blood-orange.description": "稀有的柑橘水果。",
+
+"eversweet-pomegranate.name": "永甜石榴",
+"eversweet-pomegranate.description": "充满谜团的鲜艳石榴。传闻中这种水果无论何时采收都多汁甜美。",
+
+"jade-moondrop.name": "翡翠月泪",
+"jade-moondrop.description": "美丽又稀有的翠绿葡萄，传闻最初是由芬吉尔共和国的仙子培育出的。",
+
+"ladyfinger-banana.name": "拇指芭蕉",
+"ladyfinger-banana.description": "细长娇嫩的芭蕉，传闻比传统香蕉甜许多。",
+
+"lapis-moondrop.name": "琉璃月泪",
+"lapis-moondrop.description": "美丽又稀有的湛蓝葡萄，传闻最初是由芬吉尔共和国的仙子培育出的。",
+
+"moongold-apricot.name": "月金杏子",
+"moongold-apricot.description": "金色果肉的淡色杏子，传闻是月神最爱的水果。",
+
+"pearl-moondrop.name": "珍珠月泪",
+"pearl-moondrop.description": "美丽又稀有的纯白葡萄，传闻最初是由芬吉尔共和国的仙子培育出的。",
+
+"snow-peach.name": "雪中美人白桃",
+"snow-peach.description": "稀有娇嫩的桃子，在古老的民间传说中是某位公主最爱的水果。",
+
+"sour-cherry.name": "陨星酸樱桃",
+"sour-cherry.description": "虽然看起来像普通樱桃，但这品种味道奇特到比起水果更像是酸糖果。",
+
+"sunset-mango.name": "余晖芒果",
+"sunset-mango.description": "在落日下成熟的精美芒果。",
+
+
+//HERBS
+
+"rose-flax.name":"玫瑰亚麻",
+"rose-flax.description":"美丽的粉红谷物。研磨后可以获得珍贵的特殊粉末。",
+
+"elderberry-blossoms.name": "接骨木花",
+"elderberry-blossoms.description": "一簇接骨木果与花；可以做成好茶或是甜酒。",
+
+"mugwort.name": "北艾",
+"mugwort.description": "菊科家族的一员，女巫们为了其做梦与占卜的特性而培育它。",
+
+"violet-flax.name":"紫罗兰亚麻",
+"violet-flax.description":"美丽的堇紫谷物。研磨后可以获得珍贵的特殊粉末。",
+
+"star-anise.name": "八角",
+"star-anise.description": "虽然是许多传统厨房中的常见香草，不过八角还有许多魔法特性，可以引发预知幻视。",
+
+"thistle.name": "蓟",
+"thistle.description": "普通的开花植物，常被人们视为杂草，不过因疗愈灵魂的特性备受女巫们喜爱。",
+
+"valerian.name": "欧缅草",
+"valerian.description": "常被制作成助眠茶的香草，也可以用来驱除闪电及洪水。",
+
+"yarrow.name":"洋蓍草",
+"yarrow.description":"又被称为锯齿草，已经被睿智的女巫与采集者们用来舒缓胃痉挛好几个世纪了。",
+
+//FEATHERS
+
+"bluebird-feather.name": "山蓝知更鸟羽毛",
+"bluebird-feather.description": "当地山蓝知更鸟的明亮蔚蓝羽毛。",
+
+"crow-feather.name": "乌鸦羽毛",
+"crow-feather.description": "这羽毛黑如夜空。",
+
+"lovebird-feather.name": "相思鸟羽毛",
+"lovebird-feather.description": "相思鸟的缤纷羽毛。",
+
+"owl-feather.name": "雪猫头鹰羽毛",
+"owl-feather.description": "大型雪地谷仓猫头鹰的壮丽纯白羽毛。",
+
+"phoenix-feather.name": "凤凰羽毛",
+"phoenix-feather.description": "来自凤凰，令人叹为观止的绯红羽毛，可能是在变身时掉下的。",
+
+"raven-feather.name": "渡鸦羽毛",
+"raven-feather.description": "渡鸦深紫黑色的羽毛，对炼金术师或是树林女巫而言是很棒的发现。",
+
+"rosefinch-feather.name": "朱雀羽毛",
+"rosefinch-feather.description": "朱雀的亮粉羽毛。",
+
+"starling-feather.name": "白腹紫椋鸟羽毛",
+"starling-feather.description": "白腹紫椋鸟几乎和铱矿拥有相同的颜色，它们的羽毛因此在采集者眼中价值连城。",
+
+//FORAGE
+
+"autumn-leaf.name": "秋叶",
+"autumn-leaf.description": "秋天第一片落叶，有用的魔法原料。",
+
+"fire-scale.name": "炽炎龙鳞",
+"fire-scale.description": "神话火龙掉落的闪烁鳞片。",
+
+"hidden-clover.name": "四叶幸运草",
+"hidden-clover.description": "稀有的四叶草。",
+
+"honeycomb.name": "蜂巢",
+"honeycomb.description": "遗弃蜂窝的残骸。",
+
+"mandrake-root.name": "曼德拉草",
+"mandrake-root.description": "奇怪的根茎，看起来像有知觉一样？传说中它在被从地底拉出时会尖叫，所以聪明的女巫们在采集时会戴耳塞。",
+
+"ocean-scale.name": "迷雾龙麟",
+"ocean-scale.description": "神话海龙掉落的闪烁鳞片。",
+
+"sea-bubble.name": "海洋气泡",
+"sea-bubble.description": "藏在沙滩上，稀有的蛋白色宝石。",
+
+"shooting-star.name": "流星",
+"shooting-star.description": "一颗坠落的星星！这对采集的女巫或巫师而言是稀有且光荣的发现。",
+
+"spiderweb.name": "蜘蛛网",
+"spiderweb.description": "普通的蜘蛛网。",
+
+"unicorn-horn.name": "独角兽的角",
+"unicorn-horn.description": "从年轻独角兽身上脱落的角；对任何女巫或巫师而言都是稀有且珍贵的发现。",
+
+"vine.name": "结实藤蔓",
+"vine.description": "在聪明的女巫或巫师手中有多种用途的热带藤蔓。",
+
+"witch-wood.name": "巫木",
+"witch-wood.description": "在森林最深处采集的木头，被正确的女巫使用时将充满神话魔力。",
+
+//TREE SAPLINGS
+
+"ambrosia-sapling.name": "圣芳苹果树苗",
+"ambrosia-sapling.description": "28天后成熟为圣芳苹果树。秋天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"apricot-sapling.name": "月金杏子树苗",
+"apricot-sapling.description": "28天后成熟为月金杏子树。春天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"banana-sapling.name": "拇指芭蕉树苗",
+"banana-sapling.description": "28天后成熟为拇指芭蕉树。夏天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"bloodorange-sapling.name": "血橙树苗",
+"bloodorange-sapling.description": "28天后成熟为血橙树。夏天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"chiffon-sapling.name": "蓝雪纺棚组",
+"chiffon-sapling.description": "28天后成熟为蓝雪纺棚架。秋天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+"daisy-sapling.name": "白晶菊棚组",
+"daisy-sapling.description": "28天后成熟为白晶菊棚架。春天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+"dawnlily-sapling.name": "晨曦百合棚组",
+"dawnlily-sapling.description": "28天后成熟为晨曦百合棚架。夏天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+"dusklily-sapling.name": "薄暮百合棚组",
+"dusklily-sapling.description": "28天后成熟为薄暮百合棚架。夏天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+"elderberry-sapling.name": "接骨木树苗",
+"elderberry-sapling.description": "28天后成熟为接骨木树。夏天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+"geranium-sapling.name": "天使天竺葵棚组",
+"geranium-sapling.description": "28天后成熟为天使天竺葵棚架。秋天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+"milk-and-honey-sapling.name": "牛奶糖蜜树苗",
+"milk-and-honey-sapling.description": "28天后成熟为牛奶糖蜜树。冬天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+"moonlight-blues-sapling.name": "月光蓝调树苗",
+"moonlight-blues-sapling.description": "28天后成熟为月光蓝调树。冬天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+"pomegranate-sapling.name": "永甜石榴树苗",
+"pomegranate-sapling.description": "28天后成熟为永甜石榴树。秋天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"quartz-sapling.name": "粉晶樱草棚组",
+"quartz-sapling.description": "28天后成熟为粉晶樱草棚架。秋天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+"secret-poppy-sapling.name": "秘密罂粟树苗",
+"secret-poppy-sapling.description": "28天后成熟为秘密罂粟树。夏天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+"snowpeach-sapling.name": "雪中美人白桃树苗",
+"snowpeach-sapling.description": "28天后成熟为雪中美人白桃树。夏天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"sourcherry-sapling.name": "陨星酸樱桃树苗",
+"sourcherry-sapling.description": "28天后成熟为陨星酸樱桃树。春天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"star-anise-sapling.name": "八角树苗",
+"star-anise-sapling.description": "28天后成熟为八角树。春天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"sunsetmango-sapling.name": "余晖芒果树苗",
+"sunsetmango-sapling.description": "28天后成熟为余晖芒果树。夏天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"twinblooms-sapling.name": "双生花树苗",
+"twinblooms-sapling.description": "28天后成熟为双生花树。秋天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+"violet-sapling.name": "草甸紫罗兰棚组",
+"violet-sapling.description": "28天后成熟为草甸紫罗兰棚架。春天开花。只有在邻近的 8 块土地为空时才会成长。",
+
+//MUSHROOM TREES
+
+"amanitatrio-sapling.name":"毒蝇草三菇组树苗",
+"amanitatrio-sapling.description":"一株魔法树苗，28天后成熟为巨型蘑菇树。夏天采收。只有在邻近的 8 块土地为空时才会成长。",
+
+"coralcone-sapling.name":"珊瑚角树苗",
+"coralcone-sapling.description":"一株魔法树苗，28天后成熟为巨型蘑菇树。夏天采收。只有在邻近的 8 块土地为空时才会成长。",
+
+"dawnstrumpet-sapling.name":"晨曦杏鲍菇树苗",
+"dawnstrumpet-sapling.description":"一株魔法树苗，28天后成熟为巨型蘑菇树。春天采收。只有在邻近的 8 块土地为空时才会成长。",
+
+"duskcap-sapling.name":"薄暮鹅膏菌树苗",
+"duskcap-sapling.description":"一株魔法树苗，28天后成熟为巨型蘑菇树。秋天采收。只有在邻近的 8 块土地为空时才会成长。",
+
+"amanita-sapling.name":"巨型毒蝇伞树苗",
+"amanita-sapling.description":"一株魔法树苗，28天后成熟为巨型蘑菇树。秋天采收。只有在邻近的 8 块土地为空时才会成长。",
+
+"goldmushroom-sapling.name":"黄金光环树苗",
+"goldmushroom-sapling.description":"一株魔法树苗，28天后成熟为巨型蘑菇树。春天采收。只有在邻近的 8 块土地为空时才会成长。",
+
+"tealumbrella-sapling.name":"风暴雨伞菇树苗",
+"tealumbrella-sapling.description":"一株魔法树苗，28天后成熟为巨型蘑菇树。冬天采收。只有在邻近的 8 块土地为空时才会成长。",
+
+"faeriehelmets-sapling.name":"小鬼伞树苗",
+"faeriehelmets-sapling.description":"一株魔法树苗，28天后成熟为巨型蘑菇树。冬天采收。只有在邻近的 8 块土地为空时才会成长。",
+
+"whiteumbrella-sapling.name":"白色雨伞菇树苗",
+"whiteumbrella-sapling.description":"一株魔法树苗，28天后成熟为巨型蘑菇树。秋天采收。只有在邻近的 8 块土地为空时才会成长。",
+
+"slimecap-sapling.name":"潮红松树伞树苗",
+"slimecap-sapling.description":"一株魔法树苗，28天后成熟为巨型蘑菇树。秋天采收。只有在邻近的 8 块土地为空时才会成长。",
+
+//FLOWER SEEDS
+
+"arcticfox-seeds.name": "北极狐种子",
+"arcticfox-seeds.description": "夏天种植，10天成熟，之后每5天收获一次。",
+
+"avalune-seeds.name": "羽扇豆种子",
+"avalune-seeds.description": "春天或夏天种植，14天成熟，之后每3天收获一次。",
+
+"bell-seeds.name":"盛夏铃铛种子",
+"bell-seeds.description":"夏天种植，10天成熟，之后每5天收获一次。",
+
+"buttercup-seeds.name": "草甸毛茛种子",
+"buttercup-seeds.description": "春天种植，7天成熟，之后每5天收获一次。",
+
+"faerie-puffball-seeds.name": "妖精蒲公英种子",
+"faerie-puffball-seeds.description": "春天种植，14天成熟为妖精蒲公英，之后每3天收获一次。",
+
+"geranium-seeds.name": "天使天竺葵种子",
+"geranium-seeds.description": "春天或夏天种植，7天成熟为丛生天竺葵，之后每5天收获一次。",
+
+"meadow-violet-seeds.name": "草甸紫罗兰种子",
+"meadow-violet-seeds.description": "春天种植，14天成熟为草甸紫罗兰藤蔓，之后每3天收获一次。",
+
+"moon-maiden-seeds.name": "月下美人种子",
+"moon-maiden-seeds.description": "春天种植，7天成熟，之后每5天收获一次。",
+
+"pixies-breath-seeds.name": "满天精灵种子",
+"pixies-breath-seeds.description": "秋天种植，14天成熟为满天精灵，之后每3天收获一次。",
+
+
+//FRUIT SEEDS
+
+"amber-moondrop-seeds.name": "琥珀月泪棚架",
+"amber-moondrop-seeds.description": "春天和夏天种植。13天成熟，之后每四天收获一次。",
+
+"lapis-moondrop-seeds.name": "琉璃月泪棚架",
+"lapis-moondrop-seeds.description": "夏天和秋天种植。13天成熟，之后每四天收获一次。",
+
+"jade-moondrop-seeds.name": "翡翠月泪棚架",
+"jade-moondrop-seeds.description": "夏天和秋天种植。13天成熟，之后每四天收获一次。",
+
+"pearl-moondrop-seeds.name": "珍珠月泪棚架",
+"pearl-moondrop-seeds.description": "夏天和秋天种植。13天成熟，之后每四天收获一次。",
+
+//HERB SEEDS
+
+"rose-flax-seeds.name": "玫瑰亚麻种子",
+"rose-flax-seeds.description": "秋天种植。4天成熟。用镰刀收获。",
+
+"mugwort-seeds.name": "北艾种子",
+"mugwort-seeds.description": "秋天种植，12天成熟为北艾，之后每4天收获一次。",
+
+"violet-flax-seeds.name": "紫罗兰亚麻种子",
+"violet-flax-seeds.description": "秋天种植。4天成熟。用镰刀收获。",
+
+"thistle-seeds.name": "蓟种子",
+"thistle-seeds.description": "秋天种植，12天成熟为蓟，之后每4天收获一次。",
+
+"valerian-seeds.name": "欧缅草种子",
+"valerian-seeds.description": "夏天种植，10天成熟为欧缅草，之后每5天收获一次。",
+
+"yarrow-seeds.name": "洋蓍草种子",
+"yarrow-seeds.description": "夏天种植，10天成熟为洋蓍草，之后每5天收获一次。"	
+}

@@ -1,0 +1,10 @@
+{
+    "Name": "wf moongold apricot tree",
+    "Product": "wf moongold apricot",
+    "SaplingTranslationKey":"apricot-sapling",
+    "SaplingName": "wf moongold apricot sapling",
+    "SaplingDescription": "...",
+    "Season": "spring",
+    "SaplingPurchasePrice": 6000,
+	"SaplingPurchaseFrom": "Dwarf",
+}

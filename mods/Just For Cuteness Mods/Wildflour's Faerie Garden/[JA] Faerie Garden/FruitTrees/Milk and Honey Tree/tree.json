@@ -1,0 +1,10 @@
+{
+    "Name": "wf milk and honey tree",
+    "Product": "wf milk and honey",
+    "SaplingTranslationKey":"milk-and-honey-sapling",
+    "SaplingName": "wf milk and honey sapling",
+    "SaplingDescription": "...",
+    "Season": "fall",
+    "SaplingPurchasePrice": 6000,
+	"SaplingPurchaseFrom": "Pierre",
+}

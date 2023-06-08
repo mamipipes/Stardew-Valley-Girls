@@ -1,0 +1,10 @@
+{
+    "Name": "wf geranium tree",
+    "Product": "wf angel geranium",
+    "SaplingTranslationKey":"geranium-sapling",
+    "SaplingName": "wf geranium sapling",
+    "SaplingDescription": "...",
+    "Season": "fall",
+    "SaplingPurchasePrice": 6000,
+	"SaplingPurchaseFrom": "Dwarf",
+}

@@ -1,0 +1,742 @@
+﻿{
+"Format": "1.4",
+"Changes": [
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Shane",
+"entries": {
+    "Introduction":  "So you're the new farmer, huh? I'm Shane.$6#%You catch him cheking you out as you leave.#...not half bad.$l",
+    "danceRejection":   "Not gonna lie, I didn't think you'd ask me so I'm not prepared.$l#How about next year instead?$h",
+    "divorced": "%Shane is staring at you with an intensity that makes you sick to your stomach.#What’s the matter, @?$h#You scared?$a#I would never hurt my angel, but anywho who talks to them is *free game*.$3",  
+    "dumped_Guys":   "What?$a#You’re breaking up with me?$s#Who is it? Who's stealing you from me?$a#Don’t play dumb with me, @. Who. The. Fuck. Is. It?$a",
+    "secondChance_Guys": "You made the right choice, sunshine. I would have hated having to hurt someone because of your bad decisions.$h",
+
+    "Mon":  "What?$k#Are you actually trying to talk to me?$l",
+    "Mon2": "Oh, hey, @.#Is this going to be a regular thing?$a#Just don't wanna get my hopes up is all...$l",
+    "Mon4": "Remember to take care of yourself, alright?#Who would I talk to if you got sick?$1",
+    "Mon6": "If anybody's giving you shit, let me know.$a#The people in this town can be real fucking judgemental when they want to be.$3",
+    "Mon8": "Yoba, you're so sexy.$l#Wanna wear some of my clothes and let me take some private pics of you? I promise I'll take good care of them.$l",
+    "Mon10": "Why don't you come to the woods with me tonight and we can have a little party?$l#I'll bring some of my *special* sparkling cider with me.#What makes it special?$h#That's for me to know and you to find out.$h",
+
+    "Tue":           "You're persistent aren't you?$a#Do you feel bad for me or something?",
+    "Tue2":           "So, do you talk to everyone else like this?$3#Or is it just me?$l",
+    "Tue4":           "There's something about you, @... Something I can't put my finger on.$h#Whatever it is, I like it.",
+    "Tue6":           "You used to drive me absolutely fucking nuts when you were first talking to me.$6#I don't feel like that anymore, now *I* want to talk to *you* everyday!$1",
+    "Tue8":           "If any of the other guys try to get with you, send'em my way.$a#I'll handle it.",
+    "Tue10":          "%You thought you saw a picture of you on Shane's phone but he put it away before you could get a good look.#Hey, sunshine!$h#How's my angel doing today?$l",
+
+    "Wed":           "*Sigh*.$3#Hello @.#%For a moment you think you see the ghost of a smile on his lips, but it's gone before you can confirm.",
+    "Wed2":           "You know, the more I see you the less annoying you are.#Was this your plan all along?$2",
+    "Wed4":           "You know, you're always really nice to me, @.$l#It feels... Nice.$h#Thanks.$6",
+    "Wed6":           "Wanna have a drink with me?$l#I'll walk you home and take care of you if you get drunk.$6",
+    "Wed8":           "Sunshine, are you talking with other guys?$a#I know you wouldn't be that cruel... You wouldn't give someone else the same attention you give me, right?$l#You're mine.$3#And I don't share well.$2",
+    "Wed10":          "Sometimes I think you really are an angel, @. You're so nice...$6#I won't let someone take advantage of that.$a#You're *my* angel, no one else's. I'll keep those fucks from even *thinking* about you.$2",
+
+    "Thu":           "What is it about me that's making you so chatty?#Seriously, I wanna know.$6",
+    "Thu2":           "You just don't give up do you, @?#I don't mind, I guess, but I just wanna know what's bringing you back...$l",
+    "Thu4":           "If you ever need some help with fixing shit around your house, let me know.#I'm used to helping Marnie out around the ranch, wouldn't mind helping you out too.",
+    "Thu6":           "You know you can trust me right?$s#I don't know if anyone's said anything about me, but just know they're wrong, okay?$a",
+    "Thu8":           "I had a hot dream about you last night.$l#Wanna head back to your place and act it out?$l",
+    "Thu10":          "I want you so bad, @.$l#I'm getting kinda impatient waiting for you to come around.$a#I don't mind the chase but I think we've had enough, don't you?$a#What's that look for? I won't wait forever, @.",
+
+    "Fri":            "How can I help you *today*, @?$3",
+    "Fri2":           "I'm still waiting for you to tell me this has all been a big fucked up joke, but if it was why would you let it go on this long?$l#Do you actually like hanging around me, @?$e",
+    "Fri4":           "What's up, doll? Were you looking for me?#Need something? Or did you just want to talk again?",
+    "Fri6":           "There you are, angel! I was looking for you!$l#Why don't we hang out at the Saloon tonight? I'll buy you a drink!$h",
+    "Fri8":           "%Shane seems to be in his own little world as he fidgets with his pocket knife. He's quietly chanting something.#All for my angel.$l#All for my angel.$6#All for my angel.$a",
+    "Fri10":          "I would give anything for you to say you love me, @.$l#What do I need to do to hear it?$6#Kill someone?$6#Get rid of the entire nosey town?$1#Or do I need to lock you up somewhere only I can find?$l#I will do *anything* for you, @. Anything.$l",
+
+    "Sat":            "If you're trying to prank me or something just tell me..$a",
+    "Sat2":           "%Shane's eyes light up for a moment when he sees you, but it's replaced with his usual frown before you can say anything.#What's that look for, @?#What? Why are you staring at me?$6",
+    "Sat4":           "I'm used to taking care of animals but I couldn't imagine having to take care of crops on top of that.$h#Honestly, it's kinda admirable, @. You're such a hard worker.$6",
+    "Sat6":           "Marnie said we look cute together.$l#Can you believe that?$6#%Shane mutters something under his breath afterwards but you can't make it out.#*...makes my plans a hell of a lot easier*.$l",
+    "Sat8":           "Jas asked when we're getting married!$1#What day should I tell her?$l#Come on, don't look at me like that. It would just be us playing pretend for Jas...$2",
+    "Sat10":          "Yoba, @, you have no idea how much you've helped me do you?$l#Angel, you saved my life! I would have been dead by now if you hadn't been so nice to me.$6#No matter where you go or what you do I'll always be there making sure *my* angel is safe.$6",
+
+    "Sun":            "Do you actually like talking to me, @?$e",
+    "Sun2":           "Hello, @.$3#Wait, did my hangover just go away?!$e",
+    "Sun4":           "If you ever want tips on taking care of chickens, come find me. We can stop by your coop and I'll help you make it perfect for your birds!$h",
+    "Sun6":           "@! There you are!$1#Ditch work and come hang out with me instead.$6",
+    "Sun8":           "Hey there, angel.$l#Want to have some fun? We can do it here, or your place, or the center of town where everyone can see that you're *mine*, or-$1#Or wherever, I'm not picky!$6",
+    "Sun10":          "%Shane looks absolutely feral as he watches you. It's a little scary.#Hi sunshine, why don't you stay with me awhile?$l#I wasn't asking, @.$a",
+
+    "summer_Mon":      "How are you so chipper when it's *this* hot?$2",
+    "summer_Mon2":    "Yoba, I hate Summer so much.$a#It's only good for growing hot peppers and getting margaritas honestly.#I guess it's not so bad with you here, though.$l",
+    "summer_Mon4":    "Hey, this might sound weird but, if you ever get lonely feel free to come find me.$6#I'll most likely be at work but I don't mind going on break to talk for a little bit.$h",
+    "summer_Mon6":    "I keep having these weird dreams about you..$l#Haha, don't look so creeped out! You just happen to be one of the only people I talk to regularly!$1",
+    "summer_Mon8":    "Have I ever told you how great your ass looks?$6#No?$e#Well, it's true, @. You're so fucking hot.$6",
+    "summer_Mon10":    "%You can smell a familiar fragrance coming from Shane. It smells like your perfume that went missing awhile ago. *He* stole it...? His predatory smile makes you realize he knows you know.",
+
+    "summer_Tue":     "I'm not in the mood to talk, @. I didn't sleep well last night.$a",
+    "summer_Tue2":    "Hey, you're sweating.$6#What? I just thought I'd let you know!$1",
+    "summer_Tue4":    "Hey if you have any peppers growing on your farm would you mind bringing me some? I uh, really like spicy food.$l",
+    "summer_Tue6":    "That Sebastian kid is fucking weird.$2#I've caught him talking to himself more than once and I'm pretty sure he said your name.$2#Little pipsqueak tried to get in my face about spending so much time with you but he backed down after-$6#Actually, don't worry about that part. I said some stuff I know you wouldn't like.",
+    "summer_Tue8":    "I really want Jas to have another parent in her life, @.$s#I'm her godfather, I try my best to take care of her with Marnie's help, but I think another *parent* would be good for her.#What do you think? Want to give it a try?$l",
+    "summer_Tue10":   "Do you want kids, @? I didn't used to but now...$h#I think two is a good number.. Maybe one boy and one girl?$l#I like the idea of seeing you playing with *our* babies...$l",
+
+    "summer_Wed":      "@, I need you to go.$3#I'm busy, alright?$2",
+    "summer_Wed2":    "A cold beer sounds *fantastic* right now.#I wish I could skip work and just go to the Saloon, it's too fucking hot.$3",
+    "summer_Wed4":    "Sorry I've been kind of an asshole to you before, @. I'm not used to people talking to me.$l#I'll buy you a drink sometime to make up for it.$1",
+    "summer_Wed6":    "Do you go to the mines often, @?$3#You're being safe right?$s#Hey, you're one of my only friends, of course I'm going to be worried about something happening to you.$l",
+    "summer_Wed8":     "We should go skinny dipping together in the lake sometime.$l#Maybe we can mess around and have a little fun while we're at it. I'd love to make you scream my name.$6",
+    "summer_Wed10":   "You're mine, @.$a#When are you going to realize that? I'm getting tired of waiting.$2",
+
+    "summer_Thu":     "Hey.#What?$a#What do you want, @?!$a",
+    "summer_Thu2":    "I can't wait until Summer is over.$3#I'm so tired of this heat.$a",
+    "summer_Thu4":    "It's really hard for me to warm up to people after being burned so many times.#Thanks for sticking around, @. It's nice getting to talk to someone who gets it.$l",
+    "summer_Thu6":    "So, you met Alex yet?#You're not missing much if you haven't, he's not the brightest.$a#He is a fucking nucience though. Sometimes I wonder if the 'dumb jock' thing is actually just an act.$2#Wouldn't be surprised with how many death glares he gives me when he sees us together.$2",
+    "summer_Thu8":    "You're fucking irresistible, sunshine.$l#Yoba, the things I want to do to you...$l",
+    "summer_Thu10":   "Come here.$6#*Kiss*.$l#I've been wanting to do that for so long...$l",
+
+    "summer_Fri":     "@, seriously, find a hobby that doesn't involve bugging me.$a#Please.$s",
+    "summer_Fri2":    "I'm going to keep trying the 'Old Yeller' approach until it finally clicks for you.$2",
+    "summer_Fri4":    "Do you like staying in the Valley?$h#I don't mind it all that much anymore, I used to hate it though.$h#Guess I found something to change my mind..$l",
+    "summer_Fri6":    "Why don't you stop by the Saloon tonight so I can buy you a drink?$6#I'll even get you something top shelf!$1",
+    "summer_Fri8":    "You know they aren't your friends right? They're eyeing you like a piece of meat.$2#This town is full of monsters, @... And I'm not talking about the ones in the mines.$3#I will always make sure you're safe, but I can't say the same for the rest of them.$2",
+    "summer_Fri10":   "I'm so tempted to slip something into your drink at the Saloon and just take you home with me.$6#No one would know, I'd keep you hidden on the ranch until you realized how much I love you.$l#Then we could get married and take care of your farm together.$l",
+
+    "summer_Sat":     "It is too fucking hot outside to talk, @.",
+    "summer_Sat2":    "Don't you have anything better to do? Like take care of your farm?#I'm busy right now.",
+    "summer_Sat4":    "You ever get lonely on your farm, @? I know you're out there all alone.#If you ever want someone to come hang out, I'm your man!$1#I'll bring some beers and a bad movie and we can make a night of it.$6",
+    "summer_Sat6":    "Elliott weirds me out.$2#He lives all by himself on the beach, constantly talks about you, and I swear I've seen him hovering around the path to your farm like he's *waiting* for you.$3#Not to mention his fucking attitude. Like, yeah we get it, you're a writer.. Feels like he thinks Yoba sent him down to The Valley to 'educate' us.$2#He's been trying real hard to convince me that Emily is a 'much better match' for me but I know he's only doing it because I'm talking to you.$3",
+    "summer_Sat8":    "Have I ever told you why I call you angel?$6#It's because you *saved* me, @. I don't want to think about what I would be doing right now if you hadn't tried so hard for me..$l#I practically *worship* you, @.$l",
+    "summer_Sat10":    "You should really close your windows at night, @. What if someone else has seen how vulnerable you were?$2#I closed them for you and locked them so no one could get in, so, you're welcome.$6",
+
+    "summer_Sun":     "@, seriously?$2#What could you possibly want from me?$3",
+    "summer_Sun2":    "Finally it's my day off..$6#Uh, you wanna hang out or..?#Sorry, I'm not really good at this.$2",
+    "summer_Sun4":    "I'm not doing shit today.$6#Well, I might do something *later* but right now I'm gonna be lazy.$6#Huh? What am I doing later? Don't worry about it, @.$l",
+    "summer_Sun6":    "Hey @, what's up?$6#You wanna watch a movie or something? I can make us a frozen pizza.$6#We can sit on my bed and chill for a while, how's that sound?$1",
+    "summer_Sun8":    "How do you do so many things *alone*, angel? Don't you know how dangerous that is?$e#I watched you fish for hours the other day and you never noticed. What if it hadn't been me?$2#You gotta be more careful, sunshine.$s",
+    "summer_Sun10":   "I watched you last night, @. I wanted to help you so bad, but I stopped myself.$l#See how much self control I have? You sounded so pretty and you looked so good but I didn't come in.$6#I watched you, obviously. Couldn't turn down a free show like that.$6",
+
+    "fall_Mon2":      "Are you not tired of me being an asshole to you?$2#You're a weird one, @.$6",
+    "fall_Mon4":      "Your toothbrush went missing? That's weird.$3#Maybe you threw it away by accident?$6#Wouldn't put it past you with how tired you are after your farm work.$1",
+    "fall_Mon6":      "Yoba, Sam is such a fucking brat.$2#Seems like his parents never told him 'no' so now he thinks he can do whatever he fucking wants.$2#If that little fucker tries to threaten me one more time...$3#Don't worry about it, @. I can handle it.$6",
+    "fall_Mon8":      "The more you talk to me the harder I fall for you, angel.$l#You're such a genuinely good person.$l",
+    "fall_Mon10":     "%A flash of light startles you for a second, spots dancing in your vision. Shane is putting his phone away after you finish rubbing your eyes.#Are you okay, @?$6",
+
+    "fall_Tue2":      "Seems like every time I turn a corner, there you are.$2#What, @?$5",
+    "fall_Tue4":      "%Shane was staring at you pretty intensely but it seems like he's stopped for now.#Hey @, what's up?$6",
+    "fall_Tue6":      "Do you go fishing by yourself a lot, sunshine?$s#I'll just come keep you company next time then.$6",
+    "fall_Tue8":      "You think someone dug through your trash?$e#That's wild, @! Are you sure it wasn't raccoons?$1#%Shane looks almost proud as you tell him your garbage had definitely been sifted through by a *person*. It makes you uncomfortable.",
+     "fall_Tue10": "Do you think I'm too much, @?$s#I know I'm a little clingy but it's only because I love you so much.#That and I don't want you to thinking about anyone but me.$6",
+
+    "fall_Wed2":      "What're you staring at? Do I have something on my face?",
+    "fall_Wed4":      "Are you seeing anybody, @?$2#I'm just curious, you are my friend after all. Aren't you supposed to want to learn more about your friends?$3",
+    "fall_Wed6":      "Does Haley get on your nerves as much as she gets on mine?$6#Something about that princess attitude rubs me the wrong way. Not to mention her not so secret hobby of taking candids of people in town.$3#It feels weird, you know? Like, what, does she have a secret stash of photos somewhere?$2",
+    "fall_Wed8":      "Something else went missing? What was it this time?$6#Some of your clothes? Did they just get lost in the wash?$6#I'm sure you'll find them eventually!$1",
+    "fall_Wed10":     "You've got to start locking your door at night, sunshine! I walked right in while you were sleeping!$e#If I wasn't so *nice* I could have done anything I wanted to you.$2#Or was that your goal? If you leave your door unlocked again tonight I'll take you up on that invitation.$6",
+
+    "fall_Thu2":      "Fall is way better than Summer, by a long shot. I would rather have this nice, cooler weather instead of that awful heat we get.",
+    "fall_Thu4":      "I don't know why people think Emily and I should be a thing. It's weird.$2#I barely talk to her, I think the only time we've actually had a full conversation is at the Saloon.$3#I guess they see the sweet 'I'll fix you' girl an assume that she'd gravitate towards me since I'm a fuck-up? I don't know, it annoys the hell out of me.$2",
+    "fall_Thu6":      "Are you growing any fairy roses right now, @?$6#If you are would you mind giving some to Jas? They're her favorite flower!$1#Just make sure to tell her it's a gift from both of us, alright?$6",
+    "fall_Thu8":      "Want to put on another show for me, @? I loved your last one..$l#What? You were the one who left your curtains open.$6",
+    "fall_Thu10":     "You're so beautiful, sunshine.$l#Every time I see you I feel so much happier.$6#If you ever tried to leave me.. Well, let's just say the town would never see you again. Not until you learned how to behave.$5",
+
+    "fall_Fri2":       "@, you're cute and all, but bugging me so often is not doing you any favors.$6#If you want me to like you, just let it happen naturally.$6",
+    "fall_Fri4":       "Hey, @, wanna split a pizza with me after work? I'll buy!$1#You've been so nice to me, I wanna return the favor I guess.$6#You make me feel...weird. Not in a bad way, I almost feel *excited* when I see you now.$l",
+    "fall_Fri6":       "If someone told you something weird about me, you'd tell me, right?$s#I know I'm not well liked and I know that you *are*, so I'm a little worried people are going to lie to you so you'll stay away from me..$2",
+    "fall_Fri8":       "Why don't you keep me company at the Saloon tonight? You can sit in my lap and look pretty for me.$6#We can make the rest of the town jealous.$l",
+    "fall_Fri10":      "Let's just skip going to the Saloon tonight and go to your place instead.$l#I'll make you feel *amazing*, all you have to do is beg.$l",
+
+    "fall_Sat2":       "Oh, uh, hey @..$l#Sorry, I had weird dreams last night, I don't really want to talk right now.$l",
+    "fall_Sat4":       "Do you ever want to go back to Zuzu? I can't imagine that you want to stay in Pelican Town forever.$6#You better stay in touch if you leave. Or better yet, take me with you!$1",
+    "fall_Sat6":       "This must be a pretty busy time for you, huh, @?$6#If you ever need help around the farm, come find me. I'll ditch work and help you out.$6",
+    "fall_Sat8":       "Marnie hasn't been talking to you, has she?$2#She doesn't know what's she's talking about, @. She saw something but didn't let me explain and-$2#Promise me you won't believe her.$3#I need you to *promise*, @.$5",
+    "fall_Sat10":     "I never thought that I would want to get married, or have kids, or do any of that domestic shit, but after I met you I changed my mind.$l#I can't wait until you're finally mine, @.$l",
+
+    "fall_Sun2":       "I gotta start thinking about what I'm going to get Jas for Winter Star.#Got any ideas, @?$6",
+    "fall_Sun4":       "Do you leave your curtains open often, @?#Not that I was peeping or anything! I just noticed from the woods the other night and I got worried, that's all.$e#That doesn't sound much better, does it? Fuck, did I creep you out?$2",
+    "fall_Sun6":       "I've been keeping my eye on a few people in town and how they talk to you and I don't like it, @.$2#Why do you let them talk to you like that? Do you like the attention or something?$3",
+    "fall_Sun8":       "Do you love me the same way I love you, @?$l#Actually, don't tell me. I know you do. Why else would you still be talking to me?$l",
+    "fall_Sun10":      "I'm so lucky to have you, sunshine. You make me feel wanted, and loved, and attractive, and-$l#Let me show you how you make me feel. Please.$6",
+    
+    "winter_Mon4":     "Damn @, your nose is all red! How long have you been outside?$s#Get yourself a warm drink or something, I don't want you getting sick.",
+    "winter_Mon6":     "Hey sunshine! I already feel warmer now that you're here.$6#Want to spend some time with me?$6",
+    "winter_Mon8":     "Why don't I come with you to the mines sometime, sunshine?$6#I'll keep you safe and sound next to me while you grab whatever you need.$6",
+    "winter_Mon10":    "I might have bought some stuff that I thought you and I could have some fun with..$l#Want to go back to your place and try them out? I even got a leash so you can't get very far from me.$6",
+
+    "winter_Tue4":     "Are you cold, @? Want my jacket?#I'll let you keep it. I bet you'll look adorable in it.$6",
+    "winter_Tue6":     "Do you have any chapstick I could borrow, @?#Thanks.$l#%Shane doesn't make any mention of giving it back to you.",
+    "winter_Tue8":     "I love watching you take care of your animals, angel. You're so gentle with them.$l",
+    "winter_Tue10":    "I love how much attention you give me..$l#Don't stop, okay? I want to be all you ever think about.$6",
+
+    "winter_Wed4":     "Are you glad it's Winter, @? I know you don't have as much to do now that it's so cold.",
+    "winter_Wed6":     "You know you're really important to me, right?$l#I really, *really* like you, @. Thank you for everything, really.$l",
+    "winter_Wed8":     "I don't like sharing you, @.$2#Why don't you just stop hanging out with the rest of the town and only talk to me?$3#You'll never be lonely with me around.$l",
+    "winter_Wed10":    "Since it's Winter that means you can spend more time with me!$6#I know you don't have much to do, @, why don't you just spend the rest of your day with me?$l",
+
+    "winter_Thu4":     "The looks everyone else gives you makes me so fucking jealous.$2#I seriously hate how many people like you, @. You're addictive.$2",
+    "winter_Thu6":     "I've been having so many dreams about you lately.$l#I don't know why, but I'm not complaining.$6#Do you ever dream about me?$6",
+    "winter_Thu8":     "Hey sunshine, come here for a sec.$6#Gus is teaching me how to cook and I made these today.$l[215]#I figured I'd share with you.$6",
+    "winter_Thu10":    "Want to come with me to the bathhouse, @?$l#We can get warm and maybe have a little bit of fun, too.$6#What do you say?$6",
+
+    "winter_Fri4":     "Were you looking for me?$6#What's up, @? Need anything?$6",
+    "winter_Fri6":     "If you ever need anything, and I mean *anything*, don't hesitate to ask okay?$6#You can count on me, @.$6",
+    "winter_Fri8":     "%There's a picture of you on Shane's phone. It looks like he set it as his lock screen..#Hope you don't mind. I wanted to be able to see you even when you're not around.$l",
+    "winter_Fri10":    "Do you not notice how many people *adore* you, @?$2#You walk around and talk to so many people everyday and you never seem to notice how they worship the ground you walk on.$3#You're going to give them the wrong idea, @. They're going to fall in love with you.$2",
+
+    "winter_Sat4":     "Thank you for sticking around even after I was such a dick.$6#I do really appreciate it, @.$6",
+    "winter_Sat6":     "If you're planning on going fishing sometime soon, let me know!$1#You always look so lonely when you fish by yourself. I don't mind ditching whatever I'm doing to keep you company.$6",
+    "winter_Sat8":     "I could see your breath when you were working outside the other day.$l#It was so hot..$6#It made me want to make you breathe heavy in other ways.$l",
+    "winter_Sat10":    "I've never been a particularly *nice* guy, I know how to scare people off, but some of these fucks don't know how to keep their hands to themselves.$2#I'll kill anyone who touches you.$3#Honestly, I'm thinking about killing anyone who *looks* at you, too.$2",
+
+    "winter_Sun4":     "Oh hey! I was just thinking about you!$6#I'll make us something warm to drink if you want?$6#Your cheeks are all red!$1",
+    "winter_Sun6":     "You don't have anything else to do today right?#If you don't, why don't you just stay with me then?$6#I'd sure love the company.$l",
+    "winter_Sun8":     "There you are, angel!$1#Are you cold? Come here and let me warm you up then.$l#I'm just going to hold you, @! Damn your mind's in the gutter!$1",
+    "winter_Sun10":    "I bet you look adorable after a few rounds.$l#Hair messed up, eyes rolled back, tongue hanging out...$l#Can't wait to see it for myself.$6",
+
+
+    "spring_20":       "Hey, doll. Came to wish me a happy birthday?$h#Why don't you come to the lake with me tonight? We can have some fun and be as loud as we want, no one will hear us out there.$l",
+    "summer_4":        "Did you get a gift for Jas?$h#She really likes pink cakes and plum pudding, the little sugar fiend.$1#If you really want to make her happy though, give her a fairy rose.$6#They're super hard to find this time of year, I think it's the wrong season? I don't know, I don't do plants.$1",
+    "Mon10_2":         "I think one of my greatest accomplishments is knowing *everything* there is to know about you.$6#Why are you looking at me like that, @? I'm just putting in effort.$2",
+    "Tue10_2":         "I can respect that you want to take things slow, angel, but I'm getting a little impatient.$3#Don't you think we've waited long enough?$2#I don't want to do things *my* way, but I will. I'm not going to let someone else steal you from me.$5",
+    "Wed10_2":         "You're pretty close with some other people in town aren't you, @?$2#Are you planning on marrying one of them? Who?$2#I'll hurt them. I'll make them fucking disappear. You're *mine*, @.$5#No one is getting in my way.$5",
+    "Thu10_2":         "Clock's ticking, @.$5#You can either be mine willingly or I can use force and *make* you mine.$6#Wouldn't it be a shame if all your friends suddenly died?$e#Make a choice or I'll make it for you, @.$6",
+    "Fri10_2":         "What kind of wedding do you think we should have?$l#I'll go along with anything you want, even one of those poofy, fairytale weddings.$1#I wasn't joking yesterday when I said you have to make a choice, @.$5#If you won't then I guess I'm going to be up all night visiting your 'friends'.$5#*Sigh*, oh well, it's not like I haven't pulled an all nighter before.$2",
+    "spring_20_2":     "You're the only gift I want this year, @. Will you be mine?$l[460]#I want you so bad, I *need* you, @. I'll do anything to keep you.$l#I hope you realize that even if you try to give it back to me, I'll just tell everyone you proposed. If you keep it, I'll say *I* proposed.$6#No matter what you do, the town will think we're together. If you destroy it, well, I imagine everyone else will think you're heartless.$6#Wouldn't be a shame if the town you moved to for a fresh start turned on you because you cruelly rejected someone..$6",
+    "summer_4_2":       "I think Jas would like us getting married more than a normal gift, don't you?$6#We could even make her the flower girl!$1",
+    "summer_10_2":      "Don't drink any of the punch tomorrow, @.#There's going to be something 'special' in it.$6#You'll be mine, even if I have to poison the town to have you.$6",
+
+
+    "Sun8_inlaw_Elliott": "What made you choose that pretentious ass over me?#Did his cheesy, romantic bullshit really win you over or did he force you to marry him?$a#I know all about his stalking, his threats... He kept it hidden pretty well didn't he?$5",
+    "Wed8_inlaw_Elliott": "I found out that Elliott was sending you anonymous letters in the mail. Did you know they were from him?$a#$a#Apparently they were pretty graphic? Why didn't you tell me? I would have handled it no problem, angel.",
+
+    "Sun8_inlaw_Alex":    "The meathead? Really?$1#You know he's the reason a lot of us got dead animals in our mailboxes right?$2",
+    "Wed8_inlaw_Alex":    "I wonder if you know that Alex used to stalk you pretty regularly?#Fucker followed you around like a lost puppy and you never even noticed.$2",
+
+    "Sun8_inlaw_Sebastian": "I caught Sebastian on your property more than once.$a#I sent that fucker running every time but who knows how long he's been watching you..$a#Still want to stay with him after that?$3",
+    "Wed8_inlaw_Sebastian": "I can't believe you married that little creep.$a#Seems like the type of guy to steal you panties to jack off in later, you know? I don't know how you can stand him, @. He's weird.$2",
+
+    "Sun8_inlaw_Sam":      "Break up with Sam or he'll be dead by morning.$5#I won't let that little bastard put his hands on you.$5",
+    "Wed8_inlaw_Sam":      "The second Sam gets too rough with you, you run straight to the ranch.$5#I'll keep you safe from him, @.$6",
+
+    "Sun8_inlaw_Harvey":   "I'm not worried about you marrying Harvey, @. I know I can take him, he's a fucking coward!$1#After I get rid of him you and I can finally be together like we're supposed to be.$h",
+    "Wed8_inlaw_Harvey":   "I'm surprised you're not tired of Harvey's fawning...#Don't tell me you *like* when he worries over you...$3",
+
+    "Sun8_inlaw_Abigail":  "If you married her just to stop me, you're shit out of luck, @.$6#Nothing is going to stop me from getting my hands on you and once I do... Well let's just say you won't be leaving the farm ever again.$6",
+    "Wed8_inlaw_Abigail":  "Does Abigail still wander in the woods late at night?$2#Just wondering!$6#I'll see you later, @. I'm going to get some stuff ready for something I have planned tonight.$3",
+
+    "Sun8_inlaw_Emily":    "The hippie-dippie yoga girl? You're serious?$2#Oh well, guess I'll just have to take care of this myself.$5",
+    "Wed8_inlaw_Emily":    "%You see a flash of silver as Shane very quickly puts something in his pocket. He smiles at you in a way that makes a chill run down your spine.",
+
+    "Sun8_inlaw_Haley":    "I'll be right here when you get tired of Haley's bratty attitude. She can't stand to not be a princess for 5 minutes, so good luck.$a",
+    "Wed8_inlaw_Haley":    "Haley has a pretty big collection of pictures of you, @.$2#Oh, did you not know?1#Oops, my bad. Hope that doesn't sour your feelings for her or anything.$6",
+
+    "Sun8_inlaw_Leah":     "%Shane doesn't look like he's slept well in a few days#Hi, angel.$h#Huh? I'm fine, @, really. I've just been staying up for a... project I'm working on.$2#Thanks for worrying about me, though.$l",
+    "Wed8_inlaw_Leah":     "Should I kill Leah or just call her ex and tell them to come get her?$2#I'm giving you a choice here, @. If you don't want to then I'll have to and you won't like what I decide.$3",
+
+    "Sun8_inlaw_Maru":     "I don't think you understand, @, so I'll spell it out for you. I will never leave you alone.$l#You're mine. You've been mine since you decided to talk to me. I won't let someone else get in the way, break up with Maru or I'll get involved and make both of your lives a living hell until she leaves.$5",
+    "Wed8_inlaw_Maru":     "You should give this to Maru, @.$6[283]#She really loves these. I don't mind you taking credit and saying you found it for her, really!$6#%The smile on Shane's face is almost cruel. It scares you.",
+
+    "Sun8_inlaw_Penny":     "*Sigh*, I didn't want to have to hurt Penny but it seems like I have to now. Well, unless you decide to break things off with her.$2#It's up to you, angel.$h",
+    "Wed8_inlaw_Penny":     "Penny's days are number, keep that in mind. You can stop anything bad from happening if you leave her.$a#%The look in Shane's eyes fills you with a terrifying dread."
+    }
+},
+
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Shane",
+"Entries": {
+   "give_flowersA": "Angel? Do you mean it?$l#Oh sunshine, you've made me the happiest man in the Valley!$1",
+   "give_flowersB": "Oh, @, I'm so happy you've finally realized that we're meant to be together!$h#Remember that you're one hundred percent *mine* now. I'm never letting you go.$l",
+   "give_pendant": "@!$l#I can't believe it, it's finally happening after so long...!$l#Absolutely! I wouldn't have it any other way, angel!$1#Fuck, I still can't believe it!$1#Don't worry about all the bullshit that goes into the wedding, I'll take care of all of it, angel. Everything should be done in three days.$6#I can't wait until we're finally married and I can show you how much I love you over, and over, and *over* again...$l",
+ "stardrop_gift": "Yoba, @, I love you so much.$l#I want to be with you *forever*. My angel, my sunshine, my @.$l#I must sound super crazy right now but I can't help it, you saved me.$1#I got this for you to show you how much I appreciate everything you've done, and how much I adore you.$1#Thank you, angel, for being mine.$l",
+    }
+},
+
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/MarriageDialogueShane",
+"entries": {
+    "Rainy_Day_0": "Since it's raining why don't we go cuddle in bed for awhile?$6#I can't promise that I won't get excited and put my hands all over you though.$1",
+    "Rainy_Day_1": "Heh.$6#You've still got some hickies from last night.$6#Yoba, I love being able to finally mark you.$l",
+    "Rainy_Day_2": "Hey sunshine, good morning!$1#I made you some breakfast.#7[201]#You're so adorable first thing in the morning. Come here and let me kiss you.$6#*Kiss* I love you so much, angel.$l",
+    "Rainy_Day_3": "Hey, you don't have to water any of the crops since it's raining!$1#Why don't we spend some time together today? We can watch a movie, if you want?$6#Or we could take a shower together?$l#Anything I do with you is enjoyable, so I won't mind whatever you choose.$l",
+    "Rainy_Day_4": "*Kiss* Good morning, sunshine.$l#I got carried away this morning and made you a fancy cup of coffee, I hope you don't mind.$6[253]#What's the plan this morning? Want me to help you take care of the animals?#2",
+
+    "Rainy_Night_0": "Let's get you out of those wet clothes and warm you up, angel.$l#I promise I'll make you feel really good.$6",
+    "Rainy_Night_1": "I love when I hear the door open, cause I know that means you're home.$1#Let's make some dinner and then maybe we can watch some bad reality TV, how does that sound?$6",
+    "Rainy_Night_2": "You're finally home!$1#I really missed you today, angel.$6#Come here, let me hold you.$l",
+    "Rainy_Night_3": "I've been craving you all day, @.$6#Why don't you take those wet clothes off and let me have a taste of what's underneath?$l#I bet you're delicious.$l",
+
+    "Indoor_Day_0": "You're so beautiful, @.$l#I want to spend everyday with you like this.$6",
+    "Indoor_Day_1": "%Shane grabs you and pulls you into his chest, quickly wrapping you in an embrace.#You're always so good for me, angel. You listen so well.$6#Should I give you a reward?$6",
+    "Indoor_Day_2": "I want to take you on every piece of furniture we own.$l#I want everything in this house to remind you of me.$6",
+    "Indoor_Day_3": "Here, angel, I made you some coffee.$1[395]#It's how you usually take it, I've known your preference for awhile!$1",
+    "Indoor_Day_4": "You were so good for me last night, @.$6#That collar and leash looked so cute around your neck, maybe I should make you wear it all the time.$l",
+    "Indoor_Day_5": "Hey, sunshine, how'd you sleep last night?#You were crying in your sleep, I had to hold you to get you to calm down.$s#Has someone been scaring you? Tell me a name and I'll fix it.$5",
+    "Indoor_Day_6": "You wouldn't let me get out of bed this morning!$1#It was so cute, you wrapped your arms around me and would whine anytime I tried to move.$6#I knew you felt the same way about me.$l",
+
+    "Indoor_Night_0": "Come here, angel. Let me give you a massage.$6#Actually, let's do this in the bedroom. Just in case either one of us gets *excited*.$l",
+    "Indoor_Night_1": "Want to try out those cuffs tonight?$6#I promise I'll be as gentle as you want me to be.$6#Or as rough as you want me to be.$l",
+    "Indoor_Night_2": "How was your day, sunshine? Do anything fun?$6#I already know the answer to that but I want to hear you talk about your day regardless.$l",
+    "Indoor_Night_3": "Huh, your hickies faded, that's no good.$6#Come here and let me give you more. I want everyone to know you're mine.$l",
+    "Indoor_Night_4": "I used to have the worst insomnia when I lived at Marnie's.$2#I would make myself sick thinking about a future where I ended up alone, where I amounted to nothing..$s#I sleep like a log next to you, though.$l",
+
+    "Outdoor_0":      "Take it easy today, alright? Yeah, you're a rough and tough farmer, but you shouldn't be working until you're so exhausted you can barely make it to bed.$3#Trust me, @, this is coming from someone who used to do that everyday..$3#Promise me that you'll take a break at least once? Please?",
+    "Outdoor_1":      "There's so much space out here!$e#Yoba, I wouldn't mind chasing you down until I caught you and-$6#Heh, maybe I won't tell you what I'll do once I catch you. Makes it more real that way.$l",
+    "Outdoor_2":      "Sometimes I want to take you in the dirt so all of the other people watching can see that you belong to *me*..$l#Of course there's other people watching, @. You should know by now that this town is full of people just like me.#If any of them ever try to show their face I'll drag them out and make an example of them.$5",
+    "Outdoor_3":      "We definitely need to keep up with the weeds and tall grass, angel.#I've caught a few people hiding in it before.$2#Creeps. Don't they understand that you're mine now? I'm tempted to set up traps to keep them from coming back.$5",
+
+    "funLeave_Shane":  "I'm going out for a bit, okay angel?$h#I promise I'll be home soon!$l",
+    "funReturn_Shane": "Sunshine! I'm back!$h#Did you miss me? I missed you...$l#I *really* missed you.$l#Yoba, come here @, let me show you just what I mean.$l",
+
+    "OneKid_0":        "I never thought that I would ever be dad material, but here we are!$1#I'm so lucky to have you and %kid1, @.$6",
+    "OneKid_1":        "Don't you think %kid1 needs a younger sibling?$h#We should get started on that soon.$l#I don't want our baby feeling lonely!$1",
+
+    "TwoKids_0":       "I'm trying not to swear around the kids as much but fuck, @, thank you for proving me wrong.$h#You showed me I *could* have a happy family, I just needed to work for it.$l",
+    "TwoKids_1":       "It's a little frustrating not being able to have alone time with you now that the kids are here, but I can't fault them for that. They need us.$h#Maybe Marnie would be willing to watch the kids so we could have a date night..? How does that sound?$6#They'd be able to play with Jas, too!$1",
+    "TwoKids_2":       "Hey, don't worry about %kid1 and %kid2 today, I got it.$h#I know you have work to do around the farm.",
+    "TwoKids_3":       "Never thought having kids would be so *hectic*!$e#%kid1 had a full meltdown about the color of their cup and %kid2 started crying because %kid1 was!$e#I'm not complaining! Little moments like that make me realize I really do enjoy being a father.$1",
+
+    "Good_0":          "I love waking up next to you in the morning and watching you sleep for a little while.$l#You're so cute! Did you know you talk in your sleep sometimes?$1#I try to respond as best as I can, but sometimes the stuff you say doesn't make much sense!$1",
+    "Good_1":          "...$l#Keep looking at me like that and I'm going to pin you and make you scream my name.$6",
+    "Good_2":          "I have a box of stuff that I took from you hidden at Marnie's.$6#If you want any of it back you have to bribe me for it.$1#I'll accept any form of physical affection, especially kisses.$6",
+    "Good_3":          "I just want to throw you over my shoulder and carry you to bed, @.$l#I mean, how could I not when you look so good?$6#Maybe I'll use some of those new toys on you.$l",
+    "Good_4":          "You're so fucking cute, come here.$1#*Kiss*$l#I love you so much, @. You're my personal ray sunshine!$6",
+    "Good_5":          "Yoba, I love you so fucking much, @. You're the best thing that ever happened to me.$l#I can't wait to spend the rest of my life with you.$6",
+
+    "Neutral_0":       "@, you're so precious to me.$l#If anyone tried to break us up I'd kill them. No one can come between us.$5#Oh, did I scare you? I'd never hurt you, angel. I love you.$l",
+    "Neutral_1":       "I still can't believe we're finally together..$6#I worked so hard for this moment.$6#Come here, @, let me kiss you.$l",
+    "Neutral_2":       "You alright, @? I'm getting a little worried about you..#Why don't we try to go on a date soon? We can go wherever you want, even the mines!$6",
+    "Neutral_3":       "I bought you a present, angel. I hope you like it, it was hard to find.$6[347]#Maybe we can plant it together and see what grows?$1",
+    "Neutral_4":       "Is everything alright, sunshine? You've been distant recently.$s#If you just need a little space, that's fine, but you gotta tell me.#I'm not a mind reader, angel.$6",
+    "Neutral_5":       "Hey, if you're having a hard time, I'm here for you.$6#I know better than anyone how isolating those thoughts are.#I'll give you some space if you need it, but I'll also stay right by your side. Just say the word, @, I'll do whatever I can for you.$6",
+
+    "Bad_0":           "I don't need you to tell me that I'm fucked up. I already know that.$a",
+    "Bad_1":           "Angel, are you afraid of me?$s#You know I would never hurt you, right?$s",
+    "Bad_2":           "Yoba, @, please just say something..$s#You screaming at me would be better than this *silence*.$s",
+    "Bad_3":           "If I wasn't so nice I might have done something *drastic* by now, @. I can only take so much before I lose my fucking mind.$a",
+    "Bad_4":           "Why are you ignoring me?!$5#Am I that repulsive to you?!$5#Or is there someone else?$5",
+    "Bad_5":           "All I want is you, @.$5#All I've ever wanted was you! I tried so hard to be the person you would want and this is how you repay me?!$5#Yoba, @, please just say something...$2",
+    "Bad_6":           "If you keep ignoring me like this I'm going to chain you up in the cellar and not let you out until you know how to behave.$5",
+    "Bad_7":           "I have nothing to say to you until you can get this attitude adjusted, @.$5#%Shane gives you an icy glare before looking away from you.",
+    "Bad_8":           "Fuck, @, just say something!$5#What changed? What did I do?! I can't take this anymore!$5",
+
+    "spring_1":        "Great.. It's Spring.$a#*Sigh*, sorry angel. I'm just not thrilled that Winter is over.#I got used to you not having as much to do... I'm tempted to just cuff you to the bed so you can't leave.$l",
+    "spring_12":       "The Egg Festival is tomorrow!$6#What? It's my favorite festival.$l#Stay where I can see you at all times and if you participate in the egg hunt just make sure you're giving Jas a chance, alright?$1",
+    "spring_19":       "I can't wait to spend my birthday with you tomorrow, @.$h#*Sigh*, I'm so lucky..$l",
+    "spring_20":       "Why don't we go to the bedroom to celebrate my birthday, angel?$l#I think your mouth would make a *great* present.$l",
+    "spring_23":       "I don't want to go to the Flower Dance tomorrow.$2#Don't look at me like that angel... There's too many people who would try to dance with you and I know that they won't be able to take their eyes off you and-$3#*If* we go, promise me you'll only dance with me. I don't know what I would do if you chose someone else..$2",
+
+    "summer_1":        "I did not miss this unbearable fucking heat..$a#Try not to work too hard on the farm, okay angel?$6",
+    "summer_8":        "Yoba, it's hot.$3#Hey sunshine, you wanna join me in a cold shower?$l#I can't guarantee that I'll keep my hands to myself if you do.$l",
+    "summer_10":       "Sunshine I wouldn't dream of poisoning the soup tomorrow!$1#Or the punch, or the other food either. I'll be on my best behavior, I promise.$l",
+
+    "fall_15":         "I know participating in the Fair is important for the farm, but I'm nervous about all the people that are going to be there, @.$s#I'm going to keep a close eye on you the entire time, just in case someone tries something.",
+    "fall_26":         "The Spirit's Eve maze is never that scary or fun to me, @, can we skip it this year?#We can stay home and watch some scary movies together... You can bury your face in my chest if you get scared, okay?$l#Or I can dress up like one of those slashers and chase you through the woods? I wouldn't mind that, especially if I get to play with you once I catch you.$l",
+
+    "winter_1":        "Now that Winter's here that means you can spend more time at home.$h#I'll help take care of the animals, angel, that way we can spend even more time together.$l#It'll be great.$h"
+    }
+},
+
+
+ {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {
+          "Language": "en",
+          "Hearts:Shane": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+          },
+        "Entries": {
+           "Shane": "Hey @, do you want to know where most of the eggs are? Since Marnie and I supply the eggs for the hunt, Lewis lets us hide some of them.$h#I already told Jas where to look, I want her to have fun today.$h"
+    }
+},
+    
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {
+          "Language": "en",
+          "Relationship:Shane": "Dating"
+          },
+        "Entries": {
+           "Shane": "I'm thinking about sabotaging everyone else besides you and Jas, what do you think?$h#I mean, I want my two favorite people to have fun but I don't want anyone else to ruin it.$l#Ugh, fine I won't.$2"
+    }
+},
+
+     {
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring13",
+          "When": {
+            "Language": "en",
+            "Relationship:Shane": "Married"
+            },
+          "Entries": {
+             "Shane": "Are you going to do the egg hunt *again*, @?$l#You're adorable. Alright, since this is my favorite festival go ahead and have fun. I don't mind sticking around a little longer for this one.$6"
+    }
+},
+    
+   
+
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {
+          "Language": "en",
+          "Hearts:Shane": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+          },
+        "Entries": {
+           "Shane": "Everybody else is practically foaming at the mouth to dance with you, it'd be funny if it weren't so pathetic.$6#I can't really blame them though, you do look pretty hot.$6"
+    }
+},
+    
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {
+          "Language": "en",
+          "Relationship:Shane": "Dating"
+          },
+        "Entries": {
+           "Shane": "You look beautiful, sunshine. I can't wait to dance with you.$l#That way all these fucks will finally get that you're *mine*.$6"
+    }
+},
+
+{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {
+          "Language": "en",
+          "Relationship:Shane": "Married"
+          },
+        "Entries": {
+           "Shane": "We can wear fancy clothes and dance together on the farm, angel.. So why don't we go home?$2#I don't want the whole town seeing you all dressed up like this. Some of them might get ideas...$3"
+    }
+},
+    
+
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {
+          "Language": "en",
+          "Hearts:Shane": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+          },
+        "Entries": {
+           "Shane": "%Shane watches Sam and Sebastian with a condescending smirk on his face. He snickers and shakes his head.#Fucking amateurs. The soup is too big of a target.$6#If they want to try and poison the pot the least they could do is be a little more covert about it.$6"
+    }
+},
+    
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {
+          "Language": "en",
+          "Relationship:Shane": "Dating"
+          },
+        "Entries": {
+           "Shane": "If I really wanted to get rid of everyone I'd put something in the punch.$6#It's the only thing to drink here, everyone has a glass, it'd be so easy.#Relax! It's a joke, doll!$1"
+    }
+},
+
+{
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {
+          "Language": "en",
+          "Relationship:Shane": "Married"
+          },
+        "Entries": {
+           "Shane": "%You see Shane eyeing the punch bowl with a cruel smile on his face. He doesn't move to tamper with it, but it still makes you nervous.#What's wrong, sunshine? I promised I wouldn't do anything to any of the food.$6#We're married now, I don't need to worry about getting rid of any competition now that you know who you belong to.$l"
+    }
+},
+    
+
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {
+          "Language": "en",
+          "Hearts:Shane": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+          },
+        "Entries": {
+           "Shane": "Gotta say, it's cute how excited you are for this.$h#I wouldn't mind seeing that smile everyday..$l"
+    }
+},
+    
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {
+          "Language": "en",
+          "Relationship:Shane": "Dating"
+          },
+        "Entries": {
+           "Shane": "I kind of wish the dock would collapse and that everyone would fall in and drown. Well, besides you, me, and Jas.$l#Then it would just be the three of us.$h"
+    }
+},
+
+{
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {
+          "Language": "en",
+          "Relationship:Shane": "Married"
+          },
+        "Entries": {
+           "Shane": "The only reason we're here is because I know how much you love the jellyfish. I couldn't resist seeing that smile..$l#Once they leave you and I are going straight back to the farm, alright angel?"
+    }
+},
+    
+
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {
+          "Language": "en",
+          "Hearts:Shane": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+          },
+        "Entries": {
+           "Shane": "Welwick gave me some pretty good news when she told me my fortune.$l#I don't usually believe in stuff like that, I thought maybe it'd be funny, but it turns out it was pretty eye-opening.#She also told me my aura was dark and that it will 'twist my future into something tainted if I don't fix it', whatever that means.$2#I think she was trying to sell me one of her weird charms.$1"
+    }
+},
+    
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {
+          "Language": "en",
+          "Relationship:Shane": "Dating"
+          },
+        "Entries": {
+           "Shane": "You're certainly chatty with everyone today..$a#Don't you think it's a little shitty to lead them on like that?$2#Oh come on, don't tell me you don't see how everyone looks at you. You're *intoxicating* to be around, @.$3"
+    }
+},
+
+ {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {
+          "Language": "en",
+          "Relationship:Shane": "Married"
+          },
+        "Entries": {
+           "Shane": "I hate festivals. There's too many people here, @, and some of them are from out of town. What if one of them tried to take you?$s#Show off your display and then let's go.$a"
+    }
+},
+    
+
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {
+          "Language": "en",
+          "Hearts:Shane": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+          },
+        "Entries": {
+           "Shane": "Hey, want me to walk you home tonight?#I don't like how some of the others have been looking at you..$2#They're all staring like you're theirs or something.$5"
+    }
+},
+
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {
+          "Language": "en",
+          "Relationship:Shane": "Dating"
+          },
+        "Entries": {
+           "Shane": "Want me to show you how to get through the maze, babe?$6#The Wizard hid the prize in a pretty secluded spot so I could reward you at the end if you want...$l#%Shane tries to grab your arm but you shake him off. He doesn't seem happy about it."
+    }
+},
+
+{
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {
+          "Language": "en",
+          "Relationship:Shane": "Married"
+          },
+        "Entries": {
+           "Shane": "This is all pretty tame to be honest.. Did that Wizard even try?$3#Wait, are you actually scared by this stuff? Oh angel, that's adorable!$1#I'll keep you safe, sunshine, don't worry.$6"
+    }
+},
+
+
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {
+          "Language": "en",
+          "Hearts:Shane": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+          },
+        "Entries": {
+           "Shane": "Hey, if you get too cold let me know. I'll take you somewhere a little more private and really warm you up.$l#Make sure to be extra loud for me, I want *everyone* to know who you belong to.$l"
+    }
+},
+    
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {
+          "Language": "en",
+          "Relationship:Shane": "Dating"
+          },
+        "Entries": {
+           "Shane": "Are you warm enough, sunshine? I don't want you getting sick.$6#You're competing today, right? Want me to push anybody in for you?$l#Hey I was only kidding, no need to look at me like that..$2"
+    }
+},
+
+{
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {
+          "Language": "en",
+          "Relationship:Shane": "Married"
+          },
+        "Entries": {
+           "Shane": "I want to go home as soon as possible, @.$2#There's too many eyes on you.. Who gave them the right to look at you?#I want to rip all of them apart for you. Make sure they can't look at you with those fucking eyes ever again.$5#Oh, sunshine don't look at me like that please...I just don't want them to try and take you away from me. I can't make it on my own...$e#Go ahead and fish, then we can go.$6"
+    }
+},
+   
+
+     {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "When": {
+          "Language": "en",
+          "Hearts:Shane": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+          },
+        "Entries": {
+           "Shane": "%Shane doesn't seem to notice you. He's muttering something under his breath.#I swear to Yoba, if one more person looks at them I'm going to lose my fucking mind and-#Oh hey @! Didn't see you there!$e#I should get you a bell to wear, it'll make it harder for you to sneak up on me like that!$1"
+    }
+},
+
+     {
+         "Action": "EditData",
+         "Target": "Data/Festivals/winter25",
+         "When": {
+           "Language": "en",
+           "Relationship:Shane": "Dating"
+           },
+         "Entries": {
+            "Shane": "I wouldn't mind if you wanted to be my gift this year, @.$l#Just hope you understand you're *my* gift, not someone else's.$2"
+    }
+},
+
+{
+         "Action": "EditData",
+         "Target": "Data/Festivals/winter25",
+         "When": {
+           "Language": "en",
+           "Relationship:Shane": "Married"
+           },
+         "Entries": {
+            "Shane": "I'm going to unwrap you like a present when we get home.$l#I don't like how you're smiling at everyone. I think I need to remind you who you belong to, angel.$5"
+    }
+},
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Morris",
+"entries": {
+    "summer_5":       "Shane has been far too distracted at work as of late, is that because of you, farmer @?$3",
+    "summer_16":      "I caught Shane slacking off again looking at pictures of you on his phone.$3#Hmm, what's with that shocked expression, farmer @?$3",
+    "fall_19":        "Farmer @, for legal reasons I'm obligated to tell you that Shane has been saying some very dangerous things about you as of late...$3#Neither I nor my legal team believe you're safe around this man. I suggest you leave Stardew Valley while you still have the chance.$3",
+        }
+},
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Jas",
+"entries": {
+    "spring_20":       "Today is Shane's birthday!!$h#Are you going to get him anything, @? He said he wanted a kiss from you but I told him you can't buy kisses at the store.",
+    "summer_15":       "Hi, Mx. @! Shane said you're gonna be my new godmommy soon and that I'll be able to play on your farm whenever I want!$h#Hey, why do you look so scared, Mx. @?$s",
+    "fall_16":         "Can I cover over to play with your chickens, Mx. @? Shane said you have some and that they're really nice!$h#He said he likes watching you take care of them because you're always so nice to them!$h",
+    }
+},
+
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Gus",
+"entries": {
+    "summer_2":       "Shane has really opened up since you arrived, @. He actually sits and chats with me instead of asking for a beer and brooding all by himself.$1",
+    "summer_25":      "I think you've been a real good influence on Shane, @. He still comes around the Saloon but he's been leaving earlier than he usually does!",
+    "fall_4":         "Will you indulge me and allow me to teach you how to make pepper poppers? I can't help myself, Shane's been steadily improving since you've been talking to him and I want to play matchmaker! The quickest way to a man's heart is through his stomach after all!$1",
+    "fall_12":       "You know, I do find it a bit odd that all Shane wants to talk about is you.$3#You're a wonderful person, don't get me wrong, but there are other topics of conversation besides the things Shane knows about you!$1",
+    "winter_5":      "%Gus nervously looks over a Shane before leaning in close#@, you need to leave. It isn't safe for you here and I will not allow anything bad to happen to such a nice young person in my establishment.#Shane knew some extremely personal things about you that I know for a fact you didn't tell him. He knows the names of all your family members, where you used to live, your routine before bed, even.$2#%You both notice Shane's gaze flick to the two of you. There's a dangerous glint in his eye.#Haha, good one @! I'll have to remember that joke the next time I see Linus!$1#%You get the feeling it's time for you to leave.",
+    }
+},
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Marnie",
+"entries": {
+    "summer_6":       "Hello, @, it's so nice to see you! Shane has been so different since you two started talking!$1#Thank you, truly. He's a good boy, he just needs a friend that's all.$1",
+    "summer_20":      "Shane has been getting up earlier than usual, it's amazing! I don't know what you did but it really gave him the motivation he needed!$1",
+    "fall_2":         "Shane's been acting strange recently. I could have sworn I saw him go in the direction of your farm this morning instead of heading to work.$2",
+    "fall_12":        "@, if something is going on with my nephew you know you can tell me right?$s",
+    "fall_22":        "I keep hearing Shane talking to himself at night and...$2#It's a little scary to be perfectly honest.. I keep hearing him say your name.$2",
+    "winter_4":       "I'm worried about you sweetheart. I'm not blind, I can see how different Shane is acting and I know you see it too.$2#I'm so sorry I didn't notice it sooner, maybe I could have done something to stop this...*obsession* before it got worse.$2",
+    }
+},
+
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sebastian",
+"entries": {
+    "summer_9":       "Hey, @, have you been talking to Shane?$a#You should stay away from him..$a",
+    "summer_20":      "%Sebastian is picking at the corner of his thumb as he mutters to himself.#That bastard had no right to kick me out of my hiding spot. Asshole, who does he think he is? He can't boss me around..$a#%His rambling devolves into insults and obscenities, it doesn't seem like he notices you.",
+    "fall_25":       "Someone sent me a threatening letter today.$a#I have a few hunches on who it might be from but when I narrow it down they'll be sorry they messed with me.$a",
+    }
+},
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Alex",
+"entries": {
+    "summer_20":     "Are you still hanging around that loser, Shane?$a#@, he's a waste of time. Why hang out with a loser when you could be hanging out with me?$h",
+    "fall_25":       "%Alex looks feral as he looks up at you, clutching a piece of paper.#I got this letter today, would you have any idea who it's from, @? I can think of a few people myself, but I want your opinion.$a#When I figure out who did it...$l#%Alex trails off as he seemingly imagines his revenge.",
+    "winter_4":       "Hey, I saw Shane on your farm this morning before you were up. Did you invite him over?$a#No? Wait, you didn't know he was there?$e#Don't worry, @, I'll keep you safe.$l",
+    }
+},
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sam",
+"entries": {
+    "summer_9":       "Yoba, Shane pisses me off!$a#Oh hey, @! Uh, don't worry about what I said, it's just guy stuff!$e",
+    "fall_25":        "My mom is freaking out because she saw a letter for me and opened it..$s#Apparently it was really threatening and done with magazine clippings like you see in movies.$a#Whoever did it is dead when I get my hands on them.$a",
+    "winter_2":       "Hey, if Shane ever bothers you, come tell me, okay?$s#I'll make sure he's never seen again.$a",
+    }
+},
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Jodi",
+"entries": {
+    "fall_25":       "Oh, hello, @.$2#I'm sorry, I'm a little frazzled right now. Someone sent Sam a horribly threatening letter and it really scared me.$2#I thought this town was peaceful, but it seems I was wrong.$3#I wish Kent was here, he'd have this settled as soon as we got that awful letter.$2",
+    }
+},
+
+
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Haley",
+"entries": {
+    "summer_16":       "Ugh, that insufferable ass! How dare he?!$a#Yoba, he's just the worst! Ever since he 'fell in love' he's been nothing but trouble.$a#I knew I should have handled Shane when I had the chance.$a#%Haley doesn't notice you.",
+    "fall_25":         "Oh, @! It's terrible!$s#Someone sent me this horrible letter and it's so scary..$s#Could I stay with you tonight? I'd feel safer if I wasn't sleeping alone.$l",
+    "winter_8":        "Shane gives me the creeps, @.. Why are you still giving him so much attention?$3#Is he forcing you to be around him? Is he threatening you? If he is I can help you!$9#Just say the word and I'll get rid of him.$l",
+    }
+},
+
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Elliott",
+"entries": {
+    "summer_6":       "My darling, may I ask why you're spending so much time with Shane of all people?$a#He's not a very good fit for you, @.$a",
+    "fall_25":       "I received an anonymous, 'threatening' letter today, a badly composed one at that.$a#I mean, really, magazine clippings? It's childish at best.$h#Don't worry, @, I'm not scared. Though I wouldn't mind you staying over in my cabin if you think it'll keep me safe.$l",
+    "winter_4":       "I'm worried about you darling..$s#I've seen how Shane looks at you.$a#If you need help getting rid of him, please don't hesitate to ask.$h#I would do *anything* for you, @.$l",
+    }
+}
+]
+}
+

@@ -1,0 +1,11 @@
+{
+	"Name": "[FTM] Faerie Garden",
+	"Author": "wildflourmods",
+	"Description": "makes it so the forage from Faerie Garden can be found in the game",
+	"Version": "1.0",
+	"UniqueID": "faeriegarden.FTM",
+	"Dependencies":[
+		{"UniqueID":"wildflour.faeriegarden", "IsRequired":true},
+	],
+	"ContentPackFor": {"UniqueID": "Esca.FarmTypeManager"}
+}

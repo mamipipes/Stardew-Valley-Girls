@@ -1,0 +1,10 @@
+{
+    "Name": "wf dawn lily tree",
+    "Product": "wf dawn lily",
+    "SaplingTranslationKey":"dawnlily-sapling",
+    "SaplingName": "wf dawn lily sapling",
+    "SaplingDescription": "...",
+    "Season": "summer",
+    "SaplingPurchasePrice": 6000,
+	"SaplingPurchaseFrom": "Dwarf",
+}

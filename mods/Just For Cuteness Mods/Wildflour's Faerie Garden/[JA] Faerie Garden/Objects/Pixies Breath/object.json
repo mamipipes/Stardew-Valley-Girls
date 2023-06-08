@@ -1,0 +1,37 @@
+{
+    "Name": "wf pixies breath",
+    "Description": "...",
+    "TranslationKey": "pixies-breath",
+    "Category": "Flower",
+    "Edibility": -100,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": {
+                    "Farming": 0,
+                    "Fishing": 0,
+                    "Mining": 0,
+                    "Luck": 0,
+                    "Foraging": 0,
+                    "MaxStamina": 0,
+                    "MagnetRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0, 
+                    "Attack": 0,
+                    "Duration": 0, // 360 seconds (aka 6 min)
+                      },
+    "Price": 55,
+    "CanPurchase":false,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Love": ["Evelyn"],
+        "Like":["Caroline"],
+        "Neutral":[],
+        "Dislike":[],
+        "Hate":[]
+    },
+    "ContextTags": [
+        "wildflour_witchy_item",
+        "flower_item",
+        "color_blue",
+    ]
+}

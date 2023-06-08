@@ -1,0 +1,10 @@
+{
+    "Name": "wf secret poppy tree",
+    "Product": "wf secret poppy",
+    "SaplingTranslationKey":"secret-poppy-sapling",
+    "SaplingName": "wf secret poppy sapling",
+    "SaplingDescription": "...",
+    "Season": "fall",
+    "SaplingPurchasePrice": 6000,
+	"SaplingPurchaseFrom": "Pierre"
+}

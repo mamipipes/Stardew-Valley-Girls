@@ -1,0 +1,10 @@
+{
+    "Name": "wf eversweet pomegranate tree",
+    "Product": "wf eversweet pomegranate",
+    "SaplingTranslationKey":"pomegranate-sapling",
+    "SaplingName": "wf eversweet pomegranate sapling",
+    "SaplingDescription": "...",
+    "Season": "fall",
+    "SaplingPurchasePrice": 9000,
+	"SaplingPurchaseFrom": "Dwarf",
+}

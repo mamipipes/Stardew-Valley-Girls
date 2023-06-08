@@ -1,0 +1,17 @@
+﻿{
+	"Name": "wf mugwort seeds",
+	"Product": "wf mugwort",
+	"SeedName": "wf mugwort seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "mugwort-seeds",
+	"Type": "Vegetable",
+	"Seasons": ["fall"],
+	"Phases": [2, 3, 2, 3, 2],
+    "RegrowthPhase": 4,
+	"HarvestWithScythe": true,
+	"TrellisCrop": false,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 165,
+	"SeedPurchaseFrom": "Krobus",
+}

@@ -1,0 +1,10 @@
+{
+    "Name": "wf snow peach tree",
+    "Product": "wf snow peach",
+    "SaplingTranslationKey":"snowpeach-sapling",
+    "SaplingName": "wf snow peach sapling",
+    "SaplingDescription": "...",
+    "Season": "summer",
+    "SaplingPurchasePrice": 7200,
+	"SaplingPurchaseFrom": "Dwarf"
+}

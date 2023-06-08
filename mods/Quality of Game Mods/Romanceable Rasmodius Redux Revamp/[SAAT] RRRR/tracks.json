@@ -1,0 +1,12 @@
+﻿[
+  {
+    // Unknown official song
+    "Id": "NightDream",
+    "Filepath": "NightDream.wav",
+    "Category": "Music",
+	"Settings": {
+      "Loop": true,
+    }
+  },
+
+]

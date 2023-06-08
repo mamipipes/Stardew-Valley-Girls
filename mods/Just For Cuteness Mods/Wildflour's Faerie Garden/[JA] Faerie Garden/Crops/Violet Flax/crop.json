@@ -1,0 +1,17 @@
+﻿{
+	"Name": "wf violet flax seeds",
+	"Product": "wf violet flax",
+	"SeedName": "wf violet flax seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "violet-flax-seeds",
+	"Type": "Vegetable",
+	"Seasons": ["fall"],
+	"Phases": [1, 1, 1, 1],
+    "RegrowthPhase": -1,
+	"HarvestWithScythe": true,
+	"TrellisCrop": false,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 15,
+	"SeedPurchaseFrom": "Krobus",
+}

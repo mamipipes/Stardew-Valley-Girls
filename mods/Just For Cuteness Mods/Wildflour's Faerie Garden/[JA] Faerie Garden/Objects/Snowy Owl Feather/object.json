@@ -1,0 +1,39 @@
+{
+    "Name": "wf owl feather",
+    "Description": "...",
+    "TranslationKey": "owl-feather",
+    "Category": "Greens",
+    "CategoryTextOverride": "Feather",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": {
+                    "Farming": 0,
+                    "Fishing": 0,
+                    "Mining": 0,
+                    "Luck": 0,
+                    "Foraging": 0,
+                    "MaxStamina": 0,
+                    "MagnetRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0, 
+                    "Attack": 0,
+                    "Duration": 0, // 360 seconds (aka 6 min)
+                      },
+    "Price": 95,
+    "CanPurchase":false,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Love": ["Abigail","Elliott","Harvey","Leo","Linus"],
+        "Like":["Jas","Shane","Vincent"],
+        "Neutral":["Sam","Sebastian"],
+        "Dislike":["Caroline","Jodi"],
+        "Hate":["Pam","Pierre"]
+    },
+    "ContextTags": [
+        "wildflour_witchy_item",
+        "forage_item",
+        "color_white",
+        "feather_item"
+    ]
+}

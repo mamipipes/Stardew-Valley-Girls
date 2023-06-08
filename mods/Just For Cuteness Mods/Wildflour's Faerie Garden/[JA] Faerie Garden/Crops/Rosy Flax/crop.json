@@ -1,0 +1,17 @@
+﻿{
+	"Name": "wf rose flax seeds",
+	"Product": "wf rose flax",
+	"SeedName": "wf rose flax seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "rose-flax-seeds",
+	"Type": "Vegetable",
+	"Seasons": ["fall"],
+	"Phases": [1, 1, 1, 1],
+    "RegrowthPhase": -1,
+	"HarvestWithScythe": true,
+	"TrellisCrop": false,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 15,
+	"SeedPurchaseFrom": "Krobus",
+}

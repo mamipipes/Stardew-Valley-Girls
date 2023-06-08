@@ -1,0 +1,17 @@
+﻿{
+	"Name": "wf thistle seeds",
+	"Product": "wf thistle",
+	"SeedName": "wf thistle seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "thistle-seeds",
+	"Type": "Flower",
+	"Seasons": ["fall"],
+	"Phases": [2, 3, 2, 3, 2],
+    "RegrowthPhase": 4,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 150,
+	"SeedPurchaseFrom": "Krobus",
+}

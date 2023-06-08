@@ -1,0 +1,380 @@
+{
+
+//MUSHROOMS
+
+"amanita-trio.name":"Amanita Trio",
+"amanita-trio.description":"Three poisonous mushrooms growing in a small cluster. Useful in brewing certain potions but deadly if ingested directly.",
+
+"dawns-trumpet.name":"Dawn's Trumpet",
+"dawns-trumpet.description":"A mysterious cluster of mushrooms that grows in the hours around dawn.",
+
+"dusk-cap.name":"Dusk Cap",
+"dusk-cap.description":"A mysterious cluster of mushrooms that grows in the hours around sunset.",
+
+"giant-amanita.name":"Giant Amanita",
+"giant-amanita.description":"An unusually large poisonous mushroom.",
+
+"gold-mushroom.name":"Golden Aura",
+"gold-mushroom.description":"A stunning golden mushroom, used often in magical concoctions.",
+
+"coral-cone.name":"Coral Cone",
+"coral-cone.description":"A strange rosy mushroom. Rumor has it that they were once used to make pigmented dyes for clothing and cosmetics.",
+
+"teal-umbrella.name":"Stormy Umbrella",
+"teal-umbrella.description":"A tall mushroom that often appears during rainstorms.",
+
+"faerie-helmets.name":"Faerie Helmets",
+"faerie-helmets.description":"Because of their tiny size and hat-like shape, these are also known as fairy bonnets!",
+
+"slime-cap.name":"Blushing Slime Cap",
+"slime-cap.description":"A highly poisonous mushroom that should only be picked by extremely skilled witches or foragers!",
+
+"white-mushroom.name":"White Umbrella",
+"white-mushroom.description":"A tall white mushroom that is said to be used by faeries to stay dry during sudden thunderstorms.",
+
+//FLOWERS
+
+"angel-geranium.name": "Angel Geranium",
+"angel-geranium.description": "A bushy variety of geranium prized for its striking colors.",
+
+"arctic-fox.name": "Arctic Fox",
+"arctic-fox.description": "A lovely blue variety of digitalis, also known as foxglove. Gorgeous but also highly poisonous to humans.",
+
+"avalune.name": "Avalune",
+"avalune.description": "A rosy pink variety of lupine flower. Makes a great gift for fae folk.",
+
+"blue-chiffon.name": "Blue Chiffon",
+"blue-chiffon.description": "A stunning blue peony variety.",
+
+"daisy.name": "Creeping Daisy",
+"daisy.description": "Though often overlooked as a common flower, many parts of the common daisy can be used culinarily, medicinally...and magically.",
+
+"dawn-lily.name": "Dawn Lily",
+"dawn-lily.description": "Though related to the day lily, this cultivar is extremely rare and only blooms at dawn. It is rumored to only thrive in places with strong spiritual energy.",
+
+"dusk-lily.name": "Dusk Lily",
+"dusk-lily.description": "Though related to the day lily, this cultivar is extremely rare and only blooms at dusk. It is rumored to only thrive in places with strong spiritual energy.",
+
+"faerie-puffball.name": "Faerie Puffball",
+"faerie-puffball.description": "This flower is as soft as a cloud; perhaps that is why it is often associated with fae folk and their ethereal magicks.",
+
+"meadow-buttercup.name": "Meadow Buttercup",
+"meadow-buttercup.description": "A type of ranunculus that often blooms across meadows, sending up golden blossoms throughout the spring.",
+
+"meadow-violet.name": "Meadow Violet",
+"meadow-violet.description": "A creeping violet that spreads quickly to cover entire meadows in deep purple hues.",
+
+"milk-and-honey.name": "Milk and Honey",
+"milk-and-honey.description": "A creamy white variety of astilbe flowers that have been bred to bloom on trees by some very skilled hedgewitches.",
+
+"moonlight-blues.name": "Moonlight Blues",
+"moonlight-blues.description": "A rare delphinium that blooms on trees. Most likely the work of arcane magicks this flower seems almost..unearthly.",
+
+"moon-maiden.name": "Moon Maiden",
+"moon-maiden.description": "This delicate flower is rumored to be a gift for humans from kind pixies to welcome the spring season.",
+
+"summer-bell.name": "Summer Bell",
+"summer-bell.description": "A pretty pink bell-shaped flower.",
+
+"pixies-breath.name": "Pixie's Breath",
+"pixies-breath.description": "It's like Baby's Breath, but just a tad more magical.",
+
+"quartz-primrose.name": "Primrose Quartz",
+"quartz-primrose.description": "A dwarf rose variety that grows well on a trellis. Prized for both its color and fragrance, the flowers remind you of a rose quartz gem.",
+
+"secret-poppy.name": "Secret Poppy",
+"secret-poppy.description": "A rare poppy that blooms on trees, rumored to only grow in gardens blessed by the fae folk.",
+
+"twinblooms.name": "Twinblooms",
+"twinblooms.description": "A flower that always has two blooms when it matures, it is said to be a powerful ingredient in many magical concoctions.",
+
+//FRUITS
+
+"amber-moondrop.name": "Amber MoonDrop",
+"amber-moondrop.description": "A beautiful and rare golden grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"ambrosia-apple.name": "Ambrosia Apple",
+"ambrosia-apple.description": "A bright green apple so sweet it is named after the nectar of the gods.",
+
+"blood-orange.name": "Blood Orange",
+"blood-orange.description": "A rare variety of citrus fruit.",
+
+"eversweet-pomegranate.name": "Eversweet Pomegranate",
+"eversweet-pomegranate.description": "A vibrantly-hued pomegranate that is shrouded in mystery. Rumor has it that this fruit is always juicy and sweet, regardless of when it is picked.",
+
+"jade-moondrop.name": "Jade MoonDrop",
+"jade-moondrop.description": "A beautiful and rare green grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"ladyfinger-banana.name": "Lady Finger Banana",
+"ladyfinger-banana.description": "A long and delicate banana variety, said to be far sweeter than traditional bananas.",
+
+"lapis-moondrop.name": "Lapis MoonDrop",
+"lapis-moondrop.description": "A beautiful and rare blue grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"moongold-apricot.name": "Moongold Apricot",
+"moongold-apricot.description": "A pale apricot with golden flesh, this is said to be the favorite fruit of moon deities.",
+
+"pearl-moondrop.name": "Pearl MoonDrop",
+"pearl-moondrop.description": "A beautiful and rare white grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"snow-peach.name": "Snow Beauty Peach",
+"snow-peach.description": "A rare and delicate peach; said to be the favorite fruit of a certain princess from ancient folklore.",
+
+"sour-cherry.name": "Meteor Sour Cherry",
+"sour-cherry.description": "Though seeming like an ordinary cherry, this cultivar tastes strangely like sour candy more than fruit.",
+
+"sunset-mango.name": "Sunset Mango",
+"sunset-mango.description": "A delicate mango ripened under the setting sun.",
+
+
+//HERBS
+
+"rose-flax.name":"Rose Flax",
+"rose-flax.description":"A beautifully pink-colored grain. It yields a prized specialty flour when milled.",
+
+"elderberry-blossoms.name": "Elderberry Blossoms",
+"elderberry-blossoms.description": "A cluster of elderberries and their flowers; these make for a great tea or cordial.",
+
+"mugwort.name": "Mugwort",
+"mugwort.description": "A member of the daisy family, this plant is cultivated by witches for its dreaming and divination properties.",
+
+"violet-flax.name":"Violet Flax",
+"violet-flax.description":"A beautifully violet-colored grain. It yields a prized specialty flour when milled.",
+
+"star-anise.name": "Star Anise",
+"star-anise.description": "Though a common herb in many traditional kitchens, star anise also has many magical properties and can be used to bring about prophetic visions.",
+
+"thistle.name": "Thistle",
+"thistle.description": "A common flowering plant, often seen as a weed by humans, but cherished by witches for its spiritual healing properties.",
+
+"valerian.name": "Valerian",
+"valerian.description": "An herb often used in making sleep-inducing teas, it can also be used to ward off lightning and floods.",
+
+"yarrow.name":"Yarrow",
+"yarrow.description":"Also known as Devil's Nettle, yarrow has been used by wise witches and foragers to relieve stomach cramping for centuries.",
+
+//FEATHERS
+
+"bluebird-feather.name": "Mountain Bluebird Feather",
+"bluebird-feather.description": "The bright, azure feather of the local Mountain Bluebird.",
+
+"crow-feather.name": "Crow Feather",
+"crow-feather.description": "This feather is as black as the night sky.",
+
+"lovebird-feather.name": "Lovebird Feather",
+"lovebird-feather.description": "The multi-hued feather of a lovebird.",
+
+"owl-feather.name": "Snowy Owl Feather",
+"owl-feather.description": "A majestic white feather from a large snowy barn owl.",
+
+"phoenix-feather.name": "Phoenix Feather",
+"phoenix-feather.description": "A stunning, crimson feather from a phoenix, most likely lost during its transformation.",
+
+"raven-feather.name": "Raven Feather",
+"raven-feather.description": "The deep violet black feather of a raven, a great find for an alchemist or hedgewitch",
+
+"rosefinch-feather.name": "Rosefinch Feather",
+"rosefinch-feather.description": "A bright pink feather from a rose finch.",
+
+"starling-feather.name": "Violet Starling Feather",
+"starling-feather.description": "Violet-Backed Starlings are almost the same color as iridium ore, and as such their feathers are prized treasures amongst foragers.",
+
+//FORAGE
+
+"autumn-leaf.name": "Autumn Leaf",
+"autumn-leaf.description": "One of autumn's first fallen leaves and a useful magical ingredient.",
+
+"fire-scale.name": "Fiery Dragon's Scale",
+"fire-scale.description": "A shimmering dragon scale that has fallen off of a mythical fire dragon.",
+
+"hidden-clover.name": "Hidden Luck",
+"hidden-clover.description": "A rare four leaf clover.",
+
+"honeycomb.name": "Honeycomb",
+"honeycomb.description": "The remnants of an abandoned beehive.",
+
+"mandrake-root.name": "Mandrake Root",
+"mandrake-root.description": "A strange root that looks almost, sentient? Legend has it that it will shriek when pulled from the ground, so wise witches wear earplugs when foraging for them.",
+
+"ocean-scale.name": "Misty Dragon's Scale",
+"ocean-scale.description": "A shimmering dragon scale that has fallen off of a mythical sea dragon.",
+
+"sea-bubble.name": "Sea Bubble",
+"sea-bubble.description": "A rare, opalescent gem found hidden in beach sand.",
+
+"shooting-star.name": "Shooting Star",
+"shooting-star.description": "A fallen star! A truly rare and glorious find for the foraging witch or wizard.",
+
+"spiderweb.name": "Spider's Web",
+"spiderweb.description": "An ordinary spider web.",
+
+"unicorn-horn.name": "Unicorn Horn",
+"unicorn-horn.description": "A horn shed from a young unicorn; a rare and treasured find for any witch or wizard.",
+
+"vine.name": "Sturdy Vine",
+"vine.description": "A tropical vine that can be used in many ways by a wise witch or wizard.",
+
+"witch-wood.name": "Witchwood",
+"witch-wood.description": "Wood foraged from the depths of the forest, full of mystical power when used by the right witch.",
+
+//TREE SAPLINGS
+
+"ambrosia-sapling.name": "Ambrosia Sapling",
+"ambrosia-sapling.description": "Takes 28 days to produce a mature Ambrosia tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+"apricot-sapling.name": "Moongold Sapling",
+"apricot-sapling.description": "Takes 28 days to produce a mature Moongold tree. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.",
+
+"banana-sapling.name": "Lady Finger Banana Sapling",
+"banana-sapling.description": "Takes 28 days to produce a mature Lady Finger Banana tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"bloodorange-sapling.name": "Blood Orange Sapling",
+"bloodorange-sapling.description": "Takes 28 days to produce a mature Blood Orange tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"chiffon-sapling.name": "Blue Chiffon Starter",
+"chiffon-sapling.description": "Takes 28 days to produce a mature Blue Chiffon Trellis. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+"daisy-sapling.name": "Creeping Daisy Starter",
+"daisy-sapling.description": "Takes 28 days to produce a mature Creeping Daisy Trellis. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.",
+
+"dawnlily-sapling.name": "Dawn Lily Starter",
+"dawnlily-sapling.description": "Takes 28 days to produce a mature Dawn Lily Trellis. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"dusklily-sapling.name": "Dusk Lily Starter",
+"dusklily-sapling.description": "Takes 28 days to produce a mature Dusk Lily Trellis. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"elderberry-sapling.name": "Elder Sapling",
+"elderberry-sapling.description": "Takes 28 days to produce a mature Elder tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"geranium-sapling.name": "Angel Geranium Starter",
+"geranium-sapling.description": "Takes 28 days to produce a mature Angel Geranium Trellis. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+"milk-and-honey-sapling.name": "Milk and Honey Sapling",
+"milk-and-honey-sapling.description": "Takes 28 days to produce a mature Milk and Honey tree. Ready to harvest in the winter. Only grows if the 8 surrounding tiles are empty.",
+
+"moonlight-blues-sapling.name": "Moonlight Blues Sapling",
+"moonlight-blues-sapling.description": "Takes 28 days to produce a mature Moonlight Blues tree. Ready to harvest in the winter. Only grows if the 8 surrounding tiles are empty.",
+
+"pomegranate-sapling.name": "Eversweet Sapling",
+"pomegranate-sapling.description": "Takes 28 days to produce a mature Eversweet tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+"quartz-sapling.name": "Quartz Primrose Starter",
+"quartz-sapling.description": "Takes 28 days to produce a mature Quartz Primrose Trellis. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+"secret-poppy-sapling.name": "Secret Poppy Sapling",
+"secret-poppy-sapling.description": "Takes 28 days to produce a mature Secret Poppy tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"snowpeach-sapling.name": "Snow Beauty Sapling",
+"snowpeach-sapling.description": "Takes 28 days to produce a mature Snow Beauty Peach tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"sourcherry-sapling.name": "Meteor Sour Sapling",
+"sourcherry-sapling.description": "Takes 28 days to produce a mature Meteor Sour tree. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.",
+
+"star-anise-sapling.name": "Star Anise Sapling",
+"star-anise-sapling.description": "Takes 28 days to produce a mature Star Anise tree. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.",
+
+"sunsetmango-sapling.name": "Sunset Mango Sapling",
+"sunsetmango-sapling.description": "Takes 28 days to produce a mature Sunset Mango tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"twinblooms-sapling.name": "Twinblooms Sapling",
+"twinblooms-sapling.description": "Takes 28 days to produce a mature Twinblooms tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+"violet-sapling.name": "Meadow Violet Starter",
+"violet-sapling.description": "Takes 28 days to produce a mature Meadow Violet Trellis. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty",
+
+//MUSHROOM TREES
+
+"amanitatrio-sapling.name":"Amanita Trio Sapling",
+"amanitatrio-sapling.description":"An enchanted sapling that takes 28 days to grow into a large mushroom tree. Ready to harvest in summer. Only grows if the surrounding 8 tiles are empty.",
+
+"coralcone-sapling.name":"Coral Cone Sapling",
+"coralcone-sapling.description":"An enchanted sapling that takes 28 days to grow into a large mushroom tree. Ready to harvest in summer. Only grows if the surrounding 8 tiles are empty.",
+
+"dawnstrumpet-sapling.name":"Dawn's Trumpet Sapling",
+"dawnstrumpet-sapling.description":"An enchanted sapling that takes 28 days to grow into a large mushroom tree. Ready to harvest in spring. Only grows if the surrounding 8 tiles are empty.",
+
+"duskcap-sapling.name":"Dusk Cap Sapling",
+"duskcap-sapling.description":"An enchanted sapling that takes 28 days to grow into a large mushroom tree. Ready to harvest in fall. Only grows if the surrounding 8 tiles are empty.",
+
+"amanita-sapling.name":"Giant Amanita Sapling",
+"amanita-sapling.description":"An enchanted sapling that takes 28 days to grow into a large mushroom tree. Ready to harvest in fall. Only grows if the surrounding 8 tiles are empty.",
+
+"goldmushroom-sapling.name":"Golden Aura Sapling",
+"goldmushroom-sapling.description":"An enchanted sapling that takes 28 days to grow into a large mushroom tree. Ready to harvest in spring. Only grows if the surrounding 8 tiles are empty.",
+
+"tealumbrella-sapling.name":"Teal Umbrella Sapling",
+"tealumbrella-sapling.description":"An enchanted sapling that takes 28 days to grow into a large mushroom tree. Ready to harvest in winter. Only grows if the surrounding 8 tiles are empty.",
+
+"faeriehelmets-sapling.name":"Faerie Helmets Sapling",
+"faeriehelmets-sapling.description":"An enchanted sapling that takes 28 days to grow into a large mushroom tree. Ready to harvest in winter. Only grows if the surrounding 8 tiles are empty.",
+
+"whiteumbrella-sapling.name":"White Umbrella Sapling",
+"whiteumbrella-sapling.description":"An enchanted sapling that takes 28 days to grow into a large mushroom tree. Ready to harvest in fall. Only grows if the surrounding 8 tiles are empty.",
+
+"slimecap-sapling.name":"Blushing Slimecap Sapling",
+"slimecap-sapling.description":"An enchanted sapling that takes 28 days to grow into a large mushroom tree. Ready to harvest in fall. Only grows if the surrounding 8 tiles are empty.",
+
+//FLOWER SEEDS
+
+"arcticfox-seeds.name": "Arctic Fox Seeds",
+"arcticfox-seeds.description": "Plant in summer. Takes 10 days to grow and can be harvested every 5 days after.",
+
+"avalune-seeds.name": "Avalune Seeds",
+"avalune-seeds.description": "Plant in spring or summer. Takes 14 days to grow into and can be harvested every 3 days after.",
+
+"bell-seeds.name":"Summer Bell Seeds",
+"bell-seeds.description":"Plant in summer. Takes 10 days to grow and can be harvested every 5 days after.",
+
+"buttercup-seeds.name": "Meadow Buttercup Seeds",
+"buttercup-seeds.description": "Plant in spring. Takes 7 days to grow and can be harvested every 5 days after.",
+
+"faerie-puffball-seeds.name": "Faerie Puffball Seeds",
+"faerie-puffball-seeds.description": "Plant in spring. Takes 14 days to grow into a faerie puffball and then can be harvested ever 3 days after.",
+
+"geranium-seeds.name": "Angel Geranium Seeds",
+"geranium-seeds.description": "Plant in spring or summer.Takes 7 days to grow into a bushy geranium and can be harvested every 5 days after.",
+
+"meadow-violet-seeds.name": "Meadow Violet Seeds",
+"meadow-violet-seeds.description": "Plant in spring. Takes 14 days to grow into a meadow violet vine, then can be harvested ever 3 days after.",
+
+"moon-maiden-seeds.name": "Moon Maiden Seeds",
+"moon-maiden-seeds.description": "Plant in spring. Takes 7 days to grow that can be harvested every 5 days after.",
+
+"pixies-breath-seeds.name": "Pixie's Breath Seeds",
+"pixies-breath-seeds.description": "Plant in fall. Takes 14 days to grow into pixie's breath that can be harvested every 3 days after.",
+
+
+//FRUIT SEEDS
+
+"amber-moondrop-seeds.name": "Amber MoonDrop Starter",
+"amber-moondrop-seeds.description": "Plant in spring or summer. Takes 13 days to grow, then can be harvested every 4 days.",
+
+"lapis-moondrop-seeds.name": "Lapis MoonDrop Starter",
+"lapis-moondrop-seeds.description": "Plant in summer or fall. Takes 13 days to grow, then can be harvested every 4 days.",
+
+"jade-moondrop-seeds.name": "Jade MoonDrop Starter",
+"jade-moondrop-seeds.description": "Plant in summer or fall. Takes 13 days to grow, then can be harvested every 4 days.",
+
+"pearl-moondrop-seeds.name": "Pearl MoonDrop Starter",
+"pearl-moondrop-seeds.description": "Plant in summer or fall. Takes 13 days to grow, then can be harvested every 4 days.",
+
+//HERB SEEDS
+
+"rose-flax-seeds.name": "Rose Flax Seeds",
+"rose-flax-seeds.description": "Plant in fall. Takes 4 days to grow and must be harvested with a scythe.",
+
+"mugwort-seeds.name": "Mugwort Seeds",
+"mugwort-seeds.description": "Plant in fall. Takes 12 days to grow into mugwort and can be harvested every 4 days after.",
+
+"violet-flax-seeds.name": "Violet Flax Seeds",
+"violet-flax-seeds.description": "Plant in fall. Takes 4 days to grow and must be harvested with a scythe.",
+
+"thistle-seeds.name": "Thistle Seeds",
+"thistle-seeds.description": "Plant in fall. Takes 12 days to grow into thistle and can be harvested every 4 days after.",
+
+"valerian-seeds.name": "Valerian Seeds",
+"valerian-seeds.description": "Plant in summer. Takes 10 days to grow into valerian and can be harvested every 5 days after.",
+
+"yarrow-seeds.name": "Yarrow Seeds",
+"yarrow-seeds.description": "Plant in summer. Takes 10 days to grow into yarrow and can be harvested every 5 days after."	
+}

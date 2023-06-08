@@ -1,0 +1,10 @@
+{
+    "Name": "wf blood orange tree",
+    "Product": "wf blood orange",
+    "SaplingTranslationKey":"bloodorange-sapling",
+    "SaplingName": "wf blood orange sapling",
+    "SaplingDescription": "...",
+    "Season": "summer",
+    "SaplingPurchasePrice": 9000,
+	"SaplingPurchaseFrom": "Dwarf",
+}

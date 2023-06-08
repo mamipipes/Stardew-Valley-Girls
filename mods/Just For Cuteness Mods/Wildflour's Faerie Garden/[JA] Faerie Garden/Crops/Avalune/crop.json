@@ -1,0 +1,17 @@
+﻿{
+	"Name": "wf avalune seeds",
+	"Product": "wf avalune",
+	"SeedName": "wf avalune seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "avalune-seeds",
+	"Type": "Flower",
+	"Seasons": ["spring","summer"],
+	"Phases": [3, 3, 3, 3, 2],
+    "RegrowthPhase": 3,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 225,
+	"SeedPurchaseFrom": "Pierre",
+}

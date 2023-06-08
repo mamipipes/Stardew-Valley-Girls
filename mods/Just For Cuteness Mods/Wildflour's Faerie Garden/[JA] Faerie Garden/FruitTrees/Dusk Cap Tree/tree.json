@@ -1,0 +1,10 @@
+{
+    "Name": "wf dusk cap tree",
+    "Product": "wf dusk cap",
+    "SaplingTranslationKey":"duskcap-sapling",
+    "SaplingName": "wf duskcap sapling",
+    "SaplingDescription": "...",
+    "Season": "fall",
+    "SaplingPurchasePrice": 4250,
+	"SaplingPurchaseFrom": "Krobus",
+}

@@ -1,0 +1,10 @@
+{
+    "Name": "wf slime cap tree",
+    "Product": "wf slime cap",
+    "SaplingTranslationKey":"slimecap-sapling",
+    "SaplingName": "wf slime cap sapling",
+    "SaplingDescription": "...",
+    "Season": "fall",
+    "SaplingPurchasePrice": 9000,
+	"SaplingPurchaseFrom": "Krobus",
+}

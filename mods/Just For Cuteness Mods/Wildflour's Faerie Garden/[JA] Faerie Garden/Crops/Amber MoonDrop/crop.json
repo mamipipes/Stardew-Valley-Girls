@@ -1,0 +1,17 @@
+﻿{
+	"Name": "wf amber seeds",
+	"Product": "wf amber moondrop",
+	"SeedName": "wf amber seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "amber-moondrop-seeds",
+	"Type": "Fruit",
+	"Seasons": ["spring","summer"],
+	"Phases": [2, 2, 3, 3, 3],
+    "RegrowthPhase": 4,
+	"HarvestWithScythe": false,
+	"TrellisCrop": true,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 240,
+	"SeedPurchaseFrom": "Dwarf",
+}

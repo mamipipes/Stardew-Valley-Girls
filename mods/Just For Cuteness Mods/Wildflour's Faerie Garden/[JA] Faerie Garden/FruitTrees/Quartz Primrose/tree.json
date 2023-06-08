@@ -1,0 +1,10 @@
+{
+    "Name": "wf quartz primrose tree",
+    "Product": "wf quartz primrose",
+    "SaplingTranslationKey":"quartz-sapling",
+    "SaplingName": "wf quartz primrose sapling",
+    "SaplingDescription": "...",
+    "Season": "fall",
+    "SaplingPurchasePrice": 6000,
+	"SaplingPurchaseFrom": "Dwarf"
+}

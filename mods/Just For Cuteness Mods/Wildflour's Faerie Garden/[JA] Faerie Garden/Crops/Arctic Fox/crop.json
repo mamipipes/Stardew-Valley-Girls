@@ -1,0 +1,17 @@
+﻿{
+	"Name": "wf arctic fox seeds",
+	"Product": "wf arctic fox",
+	"SeedName": "wf arctic fox seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "arcticfox-seeds",
+	"Type": "Flower",
+	"Seasons": ["summer"],
+	"Phases": [2, 2, 2, 2, 2],
+    "RegrowthPhase": 5,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 210,
+	"SeedPurchaseFrom": "Pierre",
+}

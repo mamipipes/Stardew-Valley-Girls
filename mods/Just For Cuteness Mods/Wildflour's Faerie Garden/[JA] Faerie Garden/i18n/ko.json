@@ -1,0 +1,380 @@
+{
+
+//MUSHROOMS
+
+"amanita-trio.name":"아마니타 트리오",
+"amanita-trio.description":"작은 군집을 형성하며 자라는 세 개의 독버섯. 특정한 물약을 만드는 데에 유용하지만, 직접 섭취하기에는 아주 치명적입니다.",
+
+"dawns-trumpet.name":"새벽의 나팔",
+"dawns-trumpet.description":"새벽에 성장하는 신비로운 버섯 군락입니다.",
+
+"dusk-cap.name":"황혼 모자",
+"dusk-cap.description":"일몰이 지속되는 몇 시간 동안 자라는 신비로운 버섯 군락.",
+
+"giant-amanita.name":"자이언트 아마니타",
+"giant-amanita.description":"유난히 커다란 독버섯입니다.",
+
+"gold-mushroom.name":"황금 아우라",
+"gold-mushroom.description":"마법 혼합물 제작에 자주 사용되는, 놀라울 만큼 아름다운 황금빛 버섯.",
+
+"coral-cone.name":"산호원뿔 버섯",
+"coral-cone.description":"미지의 장미빛 버섯. 소문에 의하면 한 때, 옷이나 화장품을 위한 색소 제작에 쓰였다고 합니다.",
+
+"teal-umbrella.name":"폭풍의 우산",
+"teal-umbrella.description":"폭풍우가 몰아칠 때 자주 보이는 길쭉한 버섯입니다.",
+
+"faerie-helmets.name":"요정의 보닛",
+"faerie-helmets.description":"자그마한 크기와 모자 같은 모양 때문에, 이건 요정이 쓰는 보닛이라고도 알려집니다!",
+
+"slime-cap.name":"붉은 슬라임 모자",
+"slime-cap.description":"극도로 숙련된 마녀나 채집꾼만이 다뤄야 하는 극독의 버섯.",
+
+"white-mushroom.name":"하얀우산 버섯",
+"white-mushroom.description":"요정들이 갑작스러운 폭풍우와 천둥번개가 치는 날씨에서 제습을 위해 사용한다고 전해지는 길쭉하고 흰 버섯입니다.",
+
+//FLOWERS
+
+"angel-geranium.name": "천사 제라늄",
+"angel-geranium.description": "눈에 띄는 색상으로 유명한, 풍성한 꽃을 자랑하는 제라늄 품종 중 하나.",
+
+"arctic-fox.name": "북극여우꽃",
+"arctic-fox.description": "여우의 장갑으로도 알려진 사랑스러운 푸른빛의 심장풀의 일종. 화려하지만 인간에겐 독이 있습니다.",
+
+"avalune.name": "에이발룬",
+"avalune.description": "다양한 장밋빛을 자랑하는 루핀 꽃. 허기진 사람들에겐 좋은 선물이 됩니다.",
+
+"blue-chiffon.name": "블루 시폰",
+"blue-chiffon.description": "아름다운 푸른색의 작약.",
+
+"daisy.name": "살금살금 데이지",
+"daisy.description": "흔한 꽃으로 여겨지지만, 이 데이지의 많은 부분들은 요리나 약제로 쓸 수 있습니다. ...마법적인 재료로도요.",
+
+"dawn-lily.name": "여명나리꽃",
+"dawn-lily.description": "백합류에 속하지만, 이 품종은 아주 희귀하고 새벽에만 꽃이 핍니다. 영적인 기운이 강한 곳에서만 번성하는 특징을 가집니다..",
+
+"dusk-lily.name": "황혼나리꽃",
+"dusk-lily.description": "백합류에 속하지만, 이 품종은 아주 희귀하며 해질녘에만 꽃이 핍니다. 영적이 기운이 강한 곳에서만 번성하는 특징을 가집니다.",
+
+"faerie-puffball.name": "요정 분첩",
+"faerie-puffball.description": "구름처럼 부드러운 꽃입니다. 아마도 그것이 종종 요정족의 마술이 하늘과 연관된 이유일겁니다.",
+
+"meadow-buttercup.name": "초원 버터컵",
+"meadow-buttercup.description": "넓은 목초지를 가로질러 피는 라넌클러스의 일종. 봄 내내 황금빛 꽃을 피웁니다.",
+
+"meadow-violet.name": "초원 제비꽃",
+"meadow-violet.description": "짙푸른 보랏빛이 아름다운 제비꽃. 초원 전체를 빠르게 뒤덮어 자라는 모습이 살금살금 움직이는 것처럼 보이기도 합니다.",
+
+"milk-and-honey.name": "우유벌꿀꽃",
+"milk-and-honey.description": "아주 숙련된 산울타리의 마녀들이 나무에 꽃을 피우기 위해 키워낸 새하얀 크림빛 꽃.",
+
+"moonlight-blues.name": "달빛의 푸름",
+"moonlight-blues.description": "나무에 피는 희귀한 델피늄 품종입니다. 이 꽃의 불가사의한 모습은... 마법의 결과겠지요.",
+
+"moon-maiden.name": "달의 여인",
+"moon-maiden.description": "이 섬세한 성질의 꽃은 봄을 맞이하기 위해 친절한 요정들이 보낸, 인간을 위한 선물이란 소문이 있습니다.",
+
+"summer-bell.name": "여름의 종",
+"summer-bell.description": "사랑스러운 종 모양의 분홍빛 꽃.",
+
+"pixies-breath.name": "요정의 숨결",
+"pixies-breath.description": "어린 아이의 숨결 같지만, 좀 더 마법적인 성질을 띄고 있습니다.",
+
+"quartz-primrose.name": "앵초석영꽃",
+"quartz-primrose.description": "격자에서 잘 자라는 키 작은 장미 품종. 이 꽃의 색과 향은 모두에게 소중하게 여겨지며, 장미 석영을 연상시킵니다.",
+
+"secret-poppy.name": "비밀 양귀비",
+"secret-poppy.description": "나무 위에서 꽃을 피우는 희귀한 양귀비. 요정 집단의 축복을 받은 정원에서만 자란다고 합니다.",
+
+"twinblooms.name": "쌍둥이꽃",
+"twinblooms.description": "항상 두 송이의 꽃이 피는 품종으로, 많은 마법약에 강력하게 쓰이는 성분을 가졌습니다.",
+
+//FRUITS
+
+"amber-moondrop.name": "호박 달방울",
+"amber-moondrop.description": "아름답고 희귀한 금빛 포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다.",
+
+"ambrosia-apple.name": "암브로시아 사과",
+"ambrosia-apple.description": "신들의 음식에서 따온 이름을 붙일 정도로 매우 달콤한, 밝은 녹색 사과.",
+
+"blood-orange.name": "블러드 오렌지",
+"blood-orange.description": "보기 드문 시트러스 계열의 과실.",
+
+"eversweet-pomegranate.name": "에버스윗 석류",
+"eversweet-pomegranate.description": "신비에 싸여진 선명한 색의 석류입니다. 이 과일은 수확 시기에 관계없이 언제나 즙이 많고 달콤하다고 합니다.",
+
+"jade-moondrop.name": "비취 달방울",
+"jade-moondrop.description": "아름답고 희귀한 청포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다.",
+
+"ladyfinger-banana.name": "레이디핑거 바나나",
+"ladyfinger-banana.description": "길쭉하고 섬세한 성질의 바나나 품종으로, 일반 바나나보다 더 달콤하다고 합니다.",
+
+"lapis-moondrop.name": "라피스 달방울",
+"lapis-moondrop.description": "아름답고 희귀한 푸른색 포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다.",
+
+"moongold-apricot.name": "황금달 살구",
+"moongold-apricot.description": "달의 신들이 좋아한다는 엷은 황금빛 살구.",
+
+"pearl-moondrop.name": "진주 달방울",
+"pearl-moondrop.description": "아름답고 희귀한 흰색 포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다.",
+
+"snow-peach.name": "설미려 복숭아",
+"snow-peach.description": "희귀하고 섬세한 성질의 복숭아. 고대 설화에 나오는 어느 공주가 가장 좋아하던 과일이라고 합니다.",
+
+"sour-cherry.name": "유성산 체리",
+"sour-cherry.description": "평범한 체리처럼 보이지만, 이 품종은 과일의 맛이라기보단 산미 강한 사탕과 같은 맛이 납니다.",
+
+"sunset-mango.name": "선셋 망고",
+"sunset-mango.description": "이 섬세한 망고는 석양 아래에서 익었습니다.",
+
+
+//HERBS
+
+"rose-flax.name":"장미아마풀",
+"rose-flax.description":"아름다운 분홍빛의 곡물입니다. 갈게 되면 특별하고 귀한 밀가루를 만듭니다.",
+
+"elderberry-blossoms.name": "엘더베리 꽃",
+"elderberry-blossoms.description": "한 무리의 엘더베리와 꽃; 이것들은 모두 훌륭한 차나 리큐르가 됩니다.",
+
+"mugwort.name": "쑥",
+"mugwort.description": "국화과에 속하는 이 식물은 꿈을 꾸게 하거나 점을 치는 데에 필요한 특성으로 마녀들이 주로 키웠습니다.",
+
+"violet-flax.name":"보라아마풀",
+"violet-flax.description":"아름다운 보랏빛의 곡물입니다. 갈게 되면 특별하고 귀한 밀가루를 만듭니다.",
+
+"star-anise.name": "팔각",
+"star-anise.description": "주방에서 자주 사용하는 전통적인 허브로, 팔각은 동시에 마법적인 특성을 가져 예언을 위한 마법이나 약물에도 사용할 수 있습니다.",
+
+"thistle.name": "엉겅퀴",
+"thistle.description": "흔하게 잡초로 여겨지는 풀이지만, 정신적인 부분을 치료하는 데에 좋기에 마녀들이 소중하게 여기는 꽃이기도 합니다.",
+
+"valerian.name": "고양이풀",
+"valerian.description": "잠이 잘 오는 차에 쓰이는 허브로, 번개나 홍수를 방지하는 데에도 쓸 수 있습니다.",
+
+"yarrow.name":"서양톱풀",
+"yarrow.description":"악마의 쐐기풀이라는 별명이 붙은 이 풀은, 수 세기 동안 현명한 마녀와 채집가에 의해 위경련을 완화시키는 약초로 쓰였습니다.",
+
+//FEATHERS
+
+"bluebird-feather.name": "산사랑지빠귀 깃털",
+"bluebird-feather.description": "산에서 볼 수 있는 파랑새가 가진, 아름다운 바다빛 깃털.",
+
+"crow-feather.name": "까마귀 깃털",
+"crow-feather.description": "이 깃털은 밤하늘처럼 새까맣습니다.",
+
+"lovebird-feather.name": "모란앵무 깃털",
+"lovebird-feather.description": "다채로운 색을 가진 모란앵무의 깃털.",
+
+"owl-feather.name": "흰올빼미 깃털",
+"owl-feather.description": "흰올빼미의 장엄한 흰 깃털입니다.",
+
+"phoenix-feather.name": "불사조 깃털",
+"phoenix-feather.description": "변화 도중 떨어진 것으로 추측되는 불사조의 아름다운 진홍빛 깃털.",
+
+"raven-feather.name": "갈까마귀 깃털",
+"raven-feather.description": "짙은 보랏빛 광택의 검은 깃털의 위대한 발견은 연금술사나 산울타리 마녀에 의해 이루어졌습니다.",
+
+"rosefinch-feather.name": "양진이새 깃털",
+"rosefinch-feather.description": "양진이새의 아름답고 밝은 분홍빛 깃털.",
+
+"starling-feather.name": "자수정 찌르레기 깃털",
+"starling-feather.description": "자수정 찌르레기는 이리듐 광석과 같은 색을 지닌 새로, 이 새의 깃털은 채집가 사이에서 귀중한 보물로 여겨집니다.",
+
+//FORAGE
+
+"autumn-leaf.name": "가을잎",
+"autumn-leaf.description": "가을의 첫 번째 낙엽 중 하나로, 유용한 마법 재료로 알려졌습니다.",
+
+"fire-scale.name": "페어리 드래곤의 비늘",
+"fire-scale.description": "신화 속 불꽃의 용에게서 떨어진 반짝이는 비늘입니다.",
+
+"hidden-clover.name": "숨겨진 행운",
+"hidden-clover.description": "희귀한 네잎 클로버.",
+
+"honeycomb.name": "벌꿀빗",
+"honeycomb.description": "버려진 벌집의 잔해.",
+
+"mandrake-root.name": "맨드레이크",
+"mandrake-root.description": "아주 독특하게 생긴 뿌리... 식물? 전설에 따르면 땅에서 뽑힐 때 비명을 지르므로, 현명한 마녀들은 귀마개를 착용합니다.",
+
+"ocean-scale.name": "미스틱 드래곤의 비늘",
+"ocean-scale.description": "신화 속 바다의 용에게서 떨어진 반짝이는 비늘입니다.",
+
+"sea-bubble.name": "바다거품",
+"sea-bubble.description": "해변의 모래 속에서 발견되는 희귀한, 창백한 색의 보석",
+
+"shooting-star.name": "별똥별",
+"shooting-star.description": "별똥별! 채집가 마녀와 마법사에겐 정말 희귀하고 영광스러운 발견이에요.",
+
+"spiderweb.name": "거미줄",
+"spiderweb.description": "평범한 거미줄.",
+
+"unicorn-horn.name": "일각수의 뿔",
+"unicorn-horn.description": "어린 유니콘에게서 떨어진 뿔. 마녀나 마법사에게 있어 아주 희귀하고 귀중한 채집품입니다.",
+
+"vine.name": "튼튼한 덩굴",
+"vine.description": "현명한 마녀나 마법사가 다방면으로 사용할 수 있는, 열대 덩굴입니다.",
+
+"witch-wood.name": "마녀목",
+"witch-wood.description": "숲 속 깊은 곳에서 채집할 수 있는 나무로, 마녀가 사용할 신비한 힘이 가득합니다.",
+
+//TREE SAPLINGS
+
+"ambrosia-sapling.name": "암브로시아 묘목",
+"ambrosia-sapling.description": "28일 후 성목이 됩니다. 가을에 열매가 맺힙니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"apricot-sapling.name": "황금달 묘목",
+"apricot-sapling.description": "28일 후 성목이 됩니다. 봄에 열매가 맺힙니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"banana-sapling.name": "레이디 핑거 바나나 묘목",
+"banana-sapling.description": "28일 후 성목이 됩니다. 여름에 열매가 맺힙니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"bloodorange-sapling.name": "블러드 오렌지 묘목",
+"bloodorange-sapling.description": "28일 후 성목이 됩니다. 여름에 열매가 맺힙니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"chiffon-sapling.name": "블루 시폰 스타터",
+"chiffon-sapling.description": "28일 후 성목이 됩니다. 가을에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"daisy-sapling.name": "살금살금 데이지 스타터",
+"daisy-sapling.description": "28일 후 성목이 됩니다. 봄에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"dawnlily-sapling.name": "여명나리꽃 스타터",
+"dawnlily-sapling.description": "28일 후 성목이 됩니다. 여름에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"dusklily-sapling.name": "황혼나리꽃 스타터",
+"dusklily-sapling.description": "28일 후 성목이 됩니다. 여름에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"elderberry-sapling.name": "딱총나무 묘목",
+"elderberry-sapling.description": "28일 후 성목이 됩니다. 여름에 꽃과 열매를 얻을 수 있습니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"geranium-sapling.name": "천사 제라늄 스타터",
+"geranium-sapling.description": "28일 후 성목이 됩니다. 가을에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"milk-and-honey-sapling.name": "우유벌꿀 스타터",
+"milk-and-honey-sapling.description": "28일 후 성목이 됩니다. 겨울에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"moonlight-blues-sapling.name": "달빛의 푸름 묘목",
+"moonlight-blues-sapling.description": "28일 후 성목이 됩니다. 겨울에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"pomegranate-sapling.name": "에버스윗 묘목",
+"pomegranate-sapling.description": "28일 후 성목이 됩니다. 가을에 열매가 열립니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"quartz-sapling.name": "석영앵초 스타터",
+"quartz-sapling.description": "28일 후 성목이 됩니다. 가을에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"secret-poppy-sapling.name": "비밀 양귀비 스타터",
+"secret-poppy-sapling.description": "28일 후 성목이 됩니다. 여름에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"snowpeach-sapling.name": "설미려 스타터",
+"snowpeach-sapling.description": "28일 후 성목이 됩니다. 여름에 열매가 열립니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"sourcherry-sapling.name": "유성산 스타터",
+"sourcherry-sapling.description": "28일 후 성목이 됩니다. 봄에 열매가 열립니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"star-anise-sapling.name": "팔각 묘목",
+"star-anise-sapling.description": "28일 후 성목이 됩니다. 봄에 열매가 열립니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"sunsetmango-sapling.name": "선셋 망고 묘목",
+"sunsetmango-sapling.description": "28일 후 성목이 됩니다. 여름에 열매가 열립니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"twinblooms-sapling.name": "쌍둥이꽃 묘목",
+"twinblooms-sapling.description": "28일 후 성목이 됩니다. 가을에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"violet-sapling.name": "초원 제비꽃 스타터",
+"violet-sapling.description": "28일 후 성목이 됩니다. 봄에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+//MUSHROOM TREES
+
+"amanitatrio-sapling.name":"아마티나 트리오 묘목",
+"amanitatrio-sapling.description":"28일 후 성목이 됩니다. 여름에 수확할 수 있습니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"coralcone-sapling.name":"산호원뿔 묘목",
+"coralcone-sapling.description":"28일 후 성목이 됩니다. 여름에 수확할 수 있습니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"dawnstrumpet-sapling.name":"여명의 나팔 묘목",
+"dawnstrumpet-sapling.description":"28일 후 성목이 됩니다. 봄에 수확할 수 있습니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"duskcap-sapling.name":"황혼모자 묘목",
+"duskcap-sapling.description":"28일 후 성목이 됩니다. 가을에 수확할 수 있습니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"amanita-sapling.name":"거대 아마티나 묘목",
+"amanita-sapling.description":"28일 후 성목이 됩니다. 가을에 수확할 수 있습니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"goldmushroom-sapling.name":"황금아우라 묘목",
+"goldmushroom-sapling.description":"28일 후 성목이 됩니다. 봄에 수확할 수 있습니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"tealumbrella-sapling.name":"폭풍우산 묘목",
+"tealumbrella-sapling.description":"28일 후 성목이 됩니다. 겨울에 수확할 수 있습니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"faeriehelmets-sapling.name":"요정의 보닛 묘목",
+"faeriehelmets-sapling.description":"28일 후 성목이 됩니다. 겨울에 수확할 수 있습니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"whiteumbrella-sapling.name":"흰우산 묘목",
+"whiteumbrella-sapling.description":"28일 후 성목이 됩니다. 가을에 수확할 수 있습니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"slimecap-sapling.name":"붉은 슬라임모자 묘목",
+"slimecap-sapling.description":"28일 후 성목이 됩니다. 가을에 수확할 수 있습니다. 주변 8칸이 비어있어야 자랍니다.",
+
+//FLOWER SEEDS
+
+"arcticfox-seeds.name": "북극여우꽃 씨앗",
+"arcticfox-seeds.description": "여름에 심습니다. 다 자라는 데 10일이 걸리며, 5일마다 수확할 수 있습니다.",
+
+"avalune-seeds.name": "에이발룬 씨앗",
+"avalune-seeds.description": "여름에 심습니다. 다 자라는 데 14일이 걸리며, 3일마다 수확할 수 있습니다.",
+
+"bell-seeds.name":"여름의 종 씨앗",
+"bell-seeds.description":"여름에 심습니다. 다 자라는 데 10일이 걸리며, 5일마다 수확할 수 있습니다.",
+
+"buttercup-seeds.name": "초원 버터컵 씨앗",
+"buttercup-seeds.description": "봄에 심습니다. 다 자라는 데 7일이 걸리며, 5일마다 수확할 수 있습니다.",
+
+"faerie-puffball-seeds.name": "요정분첩 씨앗",
+"faerie-puffball-seeds.description": "봄에 심습니다. 다 자라는 데 14일이 걸리며, 3일마다 수확할 수 있습니다.",
+
+"geranium-seeds.name": "천사제라늄 씨앗",
+"geranium-seeds.description": "봄, 혹은 여름에 심습니다. 다 자라는 데 7일이 걸리며, 5일마다 수확할 수 있습니다.",
+
+"meadow-violet-seeds.name": "초원 제비꽃 씨앗",
+"meadow-violet-seeds.description": "봄에 심습니다. 다 자라는 데 14일이 걸리며, 3일마다 수확할 수 있습니다.",
+
+"moon-maiden-seeds.name": "달의 여인 씨앗",
+"moon-maiden-seeds.description": "봄에 심습니다. 다 자라는 데 7일이 걸리며, 5일마다 수확할 수 있습니다.",
+
+"pixies-breath-seeds.name": "요정의 숨결 씨앗",
+"pixies-breath-seeds.description": "가을에 심습니다. 다 자라는 데 14일이 걸리며, 3일마다 수확할 수 있습니다.",
+
+
+//FRUIT SEEDS
+
+"amber-moondrop-seeds.name": "호박 달방울 씨앗",
+"amber-moondrop-seeds.description": "봄이나 여름에 심으세요. 자라는 데 13일이 걸리고, 4일마다 수확할 수 있습니다.",
+
+"lapis-moondrop-seeds.name": "라피스 달방울 씨앗",
+"lapis-moondrop-seeds.description": "여름, 혹은 가을에 심으세요. 자라는 데 13일이 걸리고, 4일마다 수확할 수 있습니다.",
+
+"jade-moondrop-seeds.name": "비취 달방울 씨앗",
+"jade-moondrop-seeds.description": "여름, 혹은 가을에 심으세요. 자라는 데 13일이 걸리고, 4일마다 수확할 수 있습니다.",
+
+"pearl-moondrop-seeds.name": "진주 달방울 씨앗",
+"pearl-moondrop-seeds.description": "여름, 혹은 가을에 심으세요. 자라는 데 13일이 걸리고, 4일마다 수확할 수 있습니다.",
+
+//HERB SEEDS
+
+"rose-flax-seeds.name": "장미아마풀 씨앗",
+"rose-flax-seeds.description": "가을에 심습니다. 다 자라는 데 4일이 걸리며, 낫으로 수확할 수 있습니다.",
+
+"mugwort-seeds.name": "쑥 씨앗",
+"mugwort-seeds.description": "가을에 심습니다. 다 자라는 데 12일이 걸리며, 4일마다 수확할 수 있습니다.",
+
+"violet-flax-seeds.name": "보라아마풀 씨앗",
+"violet-flax-seeds.description": "가을에 심습니다. 다 자라는 데 4일이 걸리며, 낫으로 수확할 수 있습니다.",
+
+"thistle-seeds.name": "엉겅퀴 씨앗",
+"thistle-seeds.description": "가을에 심습니다. 다 자라는 데 12일이 걸리며, 4일마다 수확할 수 있습니다.",
+
+"valerian-seeds.name": "고양이풀 씨앗",
+"valerian-seeds.description": "여름에 심습니다. 다 자라는 데 10일이 걸리며, 5일마다 수확할 수 있습니다.",
+
+"yarrow-seeds.name": "서양톱풀 씨앗",
+"yarrow-seeds.description": "여름에 심습니다. 다 자라는 데 10일이 걸리며, 5일마다 수확할 수 있습니다."	
+}

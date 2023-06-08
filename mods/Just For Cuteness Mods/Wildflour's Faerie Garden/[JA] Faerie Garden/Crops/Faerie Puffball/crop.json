@@ -1,0 +1,17 @@
+﻿{
+	"Name": "wf faerie puffball seeds",
+	"Product": "wf faerie puffball",
+	"SeedName": "wf faerie puffball seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "faerie-puffball-seeds",
+	"Type": "Flower",
+	"Seasons": ["spring"],
+	"Phases": [3, 3, 3, 3, 2],
+    "RegrowthPhase": 3,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 165,
+	"SeedPurchaseFrom": "Pierre",
+}

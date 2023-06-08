@@ -1,0 +1,36 @@
+{
+    "Name": "wf sour cherry",
+    "Description": "...",
+    "TranslationKey": "sour-cherry",
+    "Category": "Fruit",
+    "Edibility": 45,
+    "Price": 100,
+    "IsColored": false,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": {
+                    "Farming": 0,
+                    "Fishing": 0,
+                    "Mining": 0,
+                    "Luck": 0,
+                    "Foraging": 0,
+                    "MaxStamina": 0,
+                    "MagnetRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0, 
+                    "Attack": 0,
+                    "Duration": 0
+                      },
+
+    "CanPurchase":false,
+    "GiftTastes":
+    {
+        "Love": ["Lewis", "Sandy"],
+        "Like":["Abigail"]
+    },
+    "ContextTags": [
+        "fruit_tree_item",
+        "wildflour_witchy_item",
+        "fruit_item",
+        "color_dark_pink"
+    ]
+}

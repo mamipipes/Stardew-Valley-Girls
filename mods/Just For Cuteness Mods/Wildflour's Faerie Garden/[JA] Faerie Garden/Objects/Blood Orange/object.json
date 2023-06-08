@@ -1,0 +1,35 @@
+{
+    "Name": "wf blood orange",
+    "Description": "...",
+    "TranslationKey": "blood-orange",
+    "Category": "Fruit",
+    "Edibility": 70,
+    "Price": 130,
+    "IsColored": false,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": {
+                    "Farming": 0,
+                    "Fishing": 0,
+                    "Mining": 0,
+                    "Luck": 2,
+                    "Foraging": 0,
+                    "MaxStamina": 0,
+                    "MagnetRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0, 
+                    "Attack": 0,
+                    "Duration": 360
+                      },
+    "CanPurchase":false,
+    "GiftTastes":
+    {
+        "Love": ["Lewis", "Sandy"],
+        "Like":["Abigail"]
+    },
+    "ContextTags": [
+        "fruit_tree_item",
+        "color_orange",
+        "wildflour_witchy_item",
+        "fruit_item"
+    ]
+}

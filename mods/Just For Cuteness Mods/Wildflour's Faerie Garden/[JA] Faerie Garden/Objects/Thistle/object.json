@@ -1,0 +1,36 @@
+{
+    "Name": "wf thistle",
+    "Description": "...",
+    "TranslationKey": "thistle",
+    "Category": "Greens",
+    "CategoryTextOverride": "Herb",
+    "Edibility": 10,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": {
+                    "Farming": 0,
+                    "Fishing": 0,
+                    "Mining": 0,
+                    "Luck": 0,
+                    "Foraging": 0,
+                    "MaxStamina": 0,
+                    "MagnetRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0, 
+                    "Attack": 0,
+                    "Duration": 0, // 360 seconds (aka 6 min)
+                      },
+  "Price": 50,
+  "CanPurchase":false,
+  "IsColored": false,
+  "GiftTastes":
+  {
+    "Love": ["Harvey","Maru","Wizard"],
+    "Like": ["Demetrius"]
+  },
+    "ContextTags": [
+        "wildflour_witchy_item",
+        "forage_item",
+        "herb_item",
+        "color_pink"
+    ]
+}

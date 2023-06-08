@@ -1,0 +1,11 @@
+{
+   "Name": "Yandere Shane",
+   "Author": "wazzamshazzam",
+   "Description": "Makes Shane a yandere!",
+   "Version": "1.0",
+   "UniqueID": "wazzamshazzam.yandereshane",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+"UpdateKeys": [ "Nexus" ],
+}

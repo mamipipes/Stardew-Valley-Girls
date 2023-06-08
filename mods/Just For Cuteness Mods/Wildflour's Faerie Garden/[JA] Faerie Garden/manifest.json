@@ -1,0 +1,13 @@
+{
+    "Name": "Wildflour's Faerie Garden - Magical Farming and Forage",
+    "Author": "wildflourmods",
+    "Description": "new crops and forage focused on magical items, flowers, mushrooms and more!",
+    "Version": "1.0",
+    "MinimumApiVersion": "3.7.0",
+    "UniqueID": "wildflour.faeriegarden",
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+	"UpdateKeys": ["nexus:16940"]
+}

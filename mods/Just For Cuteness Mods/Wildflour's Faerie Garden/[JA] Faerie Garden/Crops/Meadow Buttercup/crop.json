@@ -1,0 +1,17 @@
+﻿{
+	"Name": "wf meadow buttercup seeds",
+	"Product": "wf meadow buttercup",
+	"SeedName": "wf meadow buttercup seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "buttercup-seeds",
+	"Type": "Flower",
+	"Seasons": ["spring"],
+	"Phases": [2, 1, 1, 1, 2],
+    "RegrowthPhase": 5,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 135,
+	"SeedPurchaseFrom": "Pierre",
+}

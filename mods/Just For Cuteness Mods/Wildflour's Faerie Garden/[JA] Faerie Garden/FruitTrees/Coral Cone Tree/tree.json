@@ -1,0 +1,10 @@
+{
+    "Name": "wf coral cone tree",
+    "Product": "wf coral cone",
+    "SaplingTranslationKey":"coralcone-sapling",
+    "SaplingName": "wf coral cone sapling",
+    "SaplingDescription": "...",
+    "Season": "summer",
+    "SaplingPurchasePrice": 9000,
+	"SaplingPurchaseFrom": "Krobus",
+}

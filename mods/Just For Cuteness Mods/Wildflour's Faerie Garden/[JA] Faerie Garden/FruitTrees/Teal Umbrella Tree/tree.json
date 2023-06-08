@@ -1,0 +1,10 @@
+{
+    "Name": "wf teal umbrella tree",
+    "Product": "wf teal umbrella",
+    "SaplingTranslationKey":"tealumbrella-sapling",
+    "SaplingName": "wf teal umbrella sapling",
+    "SaplingDescription": "...",
+    "Season": "winter",
+    "SaplingPurchasePrice": 5750,
+	"SaplingPurchaseFrom": "Krobus",
+}

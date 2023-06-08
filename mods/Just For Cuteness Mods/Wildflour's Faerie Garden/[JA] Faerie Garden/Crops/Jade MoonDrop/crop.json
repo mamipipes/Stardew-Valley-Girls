@@ -1,0 +1,17 @@
+﻿{
+	"Name": "wf jade seeds",
+	"Product": "wf jade moondrop",
+	"SeedName": "wf jade seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "jade-moondrop-seeds",
+	"Type": "Fruit",
+	"Seasons":["summer","fall"],
+	"Phases": [3, 3, 3, 3, 1],
+    "RegrowthPhase": 4,
+	"HarvestWithScythe": false,
+	"TrellisCrop": true,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 240,
+	"SeedPurchaseFrom": "Dwarf",
+}

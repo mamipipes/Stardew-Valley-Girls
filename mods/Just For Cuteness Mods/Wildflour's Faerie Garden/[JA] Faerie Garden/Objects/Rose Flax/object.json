@@ -1,0 +1,20 @@
+{
+    "Name": "wf rose flax",
+    "Description": "...",
+    "TranslationKey": "rose-flax",
+    "Category": "Greens",
+    "CategoryTextOverride": "Grain",
+    "Edibility": 0,
+    "Price": 40,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Love": ["Harvey","Maru","Wizard"],
+        "Like": ["Demetrius"]
+    },
+    "ContextTags": [
+        "wildflour_witchy_item",
+        "grain_item",
+        "color_pink"
+    ]
+}

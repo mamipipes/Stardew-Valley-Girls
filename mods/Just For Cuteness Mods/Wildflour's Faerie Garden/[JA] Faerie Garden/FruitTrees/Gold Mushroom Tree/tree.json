@@ -1,0 +1,10 @@
+{
+    "Name": "wf gold mushroom tree",
+    "Product": "wf gold mushroom",
+    "SaplingTranslationKey":"goldmushroom-sapling",
+    "SaplingName": "wf gold mushroom sapling",
+    "SaplingDescription": "...",
+    "Season": "spring",
+    "SaplingPurchasePrice": 8000,
+	"SaplingPurchaseFrom": "Krobus",
+}

@@ -1,0 +1,10 @@
+{
+    "Name": "wf daisy tree",
+    "Product": "wf daisy",
+    "SaplingTranslationKey":"daisy-sapling",
+    "SaplingName": "wf daisy sapling",
+    "SaplingDescription": "...",
+    "Season": "spring",
+    "SaplingPurchasePrice": 6000,
+	"SaplingPurchaseFrom": "Dwarf",
+}

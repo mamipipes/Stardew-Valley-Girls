@@ -1,0 +1,10 @@
+{
+    "Name": "wf ambrosia apple tree",
+    "Product": "wf ambrosia apple",
+    "SaplingTranslationKey":"ambrosia-sapling",
+    "SaplingName": "wf ambrosia apple sapling",
+    "SaplingDescription": "...",
+    "Season": "fall",
+    "SaplingPurchasePrice": 6000,
+	"SaplingPurchaseFrom": "Dwarf"
+}

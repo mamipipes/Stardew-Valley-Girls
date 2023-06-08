@@ -1,0 +1,10 @@
+{
+    "Name": "wf faerie helmets tree",
+    "Product": "wf faerie helmets",
+    "SaplingTranslationKey":"faeriehelmets-sapling",
+    "SaplingName": "wf faerie helmets sapling",
+    "SaplingDescription": "...",
+    "Season": "winter",
+    "SaplingPurchasePrice": 5750,
+	"SaplingPurchaseFrom": "Krobus",
+}

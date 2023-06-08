@@ -1,0 +1,10 @@
+{
+    "Name": "wf sunset mango tree",
+    "Product": "wf sunset mango",
+    "SaplingName": "wf sunset mango sapling",
+    "SaplingDescription": "...",
+    "SaplingTranslationKey":"sunsetmango-sapling",
+    "Season": "summer",
+    "SaplingPurchasePrice": 12000, 
+	"SaplingPurchaseFrom": "Dwarf"
+}

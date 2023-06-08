@@ -1,0 +1,39 @@
+{
+    "Name": "wf giant amanita",
+    "Description": "...",
+    "TranslationKey": "giant-amanita",
+    "Category": "Greens",
+    "CategoryTextOverride": "Mushroom",
+    "Edibility": -200,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": {
+                    "Farming": 0,
+                    "Fishing": 0,
+                    "Mining": 0,
+                    "Luck": 0,
+                    "Foraging": 0,
+                    "MaxStamina": 0,
+                    "MagnetRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0, 
+                    "Attack": 0,
+                    "Duration": 0
+                      },
+    "Price": 180,
+    "CanPurchase":false,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Love": ["Wizard"],
+        "Like":["Demetrius", "Dwarf", "Krobus"],
+        "Neutral":[],
+        "Dislike":["Lewis"],
+        "Hate":["Pierre"]
+    },
+    "ContextTags": [
+        "mushroom_item",
+        "wildflour_witchy_item",
+        "forage_item",
+        "color_red"
+    ]
+}

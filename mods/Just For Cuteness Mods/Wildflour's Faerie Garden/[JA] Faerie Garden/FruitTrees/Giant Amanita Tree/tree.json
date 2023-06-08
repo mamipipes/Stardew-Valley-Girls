@@ -1,0 +1,10 @@
+{
+    "Name": "wf giant amanita tree",
+    "Product": "wf giant amanita",
+    "SaplingTranslationKey":"amanita-sapling",
+    "SaplingName": "wf giant amanita sapling",
+    "SaplingDescription": "...",
+    "Season": "fall",
+    "SaplingPurchasePrice": 8000,
+	"SaplingPurchaseFrom": "Krobus",
+}

@@ -1,0 +1,10 @@
+{
+    "Name": "wf blue chiffon tree",
+    "Product": "wf blue chiffon",
+    "SaplingTranslationKey":"chiffon-sapling",
+    "SaplingName": "wf blue chiffon sapling",
+    "SaplingDescription": "...",
+    "Season": "fall",
+    "SaplingPurchasePrice": 6000,
+	"SaplingPurchaseFrom": "Dwarf",
+}

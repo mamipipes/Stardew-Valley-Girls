@@ -1,0 +1,10 @@
+{
+    "Name": "wf violet tree",
+    "Product": "wf meadow violet",
+    "SaplingTranslationKey":"violet-sapling",
+    "SaplingName": "wf violet sapling",
+    "SaplingDescription": "...",
+    "Season": "spring",
+    "SaplingPurchasePrice": 6000,
+	"SaplingPurchaseFrom": "Dwarf",
+}

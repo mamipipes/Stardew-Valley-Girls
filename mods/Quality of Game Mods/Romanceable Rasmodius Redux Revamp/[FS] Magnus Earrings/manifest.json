@@ -1,0 +1,13 @@
+﻿{
+  "Name": "RRRR Magnus Earrings",
+  "Author": "Jellonip",
+  "Version": "1.0.0",
+  "Description": "Adds in the two versions of Magnus' defencive earring gift to the farmer.",
+  "UniqueID": "Jellonip.FS.RRRR",
+  "UpdateKeys": [ "Nexus:???" ],
+  "ContentPackFor": {
+   "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "3.0.3"
+	
+  }
+}

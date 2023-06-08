@@ -1,0 +1,10 @@
+{
+    "Name": "wf elder tree",
+    "Product": "wf elderberry blossoms",
+    "SaplingTranslationKey":"elderberry-sapling",
+    "SaplingName": "wf elder sapling",
+    "SaplingDescription": "...",
+    "Season": "fall",
+    "SaplingPurchasePrice": 6000,
+	"SaplingPurchaseFrom": "Krobus",
+}

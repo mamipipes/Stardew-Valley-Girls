@@ -1,0 +1,35 @@
+{
+    "Name": "wf sunset mango",
+    "Description": "...",
+    "TranslationKey": "sunset-mango",
+    "Category": "Fruit",
+    "Edibility": 95,
+    "Price": 210,
+    "IsColored": false,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": {
+                    "Farming": 0,
+                    "Fishing": 0,
+                    "Mining": 0,
+                    "Luck": 0,
+                    "Foraging": 0,
+                    "MaxStamina": 0,
+                    "MagnetRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0, 
+                    "Attack": 0,
+                    "Duration": 0, // 360 seconds (aka 6 min)
+                      },
+    "CanPurchase":false,
+    "GiftTastes":
+    {
+        "Love": ["Lewis", "Sandy"],
+        "Like":["Abigail"]
+    },
+    "ContextTags": [
+        "wildflour_witchy_item",
+        "fruit_item",
+        "fruit_tree_item",
+        "color_gold"
+    ]
+}

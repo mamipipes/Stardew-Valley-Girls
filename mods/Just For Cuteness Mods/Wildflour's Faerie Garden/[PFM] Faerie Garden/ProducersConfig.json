@@ -1,0 +1,18 @@
+﻿[
+	{
+		"ProducerName": "wf mush log", 
+		"AlternateFrameProducing": false, 
+		"AlternateFrameWhenReady": false, 
+		"NoInputStartMode": "DayUpdate",
+		"DisableBouncingAnimationWhileWorking": true,
+		"ProducingAnimation": { 
+            "RelativeFrameIndex": [1],
+            "FrameInterval": 10 
+        },
+        "ReadyAnimation": 
+        {
+			"RelativeFrameIndex": [0]
+        }
+	}
+	
+]

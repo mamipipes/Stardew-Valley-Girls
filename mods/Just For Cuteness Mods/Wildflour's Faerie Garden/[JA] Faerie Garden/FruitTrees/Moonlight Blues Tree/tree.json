@@ -1,0 +1,10 @@
+{
+    "Name": "wf moonlight blues tree",
+    "Product": "wf moonlight blues",
+    "SaplingTranslationKey":"moonlight-blues-sapling",
+    "SaplingName": "wf moonlight blues sapling",
+    "SaplingDescription": "...",
+    "Season": "fall",
+    "SaplingPurchasePrice": 6000,
+	"SaplingPurchaseFrom": "Pierre"
+}

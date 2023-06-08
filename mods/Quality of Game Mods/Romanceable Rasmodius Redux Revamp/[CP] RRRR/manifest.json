@@ -1,0 +1,34 @@
+{
+    "Name": "Romanceable Rasmodius Redux Revamped",
+    "Author": "Written by Jellonip, WerewolfMaster, haywrites, PaintedParrot",
+    "Version": "1.0.0",
+    "Description": "Revamped version of 'Romanceable Rasmodius' that adds many new events and dialogue for a full romance experience. Requires Stardew Valley Expanded.",
+
+    "UniqueID": "Parrot.RomRas",
+    "UpdateKeys": ["Nexus:16893"],
+    "Dependencies": [
+        {
+		  "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+		  "IsRequired": true,
+        },
+	{
+		  "UniqueID": "spacechase0.JsonAssets",
+		  "IsRequired": true,
+	},
+	{
+		  "UniqueID": "gizzymo.canonfriendlyexpansion",
+		  "IsRequired": false,
+	},
+  {
+      "UniqueID": "misscoriel.eventrepeater",
+      "IsRequired": true,
+  },
+  {
+      "UniqueID": "Omegasis.HappyBirthday",
+      "IsRequired": false,
+  }
+     ],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+ }

@@ -1,0 +1,8 @@
+﻿[
+	{
+		"Name": "Wizard",
+		"Frame": 28, 
+		"FrameDirectionRight": true,
+		"RequiredEvent": 3073005
+	}
+]

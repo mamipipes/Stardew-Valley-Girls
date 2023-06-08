@@ -1,0 +1,17 @@
+﻿{
+	"Name": "wf moon maiden seeds",
+	"Product": "wf moon maiden",
+	"SeedName": "wf moon maiden seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "moon-maiden-seeds",
+	"Type": "Flower",
+	"Seasons": ["spring"],
+	"Phases": [2, 1, 1, 1, 2],
+    "RegrowthPhase": 5,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 135,
+	"SeedPurchaseFrom": "Sandy",
+}

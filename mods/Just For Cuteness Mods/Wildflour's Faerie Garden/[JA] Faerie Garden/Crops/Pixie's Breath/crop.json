@@ -1,0 +1,17 @@
+﻿{
+	"Name": "wf pixies breath seeds",
+	"Product": "wf pixies breath",
+	"SeedName": "wf pixies breath seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "pixies-breath-seeds",
+	"Type": "Flower",
+	"Seasons": ["fall"],
+	"Phases": [3, 3, 3, 3, 2],
+    "RegrowthPhase": 3,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 165,
+	"SeedPurchaseFrom": "Pierre",
+}

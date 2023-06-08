@@ -1,0 +1,33 @@
+{
+    "Name": "wf lapis moondrop",
+    "Description": "...",
+    "TranslationKey": "lapis-moondrop",
+    "Category": "Fruit",
+    "Edibility": 100,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": {
+                    "Farming": 0,
+                    "Fishing": 0,
+                    "Mining": 0,
+                    "Luck": 0,
+                    "Foraging": 0,
+                    "MaxStamina": 0,
+                    "MagnetRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0, 
+                    "Attack": 0,
+                    "Duration": 0, // 360 seconds (aka 6 min)
+                      },
+    "Price": 80,
+    "CanPurchase":false,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Love": ["Vincent"]
+    },
+    "ContextTags": [
+        "wildflour_witchy_item", 
+        "color_gold",
+        "fruit_item"
+    ]
+}

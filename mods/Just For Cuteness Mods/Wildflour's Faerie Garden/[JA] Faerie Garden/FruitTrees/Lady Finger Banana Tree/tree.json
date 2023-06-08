@@ -1,0 +1,11 @@
+{
+    "Name": "wf ladyfinger banana tree",
+    "Product": "wf ladyfinger banana",
+    "SaplingTranslationKey":"banana-sapling",
+    "SaplingName": "wf ladyfinger banana sapling",
+    "SaplingDescription": "...",
+    "Season": "summer",
+    "SaplingPurchasePrice": 12000,
+    "SaplingPurchaseRequirements": [ "f Leo 0"],
+	"SaplingPurchaseFrom": "Dwarf"
+}

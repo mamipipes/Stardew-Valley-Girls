@@ -1,0 +1,13 @@
+﻿{
+  "Name": "RRRR Renamed Track",
+  "Author": "Jellonip",
+  "Version": "1.0.0",
+  "Description": "Add an unused song from SV release under a usable name.",
+  "UniqueID": "Jellonip.SAAT.RRRR",
+  "UpdateKeys": [ "Nexus:???" ],
+  "ContentPackFor": {
+    "UniqueID": "ZeroMeters.SAAT.Mod",
+    "MinimumVersion": "1.0.0"
+	
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "Name": "wf star anise tree",
+    "Product": "wf star anise",
+    "SaplingTranslationKey":"star-anise-sapling",
+    "SaplingName": "wf star anise sapling",
+    "SaplingDescription": "...",
+    "Season": "fall",
+    "SaplingPurchasePrice": 6000,
+	"SaplingPurchaseFrom": "Krobus",
+}

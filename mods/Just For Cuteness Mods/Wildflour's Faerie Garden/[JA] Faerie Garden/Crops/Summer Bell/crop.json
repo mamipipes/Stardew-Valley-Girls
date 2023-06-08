@@ -1,0 +1,17 @@
+﻿{
+	"Name": "wf summer bell seeds",
+	"Product": "wf summer bell",
+	"SeedName": "wf summer bell seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "bell-seeds",
+	"Type": "Flower",
+	"Seasons": ["summer"],
+	"Phases": [2, 2, 2, 2, 2],
+    "RegrowthPhase": 5,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 210,
+	"SeedPurchaseFrom": "Pierre",
+}

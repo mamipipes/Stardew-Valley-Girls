@@ -1,0 +1,10 @@
+{
+    "Name": "wf twinblooms tree",
+    "Product": "wf twinblooms",
+    "SaplingTranslationKey":"twinblooms-sapling",
+    "SaplingName": "wf twinblooms sapling",
+    "SaplingDescription": "...",
+    "Season": "fall",
+    "SaplingPurchasePrice": 6000,
+	"SaplingPurchaseFrom": "Sandy",
+}

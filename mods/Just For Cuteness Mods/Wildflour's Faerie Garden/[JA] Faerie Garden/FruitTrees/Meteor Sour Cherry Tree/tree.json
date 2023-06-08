@@ -1,0 +1,10 @@
+{
+    "Name": "wf sour cherry tree",
+    "Product": "wf sour cherry",
+    "SaplingTranslationKey":"sourcherry-sapling",
+    "SaplingName": "wf sour cherry sapling",
+    "SaplingDescription": "...",
+    "Season": "spring",
+    "SaplingPurchasePrice": 7200,
+	"SaplingPurchaseFrom": "Dwarf",
+}
