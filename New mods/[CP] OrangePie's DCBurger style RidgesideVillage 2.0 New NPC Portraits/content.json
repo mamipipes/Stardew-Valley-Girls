@@ -1,0 +1,191 @@
+{
+  "Format": "1.22.0",
+
+   "Dependencies": [
+      { "UniqueID": "Rafseazz.RSVCP" }, 
+   ],
+
+  "Changes": [
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Anton",
+        "FromFile": "Assets/Anton.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Anton_Beach",
+        "FromFile": "Assets/Anton_Beach.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Ariah",
+        "FromFile": "Assets/Ariah.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Ariah_Beach",
+        "FromFile": "Assets/Ariah_Beach.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Blair",
+        "FromFile": "Assets/Blair.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Blair_Beach",
+        "FromFile": "Assets/Blair_Beach.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Carmen",
+        "FromFile": "Assets/Carmen.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Carmen_Beach",
+        "FromFile": "Assets/Carmen_Beach.png"
+    },
+     {
+        "Action": "EditImage",
+        "Target": "Portraits/Daia",
+        "FromFile": "Assets/Daia.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Daia_Beach",
+        "FromFile": "Assets/Daia_Beach.png"
+    },
+     {
+        "Action": "EditImage",
+        "Target": "Portraits/Faye",
+        "FromFile": "Assets/Faye.png"
+    },
+     {
+        "Action": "EditImage",
+        "Target": "Portraits/Faye_Beach",
+        "FromFile": "Assets/Faye_Beach.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Irene",
+        "FromFile": "Assets/Irene.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Irene_Beach",
+        "FromFile": "Assets/Irene_Beach.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Kiarra",
+        "FromFile": "Assets/Kiarra.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Kiarra_Beach",
+        "FromFile": "Assets/Kiarra_Beach.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Kimpoi",
+        "FromFile": "Assets/Kimpoi.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Kimpoi_Beach",
+        "FromFile": "Assets/Kimpoi_Beach.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Lorenzo",
+        "FromFile": "Assets/Lorenzo.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Lorenzo_Beach",
+        "FromFile": "Assets/Lorenzo_Beach.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Louie",
+        "FromFile": "Assets/Louie.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Louie_Beach",
+        "FromFile": "Assets/Louie_Beach.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Maive",
+        "FromFile": "Assets/Maive.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Maive_Beach",
+        "FromFile": "Assets/Maive_Beach.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Malaya",
+        "FromFile": "Assets/Malaya.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Malaya_Beach",
+        "FromFile": "Assets/Malaya_Beach.png"
+    },
+     {
+        "Action": "EditImage",
+        "Target": "Portraits/Naomi",
+        "FromFile": "Assets/Naomi.png"
+    },
+     {
+        "Action": "EditImage",
+        "Target": "Portraits/Naomi_Beach",
+        "FromFile": "Assets/Naomi_Beach.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Paula",
+        "FromFile": "Assets/Paula.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Paula_Beach",
+        "FromFile": "Assets/Paula_Beach.png"
+    },
+     {
+        "Action": "EditImage",
+        "Target": "Portraits/Sean",
+        "FromFile": "Assets/Sean.png"
+    },
+     {
+        "Action": "EditImage",
+        "Target": "Portraits/Sean_Beach",
+        "FromFile": "Assets/Sean_Beach.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Shanice",
+        "FromFile": "Assets/Shanice.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Shanice_Beach",
+        "FromFile": "Assets/Shanice_Beach.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Sonny",
+        "FromFile": "Assets/Sonny.png"
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Sonny_Beach",
+        "FromFile": "Assets/Sonny_Beach.png"
+    },
+  
+           ]    
+		}   

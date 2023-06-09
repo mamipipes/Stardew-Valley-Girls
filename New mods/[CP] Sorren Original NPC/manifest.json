@@ -1,0 +1,14 @@
+{
+
+  "Name": "Sorren Original NPC",
+  "Author": "annachibi",
+  "Description": "Adds in a custom NPC named Sorren",
+  "Version": "1.1.2",
+  "UniqueID": "annachibi.SorrenNPC",
+  "UpdateKeys": ["Nexus:4040"], 
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+
+
+}

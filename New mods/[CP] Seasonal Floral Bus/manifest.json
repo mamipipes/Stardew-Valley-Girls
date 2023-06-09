@@ -1,0 +1,26 @@
+{
+   "Name": "Seasonal Floral Bus",
+   "Author": "herbivoor",
+   "Version": "1.0.3",
+   "UpdateKeys": [ "Nexus:6717" ],
+   "Description": "Simple seasonal pastel recolors of the bus with floral decorations.",
+   "UniqueID": "herbivoor.seasonalfloralbus",
+   "MinimumApiVersion": "2.5",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+	   {
+		   "UniqueID": "DaisyNiko.EarthyRecolour",
+		   "IsRequired": false
+	   },
+	   {
+		   "UniqueID": "yri.ProjectYellogTownOverhaul",
+		   "IsRequired": false
+	   },
+	   {
+		   "UniqueID": "Lita.StarblueValley",
+		   "IsRequired": false
+	   }
+   ]
+}

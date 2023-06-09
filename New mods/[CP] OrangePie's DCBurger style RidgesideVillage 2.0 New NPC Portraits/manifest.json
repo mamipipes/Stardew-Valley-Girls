@@ -1,0 +1,10 @@
+{
+   "Name": "[CP] OrangePie's DCBurger style RidgesideVillage 2.0 New NPC Portraits",
+   "Author": "OrangePieUwU",
+   "Version": "1.0",
+   "Description": "RidgesideVillage2.0NewNPCPortraits",
+   "UniqueID": "OrangePieUwU.OrangePiesDCBurgerStyleRidgesideVillage2.0NewNPCPortraits",
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
