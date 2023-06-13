@@ -1,0 +1,140 @@
+{
+
+  //BARRELS 
+
+  "furniture.Tall Barrel.name": "Tall Decorative Barrel",
+  "furniture.Tall Barrel.description":"A large decorative barrel.",
+
+  "furniture.Medium Barrel.name": "Medium Decorative Barrel",
+  "furniture.Medium Barrel.description":"A medium decorative barrel.",
+
+  "furniture.Short Barrel 1.name": "Small Decorative Barrel",
+  "furniture.Short Barrel 1.description":"A small decorative barrel.",
+
+  "furniture.Short Barrel 2.name": "Small Decorative Barrel",
+  "furniture.Short Barrel 2.description":"A small decorative barrel.",
+
+  "furniture.Short Barrel 3.name": "Small Decorative Barrel",
+  "furniture.Short Barrel 3.description":"A small decorative barrel.",
+  
+  "furniture.Short Barrel 4.name": "Small Decorative Barrel",
+  "furniture.Short Barrel 4.description":"A small decorative barrel.",
+
+  //BARREL SEATS
+
+  "furniture.Barrel Seat 1.name": "Rustic Barrel Seat",
+  "furniture.Barrel Seat 1.description":"A small barrel turned into a cute stool for sitting on!",
+
+  "furniture.Barrel Seat 2.name": "Rustic Barrel Seat",
+  "furniture.Barrel Seat 2.description":"A small barrel turned into a cute stool for sitting on!",
+
+  //BENCH
+
+  "furniture.Bench.name": "Garden Bench",
+  "furniture.Bench.description":"A small greenhouse bench.",
+
+  //FLOWERPOTS
+  
+  "furniture.Flowerpot.name": "Small Flower Pot",
+  "furniture.Flowerpot.description":"A small pot filled with flowers.",
+
+  //HANGING BASKET
+  
+  "furniture.Hanging Basket.name": "Hanging Basket",
+  "furniture.Hanging Basket.description":"A hanging basket for holding plants.",
+
+  //LARGER WALL ITEMS
+
+  "furniture.Hanging Plant Shelves 1.name": "Wall Mounted Plant Shelves",
+  "furniture.Hanging Plant Shelves 1.description":"Some shelves mounted to the wall for holding plants and tools.",
+
+  "furniture.Hanging Plant Shelves 2.name": "Wall Mounted Plant Shelves",
+  "furniture.Hanging Plant Shelves 2.description":"Some shelves mounted to the wall for holding plants and tools.",
+
+  //MEDIUM FURNITURE
+
+  "furniture.Potting Bench 1.name": "Greenhouse Potting Bench",
+  "furniture.Potting Bench 1.description":"A rustic table set up to transplant new flowers and crops.",
+
+  "furniture.Potting Bench 2.name": "Greenhouse Potting Bench",
+  "furniture.Potting Bench 2.description":"A rustic table set up to transplant new flowers and crops.",
+
+  "furniture.Butterfly Hutch.name": "Butterfly Hutch",
+  "furniture.Butterfly Hutch.description":"A small butterfly hutch.",
+
+  //MISC DECOR
+
+  "furniture.Birdcage.name": "Birdcage",
+  "furniture.Birdcage.description":"An iron birdcage.",
+
+  "furniture.Rake.name": "Garden Rake",
+  "furniture.Rake.description":"A rake for spreading out mulch in the greenhouse.",
+
+  "furniture.Shovel.name": "Garden Shovel",
+  "furniture.Shovel.description":"A shovel for digging and planting new crops in the greenhouse.",
+
+  //POTTED PLANT
+  
+  "furniture.Small Potted Plant.name": "Small Potted Plant",
+  "furniture.Small Potted Plant.description":"A small potted plant.",
+
+  "furniture.Brave Little Pot.name": "Brave Little Pot",
+  "furniture.Brave Little Pot.description":"Just a small little pot in a big planting world.",
+  //SMALL DECOR
+
+  "furniture.Clay Pot.name": "Terracotta Pot",
+  "furniture.Clay Pot.description":"A terracotta pot ready to hold a new plant!",
+
+  "furniture.Cooler.name": "Cooler",
+  "Cooler.description":"A food cooler for keeping treats cool in the summer.",
+
+  "furniture.Flower Vase.name": "Flower Vase",
+  "furniture.Flower Vase.description":"A pretty vase holding some fresh cut flowers.",
+
+  "furniture.Boucage.name": "Boucage",
+  "furniture.Boucage.description":"A cage overflowing with flowers. What crimes did these plants commit?",
+
+  //SMALL TABLES
+
+  "furniture.Small Table 2.name": "Barrel Table",
+  "furniture.Small Table 2.description":"A small dining table for outdoor eating or hanging out.",
+
+  //SMALL WALL HANGING
+
+  "furniture.Small Wall Hanging.name": "Small Hanging Basket",
+  "furniture.Small Wall Hanging.description":"A small, decorative basket mounted to the ceiling or wall.",
+
+  //SQUARE PLANTERS
+  
+  "furniture.Box of Poppies.name": "Box of Poppies",
+  "furniture.Box of Poppies.description":"A box of freshly picked flowers!",
+
+  "furniture.Box of Forage.name": "Box of Forage",
+  "furniture.Box of Forage.description":"A box of freshly picked forage!",
+
+  "furniture.Box of Greens.name": "Box of Greens",
+  "furniture.Box of Greens.description":"A box of freshly picked greens!",
+
+  "furniture.Box of Fruit.name": "Box of Fruit",
+  "furniture.Box of Fruit.description":"A box of freshly picked veggies!",
+  
+  "furniture.Box of Veggies.name": "Box of Veggies",
+  "furniture.Box of Veggies.description":"A box of freshly picked fruit!",
+
+  //TALL DECOR
+
+  "furniture.Plant Shelves 1.name": "Tall Plant Shelves",
+  "furniture.Plant Shelves 1.description":"",
+
+  "furniture.Plant Shelves 2.name": "Tall Plant Shelves",
+  "furniture.Plant Shelves 2.description":"",
+
+  //TALL PLANTERS
+  
+  "furniture.Potted Plant with Shovel.name": "Potted Plant with Shovel",
+  "furniture.Potted Plant with Shovel.description":"A potted plant with a garden shovel.",
+
+  "furniture.Potted Berry Bush.name": "Potted Berry Bush",
+  "furniture.Potted Berry Bush.description":"A berry bush in a clay garden pot.",
+}
+  

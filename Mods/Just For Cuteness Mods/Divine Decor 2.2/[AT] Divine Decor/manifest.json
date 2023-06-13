@@ -1,0 +1,12 @@
+{
+   "Name": "Divine Decor",
+   "Author": "mushlune",
+   "Version": "1.0.0",
+   "Description": "A set of witchy-inspired decoration items",
+   "UniqueID": "mushlune.AT_divinedecor",
+   "MinimumApiVersion": "3.0.0",
+   "UpdateKeys": [ "nexus:12425" ],
+   "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures"
+   }
+}

@@ -1,0 +1,23 @@
+{
+	"Format": "1.4",
+	"Changes": [
+		{
+            "Action": "EditData",
+            "Target": "Data/AdditionalWallpaperFlooring",
+            "Entries": {
+                "IdaIda.Floors": {
+                    "ID": "IdaIda.Floors",
+                    "Texture": "Mods/[CP] IdaIda's Floors",
+                    "IsFlooring": true,
+                    "Count": 56
+                }
+            }
+        },
+        // load flooring tilesheet
+        {
+            "Action": "Load",
+            "Target": "Mods/[CP] IdaIda's Floors",
+            "FromFile": "assets/floors.png"
+        }
+    ]
+}

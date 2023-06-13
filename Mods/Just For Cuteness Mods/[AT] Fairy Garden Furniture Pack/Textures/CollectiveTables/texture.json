@@ -1,0 +1,24 @@
+{
+  "CollectiveNames": [
+    "Oak Table",
+    "Birch Table",
+    "Mahogany Table",
+    "Walnut Table",
+	"Modern Table",
+	"Puzzle Table",
+	"Moon Table",
+	"Luxury Table",
+	"Diviner Table",
+	"Pub Table",
+	"Luau Table",
+	"Dark Table",
+	"Candy Table",
+	"Sun Table",
+	"Winter Table",
+	"Neolithic Table",
+  ],
+  "Type": "Furniture",
+  "TextureWidth": 32,
+  "TextureHeight": 48,
+  "Variations": 8
+}

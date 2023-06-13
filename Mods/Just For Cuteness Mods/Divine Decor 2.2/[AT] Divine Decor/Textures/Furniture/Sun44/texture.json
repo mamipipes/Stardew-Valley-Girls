@@ -1,0 +1,28 @@
+{
+  "ItemName": "'Sun #44'",
+  "Type": "Furniture",
+  "TextureWidth": 32,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Shelf - Hanging Plant",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Shelf - Planchette",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 2,
+      "Name": "Shelf - Moon",
+      "ChanceWeight": 0.5
+    }
+
+  ]
+}

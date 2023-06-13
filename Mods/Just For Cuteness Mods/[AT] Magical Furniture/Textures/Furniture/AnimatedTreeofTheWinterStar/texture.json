@@ -1,0 +1,25 @@
+{
+  "ItemName": "Tree of the Winter Star",
+  "Type": "Furniture",
+  "TextureWidth": 48,
+  "TextureHeight": 80,
+  "Variations": 4,
+  "Animation": [
+    {
+      "Frame": 0,
+      "Duration": 1000
+    },
+    {
+      "Frame": 1,
+      "Duration": 1000
+    },
+    {
+      "Frame": 2,
+      "Duration": 1000
+    },
+    {
+      "Frame": 3,
+      "Duration": 1000
+    }
+  ]
+}

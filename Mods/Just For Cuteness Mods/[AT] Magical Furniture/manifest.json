@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Magical Furniture for Alternative Textures",
+  "Author": "cometkins and wildflourmods",
+  "Version": "1.0.2",
+  "Description": "AT pack of unreleased cometkins witchy furniture",
+  "UniqueID": "wildflour.cometkinsATfurniture",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "4.5.3"
+  }
+}

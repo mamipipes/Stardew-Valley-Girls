@@ -1,0 +1,15 @@
+{
+  "CollectiveNames": [
+    "Globe",
+    "Decorative Bowl",
+	  "Decorative Lantern",
+	  "Model Ship",
+	  "Small Crystal",
+	  "Futan Bear",
+	  "Tea Set"
+  ],
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "Variations": 12
+}

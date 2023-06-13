@@ -1,0 +1,435 @@
+[
+   {
+      "$ItemType": "Furniture",
+      "ID": "Fairy House",
+      "Type": "Lamp",
+      "Configurations": [
+         {
+            "Texture": "assets/house.png:0@20, assets/house.png:2@20, assets/house.png:0@20, assets/house.png:2@20, assets/house.png:0@20, assets/house.png:2@20, assets/house.png:0@20, assets/house.png:1@20",
+            "NightTexture": "assets/house.png:3",
+            "DisplaySize": { "X": 2, "Y": 3 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 2000,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Fairy House"
+      }
+   },
+      {
+      "$ItemType": "Furniture",
+      "ID": "Crystal Ball",
+      "Type": "Lamp",
+      "Configurations": [
+         {
+            "Texture": "assets/crystal_ball.png:0@20, assets/crystal_ball.png:1@20, assets/crystal_ball.png:2@20",
+            "NightTexture": "assets/crystal_ball.png:0@20, assets/crystal_ball.png:1@20, assets/crystal_ball.png:2@20",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 800,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Crystal Ball"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Spellbook",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/spellbook.png",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 600,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Spellbook"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Frog Prince",
+      "Type": "Decoration",
+      "Configurations": [
+        {
+            "Texture": "assets/frog_prince_right.png:0@20, assets/frog_prince_right.png:1@20, assets/frog_prince_right.png:2@20, assets/frog_prince_right.png:1@20, assets/frog_prince_right.png:0@20, assets/frog_prince_right.png:1@20, assets/frog_prince_right.png:2@20, assets/frog_prince_right.png:1@20, assets/frog_prince_right.png:0@20, assets/frog_prince_right.png:1@20, assets/frog_prince_right.png:2@20, assets/frog_prince_right.png:1@20, assets/frog_prince_right.png:0@20, assets/frog_prince_right.png:1@20, assets/frog_prince_right.png:2@20, assets/frog_prince_right.png:1@20, assets/frog_prince_right.png:0@20, assets/frog_prince_right.png:3@8, assets/frog_prince_right.png:4@8, assets/frog_prince_right.png:5@8",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         },
+          {
+            "Texture": "assets/frog_prince_left.png:0@20, assets/frog_prince_left.png:1@20, assets/frog_prince_left.png:2@20, assets/frog_prince_left.png:1@20, assets/frog_prince_left.png:0@20, assets/frog_prince_left.png:1@20, assets/frog_prince_left.png:2@20, assets/frog_prince_left.png:1@20, assets/frog_prince_left.png:0@20, assets/frog_prince_left.png:1@20, assets/frog_prince_left.png:2@20, assets/frog_prince_left.png:1@20, assets/frog_prince_left.png:0@20, assets/frog_prince_left.png:1@20, assets/frog_prince_left.png:2@20, assets/frog_prince_left.png:1@20, assets/frog_prince_left.png:0@20, assets/frog_prince_left.png:3@8, assets/frog_prince_left.png:4@8, assets/frog_prince_left.png:5@8",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 800,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Frog Prince"
+      }
+   },
+    {
+      "$ItemType": "Furniture",
+      "ID": "Unicorn Foal",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/unicorn_foal_right.png:0@100, assets/unicorn_foal_right.png:1@12, assets/unicorn_foal_right.png:0@100, assets/unicorn_foal_right.png:1@12, assets/unicorn_foal_right.png:0@100, assets/unicorn_foal_right.png:2@20, assets/unicorn_foal_right.png:0@100, assets/unicorn_foal_right.png:1@12, assets/unicorn_foal_right.png:0@100, assets/unicorn_foal_right.png:4@30, assets/unicorn_foal_right.png:0@100, assets/unicorn_foal_right.png:5@20, assets/unicorn_foal_right.png:0@100 assets/unicorn_foal_right.png:6@40, assets/unicorn_foal_right.png:0@100, assets/unicorn_foal_right.png:3@20",
+            "NightTexture": "assets/unicorn_foal_right.png:7@600, assets/unicorn_foal_right.png:6@100",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "assets/unicorn_foal_left.png:0@100, assets/unicorn_foal_left.png:1@12, assets/unicorn_foal_left.png:0@100, assets/unicorn_foal_left.png:1@12, assets/unicorn_foal_left.png:0@100, assets/unicorn_foal_left.png:2@20, assets/unicorn_foal_left.png:0@100, assets/unicorn_foal_left.png:1@12, assets/unicorn_foal_left.png:0@100, assets/unicorn_foal_left.png:4@30, assets/unicorn_foal_left.png:0@100, assets/unicorn_foal_left.png:5@20, assets/unicorn_foal_left.png:0@100 assets/unicorn_foal_left.png:6@40, assets/unicorn_foal_left.png:0@100, assets/unicorn_foal_left.png:3@20",
+            "NightTexture": "assets/unicorn_foal_left.png:7@600, assets/unicorn_foal_left.png:6@100",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 3000,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Unicorn Foal"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Carriage",
+      "Type": "Lamp",
+      "Configurations": [
+         {
+            "Texture": "assets/carriage_right.png",
+            "DisplaySize": { "X": 6, "Y": 4 },
+            "CollisionHeight": 2
+         },
+         {
+            "Texture": "assets/carriage_left.png",
+            "DisplaySize": { "X": 6, "Y": 4 },
+            "CollisionHeight": 2
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 5000,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Carriage"
+      }
+   },
+      {
+      "$ItemType": "Furniture",
+      "ID": "Enchanted Witchy Bed",
+      "Type": "Bed",
+      "BedType": "Double",
+      "Configurations": [
+         {
+            "Texture": "assets/purple_bed.png:0 ",
+            "FrontTexture": "assets/purple_bed.png:1",
+            "DisplaySize": { "X": 3, "Y": 5 },
+            "CollisionHeight": 3
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 2000,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Enchanted Witchy Bed"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Enchanted Plant Bed",
+      "Type": "Bed",
+      "BedType": "Double",
+      "Configurations": [
+         {
+            "Texture": "assets/green_bed.png:0 ",
+            "FrontTexture": "assets/green_bed.png:1",
+            "DisplaySize": { "X": 3, "Y": 5 },
+            "CollisionHeight": 3
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 2000,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Enchanted Plant Bed"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Enchanted Butterfly Bed",
+      "Type": "Bed",
+      "BedType": "Double",
+      "Configurations": [
+         {
+            "Texture": "assets/pink_bed.png:0@15, assets/pink_bed.png:1@15, assets/pink_bed.png:2@15, assets/pink_bed.png:3@15",
+            "FrontTexture": "assets/pink_bed.png:4@15, assets/pink_bed.png:5@15, assets/pink_bed.png:6@15, assets/pink_bed.png:7@15",
+            "DisplaySize": { "X": 3, "Y": 5 },
+            "CollisionHeight": 3
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 2000,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Enchanted Butterfly Bed"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Cauldron",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/cauldron.png:0@10, assets/cauldron.png:1@10, assets/cauldron.png:2@10",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 1200,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Cauldron"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Fairy Door",
+      "Type": "Painting",
+      "Configurations": [
+         {
+            "Texture": "assets/fairy_door.png:0@2000, assets/fairy_door.png:1@10, assets/fairy_door.png:2@30, assets/fairy_door.png:1@10",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 3
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 800,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Fairy Door"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Enchanted Mirror",
+      "Type": "Painting",
+      "Configurations": [
+         {
+            "Texture": "assets/mirror.png:0@200, assets/mirror.png:1@50, assets/mirror.png:2@200, assets/mirror.png:1@50",
+            "DisplaySize": { "X": 2, "Y": 3 },
+            "CollisionHeight": 3
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 1200,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Enchanted Mirror"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Enchanted Hearth",
+      "Type": "Fireplace",
+      "Configurations": [
+         {
+            "Texture": "assets/hearth.png",
+            "DisplaySize": { "X": 2, "Y": 5 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 1200,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Enchanted Hearth"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Fairy Tree House",
+      "Type": "Lamp",
+      "Configurations": [
+         {
+            "Texture": "assets/fairy_tree.png:0@20, assets/fairy_tree.png:1@20, assets/fairy_tree.png:2@20, assets/fairy_tree.png:1@20",
+            "NightTexture": "assets/fairy_tree.png:3@400, assets/fairy_tree.png:4@12, assets/fairy_tree.png:5@40, assets/fairy_tree.png:4@12",
+            "DisplaySize": { "X": 5, "Y": 7 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 1600,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Fairy Tree House"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Fairy Tea Party",
+      "Type": "Fireplace",
+      "Configurations": [
+         {
+            "Texture": "assets/fairy_ring.png:0@20, assets/fairy_ring.png:1@20, assets/fairy_ring.png:2@20, assets/fairy_ring.png:3@20",
+            "NightTexture": "assets/fairy_ring.png:4",
+            "DisplaySize": { "X": 3, "Y": 3 },
+            "CollisionHeight": 3
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 600,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Fairy Tea Party"
+      }
+   },
+      {
+      "$ItemType": "Furniture",
+      "ID": "Single Enchanted Butterfly Bed",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "assets/single_pink_bed.png:0 ",
+            "FrontTexture": "assets/single_pink_bed.png:1",
+            "DisplaySize": { "X": 2, "Y": 4 },
+            "CollisionHeight": 3
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 600,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Single Enchanted Butterfly Bed"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Single Enchanted Plant Bed",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "assets/single_green_bed.png:0 ",
+            "FrontTexture": "assets/single_green_bed.png:1",
+            "DisplaySize": { "X": 2, "Y": 4 },
+            "CollisionHeight": 3
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 600,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Single Enchanted Plant Bed"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Single Enchanted Witchy Bed",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "assets/single_purple_bed.png:0 ",
+            "FrontTexture": "assets/single_purple_bed.png:1",
+            "DisplaySize": { "X": 2, "Y": 4 },
+            "CollisionHeight": 3
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 600,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Single Enchanted Witchy Bed"
+      }
+   },
+   
+]

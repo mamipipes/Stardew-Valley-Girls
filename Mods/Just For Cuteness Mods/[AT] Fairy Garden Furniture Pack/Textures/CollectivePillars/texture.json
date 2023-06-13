@@ -1,0 +1,18 @@
+{
+  "CollectiveNames": [
+   
+    "Ceramic Pillar",
+    "Gold Pillar",
+    "Totem Pole",
+    "Green Serpent Statue",
+    "Purple Serpent Statue",
+    "Tree Column",
+    "Manicured Pine",
+    "Topiary Tree",
+    "Indoor Palm"
+  ],
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 48,
+  "Variations": 4
+}

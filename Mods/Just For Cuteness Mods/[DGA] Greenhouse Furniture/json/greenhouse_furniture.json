@@ -1,0 +1,1128 @@
+[
+//BARRELS
+
+//Tall Barrels
+	{
+		"$ItemType": "Furniture",
+		"ID": "Tall Barrel",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/barrels.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/barrels.png:1",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+		],
+		"ShowInCatalogue":true
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.greenhousefurniture/Tall Barrel"
+		}
+	},
+
+//Medium Barrel
+
+	{
+		"$ItemType": "Furniture",
+		"ID": "Medium Barrel",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/barrels.png:2",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/barrels.png:2",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1,
+				"Flipped": true,
+			},
+		],
+		"ShowInCatalogue":true
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.greenhousefurniture/Medium Barrel"
+		}
+	},
+
+
+//Short Barrel 2
+
+	{
+		"$ItemType": "Furniture",
+		"ID": "Short Barrel 2",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/barrels.png:3",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/barrels.png:3",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1,
+				"Flipped": true,
+			},
+		],
+		"ShowInCatalogue":true
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.greenhousefurniture/Short Barrel 2"
+		}
+	},
+
+//Short Barrel 3
+
+	{
+		"$ItemType": "Furniture",
+		"ID": "Short Barrel 3",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/barrels.png:4",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/barrels.png:4",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1,
+				"Flipped": true,
+			},
+		],
+		"ShowInCatalogue":true
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.greenhousefurniture/Short Barrel 3"
+		}
+	},
+
+//Short Barrel 4
+
+	{
+		"$ItemType": "Furniture",
+		"ID": "Short Barrel 4",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/barrels.png:5",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/barrels.png:5",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1,
+				"Flipped": true,
+			},
+		],
+		"ShowInCatalogue":true
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.greenhousefurniture/Short Barrel 4"
+		}
+	},
+
+//BARREL SEATS
+
+	//Barrel Seat 1
+
+	{
+		"$ItemType": "Furniture",
+		"ID": "Barrel Seat 1",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/barrelseats.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1,
+				"FrontTexture": "assets/barrelseats.png:2",
+				"Flipped": false,
+				"Seats": [{ "X": 0, "Y": 0 }],
+				"SittingDirection": "Down"
+			},
+		],
+		
+		"ShowInCatalogue":true
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.greenhousefurniture/Barrel Seat 1"
+		}
+	},
+
+
+	//Barrel Seat 2
+
+	{
+		"$ItemType": "Furniture",
+		"ID": "Barrel Seat 2",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/barrelseats.png:1",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1,
+				"FrontTexture": "assets/barrelseats.png:2",
+				"Flipped": false,
+				"Seats": [{ "X": 0, "Y": 0 }],
+				"SittingDirection": "Down"
+			},
+		],
+		
+		"ShowInCatalogue":true
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.greenhousefurniture/Barrel Seat 2"
+		}
+	},
+	
+
+//BENCH
+
+	{
+		"$ItemType": "Furniture",
+		"ID": "Bench",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/bench.png:0",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1,
+				"Flipped": false,
+				"Seats": [{ "X": 0, "Y": 0 },{"X":1, "Y":0}],
+				"SittingDirection": "Down"
+			},
+			{
+				"Texture": "assets/bench.png:3",
+				"DisplaySize": { "X": 1, "Y": 3 },
+				"CollisionHeight": 1,
+				"FrontTexture": "assets/bench.png:6",
+				"Flipped": false,
+				"Seats": [{ "X": 0, "Y": 0 },{ "X": 0, "Y": 1 }],
+				"SittingDirection": "Right"
+			},
+			{
+				"Texture": "assets/bench.png:3",
+				"DisplaySize": { "X": 1, "Y": 3 },
+				"CollisionHeight": 1,
+				"FrontTexture": "assets/bench.png:6",
+				"Flipped": true,
+				"Seats": [{ "X": 0, "Y": 0 },{ "X": 0, "Y": 1 }],
+				"SittingDirection": "Left"
+			},
+		],
+
+		
+		"ShowInCatalogue":true
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.greenhousefurniture/Bench"
+		}
+	},
+
+//FLOWERPOTS
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Flowerpot",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/flowerpots.png:0",
+			"DisplaySize": { "X": 1, "Y": 1 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/flowerpots.png:1",
+			"DisplaySize": { "X": 1, "Y": 1 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/flowerpots.png:2",
+			"DisplaySize": { "X": 1, "Y": 1 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/flowerpots.png:3",
+			"DisplaySize": { "X": 1, "Y": 1 },
+			"CollisionHeight": 1
+		},
+	],
+	"ShowInCatalogue":true
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Flowerpot"
+	}
+},
+
+//HANGING BASKET
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Hanging Basket",
+	"Type": "Painting",
+	"Configurations": [
+		{
+			"Texture": "assets/hangingbasket.png",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 3
+		},
+		{
+			"Texture": "assets/hangingbasket.png",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 3,
+			"Flipped": true,
+		},
+	],
+	"ShowInCatalogue":true
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Hanging Basket"
+	}
+},
+
+//LARGER WALL ITEMS
+
+//Hanging Plant Shelves 1
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Hanging Plant Shelves 1",
+	"Type": "Painting",
+	"Configurations": [
+		{
+			"Texture": "assets/largerwallitems.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 2
+		},
+		{
+			"Texture": "assets/largerwallitems.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 2,
+			"Flipped": true,
+		},
+	],
+	"ShowInCatalogue":true
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Hanging Plant Shelves 1"
+	}
+},
+
+//Hanging Plant Shelves 2
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Hanging Plant Shelves 2",
+	"Type": "Painting",
+	"Configurations": [
+		{
+			"Texture": "assets/largerwallitems.png:1",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 2
+		},
+		{
+			"Texture": "assets/largerwallitems.png:1",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 2,
+			"Flipped": true,
+		},
+	],
+	"ShowInCatalogue":true
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Hanging Plant Shelves 2"
+	}
+},
+
+//MEDIUM FURNITURE
+
+//Potting Bench 1
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Potting Bench 1",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/mediumfurniture.png:0",
+			"DisplaySize": { "X": 3, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/mediumfurniture.png:0",
+			"DisplaySize": { "X": 3, "Y": 3 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Potting Bench 1"
+	}
+},
+
+//Potting Bench 2
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Potting Bench 2",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/mediumfurniture.png:1",
+			"DisplaySize": { "X": 3, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/mediumfurniture.png:1",
+			"DisplaySize": { "X": 3, "Y": 3 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Potting Bench 2"
+	}
+},
+
+// Butterfly Hutch
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Butterfly Hutch",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/mediumfurniture.png:2",
+			"DisplaySize": { "X": 3, "Y": 3 },
+			"CollisionHeight": 2
+		},
+		{
+			"Texture": "assets/mediumfurniture.png:2",
+			"DisplaySize": { "X": 3, "Y": 3 },
+			"CollisionHeight": 2,
+			"Flipped": true,
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Butterfly Hutch"
+	}
+},
+
+//MISC DECOR
+
+//Birdcage
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Birdcage",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/miscdecor.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Birdcage"
+	}
+},
+
+//Rake
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Rake",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/miscdecor.png:1",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Rake"
+	}
+},
+
+// Shovel
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Shovel",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/miscdecor.png:2",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Shovel"
+	}
+},
+
+
+//POTTED PLANT
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Small Potted Plant",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/pottedplant.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/pottedplant.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Small Potted Plant"
+	}
+},
+
+// BRAVE LITTLE POT
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Brave Little Pot",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/pottedplant.png:1",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/pottedplant.png:1",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Small Potted Plant"
+	}
+},
+
+//SMALL DECOR
+
+//Clay Pot
+{
+	"$ItemType": "Furniture",
+	"ID": "Clay Pot",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/smalldecor.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/smalldecor.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Clay Pot"
+	}
+},
+
+//Cooler
+{
+	"$ItemType": "Furniture",
+	"ID": "Cooler",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/smalldecor.png:1",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Cooler"
+	}
+},
+
+
+//Flower Vase
+{
+	"$ItemType": "Furniture",
+	"ID": "Flower Vase",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/smalldecor.png:2",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/smalldecor.png:2",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Flower Vase"
+	}
+},
+
+
+//Small Table 2
+{
+	"$ItemType": "Furniture",
+	"ID": "Small Table 2",
+	"Type": "Table",
+	"Configurations": [
+		{
+			"Texture": "assets/smalltables.png:2",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/smalltables.png:6",
+			"DisplaySize": { "X": 1, "Y": 3 },
+			"CollisionHeight": 2
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Small Table 2"
+	}
+},
+
+//SMALL WALL HANGING
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Small Wall Hanging",
+	"Type": "Painting",
+	"Configurations": [
+		{
+			"Texture": "assets/smallwallhanging.png",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 2
+		},
+		{
+			"Texture": "assets/smallwallhanging.png",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 2,
+			"Flipped": true,
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Small Wall Hanging"
+	}
+},
+
+//SQUARE PLANTERS
+
+//Box of Poppies
+{
+	"$ItemType": "Furniture",
+	"ID": "Box of Poppies",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/squareplanters.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/squareplanters.png:1",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Box of Poppies"
+	}
+},
+
+//Box of Forage
+{
+	"$ItemType": "Furniture",
+	"ID": "Box of Forage",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/squareplanters.png:2",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/squareplanters.png:3",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Box of Forage"
+	}
+},
+
+//Box of Greens
+{
+	"$ItemType": "Furniture",
+	"ID": "Box of Greens",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/squareplanters.png:4",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/squareplanters.png:5",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Box of Greens"
+	}
+},
+
+//Box of Fruit
+{
+	"$ItemType": "Furniture",
+	"ID": "Box of Fruit",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/squareplanters.png:6",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/squareplanters.png:7",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Box of Fruit"
+	}
+},
+
+//Box of Veggies
+{
+	"$ItemType": "Furniture",
+	"ID": "Box of Veggies",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/squareplanters.png:8",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/squareplanters.png:9",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Box of Veggies"
+	}
+},
+
+//TALL DECOR
+
+//Plant Shelves 1
+{
+	"$ItemType": "Furniture",
+	"ID": "Plant Shelves 1",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/talldecor.png:0",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/talldecor.png:0",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		},
+
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 500,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Plant Shelves 1"
+	}
+},
+
+//Plant Shelves 2
+{
+	"$ItemType": "Furniture",
+	"ID": "Plant Shelves 2",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/talldecor.png:1",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/talldecor.png:1",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		},
+
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 500,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Plant Shelves 2"
+	}
+},
+
+
+
+//TALL PLANTERS
+
+//Potted Plant with Shovel
+{
+	"$ItemType": "Furniture",
+	"ID": "Potted Plant with Shovel",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/tallplanters.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/tallplanters.png:1",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+
+
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Potted Plant with Shovel"
+	}
+},
+
+
+//Potted Berry Bush
+{
+	"$ItemType": "Furniture",
+	"ID": "Potted Berry Bush",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/tallplanters.png:2",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/tallplanters.png:2",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Potted Berry Bush"
+	}
+},
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Boucage",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/tallplanters.png:3",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1
+		},
+		{
+			"Texture": "assets/tallplanters.png:3",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		},
+	],
+	"ShowInCatalogue":true
+},
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 100,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.greenhousefurniture/Boucage"
+	}
+},
+]

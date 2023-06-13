@@ -1,0 +1,33 @@
+{
+  "ItemName": "Bear Statue",
+  "Type": "Furniture",
+  "TextureWidth": 32,
+  "TextureHeight": 64,
+  "Variations": 1,
+  "Animation": [
+    {
+      "Frame": 0,
+      "Duration": 500
+    },
+    {
+      "Frame": 1,
+      "Duration": 500
+    },
+    {
+      "Frame": 2,
+      "Duration": 500
+    },
+    {
+      "Frame": 3,
+      "Duration": 500
+    },
+    {
+      "Frame": 4,
+      "Duration": 500
+    },
+    {
+      "Frame": 5,
+      "Duration": 500
+    },
+  ]
+}

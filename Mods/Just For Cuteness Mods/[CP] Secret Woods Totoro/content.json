@@ -1,0 +1,96 @@
+{
+  "Format": "1.4",
+  "ConfigSchema": {
+        "WinterLeaves": {
+            "AllowValues": "Dead, Blue"
+                      }
+                  },
+
+  "Changes": [
+        {
+        "Action": "EditData",
+        "Target": "Strings/Locations",
+        "Entries": {
+           "Woods_Statue": "--Totoro--\n...Relaxing in the forest...",
+            }
+        },
+
+       {
+          "Action": "EditImage",
+          "Target": "Maps/spring_outdoorsTileSheet",
+          "FromFile": "Assets/springtotoro.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+          "ToArea": { "X": 240, "Y": 689, "Width": 32, "Height": 48 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/spring_outdoorsTileSheet",
+          "FromFile": "Assets/springmouth.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 16 },
+          "ToArea": { "X": 272, "Y": 704, "Width": 32, "Height": 16 }
+       },
+
+
+       {
+          "Action": "EditImage",
+          "Target": "Maps/summer_outdoorsTileSheet",
+          "FromFile": "Assets/summertotoro.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+          "ToArea": { "X": 240, "Y": 689, "Width": 32, "Height": 48 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/summer_outdoorsTileSheet",
+          "FromFile": "Assets/summermouth.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 16 },
+          "ToArea": { "X": 272, "Y": 704, "Width": 32, "Height": 16 }
+       },
+
+
+       {
+          "Action": "EditImage",
+          "Target": "Maps/fall_outdoorsTileSheet",
+          "FromFile": "Assets/falltotoro.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+          "ToArea": { "X": 240, "Y": 689, "Width": 32, "Height": 48 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/fall_outdoorsTileSheet",
+          "FromFile": "Assets/fallmouth.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 16 },
+          "ToArea": { "X": 272, "Y": 704, "Width": 32, "Height": 16 }
+       },
+
+
+       {
+          "Action": "EditImage",
+          "Target": "Maps/winter_outdoorsTileSheet",
+          "FromFile": "Assets/wintertotoro.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+          "ToArea": { "X": 240, "Y": 689, "Width": 32, "Height": 48 },
+          "When": {
+            "WinterLeaves": "Blue"
+                  }
+       },
+
+       {
+          "Action": "EditImage",
+          "Target": "Maps/winter_outdoorsTileSheet",
+          "FromFile": "Assets/wintertotorodeadleaves.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+          "ToArea": { "X": 240, "Y": 689, "Width": 32, "Height": 48 },
+          "When": {
+            "WinterLeaves": "Dead"
+                  }
+       },
+
+       {
+          "Action": "EditImage",
+          "Target": "Maps/winter_outdoorsTileSheet",
+          "FromFile": "Assets/wintermouth.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 16 },
+          "ToArea": { "X": 272, "Y": 704, "Width": 32, "Height": 16 }
+       }
+    ]
+}

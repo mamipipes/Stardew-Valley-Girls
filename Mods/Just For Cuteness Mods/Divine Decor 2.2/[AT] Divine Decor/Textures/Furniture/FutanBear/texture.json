@@ -1,0 +1,73 @@
+{
+  "ItemName": "Futan Bear",
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Book - Open (Red)",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Book - Open (Magenta)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 2,
+      "Name": "Book - Open (Blue)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 3,
+      "Name": "Book - Open (Green)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 4,
+      "Name": "Book - Bookmark (Red)",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 5,
+      "Name": "Book - Bookmark (Magenta)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 6,
+      "Name": "Book - Bookmark (Blue)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 7,
+      "Name": "Book - Bookmark (Green)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 8,
+      "Name": "Book - Quill (Sage)",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 9,
+      "Name": "Book - Quill (Grey)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 10,
+      "Name": "Book - Quill (Purple)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 11,
+      "Name": "Book - Quill (Teal)",
+      "ChanceWeight": 0.5
+    },
+
+  ]
+}

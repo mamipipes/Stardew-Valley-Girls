@@ -1,0 +1,161 @@
+{
+  "ItemName": "Globe",
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Candle - Taper (White)",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Candle - Large (White)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 2,
+      "Name": "Candle - Large, Used (White)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 3,
+      "Name": "Candle - Set of Three #1 (White)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 4,
+      "Name": "Candle - Set of Three #2 (White)",
+      "ChanceWeight": 0.5
+    }, 
+    {
+      "Id": 5,
+      "Name": "Candle - Taper (Red)",
+      "ChanceWeight": 0.5
+    }, 
+    {
+      "Id": 6,
+      "Name": "Candle - Large (Red)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 7,
+      "Name": "Candle - Large, Used (Red)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 8,
+      "Name": "Candle - Set of Three #1 (Red)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 9,
+      "Name": "Candle - Set of Three #2 (Red)",
+      "ChanceWeight": 0.5
+    }, 
+   {
+      "Id": 10,
+      "Name": "Candle - Taper (Orange)",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 11,
+      "Name": "Candle - Large (Orange)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 12,
+      "Name": "Candle - Large, Used (Orange)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 13,
+      "Name": "Candle - Set of Three #1 (Orange)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 14,
+      "Name": "Candle - Set of Three #2 (Orange)",
+      "ChanceWeight": 0.5
+    },
+{
+      "Id": 15,
+      "Name": "Candle - Taper (Purple)",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 16,
+      "Name": "Candle - Large (Purple)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 17,
+      "Name": "Candle - Large, Used (Purple)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 18,
+      "Name": "Candle - Set of Three #1 (Purple)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 19,
+      "Name": "Candle - Set of Three #2 (Purple)",
+      "ChanceWeight": 0.5
+    },
+    {  "Id": 20,
+      "Name": "Candle - Taper (Green)",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 21,
+      "Name": "Candle - Large (Green)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 22,
+      "Name": "Candle - Large, Used (Green)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 23,
+      "Name": "Candle - Set of Three #1 (Green)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 24,
+      "Name": "Candle - Set of Three #2 (Green)",
+      "ChanceWeight": 0.5
+    },
+    {  "Id": 25,
+      "Name": "Candle - Taper (Blue)",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 26,
+      "Name": "Candle - Large (Blue)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 27,
+      "Name": "Candle - Large, Used (Blue)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 28,
+      "Name": "Candle - Set of Three #1 (Blue)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 29,
+      "Name": "Candle - Set of Three #2 (Blue)",
+      "ChanceWeight": 0.5
+    }
+
+  ]
+}

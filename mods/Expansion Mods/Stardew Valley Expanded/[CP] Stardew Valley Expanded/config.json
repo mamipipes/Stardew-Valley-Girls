@@ -1,6 +1,6 @@
 {
   "SeasonalEdits": "true",
-  "ReplaceDefaultFences": "true",
+  "ReplaceDefaultFences": "false",
   "ReplaceHardwoodFences": "false",
   "ImmersiveShadows": "true",
   "MistEffects": "true",

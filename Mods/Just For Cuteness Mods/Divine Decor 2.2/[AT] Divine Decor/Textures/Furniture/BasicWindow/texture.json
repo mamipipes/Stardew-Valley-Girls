@@ -1,0 +1,82 @@
+{
+  "ItemName": "Basic Window",
+  "Type": "Furniture",
+  "TextureWidth": 32,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Bay Window, Left",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Bay Window, Right",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 2,
+      "Name": "Fancy Window, Left",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 3,
+      "Name": "Fancy Window, Right",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 4,
+      "Name": "Single Window",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 5,
+      "Name": "Open Window, Left",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 6,
+      "Name": "Open Window, Right",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 7,
+      "Name": "Flower Window, Left (Brown)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 8,
+      "Name": "Flower Window, Right (Brown)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 9,
+      "Name": "Flower Window, Right (White)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 10,
+      "Name": "Flower Window, Right (White)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 11,
+      "Name": "Diamond Moon, Left",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 12,
+      "Name": "Diamond Moon, Left",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 13,
+      "Name": "Simple Window",
+      "ChanceWeight": 0.5
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "ItemName": "Needlepoint Flower",
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Hanging Garlic",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Hanging Lavender",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 2,
+      "Name": "Hanging Herbs",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 3,
+      "Name": "Hanging Apple Slices",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 4,
+      "Name": "Hanging Dried Oranges",
+      "ChanceWeight": 0.5
+    }
+  ]
+}

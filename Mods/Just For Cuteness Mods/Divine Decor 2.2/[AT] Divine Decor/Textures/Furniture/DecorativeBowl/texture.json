@@ -1,0 +1,52 @@
+{
+  "ItemName": "Decorative Bowl",
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Crystal - Quartz",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Crystal - Selenite",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 2,
+      "Name": "Crystal - Pink Quartz",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 3,
+      "Name": "Crystal - Citrine",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 4,
+      "Name": "Crystal - Carnelian",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 5,
+      "Name": "Crystal - Jade",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 6,
+      "Name": "Crystal - Angelite",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 7,
+      "Name": "Crystal - Amethyst",
+      "ChanceWeight": 0.5
+    }
+  ]
+}

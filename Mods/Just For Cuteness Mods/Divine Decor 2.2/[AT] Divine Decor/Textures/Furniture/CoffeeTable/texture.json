@@ -1,0 +1,18 @@
+{
+  "ItemName": "Coffee Table",
+  "Type": "Furniture",
+  "TextureWidth": 32,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Moon Cauldron",
+      "ChanceWeight": 0.1
+    }
+
+  ]
+}

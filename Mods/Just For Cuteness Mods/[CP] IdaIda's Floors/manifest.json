@@ -1,0 +1,10 @@
+{
+   "Name": "IdaIda's Floors",
+   "Author": "IdaIda",
+   "Version": "1.0",
+  "Description": "Non-replacement version of IdaIda's Floors.",
+  "UniqueID": "IdaIda.Floors",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

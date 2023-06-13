@@ -1,0 +1,13 @@
+{
+  "Name": "Industrial Furniture Set for CF",
+   "Author": "DustBeauty",
+   "Version": "1.6",
+   "Description": "Industrial Style furniture set for Custom Furniture",
+   "UniqueID": "DustBeauty.CFIndustrialFurnitureSet",
+   "MinimumApiVersion": "2.11.0",
+   "UpdateKeys": ["Nexus:5444"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.10.6"
+  }
+}

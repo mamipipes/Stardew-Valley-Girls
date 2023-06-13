@@ -1,0 +1,38 @@
+{
+ "Format": "1.11.0",
+    "Changes": [
+        {
+         "Action": "EditImage",
+         "Target": "{{spacechase0.JsonAssets/WeaponSpriteTilesheet:Tempered Galaxy Sword}}",
+         "FromFile": "assets/weapon.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+         "ToArea": { "X": "{{spacechase0.JsonAssets/WeaponSpriteX:Tempered Galaxy Sword}}", 
+                     "Y": "{{spacechase0.JsonAssets/WeaponSpriteY:Tempered Galaxy Sword}}",
+                     "Width": 16, 
+                     "Height": 16 },
+         "When": {"HasMod": "spacechase0.jsonAssets"}
+         },
+        {
+         "Action": "EditImage",
+         "Target": "{{spacechase0.JsonAssets/WeaponSpriteTilesheet:Tempered Galaxy Dagger}}",
+         "FromFile": "assets/weapon2.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+         "ToArea": { "X": "{{spacechase0.JsonAssets/WeaponSpriteX:Tempered Galaxy Dagger}}", 
+                     "Y": "{{spacechase0.JsonAssets/WeaponSpriteY:Tempered Galaxy Dagger}}",
+                     "Width": 16, 
+                     "Height": 16 },
+         "When": {"HasMod": "spacechase0.jsonAssets"}
+         },
+         {
+         "Action": "EditImage",
+         "Target": "{{spacechase0.JsonAssets/WeaponSpriteTilesheet:Tempered Galaxy Hammer}}",
+         "FromFile": "assets/weapon3.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+         "ToArea": { "X": "{{spacechase0.JsonAssets/WeaponSpriteX:Tempered Galaxy Hammer}}", 
+                     "Y": "{{spacechase0.JsonAssets/WeaponSpriteY:Tempered Galaxy Hammer}}",
+                     "Width": 16, 
+                     "Height": 16 },
+         "When": {"HasMod": "spacechase0.jsonAssets"}
+         }
+                ]
+}

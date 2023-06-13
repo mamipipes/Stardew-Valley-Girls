@@ -1,0 +1,11 @@
+{
+   "Name": "Mi's and Magimatica Country Furniture",
+   "Author": "mioudew & magimatica",
+   "Description": "Mi's and Magimatica Country Furniture.",
+   "Version": "1.0.1",
+   "UniqueID": "mi.country",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [],
+}

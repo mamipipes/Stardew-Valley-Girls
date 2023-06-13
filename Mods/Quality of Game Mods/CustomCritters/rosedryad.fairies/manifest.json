@@ -1,0 +1,12 @@
+{
+  "Name": "RoseDryad's Fairies (Custom Critters)", 
+  "Author": "RoseDryad", 
+  "Version": "1.0.1", 
+  "Description": "Adds cute fairies using Custom Critters",
+  "UniqueID": "rosedryad.CustomCritters.Fairies", 
+  "UpdateKeys": ["Nexus:10228"],
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.CustomCritters", 
+    "MinimumAPIVersion": "3.12.5" 
+ }
+}

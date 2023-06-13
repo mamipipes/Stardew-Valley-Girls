@@ -1,0 +1,12 @@
+{
+   "Name": "CP Secret Woods Totoro",
+   "Author": "LorSnore",
+   "Version": "1.0.0",
+   "Description": "Replaces the Secret Woods Statue with Totoro",
+   "UniqueID": "LorSnore.SecretWoodsTotoro",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": [ "Nexus:2927" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

@@ -1,0 +1,532 @@
+{
+	"Format": "1.3",
+
+	"Changes": [{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 144,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 144,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 192,
+				"Y": 0,
+				"Width": 192,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 192,
+				"Y": 0,
+				"Width": 192,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 480,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 480,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 144,
+				"Y": 32,
+				"Width": 240,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 144,
+				"Y": 32,
+				"Width": 240,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 432,
+				"Y": 32,
+				"Width": 48,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 432,
+				"Y": 32,
+				"Width": 48,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 496,
+				"Y": 32,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 496,
+				"Y": 32,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 96,
+				"Width": 240,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 96,
+				"Width": 240,
+				"Height": 48
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 144,
+				"Width": 288,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 144,
+				"Width": 288,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 208,
+				"Width": 384,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 208,
+				"Width": 384,
+				"Height": 48
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 256,
+				"Width": 256,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 256,
+				"Width": 256,
+				"Height": 48
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 352,
+				"Width": 240,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 352,
+				"Width": 240,
+				"Height": 48
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 320,
+				"Y": 352,
+				"Width": 96,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 320,
+				"Y": 352,
+				"Width": 96,
+				"Height": 48
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 400,
+				"Width": 224,
+				"Height": 80
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 400,
+				"Width": 224,
+				"Height": 80
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 480,
+				"Width": 224,
+				"Height": 80
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 480,
+				"Width": 224,
+				"Height": 80
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 320,
+				"Y": 560,
+				"Width": 32,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 320,
+				"Y": 560,
+				"Width": 32,
+				"Height": 48
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 608,
+				"Width": 96,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 608,
+				"Width": 96,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 640,
+				"Width": 48,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 640,
+				"Width": 48,
+				"Height": 48
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 112,
+				"Y": 640,
+				"Width": 112,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 112,
+				"Y": 640,
+				"Width": 112,
+				"Height": 48
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 412,
+				"Y": 640,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 412,
+				"Y": 640,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 304,
+				"Y": 672,
+				"Width": 32,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 304,
+				"Y": 672,
+				"Width": 32,
+				"Height": 16
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 400,
+				"Y": 672,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 400,
+				"Y": 672,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 64,
+				"Y": 688,
+				"Width": 304,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 64,
+				"Y": 688,
+				"Width": 304,
+				"Height": 32
+			}
+		}, 
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 48,
+				"Y": 720,
+				"Width": 368,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 48,
+				"Y": 720,
+				"Width": 368,
+				"Height": 48
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 48,
+				"Y": 768,
+				"Width": 448,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 48,
+				"Y": 768,
+				"Width": 448,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 720,
+				"Width": 48,
+				"Height": 80
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 720,
+				"Width": 48,
+				"Height": 80
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 112,
+				"Y": 800,
+				"Width": 176,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 112,
+				"Y": 800,
+				"Width": 176,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 144,
+				"Y": 832,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 144,
+				"Y": 832,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 224,
+				"Y": 832,
+				"Width": 64,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 832,
+				"Width": 64,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 288,
+				"Y": 832,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 288,
+				"Y": 832,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 320,
+				"Y": 864,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 320,
+				"Y": 864,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/furniture.png",
+			"FromArea": {
+				"X": 224,
+				"Y": 912,
+				"Width": 288,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 912,
+				"Width": 288,
+				"Height": 32
+			}
+		}
+	]
+}

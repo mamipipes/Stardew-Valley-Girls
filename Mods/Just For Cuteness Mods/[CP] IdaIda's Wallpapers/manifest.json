@@ -1,0 +1,10 @@
+{
+   "Name": "IdaIda's Wallpapers",
+   "Author": "IdaIda",
+   "Version": "1.0",
+  "Description": "Non-replacement version of IdaIda's Wallpapers.",
+  "UniqueID": "IdaIda.Wallpapers",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

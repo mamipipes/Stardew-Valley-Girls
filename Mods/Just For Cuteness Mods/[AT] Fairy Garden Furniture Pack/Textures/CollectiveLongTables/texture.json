@@ -1,0 +1,12 @@
+{
+  "CollectiveNames": [
+    "Modern Dining Table",
+    "Mahogany Dining Table",
+	"Festive Dining Table",
+	"Winter Dining Table"
+  ],
+  "Type": "Furniture",
+  "TextureWidth": 112,
+  "TextureHeight": 80,
+  "Variations": 2
+}

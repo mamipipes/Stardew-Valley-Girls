@@ -1,0 +1,63 @@
+{
+  "ItemName": "Indoor Palm",
+  "Type": "Furniture",
+  "TextureWidth": 32,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Book Stack - 3 (Autumn)",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Book Stack - 6 (Autumn)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 2,
+      "Name": "Book Stack - Candle (Autumn)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 3,
+      "Name": "Book Stack - 3 (Nature)",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 4,
+      "Name": "Book Stack - 6 (Nature)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 5,
+      "Name": "Book Stack - Candle (Nature)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 6,
+      "Name": "Book Stack - 3 (Purple)",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 7,
+      "Name": "Book Stack - 6 (Purple)",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 8,
+      "Name": "Book Stack - Candle (Purple)",
+      "ChanceWeight": 0.5
+    },
+   {
+      "Id": 9,
+      "Name": "Broom",
+      "ChanceWeight": 0.5
+    }
+
+  ]
+}

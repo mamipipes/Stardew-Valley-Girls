@@ -1,0 +1,33 @@
+{
+  "ItemName": "Dried Sunflowers",
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Easel - Empty",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Easel - Mushroom Painting",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 2,
+      "Name": "Jar of Firelflies",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 3,
+      "Name": "Mushroom Terrarium",
+      "ChanceWeight": 0.5
+    }
+
+  ]
+}

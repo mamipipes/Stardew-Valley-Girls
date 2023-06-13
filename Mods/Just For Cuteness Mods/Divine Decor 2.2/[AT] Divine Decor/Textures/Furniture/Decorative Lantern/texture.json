@@ -1,0 +1,33 @@
+{
+  "ItemName": "Decorative Lantern",
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": -1, 
+      "ChanceWeight": 0.9 
+    },
+    {
+      "Id": 0,
+      "Name": "Potion - Heart",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Potion - Yellow",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 2,
+      "Name": "Potion - Green",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 3,
+      "Name": "Potion - Blue",
+      "ChanceWeight": 0.5
+    }
+
+  ]
+}
