@@ -1,0 +1,54 @@
+﻿{
+	"events":
+	[
+		{
+			"name": "Town Safety (Two Hearts)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160157",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "A Failed Invention (Four Hearts)",
+			"location": "Custom_Ridgeside_KennethHouse",
+			"eventId":"75160158",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "So Close! (Six Hearts)",
+			"location": "Custom_Ridgeside_KennethHouse",
+			"eventId":"75160159",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Moving On (Eight Hearts)",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160160",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "The Surprise (Ten Hearts)",
+			"location": "Farm",
+			"eventId":"75160161",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Request (Fourteen Hearts Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160231",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "The SECOND Surprise (Fourteen Hearts Part 2)",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160232",
+      			"night": false,
+     			"mail": null
+		}
+	]
+}

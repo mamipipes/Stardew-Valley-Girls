@@ -1,0 +1,54 @@
+﻿{
+	"events":
+	[
+		{
+			"name": "Cooking Time (Two Hearts)",
+			"location": "Custom_Ridgeside_ShiroHouse",
+			"eventId":"75160168",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Reminiscing at the Beach (Four Hearts)",
+			"location": "Beach",
+			"eventId":"75160169",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Frustration (Six Hearts)",
+			"location": "Custom_Ridgeside_ShiroHouse",
+			"eventId":"75160170",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "The Beach Outing (Eight Hearts)",
+			"location": "Custom_Ridgeside_ShiroHouse",
+			"eventId":"75160171",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Surprise Date (Ten Hearts)",
+			"location": "Farm",
+			"eventId":"75160172",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Clearance (Fourteen Hearts Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160237",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Camp (Fourteen Hearts Part 2)",
+			"location": "Beach",
+			"eventId":"75160238",
+      			"night": false,
+     			"mail": null
+		}
+	]
+}

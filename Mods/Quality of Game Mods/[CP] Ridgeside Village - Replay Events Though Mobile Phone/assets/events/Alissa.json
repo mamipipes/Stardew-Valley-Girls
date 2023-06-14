@@ -1,0 +1,62 @@
+﻿{
+	"events":
+	[
+		{
+			"name": "The Farmer and the Singer (Two Hearts)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160114",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Awkward Meetings (Four Hearts)",
+			"location": "Town",
+			"eventId":"75160115",
+      			"night": false,
+     			"mail": null
+		},	
+		{
+			"name": "Writing a Song (Six Hearts Part 1)",
+			"location": "Custom_Ridgeside_AlissaHouse",
+			"eventId":"75160118",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "The Concert (Eight Hearts)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160120",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Alissa and farmer at shed (Ten Hearts)",
+			"location": "Custom_Ridgeside_AlissaShed",
+			"eventId":"75160121",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Planning (Fourteen Hearts Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160221",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Picnic (Fourteen Hearts Part 2)",
+			"location": "FarmHouse",
+			"eventId":"75160222",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Extra Event in the Shed",
+			"location": "Custom_Ridgeside_AlissaShed",
+			"eventId":"75160116",
+      			"night": false,
+     			"mail": null
+		}
+
+	]
+}

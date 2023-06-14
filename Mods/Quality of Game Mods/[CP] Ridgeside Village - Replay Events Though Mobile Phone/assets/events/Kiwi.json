@@ -1,0 +1,41 @@
+﻿{
+	"events":
+	[
+		{
+			"name": "The Meeting",
+			"location": "Custom_Ridgeside_RSVCliff",
+			"eventId":"75160188",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Hiding (Two Hearts)",
+			"location": "Custom_Ridgeside_RSVNinjaHouse",
+			"eventId":"75160177",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Junimos (Four Hearts)",
+			"location": "BusStop",
+			"eventId":"75160178",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "At the Community Center (Six Hearts)",
+			"location": "Town",
+			"eventId":"75160179",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "The Past (Eight Hearts)",
+			"location": "WizardHouse",
+			"eventId":"75160180",
+      			"night": false,
+     			"mail": null
+		}
+
+	]
+}

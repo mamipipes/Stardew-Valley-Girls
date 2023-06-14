@@ -1,0 +1,55 @@
+﻿{
+	"events":
+	[
+		{
+			"name": "The Advice (Two Hearts)",
+			"location": "Custom_Ridgeside_LogCabinHotelLobby",
+			"eventId":"75160141",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Dancing (Four Hearts)",
+			"location": "Custom_Ridgeside_LogCabinHotel3rdFloor",
+			"eventId":"75160142",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Ysabelle escapes (Six Hearts)",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160143",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "The Dance (Eight Hearts)",
+			"location": "Custom_Ridgeside_LogCabinHotelLobby",
+			"eventId":"75160144",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Dancing Date (Ten Hearts)",
+			"location": "Custom_Ridgeside_LogCabinHotel3rdFloor",
+			"eventId":"75160145",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Practice (Fourteen Hearts Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160239",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Try (Fourteen Hearts Part 2)",
+			"location": "Custom_Ridgeside_LogCabinHotelLobby",
+			"eventId":"75160240",
+      			"night": false,
+     			"mail": null
+		}
+
+	]
+}

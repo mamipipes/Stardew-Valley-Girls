@@ -1,0 +1,55 @@
+﻿{
+	"events":
+	[
+		{
+			"name": "You Forgot? (Two Hearts)",
+			"location": "Custom_Ridgeside_LogCabinHotel2ndFloor",
+			"eventId":"75160128",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "To Trip or not to Trip (Four Hearts)",
+			"location": "Custom_Ridgeside_RSVCliff",
+			"eventId":"75160129",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Planning Research (Six Hearts)",
+			"location": "ArchaeologyHouse",
+			"eventId":"75160130",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "More Research... (Eight Hearts)",
+			"location": "Custom_Ridgeside_LogCabinHotel2ndFloor",
+			"eventId":"75160132",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Locked Out (Ten Hearts)",
+			"location": "Custom_Ridgeside_LogCabinHotel2ndFloor",
+			"eventId":"75160133",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Insecure (Fourteen Hearts Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160225",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Date (Fourteen Hearts Part 2)",
+			"location": "Custom_Ridgeside_LogCabinHotelLobby",
+			"eventId":"75160226",
+      			"night": false,
+     			"mail": null
+		}	
+
+	]
+}

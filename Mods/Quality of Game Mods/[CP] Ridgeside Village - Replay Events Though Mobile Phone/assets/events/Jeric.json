@@ -1,0 +1,61 @@
+﻿{
+	"events":
+	[
+		{
+			"name": "The Surprise Visit (Two Hearts)",
+			"location": "Farm",
+			"eventId":"75160151",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "The Lucky Penny (Four Hearts)",
+			"location": "Custom_Ridgeside_JericHouse",
+			"eventId":"75160152",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Jeric and his Farm (Six Hearts)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160153",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Admiting Defeat (Eight Hearts)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160154",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Jeric's Date (Ten Hearts Part 1)",
+			"location": "Farm",
+			"eventId":"75160155",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Jeric's Date (Ten Hearts Part 2)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160156",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Invitation (Fourteen Hearts Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160229",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Contest (Fourteen Hearts Part 2)",
+			"location": "FarmHouse",
+			"eventId":"75160230",
+      			"night": false,
+     			"mail": null
+		}
+	]
+}

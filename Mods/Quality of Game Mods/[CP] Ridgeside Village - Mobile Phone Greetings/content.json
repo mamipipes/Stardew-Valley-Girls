@@ -1,0 +1,229 @@
+{
+    "Format": "1.23.0",
+    "ConfigSchema": {
+		"IanChanges": {
+			"Description": "Toggle greetings for Ian.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"JericChanges": {
+			"Description": "Toggle greetings for Jeric.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"KennethChanges": {
+			"Description": "Toggle greetings for Kenneth.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"PhilipChanges": {
+			"Description": "Toggle greetings for Philip.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "SeanChanges": {
+			"Description": "Toggle greetings for Sean.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"ShiroChanges": {
+			"Description": "Toggle greetings for Shiro.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "AlissaChanges": {
+			"Description": "Toggle greetings for Alissa.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "CorineChanges": {
+			"Description": "Toggle greetings for Corine.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "DaiaChanges": {
+			"Description": "Toggle greetings for Daia.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "FlorChanges": {
+			"Description": "Toggle greetings for Flor.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "YsabelleChanges": {
+			"Description": "Toggle greetings for Ysabelle.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "MaddieChanges": {
+			"Description": "Toggle greetings for Maddie.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "JioChanges": {
+			"Description": "Toggle greetings for Jio.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "KiwiChanges": {
+			"Description": "Toggle greetings for Kiwi.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		}
+        
+	},
+    "Changes": 
+	[
+		{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Ian",
+        "Entries":
+        {
+            "MobilePhoneGreeting": "{{i18n:Ian.MobilePhoneGreeting}}",
+            "MobilePhoneReminisce": "{{i18n:Ian.MobilePhoneReminisce}}", 
+            "MobilePhoneGoodBye": "{{i18n:Ian.MobilePhoneGoodBye}}"
+        }
+        },
+		{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Jeric",
+        "Entries":
+        {
+            "MobilePhoneGreeting": "{{i18n:Jeric.MobilePhoneGreeting}}",
+            "MobilePhoneReminisce": "{{i18n:Jeric.MobilePhoneReminisce}}", 
+            "MobilePhoneGoodBye": "{{i18n:Jeric.MobilePhoneGoodBye}}"
+        }
+        },
+		{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Kenneth",
+        "Entries":
+        {
+            "MobilePhoneGreeting": "{{i18n:Kenneth.MobilePhoneGreeting}}",
+            "MobilePhoneReminisce": "{{i18n:Kenneth.MobilePhoneReminisce}}", 
+            "MobilePhoneGoodBye": "{{i18n:Kenneth.MobilePhoneGoodBye}}"
+        }
+        },
+		{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Philip",
+        "Entries":
+        {
+            "MobilePhoneGreeting": "{{i18n:Philip.MobilePhoneGreeting}}",
+            "MobilePhoneReminisce": "{{i18n:Philip.MobilePhoneReminisce}}", 
+            "MobilePhoneGoodBye": "{{i18n:Philip.MobilePhoneGoodBye}}"
+        }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sean",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Sean.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Sean.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Sean.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shiro",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Shiro.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Shiro.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Shiro.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alyssa",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Alyssa.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Alyssa.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Alyssa.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Corine",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Corine.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Corine.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Corine.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Daia",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Daia.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Daia.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Daia.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Flor",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Flor.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{[Flor.MobilePhoneReminisce]}", 
+                "MobilePhoneGoodBye": "{{i18n:Flor.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kiarra",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Kiarra.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Kiarra.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Kiarra.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maddie",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Maddie.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Maddie.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Maddie.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Ysabelle",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Ysabelle.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Ysabelle.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Ysabelle.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jio",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Jio.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Jio.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Jio.MobilePhoneGoodBye}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kiwi",
+            "Entries":
+            {
+                "MobilePhoneGreeting": "{{i18n:Kiwi.MobilePhoneGreeting}}",
+                "MobilePhoneReminisce": "{{i18n:Kiwi.MobilePhoneReminisce}}", 
+                "MobilePhoneGoodBye": "{{i18n:Kiwi.MobilePhoneGoodBye}}"
+            }
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+﻿{
+	"events":
+	[
+		{
+			"name": "Town Safety (Two Hearts)",
+			"location": "Town",
+			"eventId":"75160162",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "The Saloon (Four Hearts)",
+			"location": "Saloon",
+			"eventId":"75160163",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "The Apology (Four Hearts Extra)",
+			"location": "Farm",
+			"eventId":"75160164",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "The Comic Collector (Six Hearts)",
+			"location": "Custom_Ridgeside_LogCabinHotelLobby",
+			"eventId":"75160165",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Sleepy Day (Eight Hearts)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160166",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Flowers (Ten Hearts)",
+			"location": "BusStop",
+			"eventId":"75160167",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Tickets (Fourteen Hearts Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160235",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Movie (Fourteen Hearts Part 2)",
+			"location": "BusStop",
+			"eventId":"75160236",
+      			"night": false,
+     			"mail": null
+		}
+	]
+}

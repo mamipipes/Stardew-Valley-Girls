@@ -1,0 +1,69 @@
+﻿{
+	"events":
+	[
+		{
+			"name": "Jio introduction at the Ridge",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160377",
+      			"night": false,
+     			"mail": null
+		},	
+		{
+			"name": "A Welcome to the Forest",
+			"location": "Custom_Ridgeside_RidgeForest",
+			"eventId":"75160187",
+      			"night": false,
+     			"mail": null
+		},	
+		{
+			"name": "Do Not Disturb (Two Hearts)",
+			"location": "Custom_Ridgeside_RSVNinjaHouse",
+			"eventId":"75160078",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Spirits (Four Hearts)",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160079",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "A Favor (Six Hearts)",
+			"location": "Custom_Ridgeside_RSVNinjaHouse",
+			"eventId":"75160080",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Jio and the Spirits (Eight Hearts)",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160081",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Jio in the Spirit Realm (Nine Hearts)",
+			"location": "Custom_Ridgeside_RSVSpiritRealm",
+			"eventId":"75160200",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Jio Assigned Mission (Fourteen Hearts Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160241",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Jio Assigned Mission (Fourteen Hearts Part 2)",
+			"location": "FarmHouse",
+			"eventId":"75160242",
+      			"night": false,
+     			"mail": null
+		}
+
+	]
+}

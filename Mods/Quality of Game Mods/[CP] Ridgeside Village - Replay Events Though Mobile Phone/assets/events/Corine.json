@@ -1,0 +1,61 @@
+﻿{
+	"events":
+	[
+		{
+			"name": "The Accident (Two Hearts)",
+			"location": "Custom_Ridgeside_EzekielHouse",
+			"eventId":"75160122",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Ninja! (Four Hearts)",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160123",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Angry (Six Hearts)",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160124",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Training! (Eight Hearts)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160125",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "The Visit Part 1 (Ten Hearts)",
+			"location": "Farm",
+			"eventId":"75160126",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "The Visit Part 2 (Ten Hearts)",
+			"location": "Custom_Ridgeside_Ridge",
+			"eventId":"75160127",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Home after Mission (Fourteen Hearts Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160223",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Monster Slaying Date (Fourteen Hearts Part 2)",
+			"location": "FarmHouse",
+			"eventId":"75160224",
+      			"night": false,
+     			"mail": null
+		}	
+	]
+}

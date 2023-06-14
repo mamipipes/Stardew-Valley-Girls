@@ -1,0 +1,55 @@
+﻿{
+	"events":
+	[
+		{
+			"name": "Cart Help (Two Hearts)",
+			"location": "BusStop",
+			"eventId":"75160146",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Relaxation (Four Hearts)",
+			"location": "Custom_Ridgeside_RSVCliff",
+			"eventId":"75160147",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Anxious Waiting (Six Hearts)",
+			"location": "Custom_Ridgeside_LennyHouse",
+			"eventId":"75160148",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Checking the Mail (Eight Hearts)",
+			"location": "Custom_Ridgeside_RidgesideVillage",
+			"eventId":"75160149",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Home Late (Ten Hearts)",
+			"location": "Custom_Ridgeside_RSVCliff",
+			"eventId":"75160150",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Tired (Fourteen Hearts Part 1)",
+			"location": "FarmHouse",
+			"eventId":"75160227",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Lesson (Fourteen Hearts Part 2)",
+			"location": "ArchaeologyHouse",
+			"eventId":"75160228",
+      			"night": false,
+     			"mail": null
+		}
+
+	]
+}
