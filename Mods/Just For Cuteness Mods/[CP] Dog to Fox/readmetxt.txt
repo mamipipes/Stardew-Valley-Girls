@@ -1,0 +1,1 @@
+To change what the default is go to the config.json and assets to see what changes are there.

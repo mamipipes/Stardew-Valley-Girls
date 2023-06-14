@@ -1,0 +1,13 @@
+{
+  "Name": "[AT]Yomi's cute furniture",
+  "Author": "Kry",
+  "Version": "1.0.0",
+  "Description": "FOr Yomi's furniture",
+  "UniqueID": "Kry.AT.Yomi_cute_furniture",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "3.3.2"
+  }
+}

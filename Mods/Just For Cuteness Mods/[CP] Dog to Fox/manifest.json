@@ -1,0 +1,13 @@
+{
+   "Name": "Dog to Fox",
+   "Author": "Justine & Annabelle Ivor",
+   "Version": "1.1.1",
+   "Description": "A CP replacement for your pet dog!",
+   "UniqueID": "FoxDogReplacer",
+   "MinimumApiVersion": "2.11",
+   "UpdateKeys": [ "Nexus:3871" ],
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.6.0" 
+  }
+}
