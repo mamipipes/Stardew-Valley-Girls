@@ -1,0 +1,26 @@
+{
+	"Name": "Dorset_Blue_Vinny",
+	"Description": "Artisan blue cheese.",
+	"Category": "Cooking",
+	"Edibility": 50,
+	"Price": 330,
+	"IsColored": false,
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [ 
+        {
+            "Object": "Cheese",
+            "Count": 1,
+        },
+        {
+            "Object": "258",
+            "Count": 1,
+        },  
+],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 1700,  
+   },
+}

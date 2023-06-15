@@ -1,0 +1,11 @@
+{
+	"Name": "[JA] More Cheese",
+	"Author": "chleiya",
+	"Version": "1.0.0",
+	"Description": "More Cheese",
+	"UniqueID": "chleiya.morecheese",
+	"UpdateKeys": ["16984"],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	}
+}

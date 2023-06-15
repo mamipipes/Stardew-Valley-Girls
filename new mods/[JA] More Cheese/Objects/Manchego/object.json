@@ -1,0 +1,26 @@
+{
+	"Name": "Manchego_",
+	"Description": "Sweet fruity cheese.",
+	"Category": "Cooking",
+	"Edibility": 50,
+	"Price": 330,
+	"IsColored": false,
+	"Recipe":
+  		{
+     "ResultCount": 1,
+        "Ingredients": [ 
+        {
+            "Object": "Cheese",
+            "Count": 1,
+        },
+        {
+            "Object": "406",
+            "Count": 1,
+        },  
+],
+        "IsDefault":false,
+        "CanPurchase": true,
+              "PurchaseFrom": "Gus",
+              "PurchasePrice": 1700,  
+   },
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "[AT] Cozy Cottage Seasonal",
+  "Author": "Hecate",
+  "Version": "1.0.0",
+  "Description": "Cottagecore cottages for you. Completely and utterly made by Yri she's awesome. Made as Alternate Textures by me.",
+  "UniqueID": "Hecate.CottageHouseAT",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "6.4.3"
+  }
+}
