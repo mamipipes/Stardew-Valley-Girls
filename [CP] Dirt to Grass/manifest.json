@@ -1,0 +1,26 @@
+{
+	"Name": "Dirt to Grass",
+	"Author": "Draylon",
+	"Version": "1.0.3",
+	"Description": "Replaces Dirt with Grass",
+	"UniqueID": "Draylon.DirttoGrassCP",
+	"UpdateKeys": [ "Nexus:10436" ],
+	"ContentPackFor": {
+	"UniqueID": "Pathoschild.ContentPatcher",
+	"MinimumVersion": "1.23.1"
+  },
+	"Dependencies": [
+		{
+			"UniqueID": "grapeponta.VibrantPastoralRecolor",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Acerbicon.Recolor",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "yri.ProjectYellogTownOverhaul",
+			"IsRequired": false
+		},
+	]
+}

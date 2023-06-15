@@ -1,0 +1,300 @@
+{
+    "Format": "1.25.0",
+
+    "ConfigSchema": {
+		"FarmReplacement": {
+			"AllowValues": "Standard, Forest, Hilltop, Wilderness, Riverland, Beach",
+			"Default": "Standard"
+		},
+        "DeletePixelArt": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Delete or place the pixel art in the farm."
+		}
+	},
+    
+    "DynamicTokens": [
+		{
+			"Name": "Farm",
+			"Value": "Farm",
+			"When": {
+				"FarmReplacement": "Standard"
+			}
+		},
+		{
+			"Name": "Farm",
+			"Value": "Farm_Foraging",
+			"When": {
+				"FarmReplacement": "Forest"
+			}
+		},
+		{
+			"Name": "Farm",
+			"Value": "Farm_Fishing",
+			"When": {
+				"FarmReplacement": "Riverland"
+			}
+		},
+		{
+			"Name": "Farm",
+			"Value": "Farm_Mining",
+			"When": {
+				"FarmReplacement": "Hilltop"
+			}
+		},
+		{
+			"Name": "Farm",
+			"Value": "Farm_Combat",
+			"When": {
+				"FarmReplacement": "Wilderness"
+			}
+		},
+		{
+			"Name": "Farm",
+			"Value": "Farm_Island",
+			"When": {
+				"FarmReplacement": "Beach"
+			}
+		},
+        {
+			"Name": "UnlockPantry",
+			"Value": "{{HasFlag: currentPlayer, hostPlayer |contains=ccPantry}}"
+		},
+        {
+			"Name": "UnlockVault",
+			"Value": "{{HasFlag: currentPlayer, hostPlayer |contains=ccVault}}"
+		},
+        {
+			"Name": "UnlockWoods",
+			"Value": "{{HasFlag: currentPlayer, hostPlayer |contains=beenToWoods}}"
+		},
+        {
+			"Name": "UnlockMine",
+			"Value": "{{HasSeenEvent: currentPlayer, hostPlayer |contains=100162}}"
+		},
+        {
+			"Name": "UnlockCellar",
+			"Value": "{{FarmhouseUpgrade: currentPlayer, hostPlayer |contains=3}}"
+		}
+	],
+
+    "CustomLocations": [
+		{
+			"Name": "Custom_SuperFarm_Woods",
+			"FromMapFile": "assets/SuperFarm_Woods.tmx"
+		},
+        {
+			"Name": "Custom_SuperFarm_Shed",
+			"FromMapFile": "assets/SuperFarm_Shed.tmx"
+		},
+        {
+			"Name": "Custom_SuperFarm_Cellar",
+			"FromMapFile": "assets/SuperFarm_Cellar.tmx"
+		},
+        {
+			"Name": "Custom_SuperFarm_Greenhouse",
+			"FromMapFile": "assets/SuperFarm_Greenhouse.tmx"
+		},
+        {
+			"Name": "Custom_SuperFarm_WarpArea",
+			"FromMapFile": "assets/SuperFarm_WarpArea.tmx"
+		},
+        {
+			"Name": "Custom_SuperFarm_HotSpring",
+			"FromMapFile": "assets/SuperFarm_HotSpring.tmx"
+		}
+	],
+
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Maps/{{Farm}}",
+            "FromFile": "assets/SuperFarm.tmx"
+        },
+        {
+			"Action": "Load",
+			"Target": "Maps/Farm_Greenhouse_Dirt",
+			"FromFile": "assets/SuperFarm_Greenhouse_Dirt.tmx"
+		},
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{Farm}}",
+            "FromFile": "Assets/SuperFarm_PixelArt.tmx",
+            "PatchMode": "Overlay",
+            "When": {
+                "DeletePixelArt": false
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SuperFarm_WarpArea",
+            "FromFile": "Assets/SuperFarm_MineWarp.tmx",
+            "ToArea": {
+                "X": 26,
+                "Y": 20,
+                "Width": 3,
+                "Height": 3
+            },
+            "PatchMode": "Overlay",
+            "When": {
+                "UnlockMine": true
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SuperFarm_Shed",
+            "FromFile": "Assets/SuperFarm_Shed_Warp.tmx",
+            "PatchMode": "Overlay",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 2,
+                "Height": 6
+            },
+            "ToArea": {
+                "X": 11,
+                "Y": 0,
+                "Width": 2,
+                "Height": 6
+            },
+            "When": {
+                "UnlockPantry": true
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SuperFarm_Shed",
+            "FromFile": "Assets/SuperFarm_Shed_Warp.tmx",
+            "PatchMode": "Overlay",
+            "FromArea": {
+                "X": 3,
+                "Y": 0,
+                "Width": 2,
+                "Height": 3
+            },
+            "ToArea": {
+                "X": 11,
+                "Y": 25,
+                "Width": 2,
+                "Height": 3
+            },
+            "When": {
+                "UnlockCellar": true
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{Farm}}",
+            "FromFile": "Assets/SuperFarm_Warp.tmx",
+            "PatchMode": "Overlay",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 3
+            },
+            "ToArea": {
+                "X": 54,
+                "Y": 5,
+                "Width": 1,
+                "Height": 3
+            },
+            "When": {
+                "UnlockVault": true
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{Farm}}",
+            "FromFile": "Assets/SuperFarm_Warp.tmx",
+            "PatchMode": "Overlay",
+            "FromArea": {
+                "X": 1,
+                "Y": 0,
+                "Width": 1,
+                "Height": 4
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 35,
+                "Width": 1,
+                "Height": 4
+            },
+            "AddWarps": [
+                "-1 36 Woods 58 15",
+                "-1 37 Woods 58 15",
+                "-1 38 Woods 58 15"
+                ],
+            "When": {
+                "UnlockWoods": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{Farm}}",
+            "FromFile": "Assets/SuperFarm_Warp.tmx",
+            "PatchMode": "Overlay",
+            "FromArea": {
+                "X": 1,
+                "Y": 0,
+                "Width": 1,
+                "Height": 4
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 35,
+                "Width": 1,
+                "Height": 4
+            },
+            "AddWarps": [
+                "-1 36 Woods 80 30",
+                "-1 37 Woods 80 30",
+                "-1 38 Woods 80 30"
+                ],
+            "When": {
+                "UnlockWoods": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/yanse",
+            "FromFile": "assets/yanse.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Tramcar",
+            "FromFile": "assets/Tramcar.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+            "Farm": "16 .9 22 .9 18 .9 20 .9/398 .9 396 .9 402 .9/404 .9 406 .9 408 .9 410 .9/412 .9 416 .9 418 .9 414 .9 283 .9/153 -1 145 -1 143 -1 137 -1 132 -1 706 -1 702 -1 136 -1 142 -1 700 -1/153 -1 145 -1 144 -1 138 -1 132 -1 706 -1 704 -1 702 -1 136 -1 142 -1 698 -1/143 -1 153 -1 140 -1 139 -1 137 -1 132 -1 706 -1 702 -1 699 -1 269 -1 136 -1 142 -1 700 -1/699 -1 143 -1 153 -1 144 -1 141 -1 140 -1 132 -1 707 -1 702 -1 269 -1 136 -1 700 -1 698 -1/584 .08 378 .8 102 .8 390 .8 330 .8 579 .8 588 .8 102 .8 390 .8 378 .8 110 .8 583 .8 382.8 581 .8"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+            "Custom_SuperFarm_HotSpring": "16 .9 22 .9 18 .9 20 .9/398 .9 396 .9 402 .9/404 .9 406 .9 408 .9 410 .9/412 .9 416 .9 418 .9 414 .9 283 .9/153 -1 145 -1 143 -1 137 -1 132 -1 706 -1 702 -1 136 -1 142 -1 700 -1/153 -1 145 -1 144 -1 138 -1 132 -1 706 -1 704 -1 702 -1 136 -1 142 -1 698 -1/143 -1 153 -1 140 -1 139 -1 137 -1 132 -1 706 -1 702 -1 699 -1 269 -1 136 -1 142 -1 700 -1/699 -1 143 -1 153 -1 144 -1 141 -1 140 -1 132 -1 707 -1 702 -1 269 -1 136 -1 700 -1 698 -1/584 .08 378 .8 102 .8 390 .8 330 .8 579 .8 588 .8 102 .8 390 .8 378 .8 110 .8 583 .8 382.8 581 .8"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "SuperFarmMessage.1": "{{i18n:SuperFarmMessage.1}}",
+                "SuperFarmMessage.2": "{{i18n:SuperFarmMessage.2}}",
+                "SuperFarmMessage.3": "{{i18n:SuperFarmMessage.3}}",
+                "SuperFarmMessage.4": "{{i18n:SuperFarmMessage.4}}",
+                "SuperFarmMessage.5": "{{i18n:SuperFarmMessage.5}}",
+				"SuperFarmMessage.6": "{{i18n:SuperFarmMessage.6}}",
+				"SuperFarmMessage.7": "{{i18n:SuperFarmMessage.7}}",
+                "SuperFarmMessage.8": "{{i18n:SuperFarmMessage.8}}",
+                "SuperFarmMessage.9": "{{i18n:SuperFarmMessage.9}}"
+            }
+        }
+    ]
+}

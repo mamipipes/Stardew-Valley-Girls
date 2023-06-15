@@ -1,0 +1,45 @@
+{
+  "ItemName": "Duck",
+  "Type": "Character",
+  "TextureWidth": 64,
+  "TextureHeight": 224,
+  "ManualVariations": [
+    {
+      "Id": 0,
+	  "ChanceWeight": 0.1,
+	  "Name": "Mallard",
+	  "Keywords": [ "Mallard" ]
+    },
+	{
+      "Id": 1,
+	  "ChanceWeight": 0.1,
+	  "Name": "Madagascar Teal",
+      "Keywords": [ "Madagascar Teal" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Name": "Redhead",
+	  "Keywords": [ "Redhead" ]
+    },
+	{
+      "Id": 3,
+      "ChanceWeight": 0.1,
+      "Name": "Pintail",
+	  "Keywords": [ "Pintail" ]
+    },
+    {
+      "Id": 4,
+      "ChanceWeight": 0.1,
+	  "Name": "American Pekin",
+	  "Keywords": [ "American Pekin" ]
+    },
+    {
+      "Id": 5,
+      "ChanceWeight": 0.1,
+	  "Name": "Penguin",
+	  "Keywords": [ "Penguin" ]
+ }
+	]
+}
+

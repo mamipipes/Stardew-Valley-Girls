@@ -1,0 +1,12 @@
+{ 
+  "Name": "Lnh's Super Farm",
+  "Author": "Lnh",
+  "Version": "1.0.4",
+  "Description": "",
+  "UniqueID": "Lnh.SuperFarm",
+  "UpdateKeys": [ "Nexus:14402" ],
+  "ContentPackFor": 
+    {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

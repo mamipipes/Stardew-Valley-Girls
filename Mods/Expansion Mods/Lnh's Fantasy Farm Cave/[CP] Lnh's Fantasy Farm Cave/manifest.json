@@ -1,0 +1,12 @@
+{ 
+  "Name": "Lnh's Fantasy Farm Cave",
+  "Author": "Lnh",
+  "Version": "1.0",
+  "Description": "",
+  "UniqueID": "Lnh.FantasyFarmCave",
+  "UpdateKeys": [ "Nexus:15734" ],
+  "ContentPackFor": 
+    {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

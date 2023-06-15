@@ -1,0 +1,74 @@
+{
+  "ItemName": "Rabbit",
+  "Type": "Character",
+  "TextureWidth": 64,
+  "TextureHeight": 112,
+  "ManualVariations": [
+    {
+       "Id": 0,
+	  "ChanceWeight": 0.1,
+	  "Name": "Solid White",
+	  "Keywords": [ "White" ]
+    },
+	{
+      "Id": 1,
+	  "ChanceWeight": 0.1,
+	  "Name": "Black and White",
+      "Keywords": [ "Black and White" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Name": "Solid Brown",
+	  "Keywords": [ "Solid Brown" ]
+    },
+	{
+      "Id": 3,
+      "ChanceWeight": 0.1,
+      "Name": "Brown and White Flop",
+	  "Keywords": [ "Brown and White Flop" ]
+    },
+    {
+      "Id": 4,
+      "ChanceWeight": 0.1,
+	  "Name": "Solid Black",
+	  "Keywords": [ "Solid Black" ]
+    },
+    {
+      "Id": 5,
+      "ChanceWeight": 0.1,
+	  "Name": "Beige and White",
+	  "Keywords": [ "Beige and White" ]
+    },
+	{
+      "Id": 6,
+      "ChanceWeight": 0.1,
+      "Name": "Solid Blue",
+	  "Keywords": [ "Solid Blue" ]
+    },
+    {
+      "Id": 7,
+      "ChanceWeight": 0.1,
+	  "Name": "White lop",
+	  "Keywords": [ "White Lop" ]
+    },
+	{
+      "Id": 8,
+      "ChanceWeight": 0.1,
+      "Name": "Solid Beige Lop",
+	  "Keywords": [ "Solid Beige Lop" ]
+    },
+    {
+      "Id": 9,
+      "ChanceWeight": 0.1,
+	  "Name": "Angora",
+	  "Keywords": [ "Angora" ]
+    },
+	{
+      "Id": 10,
+      "ChanceWeight": 0.1,
+	  "Name": "Solid Brown Lop",
+	  "Keywords": [ "Solid Brown Lop" ]
+    }
+	]
+}

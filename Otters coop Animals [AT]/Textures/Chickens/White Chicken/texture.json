@@ -1,0 +1,38 @@
+{
+  "ItemName": "White Chicken",
+  "Type": "Character",
+  "TextureWidth": 64,
+  "TextureHeight": 224,
+  "ManualVariations": [
+    {
+      "Id": 0,
+	  "ChanceWeight": 0.1,
+	  "Name": "Leghorn",
+	  "Keywords": [ "Leghorn" ]
+    },
+	{
+      "Id": 1,
+	  "ChanceWeight": 0.1,
+	  "Name": "Astralorp",
+      "Keywords": [ "Astralorp" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Name": "Silkie",
+	  "Keywords": [ "Silkie" ]
+    },
+	{
+      "Id": 3,
+      "ChanceWeight": 0.1,
+      "Name": "Polish",
+	  "Keywords": [ "Polish" ]
+    },
+    {
+      "Id": 4,
+      "ChanceWeight": 0.1,
+	  "Name": "Dodo",
+	  "Keywords": [ "Dodo" ]
+ }
+	]
+}

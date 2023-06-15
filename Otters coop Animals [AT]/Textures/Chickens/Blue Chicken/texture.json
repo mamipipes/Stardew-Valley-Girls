@@ -1,0 +1,21 @@
+{
+  "ItemName": "Blue Chicken",
+  "Type": "Character",
+  "TextureWidth": 64,
+  "TextureHeight": 112,
+  "ManualVariations": [
+  {
+      "Id": 0,
+	  "ChanceWeight": 0.1,
+	  "Name": "Dark Blue",
+	  "Keywords": [ "Dark Blue Chicken" ]
+    },
+	{
+      "Id": 1,
+	  "ChanceWeight": 0,
+	  "Name": "Light Blue",
+	  "Keywords": [ "Light Blue Chicken" ]
+    },
+
+	]
+}

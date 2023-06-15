@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT] IdaIda's Goth Buildings",
+  "Author": "IdaIda, conversion by BikiFae",
+  "Version": "1.0.1",
+  "Description": "changes all the farm buildings, alternative texture pack",
+  "UniqueID": "IdaIda.AT.GothBuildings",
+  "UpdateKeys": ["Nexus:12186@AT"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "4.5.3"
+  }
+}

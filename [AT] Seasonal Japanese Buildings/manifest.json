@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Seasonal Japanese Buildings for AT",
+  "Author": "Kazan22",
+  "Version": "1.0.0",
+  "Description": "A replacement for buildings on your farm for each season with a witchy vibe!",
+  "UniqueID": "Kazan22.AT.SeasonalJapaneseBuildings",
+  "UpdateKeys": [ "" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.0"
+  }
+}

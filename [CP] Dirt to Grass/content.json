@@ -1,0 +1,526 @@
+{
+  "Format": "1.24.0",
+  "ConfigSchema": {
+    "Recolor": {
+      "AllowValues": "Base, Yellog, Wittily, Pastoral",
+      "Default": "Base",
+      "Description": "The Style of Grass for Recolor Compatability."
+    },
+    "VibrantFall": {
+      "AllowValues": "Green, Orange",
+      "Default": "Green",
+      "Description": "The Color of Fall for Vibrant Pastoral Recolor."
+    },
+    "WittilyDirt": {
+      "AllowValues": "Dark, Light",
+      "Default": "Dark",
+      "Description": "Current Dirt Color for A Wittily Named Recolor."
+    },
+    "YellogGrassSpring": {
+      "AllowValues": "False, Black, Cream, DarkGreen, Fall, Lavender, NaturalGreen, PaleGreen, PastelGreen, Purple, Rose",
+      "Default": "False",
+      "Description": "The Grass Color for Spring for the Yellog Recolor."
+    },
+    "YellogGrassSummer": {
+      "AllowValues": "False, Black, Cream, DarkGreen, Fall, Lavender, NaturalGreen, PaleGreen, PastelGreen, Purple, Rose",
+      "Default": "False",
+      "Description": "The Grass Color for Summer for the Yellog Recolor."
+    },
+    "YellogGrassFall": {
+      "AllowValues": "False, Black, Cream, DarkGreen, Fall, Lavender, NaturalGreen, PaleGreen, PastelGreen, Purple, Rose",
+      "Default": "False",
+      "Description": "The Grass Color for Fall for the Yellog Recolor."
+    },
+    "EnableLocations": {
+      "AllowValues": "Farm,BusStop,Backwoods,Forest,Town,Mountain,Railroad,Island_N,Island_W,All",
+      "Default": "All",
+      "AllowMultiple": true,
+      "Description": "Which locations the Grass is replaced in. Island_N is Volcano Entrance, Island_W is Island Farm."
+    }
+  },
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Maps/spring_outdoorsTilesheet",
+      "FromFile": "assets/{{Recolor}}/Spring_Outdoors.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Wittily, Yellog": false,
+        "EnableLocations|contains={{LocationName}},All": true
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/spring_outdoorsTilesheet",
+      "FromFile": "assets/{{Recolor}}/{{WittilyDirt}}/Spring_Outdoors.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Wittily",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/summer_outdoorsTilesheet",
+      "FromFile": "assets/{{Recolor}}/Summer_Outdoors.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Wittily, Yellog": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/summer_outdoorsTilesheet",
+      "FromFile": "assets/{{Recolor}}/{{WittilyDirt}}/Summer_Outdoors.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Wittily",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_outdoorsTilesheet",
+      "FromFile": "assets/{{Recolor}}/Fall_Outdoors.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Pastoral, Wittily, Recolor": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_outdoorsTilesheet",
+      "FromFile": "assets/{{Recolor}}/{{VibrantFall}}/Fall_Outdoors.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Pastoral",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_outdoorsTilesheet",
+      "FromFile": "assets/{{Recolor}}/{{WittilyDirt}}/Fall_Outdoors.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Wittily",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/spring_outdoorsTilesheet2",
+      "FromFile": "assets/{{Recolor}}/Spring_Outdoors2.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Yellog": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/summer_outdoorsTilesheet2",
+      "FromFile": "assets/{{Recolor}}/Summer_Outdoors2.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Yellog": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_outdoorsTilesheet2",
+      "FromFile": "assets/{{Recolor}}/Fall_Outdoors2.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Pastoral, Yellog": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_outdoorsTilesheet2",
+      "FromFile": "assets/{{Recolor}}/{{VibrantFall}}/Fall_Outdoors2.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Pastoral",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/spring_town",
+      "FromFile": "assets/{{Recolor}}/Spring_Town.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Yellog": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/summer_town",
+      "FromFile": "assets/{{Recolor}}/Summer_Town.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Yellog": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_town",
+      "FromFile": "assets/{{Recolor}}/Fall_Town.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Pastoral, Yellog": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_town",
+      "FromFile": "assets/{{Recolor}}/{{VibrantFall}}/Fall_Town.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Pastoral",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/cursors",
+      "FromFile": "assets/{{Recolor}}/Cursors.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Yellog": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/cursors2",
+      "FromFile": "assets/{{Recolor}}/Cursors2.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Yellog": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/island_tilesheet_1",
+      "FromFile": "assets/{{Recolor}}/Island1.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Yellog": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/cursors",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassSpring}}/Cursors.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/cursors2",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassSummer}}/Cursors2.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/island_tilesheet_1",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassSummer}}/Island1.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/spring_town",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassSpring}}/Spring_Town.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/summer_town",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassSummer}}/Summer_Town.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_town",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassSummer}}/Fall_Town.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/spring_outdoorsTilesheet2",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassSpring}}/Spring_Outdoors2.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/summer_outdoorsTilesheet2",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassSummer}}/Summer_Outdoors2.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_outdoorsTilesheet2",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassFall}}/Fall_Outdoors2.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/spring_outdoorsTilesheet",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassSpring}}/Yellog_Outdoors.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/summer_outdoorsTilesheet",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassSummer}}/Yellog_Outdoors.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_outdoorsTilesheet",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassFall}}/Yellog_Outdoors.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/spring_extrasTilesheet",
+      "FromFile": "assets/{{Recolor}}/Spring_Waterfall.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Yellog": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/summer_extrasTilesheet",
+      "FromFile": "assets/{{Recolor}}/Summer_Waterfall.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Yellog": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_extrasTilesheet",
+      "FromFile": "assets/{{Recolor}}/Fall_Waterfall.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Yellog, Pastoral": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_extrasTilesheet",
+      "FromFile": "assets/{{Recolor}}/{{VibrantFall}}/Fall_Waterfall.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Pastoral",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Summer_extrasTilesheet",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassSpring}}/Spring_Waterfall.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Summer_extrasTilesheet",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassSummer}}/Summerl_Waterfall.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_extrasTilesheet",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassFall}}/Fall_Waterfall.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/spring_daisyextras",
+      "FromFile": "assets/{{Recolor}}/Spring_Waterfall.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Yellog": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/summer_daisyextras",
+      "FromFile": "assets/{{Recolor}}/Summer_Waterfall.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Yellog": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_daisyextras",
+      "FromFile": "assets/{{Recolor}}/Fall_Waterfall.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor |contains=Yellog, Pastoral": false,
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_daisyextras",
+      "FromFile": "assets/{{Recolor}}/{{VibrantFall}}/Fall_Waterfall.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Pastoral",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Summer_daisyextras",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassSpring}}/Spring_Waterfall.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Summer_daisyextras",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassSummer}}/Summerl_Waterfall.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      },
+	  "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_daisyextras",
+      "FromFile": "assets/{{Recolor}}/{{YellogGrassFall}}/Fall_Waterfall.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "Recolor": "Yellog",
+		"EnableLocations|contains={{LocationName}},All": true
+      }
+    }
+  ]
+}

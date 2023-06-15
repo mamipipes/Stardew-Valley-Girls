@@ -1,0 +1,584 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": true,
+  "MonsterSpawnEnabled": false,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          "Salmonberry",
+          "Grape",
+          "Spice Berry",
+          "Sweet Pea",
+          "Wild Plum",
+          "Blackberry",
+          "Apricot",
+          "Cherry",
+          "Orange",
+          "Peach",
+          "Apple",
+          "Pomegranate"
+        ],
+        "SummerItemIndex": [
+          "Salmonberry",
+          "Grape",
+          "Spice Berry",
+          "Sweet Pea",
+          "Wild Plum",
+          "Blackberry",
+          "Apricot",
+          "Cherry",
+          "Orange",
+          "Peach",
+          "Apple",
+          "Pomegranate"
+        ],
+        "FallItemIndex": [
+          "Salmonberry",
+          "Grape",
+          "Spice Berry",
+          "Sweet Pea",
+          "Wild Plum",
+          "Blackberry",
+          "Apricot",
+          "Cherry",
+          "Orange",
+          "Peach",
+          "Apple",
+          "Pomegranate"
+        ],
+        "WinterItemIndex": [
+          "Salmonberry",
+          "Grape",
+          "Spice Berry",
+          "Sweet Pea",
+          "Wild Plum",
+          "Blackberry",
+          "Apricot",
+          "Cherry",
+          "Orange",
+          "Peach",
+          "Apple",
+          "Pomegranate"
+        ],
+        "UniqueAreaID": "Lnh's Fantasy Farm Cave-Forage1",
+        "MapName": "FarmCave",
+        "MinimumSpawnsPerDay": 4,
+        "MaximumSpawnsPerDay": 6,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [
+          "Wood"
+        ],
+        "IncludeCoordinates": [
+          "0, 0/29, 19"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "Morel",
+          "Common Mushroom"
+        ],
+        "SummerItemIndex": [
+          "Red Mushroom",
+          "Common Mushroom"
+        ],
+        "FallItemIndex": [
+          "Chanterelle",
+          "Common Mushroom",
+          "Red Mushroom",
+          "Purple Mushroom"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Lnh's Fantasy Farm Cave-Forage2",
+        "MapName": "FarmCave",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [
+          "Wood"
+        ],
+        "IncludeCoordinates": [
+          "0, 0/29, 19"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "chest",
+            "contents": [
+              {
+                "category": "weapon",
+                "name": "Neptune's Glaive"
+              }
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "chest",
+            "contents": [
+              {
+                "category": "weapon",
+                "name": "Neptune's Glaive"
+              }
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "chest",
+            "contents": [
+              {
+                "category": "weapon",
+                "name": "Neptune's Glaive"
+              }
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "chest",
+            "contents": [
+              {
+                "category": "weapon",
+                "name": "Neptune's Glaive"
+              }
+            ]
+          }
+        ],
+        "UniqueAreaID": "Lnh's Fantasy Farm Cave Chest",
+        "MapName": "FarmCave",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "45, 6/45, 6"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 27
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 0,
+    "SpringItemIndex": [
+      16,
+      20,
+      22,
+      257
+    ],
+    "SummerItemIndex": [
+      396,
+      398,
+      402,
+      404
+    ],
+    "FallItemIndex": [
+      281,
+      404,
+      420,
+      422
+    ],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [
+      {
+        "ObjectTypes": [
+          "Stump"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "Lnh's Fantasy Farm Cave stump",
+        "MapName": "FarmCave",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 0,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": null,
+        "LevelTenSpawnChance": null,
+        "UniqueAreaID": "Lnh's Fantasy Farm Cave ore area 1",
+        "MapName": "FarmCave",
+        "MinimumSpawnsPerDay": 30,
+        "MaximumSpawnsPerDay": 40,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [
+          "Stone",
+          "Water"
+        ],
+        "IncludeCoordinates": [
+          "15, 39/34, 47"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      }
+    ],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {
+      "Stone": 0,
+      "Geode": 0,
+      "FrozenGeode": 5,
+      "MagmaGeode": 8,
+      "OmniGeode": 0,
+      "Gem": 6,
+      "Copper": 0,
+      "Iron": 4,
+      "Gold": 7,
+      "Iridium": 9,
+      "Mystic": 10,
+      "Radioactive": 0,
+      "Diamond": 6,
+      "Ruby": 6,
+      "Jade": 6,
+      "Amethyst": 6,
+      "Topaz": 6,
+      "Emerald": 6,
+      "Aquamarine": 6,
+      "Mussel": 0,
+      "Fossil": 0,
+      "CinderShard": 0
+    },
+    "StartingSpawnChance": {
+      "Stone": 66,
+      "Geode": 8,
+      "FrozenGeode": 4,
+      "MagmaGeode": 2,
+      "OmniGeode": 0,
+      "Gem": 5,
+      "Copper": 21,
+      "Iron": 15,
+      "Gold": 10,
+      "Iridium": 5,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0,
+      "Mussel": 0,
+      "Fossil": 0,
+      "CinderShard": 0
+    },
+    "LevelTenSpawnChance": {
+      "Stone": 30,
+      "Geode": 2,
+      "FrozenGeode": 2,
+      "MagmaGeode": 2,
+      "OmniGeode": 5,
+      "Gem": 5,
+      "Copper": 16,
+      "Iron": 13,
+      "Gold": 10,
+      "Iridium": 10,
+      "Mystic": 5,
+      "Radioactive": 2,
+      "Diamond": 5,
+      "Ruby": 5,
+      "Jade": 5,
+      "Amethyst": 5,
+      "Topaz": 5,
+      "Emerald": 5,
+      "Aquamarine": 5,
+      "Mussel": 2,
+      "Fossil": 2,
+      "CinderShard": 2
+    },
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "shadow brute",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8
+            }
+          },
+          {
+            "MonsterName": "wilderness golem",
+            "Settings": {
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "purple slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "red slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "MaximumSkillLevel": 9,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "blue slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 4,
+              "MaximumSkillLevel": 7,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MaximumSkillLevel": 3,
+              "SpawnWeight": 2
+            }
+          }
+        ],
+        "UniqueAreaID": "Lnh's Fantasy Farm Cave monster area 1",
+        "MapName": "FarmCave",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 0,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 15,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "iridium bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "serpent",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 3
+            }
+          },
+          {
+            "MonsterName": "lava bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "frost bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 5,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "bat",
+            "Settings": {
+              "SpawnWeight": 2
+            }
+          }
+        ],
+        "UniqueAreaID": "Lnh's Fantasy Farm Cave monster area 2",
+        "MapName": "FarmCave",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 0,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 15,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    481,
+    556,
+    558,
+    583,
+    608,
+    607,
+    606,
+    630,
+    680,
+    681,
+    685,
+    537
+  ],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {}
+  }
+}

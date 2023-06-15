@@ -1,0 +1,20 @@
+{
+  "ItemName": "BabyVoid Chicken",
+  "Type": "Character",
+  "TextureWidth": 64,
+  "TextureHeight": 112,
+  "ManualVariations": [
+    {
+      "Id": 0,
+	  "ChanceWeight": 0.1,
+	  "Name": "Red Void",
+	  "Keywords": [ "Red Void" ]
+    },
+	{
+      "Id": 1,
+	  "ChanceWeight": 0.1,
+	  "Name": "Purple Void",
+      "Keywords": [ "Purple Void" ]
+    },
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"Name": "Lnh's Fantasy Farm Cave Forage",
+	"Author": "Lnh",
+	"Description": "",
+	"Version": "1.0",
+	"UniqueID": "Lnh.FantasyFarmCaveForage",
+	"UpdateKeys": [ "Nexus:?????" ],
+	"ContentPackFor": {
+		"UniqueID": "Esca.FarmTypeManager"
+	}
+}

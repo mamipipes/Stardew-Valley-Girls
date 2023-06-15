@@ -1,0 +1,11 @@
+{
+	"Name": "Lnh's Super Farm Forage",
+	"Author": "Lnh",
+	"Description": "",
+	"Version": "1.0.4",
+	"UniqueID": "Lnh.SuperFarmForage",
+	"UpdateKeys": [ "Nexus:?????" ],
+	"ContentPackFor": {
+		"UniqueID": "Esca.FarmTypeManager"
+	}
+}

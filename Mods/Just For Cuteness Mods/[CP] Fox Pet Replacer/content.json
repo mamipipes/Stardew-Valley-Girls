@@ -1,0 +1,513 @@
+{
+  "Format": "1.3",
+  "ConfigSchema": {
+        "FoxColor": {
+            "AllowValues": "red, white, albino, arctic, silver, snowglow",
+            "Default": "red"
+        },
+        "FoxReplaces": {
+            "AllowValues": "cat, cat1, cat2, dog, dog1, dog2, both, all",
+            "Default": "dog"
+        }
+    },
+  "Changes": [
+        {
+          "Action": "Load",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Cursors_redfox_cats.png",
+          "When": {
+                "FoxColor": "red",
+                "FoxReplaces": "cat, cat1, cat2"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Cursors_redfox_cats.png",
+          "When": {
+                "FoxColor": "white",
+                "FoxReplaces": "cat, cat1, cat2"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Cursors_redfox_cats.png",
+          "When": {
+                "FoxColor": "albino",
+                "FoxReplaces": "cat, cat1, cat2"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Cursors_redfox_cats.png",
+          "When": {
+                "FoxColor": "arctic",
+                "FoxReplaces": "cat, cat1, cat2"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Cursors_redfox_cats.png",
+          "When": {
+                "FoxColor": "silver",
+                "FoxReplaces": "cat, cat1, cat2"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Cursors_redfox_cats.png",
+          "When": {
+                "FoxColor": "snowglow",
+                "FoxReplaces": "cat, cat1, cat2"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Cursors_redfox_dogs.png",
+          "When": {
+                "FoxColor": "red",
+                "FoxReplaces": "dog, dog1, dog2"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Cursors_redfox_dogs.png",
+          "When": {
+                "FoxColor": "white",
+                "FoxReplaces": "dog, dog1, dog2"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Cursors_redfox_dogs.png",
+          "When": {
+                "FoxColor": "albino",
+                "FoxReplaces": "dog, dog1, dog2"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Cursors_redfox_dogs.png",
+          "When": {
+                "FoxColor": "arctic",
+                "FoxReplaces": "dog, dog1, dog2"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Cursors_redfox_dogs.png",
+          "When": {
+                "FoxColor": "silver",
+                "FoxReplaces": "dog, dog1, dog2"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Cursors_redfox_dogs.png",
+          "When": {
+                "FoxColor": "snowglow",
+                "FoxReplaces": "dog, dog1, dog2"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog",
+          "FromFile": "assets/whitefox.png",
+          "When": {
+                "FoxColor": "white",
+                "FoxReplaces": "dog, both, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog1",
+          "FromFile": "assets/whitefox.png",
+          "When": {
+                "FoxColor": "white",
+                "FoxReplaces": "dog1, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog2",
+          "FromFile": "assets/whitefox.png",
+          "When": {
+                "FoxColor": "white",
+                "FoxReplaces": "dog2, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat",
+          "FromFile": "assets/whitefox.png",
+          "When": {
+                "FoxColor": "white",
+                "FoxReplaces": "cat, both, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat1",
+          "FromFile": "assets/whitefox.png",
+          "When": {
+                "FoxColor": "white",
+                "FoxReplaces": "cat1, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat2",
+          "FromFile": "assets/whitefox.png",
+          "When": {
+                "FoxColor": "white",
+                "FoxReplaces": "cat2, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog",
+          "FromFile": "assets/redfox.png",
+          "When": {
+                "FoxColor": "red",
+                "FoxReplaces": "dog, both, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog1",
+          "FromFile": "assets/redfox.png",
+          "When": {
+                "FoxColor": "red",
+                "FoxReplaces": "dog1, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog2",
+          "FromFile": "assets/redfox.png",
+          "When": {
+                "FoxColor": "red",
+                "FoxReplaces": "dog2, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat",
+          "FromFile": "assets/redfox.png",
+          "When": {
+                "FoxColor": "red",
+                "FoxReplaces": "cat, both, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat1",
+          "FromFile": "assets/redfox.png",
+          "When": {
+                "FoxColor": "red",
+                "FoxReplaces": "cat1, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat2",
+          "FromFile": "assets/redfox.png",
+          "When": {
+                "FoxColor": "red",
+                "FoxReplaces": "cat2, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog",
+          "FromFile": "assets/albinofox.png",
+          "When": {
+                "FoxColor": "albino",
+                "FoxReplaces": "dog, both, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog1",
+          "FromFile": "assets/albinofox.png",
+          "When": {
+                "FoxColor": "albino",
+                "FoxReplaces": "dog1, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog2",
+          "FromFile": "assets/albinofox.png",
+          "When": {
+                "FoxColor": "albino",
+                "FoxReplaces": "dog2, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat",
+          "FromFile": "assets/albinofox.png",
+          "When": {
+                "FoxColor": "albino",
+                "FoxReplaces": "cat, both, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat1",
+          "FromFile": "assets/albinofox.png",
+          "When": {
+                "FoxColor": "albino",
+                "FoxReplaces": "cat1, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat2",
+          "FromFile": "assets/albinofox.png",
+          "When": {
+                "FoxColor": "albino",
+                "FoxReplaces": "cat2, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog",
+          "FromFile": "assets/silverfox.png",
+          "When": {
+                "FoxColor": "silver",
+                "FoxReplaces": "dog, both, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog1",
+          "FromFile": "assets/silverfox.png",
+          "When": {
+                "FoxColor": "silver",
+                "FoxReplaces": "dog1, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog2",
+          "FromFile": "assets/silverfox.png",
+          "When": {
+                "FoxColor": "silver",
+                "FoxReplaces": "dog2, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat",
+          "FromFile": "assets/silverfox.png",
+          "When": {
+                "FoxColor": "silver",
+                "FoxReplaces": "cat, both, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat1",
+          "FromFile": "assets/silverfox.png",
+          "When": {
+                "FoxColor": "silver",
+                "FoxReplaces": "cat1, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat2",
+          "FromFile": "assets/silverfox.png",
+          "When": {
+                "FoxColor": "silver",
+                "FoxReplaces": "cat2, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog",
+          "FromFile": "assets/snowglowfox.png",
+          "When": {
+                "FoxColor": "snowglow",
+                "FoxReplaces": "dog, both, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog1",
+          "FromFile": "assets/snowglowfox.png",
+          "When": {
+                "FoxColor": "snowglow",
+                "FoxReplaces": "dog1, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog2",
+          "FromFile": "assets/snowglowfox.png",
+          "When": {
+                "FoxColor": "snowglow",
+                "FoxReplaces": "dog2, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat",
+          "FromFile": "assets/snowglowfox.png",
+          "When": {
+                "FoxColor": "snowglow",
+                "FoxReplaces": "cat, both, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat1",
+          "FromFile": "assets/snowglowfox.png",
+          "When": {
+                "FoxColor": "snowglow",
+                "FoxReplaces": "cat1, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat2",
+          "FromFile": "assets/snowglowfox.png",
+          "When": {
+                "FoxColor": "snowglow",
+                "FoxReplaces": "cat2, both, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog",
+          "FromFile": "assets/arcticfoxsummer.png",
+          "When": {
+                "FoxColor": "arctic",
+                "Season": "spring, summer, fall",
+                "FoxReplaces": "dog, both, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog1",
+          "FromFile": "assets/arcticfoxsummer.png",
+          "When": {
+                "FoxColor": "arctic",
+                "Season": "spring, summer, fall",
+                "FoxReplaces": "dog1, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog2",
+          "FromFile": "assets/arcticfoxsummer.png",
+          "When": {
+                "FoxColor": "arctic",
+                "Season": "spring, summer, fall",
+                "FoxReplaces": "dog2, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat",
+          "FromFile": "assets/arcticfoxsummer.png",
+          "When": {
+                "FoxColor": "arctic",
+                "Season": "spring, summer, fall",
+                "FoxReplaces": "cat, both, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat1",
+          "FromFile": "assets/arcticfoxsummer.png",
+          "When": {
+                "FoxColor": "arctic",
+                "Season": "spring, summer, fall",
+                "FoxReplaces": "cat1, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat2",
+          "FromFile": "assets/arcticfoxsummer.png",
+          "When": {
+                "FoxColor": "arctic",
+                "Season": "spring, summer, fall",
+                "FoxReplaces": "cat2, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog",
+          "FromFile": "assets/arcticfoxwinter.png",
+          "When": {
+                "FoxColor": "arctic",
+                "Season": "winter",
+                "FoxReplaces": "dog, both, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog1",
+          "FromFile": "assets/arcticfoxwinter.png",
+          "When": {
+                "FoxColor": "arctic",
+                "Season": "winter",
+                "FoxReplaces": "dog1, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Dog2",
+          "FromFile": "assets/arcticfoxwinter.png",
+          "When": {
+                "FoxColor": "arctic",
+                "Season": "winter",
+                "FoxReplaces": "dog2, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat",
+          "FromFile": "assets/arcticfoxwinter.png",
+          "When": {
+                "FoxColor": "arctic",
+                "Season": "winter",
+                "FoxReplaces": "cat, both, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat1",
+          "FromFile": "assets/arcticfoxwinter.png",
+          "When": {
+                "FoxColor": "arctic",
+                "Season": "winter",
+                "FoxReplaces": "cat1, all"
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Cat2",
+          "FromFile": "assets/arcticfoxwinter.png",
+          "When": {
+                "FoxColor": "arctic",
+                "Season": "winter",
+                "FoxReplaces": "cat2, all"
+          }
+       }
+    ]
+}

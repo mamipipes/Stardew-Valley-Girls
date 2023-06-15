@@ -1,0 +1,37 @@
+{
+    "Format": "1.25.0",
+    "Changes": [
+
+        {
+            "Action": "Load",
+            "Target": "Maps/FarmCave",
+            "FromFile": "assets/FantasyFarmCave.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/FantasyFarmCave_Leaf",
+            "FromFile": "assets/FantasyFarmCave_Leaf.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "MinecartPatcher.Minecarts",
+            "Entries": {
+                "FantasyFarmCave.Minecart": {
+                    "LocationName": "FarmCave",
+                    "DisplayName": "{{i18n:FantasyFarmCaveMorecarts.1}}",
+                    "LandingPointX": 16,
+                    "LandingPointY": 7,
+                    "LandingPointDirection": 2,
+                    "IsUnderground": false
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "Custom_Backwoods_N": "-1/-1/-1/-1/156 -1 158 -1/156 -1 158 -1/156 -1 158 -1/156 -1 158 -1/-1"
+            }
+        }
+    ]
+}

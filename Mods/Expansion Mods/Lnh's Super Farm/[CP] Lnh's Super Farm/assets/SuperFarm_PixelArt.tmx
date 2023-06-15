@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="180" height="140" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="219">
+ <tileset firstgid="1" name="z_yanse" tilewidth="16" tileheight="16" tilecount="40" columns="10">
+  <image source="yanse.png" width="160" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="180" height="140">
+  <data encoding="base64" compression="zlib">
+   eJzt29FO2zAYgNEUuGNwB7z/m26VaunHsp2EssZ2zpEsuq5I0Hx1HacsCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMD/cTn6B4BfcgkDRnZt+HnRM3NIPWua0cWWY9MwosvKWHsc9CJ2ma83asM8To9qjbaaPkvLtfcf70v9anWavr5XHjNzz7XX7ZlezyMqNfq+fG85jbPMz6Xn5Hnlfo6Xr5dLTafbpZ5nPY56HlPt+JTGWXre2/Ksz8NoWvNx7ZidYY9Oz+OpHZu86Uv2f3rWc4/yNcPTUm/6fSmfE854DPesv7Tcj9p1k7X1c+x5Nj9pWdP9yD9Ld+ae72lZ032IHa+dC6aen5Zz9Vy7xqTnPm1teua18/V3eQlja88v2ZjpORlZq+nU8VP2uJmOXd5z3nSp6/zxeu5HOlax2VbHszW91vNlWZ+b9dyPdJxiw6Vx1p5LQ8/9yq+Z5KPV9Axa6+c9Tc/yfMyg9hm7NOJ6JO96ZKW1RG3vorWvOfrzMJst+6+p5Vn2OUp7F7VWW/eN/BzMKp4Tru3Zjf45jtb5bW24jtKPj3/j6/b1o/KYeMxan+UYfZ8jvcfk5wPp3/m6Kj5O08dLDX/eRrod5eeDsef8fXWt7RHEn/ftNmK/e+dnPT9Gmpc/s5E3Hffr8rk5XmPJj2tp3TFa19ffI/a89fxQz4+X2v1avq83anN0Oqal+bf0tyn59ZfR9j1K83Pr/UjPx0tNt1qO4lx9qdxf+lxSqekRxNdfaZ28telRft8ZxPVzq+Wk1uPaumKkuTlX67m1jzfyOQRza/Vc6/p6+/U28ttwlC0t1+bk1zCeFz1zvL09523HprXM0bauNbbM13C02HPrvM/+Bj0r7dXVrg+u/V2DfQ6OFK8d1f5+4d6haR4lfl6jNPf+pN3SfA6PkjfYukayZeTfD0dILf65jb3nd/d+P/yme+dX8zO9uXdvwt4GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAPn8BB0YPwQ==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+</map>

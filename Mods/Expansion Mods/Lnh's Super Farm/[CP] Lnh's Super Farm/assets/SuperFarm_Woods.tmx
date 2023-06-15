@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="1">
+ <properties>
+  <property name="Outdoors" value="T"/>
+  <property name="Warp" value="19 40 Farm 47 47 20 40 Farm 47 47"/>
+ </properties>
+ <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="outdoors" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
+  <tile id="150">
+   <animation>
+    <frame tileid="150" duration="300"/>
+    <frame tileid="420" duration="300"/>
+    <frame tileid="421" duration="300"/>
+    <frame tileid="422" duration="300"/>
+    <frame tileid="423" duration="300"/>
+    <frame tileid="422" duration="300"/>
+    <frame tileid="421" duration="300"/>
+    <frame tileid="420" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="151">
+   <animation>
+    <frame tileid="151" duration="950"/>
+    <frame tileid="152" duration="950"/>
+   </animation>
+  </tile>
+  <tile id="152">
+   <animation>
+    <frame tileid="152" duration="950"/>
+    <frame tileid="151" duration="950"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztl1luwjAURR2pO2ETVJUqtpCPZA9lkMoamNquoQO0m2gLfHhnfRa2eFyeh7hp4YOPK2ciPr5viBlcKTW46KKLGuuONGXqnwET55qRVoVSWu3G4Zlwzi0X6lw4HZ/heaLxm7QRWEcn5jNsa9KU9CVwDk/koeN7t2y1HSvLuYFYpzLyevvNugyfmf+D5n+0bFxLiHOIkTPxekvNDakOuIyHJWOrmYf8ueHVYS+SmPjYBp95l4txBR5inFdwzM+xxtr2D+NbFsc1I3E6LlNjC9J473WP8qH3V3xcFeNErdkzy32uJrOF+LTa95caeHysdeDc1VTTnpnrHbLE1Daf864MzMnvVcJ1N9Ysvm3xSd7VMO+cdE26Ib2QPgO+tu2fr6/MLYvRK6lD2pIvXRqfLSPWD+9HTb+Jsb6HMZsVO5a1Zeqy845lfBE4nYc68r2J8Wl1uC/g8Zpbz7qgrcA6EXKQf3dS92i+upByaMZYOgInvzYRcmMKjDqhXpr0lDez7uLYK862gVxExhIYc/l8vfZWYPF5OQEuqZ5juZhaF+74vjiuDcnHvvFGWKcU55CHqfF1ccIYS97x+gi9K6Vnp/Y9zMOBlWE1NWOY+uz6KPKO1J6NfL49s5STJbCOIn6V8J4cPinG0je48hw32TfkxFcrfw3nCNfG17IsZH9y96S+fIr5i2s1e+mHYr+fbiJt/7c9MGE+Yh6FchTF9/la5fvHf+tqxjd3qE7xHo9pbnwloacxfxeeZ8e/8C0l9hgXbfMBYytx/BVXU39z8v4/dEp/TsX4A3A9M/E=
+  </data>
+ </layer>
+ <layer id="4" name="Buildings" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEKgCAQBVAXQqcIup9nqrOG1GIQQSfHmZ/Mh79wk09DJsUQktcL2JwzPr3edQ6CiXpqsfT1hJ4B0Wd1lyv6eow55VvT9NX2q7197rkkjT0eCd/oPXLiPn0buk8ryL5V/637xoya4c5iy7hvvtE67nMfss/SiDg//uJDnb/oPo5L2yxlm2WU9n2xaxpajcS5AXjK7sR3CH73BhRIVic=
+  </data>
+ </layer>
+ <layer id="5" name="Front" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="7" name="Paths" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztltEOgCAIRf0A3139/4f21OYcIhIIGmdzc2V1uSCWUhAEJ3NZCziI21pA8qHBipW17GHf5Go+m3cP+l8savYP+8Qqxve7GbgHXYOeldaitV6Kni9UPSNfJeB6o+EpJd5SDS8UZHiiDOaY/xJnC1QzI03t3AIsv22eV/WaOlfefGs94OiT7H2zfYW6j3u51q4BT72FGitl3Yrzbgcs/505OcD0asby5d1Ra3wg37X9PCFfJ8SwOw/9wAeo
+  </data>
+ </layer>
+ <layer id="9" name="AlwaysFront" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzNWAlOxDAMrLTheASw8AjOR3C+fDn/wNkn4Ii1ZIztOAfJWrKitknrjmcSJ/Niml6YzxX3tGe51173jJsz+nv7lv5Pzn/OFWNSz1fg9+AP4I+kfQJ/Lsi3hZ2FBX1GY4rtG/g7+AdpP8G/1jF6eenFL9XvlcW0FaY/th1+YvTgWco/7Z8X8O0gxCTFyPFsqRvt3h58d98RH7Ud6L8b6jno6e/Fj9ph+M1H6f2S1kp0VoIf8pFrJqU1PsbDx2P41gn4QWGMFB8eE9ca/S8vHy9DeYzR+Fwk6Z8a5a6XixhjLg9LLHL3KOi4teRhri3h/efgFyGNWQsd51rM7S34nZJfDbtVJ/yk3HrmQFzjUtyuMZ7bnJprRG6980svbaR0a93vhV+c93LWN1yTeuBH1w5ao1lx4nr539qgMfIazcpxD91q5qnRevBOs1SN1ku3mmm1DN0fjcQvGuZ45LxnGZ8T+ZqyKfhtIv+ipeqFmrq51jz1Qs+6WYrNUy+MyDHyToptRG3AzdLtKI3EnJ6Cn2XuQVAjOBbb1prBnN4YexBt/3sFfr0ei21rXefk1OIj3Q9LuFr4Lo3+Vk45hp7YNVw1fOmcIfXHnLY8E9f2p9K8qe1tvefhOWdannN0rnvkl+edqZi/Ae0QjKY=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <objectgroup id="3" name="Buildings"/>
+ <objectgroup id="6" name="Front"/>
+ <objectgroup id="8" name="Paths"/>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

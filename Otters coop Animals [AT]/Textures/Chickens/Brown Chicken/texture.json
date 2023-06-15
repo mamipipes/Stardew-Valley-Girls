@@ -1,0 +1,38 @@
+{
+  "ItemName": "Brown Chicken",
+  "Type": "Character",
+  "TextureWidth": 64,
+  "TextureHeight": 112,
+  "ManualVariations": [
+  {
+      "Id": 0,
+	  "ChanceWeight": 0.1,
+	  "Name": "Buff orpington",
+	  "Keywords": [ "Buff orpington" ]
+    },
+	{
+      "Id": 1,
+	  "ChanceWeight": 0.1,
+	  "Name": "Amerucana",
+	  "Keywords": [ "Amerucana" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Name": "Rhode Island Red",
+	  "Keywords": [ "Rhode Island Red" ]
+    },
+	{
+      "Id": 3,
+      "ChanceWeight": 0.1,
+      "Name": "Speckled Sussex",
+	  "Keywords": [ "Speckled Sussex" ]
+    },
+    {
+      "Id": 4,
+      "ChanceWeight": 0.1,
+	  "Name": "Turkey",
+	  "Keywords": [ "Turkey" ]
+    }
+	]
+}

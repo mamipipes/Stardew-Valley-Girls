@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Otter's Coop Mod [AT]",
+   "Author": "Thatotterthing",
+   "Version": "1.4.0",
+   "Description": "AT pack for your Coop Critters",
+   "UniqueID": "thatotterthing.AT.otterscoopmod",
+  "UpdateKeys": ["nexus:15782" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.0-beta.14"
+  }
+}

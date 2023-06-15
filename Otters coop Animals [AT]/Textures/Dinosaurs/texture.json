@@ -1,0 +1,32 @@
+{
+  "ItemName": "Dinosaur",
+  "Type": "Character",
+  "TextureWidth": 64,
+  "TextureHeight": 112,
+  "ManualVariations": [
+    {
+      "Id": 0,
+	  "ChanceWeight": 0.1,
+	  "Name": "Green Rex",
+	  "Keywords": [ "Green Rex" ]
+    },
+	{
+      "Id": 1,
+	  "ChanceWeight": 0.1,
+	  "Name": "Orange Triceratops",
+      "Keywords": [ "Orange Triceratops" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Name": "Blue Raptor",
+	  "Keywords": [ "Blue Raptor" ]
+    },
+	{
+      "Id": 3,
+      "ChanceWeight": 0.1,
+      "Name": "Brown Pteradactyl",
+	  "Keywords": [ "Brown Pteradactyl" ]
+    }
+	]
+}

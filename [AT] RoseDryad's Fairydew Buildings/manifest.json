@@ -1,0 +1,13 @@
+{
+  "Name": "(AT) RoseDryad's Fairydew Buildings",
+  "Author": "RoseDryad",
+  "Version": "1.0.1",
+  "Description": "Changes farm buildings.",
+  "UniqueID": "RoseDryad.AT.FairydewBuildings",
+  "UpdateKeys": ["Nexus:13201"],
+  "Dependencies": [],
+  "ContentPackFor": {
+      "UniqueID": "PeacefulEnd.AlternativeTextures",
+ "MinimumApiVersion": "4.5.3"
+   }
+}

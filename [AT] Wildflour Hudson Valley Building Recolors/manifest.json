@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Wildflour's Hudson Valley Buildings Recolor for AT",
+  "Author": "wildflourmods",
+  "Version": "4.5.3",
+  "Description": "Recolors of Magimatica's Hudson Valley Buildings for Alternative Textures",
+  "UniqueID": "wildflour.HudsonValleyRecolorAT",
+  "UpdateKeys": ["nexus:16562"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "4.5.3"
+  }
+}

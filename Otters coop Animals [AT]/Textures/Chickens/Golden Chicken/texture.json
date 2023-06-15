@@ -1,0 +1,20 @@
+{
+  "ItemName": "Golden Chicken",
+  "Type": "Character",
+  "TextureWidth": 64,
+  "TextureHeight": 112,
+  "ManualVariations": [
+	{
+      "Id": 0,
+	  "ChanceWeight": 0.1,
+	  "Name": "Light Gold",
+	  "Keywords": [ "Light Gold" ]
+    },
+	{
+      "Id": 1,
+	  "ChanceWeight": 0.1,
+	  "Name": "Dark Gold",
+	  "Keywords": [ "Dark Gold" ]
+    },
+	]
+}

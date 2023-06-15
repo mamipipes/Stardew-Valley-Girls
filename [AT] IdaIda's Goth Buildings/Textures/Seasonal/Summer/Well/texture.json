@@ -1,0 +1,9 @@
+{
+  "ItemName": "Well",
+  "Type": "Building",
+  "Seasons": ["Summer"],
+  "TextureWidth": 48,
+  "TextureHeight": 80,
+  "Keywords": ["seasonal"],
+  "Variations": 1
+}
