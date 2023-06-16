@@ -1,0 +1,69 @@
+{
+  "ItemName": "Globe",
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Jar, Herbs",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Jar, Lavender",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 2,
+      "Name": "Jar, Calendula",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 3,
+      "Name": "Jars, Herbs & Sprout",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 4,
+      "Name": "Propogation, Sprout",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 5,
+      "Name": "Propogation, Flowered",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 6,
+      "Name": "Skull Candle, Small",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 7,
+      "Name": "Skull Candle, Large",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 8,
+      "Name": "Jar, Skull",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 9,
+      "Name": "Cauldron 1",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 10,
+      "Name": "Cauldron 2",
+      "ChanceWeight": 0.5
+    }
+
+
+  ]
+}

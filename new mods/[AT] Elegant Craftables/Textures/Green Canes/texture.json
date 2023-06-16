@@ -1,0 +1,13 @@
+{
+    "ItemName": "Green Canes",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Green Cane",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

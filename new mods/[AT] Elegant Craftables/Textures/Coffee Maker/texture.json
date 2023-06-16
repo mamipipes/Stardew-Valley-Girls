@@ -1,0 +1,13 @@
+{
+    "ItemName": "Coffee Maker",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Coffee Maker",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

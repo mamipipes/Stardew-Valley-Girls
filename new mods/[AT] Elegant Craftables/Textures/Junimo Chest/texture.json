@@ -1,0 +1,112 @@
+{
+  "ItemName": "Junimo Chest",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name": "Elegant Junimo Chest",
+      "Keywords": ["Elegant"]
+    },
+    {
+      "Id": 1,
+      "Name":"Elegant Junimo Chest Animated",
+     "Keywords": ["Elegant"],
+      "Animation": [
+        {
+          "Frame": 0,
+          "Duration": 1000
+        },
+        {
+          "Frame": 1,
+          "Duration": 1000
+        },
+        {
+          "Frame": 2,
+          "Duration": 1000
+        },
+        {
+          "Frame": 3,
+          "Duration": 1000
+        },
+        {
+          "Frame": 4,
+          "Duration": 1000
+        },
+        {
+          "Frame": 5,
+          "Duration": 1000
+        },
+        {
+          "Frame": 6,
+          "Duration": 1000
+        },
+        {
+          "Frame": 7,
+          "Duration": 1000
+        },
+        {
+          "Frame": 8,
+          "Duration": 1000
+        },
+        {
+          "Frame": 9,
+          "Duration": 1000
+        },
+        {
+          "Frame": 10,
+          "Duration": 1000
+        },
+        {
+          "Frame": 11,
+          "Duration": 1000
+        },
+        {
+          "Frame": 12,
+          "Duration": 1000
+        },
+        {
+          "Frame": 13,
+          "Duration": 1000
+        },
+        {
+          "Frame": 14,
+          "Duration": 1000
+        },
+        {
+          "Frame": 15,
+          "Duration": 1000
+        },
+        {
+          "Frame": 16,
+          "Duration": 1000
+        },
+        {
+          "Frame": 17,
+          "Duration": 1000
+        },
+        {
+          "Frame": 18,
+          "Duration": 1000
+        },
+        {
+          "Frame": 19,
+          "Duration": 1000
+        },
+        {
+          "Frame": 20,
+          "Duration": 1000
+        },
+        {
+          "Frame": 21,
+          "Duration": 1000
+        },
+        {
+          "Frame": 22,
+          "Duration": 1000
+        }
+      ]
+    }
+  ]
+}

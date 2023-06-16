@@ -1,0 +1,13 @@
+{
+    "ItemName": "Farm Computer",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Farm Computer",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

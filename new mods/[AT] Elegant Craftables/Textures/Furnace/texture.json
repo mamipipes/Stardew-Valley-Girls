@@ -1,0 +1,13 @@
+{
+    "ItemName": "Furnace",
+    "Type": "Craftable",
+    "TextureWidth": 15,
+    "TextureHeight": 28,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Furnace",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

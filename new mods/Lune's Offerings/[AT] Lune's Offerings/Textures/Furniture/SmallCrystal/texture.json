@@ -1,0 +1,63 @@
+{
+  "ItemName": "Small Crystal",
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Crystal, Rose Quartz - Small",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Crystal, Amethyst - Small",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 2,
+      "Name": "Crystal, Blue Adventurine - Small",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 3,
+      "Name": "Crystal, Moss Agate - Small",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 4,
+      "Name": "Crystal, Quartz - Large",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 5,
+      "Name": "Crystal, Rose Quartz - Large",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 6,
+      "Name": "Crystal, Amethyst - Large",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 7,
+      "Name": "Crystal, Blue Adventurine - Large",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 8,
+      "Name": "Crystal, Moss Agate - Large",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 9,
+      "Name": "Crystal, Blue Adventurine - Large",
+      "ChanceWeight": 0.5
+    },
+
+  ]
+}

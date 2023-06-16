@@ -1,0 +1,77 @@
+{
+  "ItemName": "Statue of True Perfection",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name": "Elegant Statue of True Perfection",
+      "Keywords": ["Elegant"]
+    },
+    {
+      "Id": 1,
+      "Name":"Elegant Statue of True Perfection Animated",
+      "Keywordss": ["True Perfection Animated"],
+      "Keywords": ["Elegant"],
+      "Animation": [
+        {
+          "Frame": 0,
+          "Duration": 254
+        },
+        {
+          "Frame": 1,
+          "Duration": 254
+        },
+        {
+          "Frame": 2,
+          "Duration": 254
+        },
+        {
+          "Frame": 3,
+          "Duration": 254
+        },
+        {
+          "Frame": 4,
+          "Duration": 254
+        },
+        {
+          "Frame": 5,
+          "Duration": 254
+        },
+        {
+          "Frame": 6,
+          "Duration": 254
+        },
+        {
+          "Frame": 7,
+          "Duration": 254
+        },
+        {
+          "Frame": 8,
+          "Duration": 254
+        },
+        {
+          "Frame": 9,
+          "Duration": 254
+        },
+        {
+          "Frame": 10,
+          "Duration": 254
+        },
+        {
+          "Frame": 11,
+          "Duration": 254
+        },
+        {
+          "Frame": 12,
+          "Duration": 254
+        },
+        {
+          "Frame": 13,
+          "Duration": 254
+        }
+      ]
+    }
+  ]
+}

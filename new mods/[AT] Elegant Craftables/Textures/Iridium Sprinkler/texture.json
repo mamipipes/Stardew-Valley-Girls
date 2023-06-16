@@ -1,0 +1,80 @@
+{
+  "ItemName": "Iridium Sprinkler",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name":"Elegant Iridium Sprinkler",
+      "Keywords": ["Elegant"]
+    },
+    {
+      "Id": 1,
+      "Name": "Elegant Iridium Sprinkler Animated",
+      "Keywords": ["Elegant"],
+      "Animation": [
+        {
+          "Frame": 0,
+          "Duration": 330
+        },
+        {
+          "Frame": 1,
+          "Duration": 330
+        },
+        {
+          "Frame": 2,
+          "Duration": 330
+        }
+      ]
+    },
+        {
+          "Id": 2,
+          "Name":"Elegant Iridium Sprinkler 2",
+          "Keywords": ["Elegant"]
+        },
+        {
+          "Id": 3,
+          "Name": "Elegant Iridium Sprinkler 2 Animated",
+          "Keywords": ["Elegant"],
+          "Animation": [
+            {
+              "Frame": 0,
+              "Duration": 330
+            },
+            {
+              "Frame": 1,
+              "Duration": 330
+            },
+            {
+              "Frame": 2,
+              "Duration": 330
+            }
+      ]
+    },
+        {
+          "Id": 4,
+          "Name":"Elegant Iridium Sprinkler 3",
+          "Keywords": ["Elegant"]
+        },
+        {
+          "Id": 5,
+          "Name": "Elegant Iridium Sprinkler 3 Animated",
+          "Keywords": ["Elegant"],
+          "Animation": [
+            {
+              "Frame": 0,
+              "Duration": 330
+            },
+            {
+              "Frame": 1,
+              "Duration": 330
+            },
+            {
+              "Frame": 2,
+              "Duration": 330
+            }
+      ]
+    }
+  ]
+}

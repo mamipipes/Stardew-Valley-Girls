@@ -1,0 +1,13 @@
+{
+    "ItemName": "Oil Maker",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Oil Maker",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

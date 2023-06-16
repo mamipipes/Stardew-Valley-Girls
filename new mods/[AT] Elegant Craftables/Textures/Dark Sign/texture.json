@@ -1,0 +1,13 @@
+{
+    "ItemName": "Dark Sign",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Dark Sign",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+    "ItemName": "Statue of Endless Fortune",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Statue of Endless Fortune",
+        "Keywords": ["Elegant"]
+      },
+      {
+        "Id": 1,
+        "Name":"Elegant Statue of Endless Fortune Animated",
+        "Keywords": ["Elegant"],
+        "Animation": [
+          {
+            "Frame": 0,
+            "Duration": 300
+          },
+          {
+            "Frame": 1,
+            "Duration": 300
+          },
+          {
+            "Frame": 2,
+            "Duration": 300
+          },
+          {
+            "Frame": 3,
+            "Duration": 300
+          },
+          {
+            "Frame": 4,
+            "Duration": 300
+          },
+          {
+            "Frame": 5,
+            "Duration": 300
+          },
+          {
+            "Frame": 6,
+            "Duration": 300
+          }
+      ]
+    }
+  ]
+}

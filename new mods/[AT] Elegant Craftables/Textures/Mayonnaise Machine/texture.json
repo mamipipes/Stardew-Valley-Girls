@@ -1,0 +1,13 @@
+{
+    "ItemName": "Mayonnaise Machine",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Mayonnaise Machine",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

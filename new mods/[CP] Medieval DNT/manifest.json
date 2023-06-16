@@ -1,0 +1,18 @@
+{
+	"Name": "Medieval_DNT",
+	"Author": "Gweniaczek",
+	"Version": "1.0",
+	"Description": "Medieval retexture for DaisyNiko's Tilesheet",
+	"UniqueID": "Gweniaczek.Medieval_DNT",
+	"UpdateKeys": ["Nexus:10908"],
+	"ContentPackFor": 
+		{
+		"UniqueID": "Pathoschild.ContentPatcher",
+		},
+	"Dependencies": [
+		{
+			"UniqueID": "DaisyNiko.Tilesheets",
+			"IsRequired": true,
+		},
+	],
+}

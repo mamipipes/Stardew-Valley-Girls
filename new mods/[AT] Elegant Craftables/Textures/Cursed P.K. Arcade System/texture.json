@@ -1,0 +1,13 @@
+{
+    "ItemName": "Cursed P.K. Arcade System",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Cursed P.K. Arcade System",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

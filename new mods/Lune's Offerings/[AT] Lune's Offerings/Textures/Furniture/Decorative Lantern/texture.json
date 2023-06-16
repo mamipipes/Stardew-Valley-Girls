@@ -1,0 +1,113 @@
+{
+  "ItemName": "Decorative Lantern",
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Book, Sky - Open",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Book, Sky - Single",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 2,
+      "Name": "Book, Sky - Pair",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 3,
+      "Name": "Book, Sky - Pair Wrapped",
+      "ChanceWeight": 0.5
+    },
+    
+    {
+      "Id": 4,
+      "Name": "Book, Earth - Open",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 5,
+      "Name": "Book, Sky - Single",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 6,
+      "Name": "Book, Sky - Pair",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 7,
+      "Name": "Book, Sky - Pair Wrapped",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 8,
+      "Name": "Book, Grey - Open",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 9,
+      "Name": "Book, Grey - Single",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 10,
+      "Name": "Book, Grey - Pair",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 11,
+      "Name": "Book, Grey - Pair Wrapped",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 12,
+      "Name": "Book, Forest - Open",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 13,
+      "Name": "Book, Forest - Single",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 14,
+      "Name": "Book, Forest - Pair",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 15,
+      "Name": "Book, Forest - Pair Wrapped",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 16,
+      "Name": "Book, Rose - Open",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 17,
+      "Name": "Book, Rose - Single",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 18,
+      "Name": "Book, Rose - Pair",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 19,
+      "Name": "Book, Rose - Pair Wrapped",
+      "ChanceWeight": 0.5
+    },
+  ]
+}

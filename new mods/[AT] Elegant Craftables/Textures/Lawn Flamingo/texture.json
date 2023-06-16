@@ -1,0 +1,13 @@
+{
+    "ItemName": "Lawn Flamingo",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Lawn Flamingo",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

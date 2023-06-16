@@ -1,0 +1,84 @@
+{
+  "ItemName": "Heavy Tapper",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name": "Elegant Heavy Tapper",
+      "Keywords": ["Elegant"]
+    },
+    {
+      "Id": 1,
+      "Name": "Elegant Heavy Tapper Animated",
+      "Keywords": ["Elegant"],
+      "Animation": [
+        {
+          "Frame": 0,
+          "Duration": 136
+        },
+        {
+          "Frame": 1,
+          "Duration": 136
+        },
+        {
+          "Frame": 2,
+          "Duration": 136
+        },
+        {
+          "Frame": 3,
+          "Duration": 136
+        },
+        {
+          "Frame": 4,
+          "Duration": 136
+        },
+        {
+          "Frame": 5,
+          "Duration": 136
+        },
+        {
+          "Frame": 6,
+          "Duration": 136
+        },
+        {
+          "Frame": 7,
+          "Duration": 136
+        },
+        {
+          "Frame": 8,
+          "Duration": 136
+        },
+        {
+          "Frame": 9,
+          "Duration": 136
+        },
+        {
+          "Frame": 10,
+          "Duration": 136 
+        },
+        {
+          "Frame": 11,
+          "Duration": 136 
+        },
+        {
+          "Frame": 12,
+          "Duration": 136 
+        },
+        {
+          "Frame": 13,
+          "Duration": 136 
+        },
+        {
+          "Frame": 14,
+          "Duration": 136 
+        },
+        {
+          "Frame": 15,
+          "Duration": 136 
+        }
+      ]
+    }
+  ]
+}

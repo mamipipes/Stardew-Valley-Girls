@@ -1,0 +1,43 @@
+{
+  "ItemName": "Enricher",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name":"Elegant Enricher"
+    },
+    {
+      "Id": 1,
+      "Name": "Elegant Enricher Animated",
+      "Keyword": ["Animated"],
+      "Animation": [
+        {
+          "Frame": 0,
+          "Duration": 339
+        },
+        {
+          "Frame": 1,
+          "Duration": 339
+        },
+        {
+          "Frame": 2,
+          "Duration": 339
+        },
+        {
+          "Frame": 3,
+          "Duration": 339
+        },
+        {
+          "Frame": 4,
+          "Duration": 339
+        },
+        {
+          "Frame": 5,
+          "Duration": 339
+        }
+      ]
+    }
+  ]
+}

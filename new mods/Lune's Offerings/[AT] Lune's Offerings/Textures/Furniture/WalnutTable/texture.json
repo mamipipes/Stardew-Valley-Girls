@@ -1,0 +1,93 @@
+{
+  "ItemName": "Walnut Table",
+  "Type": "Furniture",
+  "TextureWidth": 32,
+  "TextureHeight": 48,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Altar, Walnut - Empty",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Altar, Walnut - Crystals & Herbs",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 2,
+      "Name": "Altar, Walnut - Candles, Geode & Potions",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 3,
+      "Name": "Altar, Walnut - Skull, Candle & Geode",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 4,
+      "Name": "Altar, White - Empty",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 5,
+      "Name": "Altar, White - Crystals & Herbs",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 6,
+      "Name": "Altar, White - Candles, Geode & Potions",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 7,
+      "Name": "Altar, White - Skull, Candle & Geode",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 8,
+      "Name": "Altar, Oak - Empty",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 9,
+      "Name": "Altar, Oak - Crystals & Herbs",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 10,
+      "Name": "Altar, Oak - Candles, Geode & Potions",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 11,
+      "Name": "Altar, Oak - Skull, Candle & Geode",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 12,
+      "Name": "Altar, Grey - Empty",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 13,
+      "Name": "Altar, Grey - Crystals & Herbs",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 14,
+      "Name": "Altar, Grey - Candles, Geode & Potions",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 15,
+      "Name": "Altar, Grey - Skull, Candle & Geode",
+      "ChanceWeight": 0.1
+    }
+
+  ]
+}

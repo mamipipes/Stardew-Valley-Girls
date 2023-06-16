@@ -1,0 +1,13 @@
+{
+    "ItemName": "Campfire",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Campfire",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ItemName": "Statue of Perfection",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name": "Elegant Statue of Perfection",
+      "Keywords": ["Elegant"]
+    },
+    {
+      "Id": 1,
+      "Name":"Elegant Statue of Perfection Animated",
+      "Keywordss": ["Perfection Animated"],
+      "Keywords": ["Elegant"],
+      "Animation": [
+        {
+          "Frame": 0,
+          "Duration": 330
+        },
+        {
+          "Frame": 1,
+          "Duration": 330
+        },
+        {
+          "Frame": 2,
+          "Duration": 330
+        },
+        {
+          "Frame": 3,
+          "Duration": 330
+        },
+        {
+          "Frame": 4,
+          "Duration": 330
+        },
+        {
+          "Frame": 5,
+          "Duration": 330
+        },
+        {
+          "Frame": 6,
+          "Duration": 330
+        },
+        {
+          "Frame": 7,
+          "Duration": 330
+        },
+        {
+          "Frame": 8,
+          "Duration": 330
+        },
+        {
+          "Frame": 9,
+          "Duration": 330
+        }
+      ]
+    }
+  ]
+}

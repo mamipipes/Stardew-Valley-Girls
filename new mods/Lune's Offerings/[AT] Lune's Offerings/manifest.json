@@ -1,0 +1,12 @@
+{
+   "Name": "Lune's Offerings",
+   "Author": "mushlune",
+   "Version": "1.0.0",
+   "Description": "A collection of witchy offerings.",
+   "UniqueID": "mushlune.AT_offerings",
+   "MinimumApiVersion": "3.0.0",
+   "UpdateKeys": [ "" ],
+   "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures"
+   }
+}

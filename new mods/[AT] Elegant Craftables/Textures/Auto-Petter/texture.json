@@ -1,0 +1,68 @@
+{
+  "ItemName": "Auto-Petter",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name": "Elegant Auto-Petter",
+      "Keywords": ["Elegant"]
+    },
+    {
+      "Id": 1,
+      "Name": "Elegant Auto-Petter Animated",
+      "Keywords": ["Elegant"],
+      "Animation": [
+        {
+          "Frame": 0,
+          "Duration": 330
+        },
+        {
+          "Frame": 1,
+          "Duration": 330
+        },
+        {
+          "Frame": 2,
+          "Duration": 330
+        },
+        {
+          "Frame": 3,
+          "Duration": 330
+        },
+        {
+          "Frame": 4,
+          "Duration": 330
+        },
+        {
+          "Frame": 5,
+          "Duration": 330
+        },
+        {
+          "Frame": 6,
+          "Duration": 330
+        },
+        {
+          "Frame": 7,
+          "Duration": 330
+        },
+        {
+          "Frame": 8,
+          "Duration": 330
+        },
+        {
+          "Frame": 9,
+          "Duration": 330
+        },
+        {
+          "Frame": 10,
+          "Duration": 330
+        },
+        {
+          "Frame":11,
+          "Duration": 330
+        }
+      ]
+    }
+  ]
+}

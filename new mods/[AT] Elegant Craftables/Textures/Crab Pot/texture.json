@@ -1,0 +1,71 @@
+{
+  "ItemName": "Crab Pot",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name":"Elegant Crab Pot",
+      "Keywords": ["Elegant"]
+    },
+    {
+      "Id": 1,
+      "Name": "Elegant Crab Pot Animated",
+      "Keywords": ["Elegant"],
+      "Animation": [
+        {
+          "Frame": 0,
+          "Duration": 250
+        },
+        {
+          "Frame": 1,
+          "Duration": 250
+        },
+        {
+          "Frame": 2,
+          "Duration": 250
+        },
+        {
+          "Frame": 4,
+          "Duration": 250
+        },
+        {
+          "Frame": 5,
+          "Duration": 250
+        }
+      ]
+    },
+        {
+          "Id": 2,
+          "Name": "Elegant Crab Pot Animated 2",
+          "Keywords": ["Elegant"],
+          "Animation": [
+            {
+              "Frame": 0,
+              "Duration": 150
+            },
+            {
+              "Frame": 1,
+              "Duration": 150
+            },
+            {
+              "Frame": 2,
+              "Duration": 150
+            },
+            {
+              "Frame": 3,
+              "Duration": 150
+            },
+            {
+              "Frame": 4,
+              "Duration": 150
+            },
+            {
+              "Frame": 5,
+              "Duration": 150
+            }
+          ]
+        }
+    ]
+}

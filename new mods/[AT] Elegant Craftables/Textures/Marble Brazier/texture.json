@@ -1,0 +1,13 @@
+{
+    "ItemName": "Marble Brazier",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Marble Brazier",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

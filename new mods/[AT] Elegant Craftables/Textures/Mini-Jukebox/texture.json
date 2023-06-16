@@ -1,0 +1,13 @@
+{
+    "ItemName": "Mini-Jukebox",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Mini-Jukebox",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

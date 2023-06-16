@@ -1,0 +1,13 @@
+{
+    "ItemName": "Ornamental Hay Bale",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Ornamental Hay Bale",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

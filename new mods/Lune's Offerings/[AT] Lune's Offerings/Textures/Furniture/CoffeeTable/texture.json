@@ -1,0 +1,53 @@
+{
+  "ItemName": "Coffee Table",
+  "Type": "Furniture",
+  "TextureWidth": 32,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Cauldron, Wood",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Cauldron, Wood - Pentagram",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 2,
+      "Name": "Cauldron, Wood - Moon Phases",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 3,
+      "Name": "Cauldron, Wood - Vines",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 4,
+      "Name": "Cauldron, Cast Iron",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 5,
+      "Name": "Cauldron, Cast Iron - Pentagram",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 6,
+      "Name": "Cauldron, Cast Iron - Moon Phases",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 7,
+      "Name": "Cauldron, Cast Iron - Vines",
+      "ChanceWeight": 0.1
+    }
+
+  ]
+}

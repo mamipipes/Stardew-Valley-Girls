@@ -1,0 +1,68 @@
+{
+  "ItemName": "Wicked Statue",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name":"Wicked Statue",
+      "Keywords": ["Elegant"]
+    },
+    {
+      "Id": 1,
+      "Name": "Wicked Statue Animated",
+      "Keywords": ["Elegant"],
+      "Animation": [
+        {
+          "Frame": 0,
+          "Duration": 370
+        },
+        {
+          "Frame": 1,
+          "Duration": 370
+        },
+        {
+          "Frame": 2,
+          "Duration": 370
+        },
+        {
+          "Frame": 3,
+          "Duration": 370
+        },
+        {
+          "Frame": 4,
+          "Duration": 370
+        },
+        {
+          "Frame": 5,
+          "Duration": 370
+        },
+        {
+          "Frame": 6,
+          "Duration": 370
+        },
+        {
+          "Frame": 7,
+          "Duration": 370
+        },
+        {
+          "Frame": 8,
+          "Duration": 370
+        },
+        {
+          "Frame": 9,
+          "Duration": 370
+        },
+        {
+          "Frame": 10,
+          "Duration": 370
+        },
+        {
+          "Frame":11,
+          "Duration": 370
+        }
+      ]
+    }
+  ]
+}

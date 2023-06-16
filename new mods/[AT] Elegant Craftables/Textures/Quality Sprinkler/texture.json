@@ -1,0 +1,80 @@
+{
+  "ItemName": "Quality Sprinkler",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name":"Elegant Quality Sprinkler",
+      "Keywords": ["Elegant"]
+    },
+    {
+      "Id": 1,
+      "Name": "Elegant Quality Sprinkler Animated",
+      "Keywords": ["Elegant"],
+      "Animation": [
+        {
+          "Frame": 0,
+          "Duration": 330
+        },
+        {
+          "Frame": 1,
+          "Duration": 330
+        },
+        {
+          "Frame": 2,
+          "Duration": 330
+        }
+      ]
+    },
+        {
+          "Id": 2,
+          "Name":"Elegant Quality Sprinkler 2",
+          "Keywords": ["Elegant"]
+        },
+        {
+          "Id": 3,
+          "Name": "Elegant Quality Sprinkler 2 Animated",
+          "Keywords": ["Elegant"],
+          "Animation": [
+            {
+              "Frame": 0,
+              "Duration": 330
+            },
+            {
+              "Frame": 1,
+              "Duration": 330
+            },
+            {
+              "Frame": 2,
+              "Duration": 330
+            }
+      ]
+    },
+        {
+          "Id": 4,
+          "Name":"Elegant Sprinkler 3",
+          "Keywords": ["Elegant"]
+        },
+        {
+          "Id": 5,
+          "Name": "Elegant Quality Sprinkler 3 Animated",
+          "Keywords": ["Elegant"],
+          "Animation": [
+            {
+              "Frame": 0,
+              "Duration": 330
+            },
+            {
+              "Frame": 1,
+              "Duration": 330
+            },
+            {
+              "Frame": 2,
+              "Duration": 330
+            }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "ItemName": "Mixed Cane",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Mixed Cane",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

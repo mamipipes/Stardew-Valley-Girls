@@ -1,0 +1,12 @@
+{
+    "Name": "Elegant Craftables for AT",
+    "Author": "Itzyitzme",
+    "Version": "1.1",
+    "Description": "Elegant craftables",
+    "UpdateKeys":["Nexus:14473"],
+    "UniqueID": "CollingAT.Craftables",
+	"ContentPackFor": {
+        "UniqueID": "PeacefulEnd.AlternativeTextures",
+        "MinimumVersion": "6.4.3"
+    }
+}

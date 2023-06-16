@@ -1,0 +1,13 @@
+{
+    "ItemName": "Big Red Cane",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Big Red Cane",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ItemName": "Artist Bookcase",
+  "Type": "Furniture",
+  "TextureWidth": 32,
+  "TextureHeight": 48,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Bookcase, Walnut - Variety",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Bookcase, Walnut - Messy Potions",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 2,
+      "Name": "Bookcase, Walnut - Organized Potions",
+      "ChanceWeight": 0.5
+    }, 
+    {
+      "Id": 3,
+      "Name": "Bookcase, Walnut - Variety & Books",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 4,
+      "Name": "Bookcase, White - Variety",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 5,
+      "Name": "Bookcase, White - Messy Potions",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 6,
+      "Name": "Bookcase, White - Organized Potions",
+      "ChanceWeight": 0.5
+    }, 
+    {
+      "Id": 7,
+      "Name": "Bookcase, White - Variety & Books",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 8,
+      "Name": "Bookcase, Oak - Variety",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 9,
+      "Name": "Bookcase, Oak - Messy Potions",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 10,
+      "Name": "Bookcase, Oak - Organized Potions",
+      "ChanceWeight": 0.5
+    }, 
+    {
+      "Id": 11,
+      "Name": "Bookcase, Oak - Variety & Books",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 12,
+      "Name": "Bookcase, Grey - Variety",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 13,
+      "Name": "Bookcase, Grey - Messy Potions",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 14,
+      "Name": "Bookcase, Grey - Organized Potions",
+      "ChanceWeight": 0.5
+    }, 
+    {
+      "Id": 15,
+      "Name": "Bookcase, Grey - Variety & Books",
+      "ChanceWeight": 0.5
+    }
+
+  ]
+}

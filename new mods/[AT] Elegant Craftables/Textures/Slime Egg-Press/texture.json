@@ -1,0 +1,13 @@
+{
+    "ItemName": "Slime Egg-Press",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Slime Egg-Press",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

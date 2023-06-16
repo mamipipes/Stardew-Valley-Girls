@@ -1,0 +1,43 @@
+{
+  "ItemName": "Futan Bear",
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Tray, Rose Quartz & Candle",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Tray, Candle",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 2,
+      "Name": "Tray, Skull & Candle",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 3,
+      "Name": "Tray, Geode",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 4,
+      "Name": "Tray, Potion Pair",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 5,
+      "Name": "Tray, Potion & Candle",
+      "ChanceWeight": 0.5
+    }
+
+  ]
+}

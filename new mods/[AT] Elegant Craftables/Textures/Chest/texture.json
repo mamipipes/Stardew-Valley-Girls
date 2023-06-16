@@ -1,0 +1,13 @@
+{
+    "ItemName": "Chest",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Chest",
+        "Keywords": ["Elegant"]
+      }
+  ]
+}

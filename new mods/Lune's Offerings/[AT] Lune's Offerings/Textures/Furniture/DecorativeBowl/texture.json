@@ -1,0 +1,73 @@
+{
+  "ItemName": "Decorative Bowl",
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 0,
+      "Name": "Potion, Mana - Single",
+      "ChanceWeight": 0.1
+    },
+    {
+      "Id": 1,
+      "Name": "Potion, Mana - Bundle",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 2,
+      "Name": "Potion, Sky",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 3,
+      "Name": "Potion, Sky - Tied",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 4,
+      "Name": "Potion, Earth",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 5,
+      "Name": "Potion, Earth - Tied",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 6,
+      "Name": "Potion, Rose",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 7,
+      "Name": "Potion, Rose - Tied",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 8,
+      "Name": "Potion, Forest",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 9,
+      "Name": "Potion, Forest - Tied",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 10,
+      "Name": "Potion, Earth",
+      "ChanceWeight": 0.5
+    },
+    {
+      "Id": 11,
+      "Name": "Potion, Earth - Tied",
+      "ChanceWeight": 0.5
+    }
+
+  ]
+}
