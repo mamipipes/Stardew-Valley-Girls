@@ -1,0 +1,22 @@
+{
+  "Name": "[STF] Daphne's Ice Cream Truck",
+  "Author": "Wabi",
+  "Version": "1.1.0",
+  "Description": "Adds Daphnes Shop.",
+  "UniqueID": "Wabi.Icecreamvan.STF",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+  },
+    "Dependencies": [
+    {
+        "UniqueID": "Wabi.sfvans",
+        "IsRequired": true
+    }, 
+    {
+   	"UniqueID": "Wabi.icecreamvancp",
+        "IsRequired": true
+    },
+],
+}

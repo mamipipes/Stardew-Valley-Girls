@@ -1,0 +1,10 @@
+{
+	"Name": "[JA] Cosy Cafe",
+	"Author": "soda",
+	"Version": "1.0.2",
+	"Description": "",
+	"UniqueID": "soda.CosyCafeJA.premium",
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	}
+}

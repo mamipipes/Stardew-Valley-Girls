@@ -1,0 +1,332 @@
+{
+"Changes": [
+   
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Abigail",
+		"Entries": {
+						"TheAlchemistArrives": ""			
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Alex",
+		"Entries": {
+						"TheAlchemistArrives": ""			
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Caroline",
+		"Entries": {
+						"TheAlchemistArrives": ""
+						
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Clint",
+		"Entries": {
+						"TheAlchemistArrives": ""
+						
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Demetrius",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Dwarf",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Elliott",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Emily",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Evelyn",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/George",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Gil",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+	
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Gus",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Haley",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Harvey",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jas",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jodi",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Kent",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Krobus",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Leah",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Lewis",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Linus",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Marnie",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Marlon",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Maru",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pam",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Penny",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pierre",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Robin",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sam",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sandy",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Shane",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Vincent",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Willy",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Wizard",
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},	
+	
+//Custom NPCs
+
+		{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Void",
+		"When": { "HasMod: |contains=Arknir27.Lavril": true},
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+		{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Lavril",
+		"When": { "HasMod: |contains=Arknir27.Lavril": true},
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+		{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Lucikiel",
+		"When": { "HasMod: |contains=Arknir.Lucikiel": true},
+		"Entries": {
+						"TheAlchemistArrives": ""
+		}
+	},
+		
+		
+//Lasting CT compatibility
+
+		{
+			"LogName": "The Alchemist Arrives Lasting CT",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+						"TheAlchemistArrives": "true"
+			},
+			"When": {
+				"HasConversationTopic": "TheAlchemistArrives",
+				"LastingCTs": true
+			}
+		}
+			
+
+]
+}

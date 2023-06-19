@@ -1,0 +1,30 @@
+{
+	"Name": "Mini Oven",
+	"Description": "kitchen appliance used for baking or roasting",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveExtraIndexCount": 2,
+	"Recipe":
+	{
+		"ResultCount": 1,
+		"Ingredients": [
+		{
+			"Object": 388,
+			"Count": 30,
+		},
+		{
+			"Object": 382,
+			"Count": 5,
+		},
+		],
+		"IsDefault": true,
+	},
+	"NameLocalization":
+	{
+		"ko": "미니 오븐"
+	},
+	"DescriptionLocalization":
+	{
+		"ko": "음식을 찌거나 굽는 조리 기구"
+	}
+}

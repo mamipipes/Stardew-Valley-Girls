@@ -1,0 +1,139 @@
+ {
+"Changes": 
+    [
+ 
+		{
+            "LogName": "Wildflour Dialogue Add",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/AlchemistWildflour",
+			"Entries": {
+
+//Conversation Topics
+	//Vanilla
+	"cc_Begin": "I thought I saw you poking around the old community center. It's nice to see someone aside from Sprout's friends taking an interest in it!",
+	"cc_Boulder": "The boulder being gone means more minerals will be accessible to the ground surrounding the mines! #$b# It should result in better soil and hopefully, better forage as well.",
+	"cc_Bridge": "Access to a quarry is quite the achievement, @. No doubt you'll need quite a bit of ore and gemstones if you ever want to start any alchemy of your own!",
+	"cc_Bus": "Oh, is the bus fixed? That's lovely news! I do not need it, as I have other ways of visiting the desert, but it will be nice for you to visit and for a few long distance friends to catch up with one another.",
+	"cc_Greenhouse": "Sprout says he hopes you like your new greenhouse; he and his buds worked really hard on it.",
+	"cc_Minecart": "Oh @! Was it you who managed to get the minecarts fixed? I must thank you; it really makes foraging around the valley MUCH more efficient!",
+	"cc_Complete": "Sprout told me the good news! You should be very proud of yourself, @. #$b# You've managed to give this town a bit of its community back, in more ways than one.",
+	"movieTheater": "A movie theater? Well certainly that's an improvement on the old Joja wreck, but a community greenhouse would have been nice too...",
+	"willyCrabs": "Really, @, I am surprised at you. What Willy does in the privacy of his own home is none of my concern.",
+	"pamHouseUpgrade": "It really is something, @. You've singlehandedly done so much for Pam with this gift. Here's hoping others follow your example.",
+	"pamHouseUpgradeAnonymous": "I heard someone just went and commissioned Robin to build Pam a house. What a generous soul, and humble too! To remain anonymous like that...",
+	
+
+//Vanilla+ (CFD, Mobile Phone, More CTs)
+
+	//"Characters_MovieInvite_Invited": "",
+	//"ExtraDialogue_Town_DumpsterDiveComment_Adult": "",
+	//"railroadEarthquake": "",
+	//"islandResortUnlocked": "",
+	//"jojaMartStruckByLightning": "",
+	//"babyBoy": "",
+	//"babyGirl": "",
+	//"wedding": "",
+	//"event_postweddingreception": "",
+	////"luauBest": "",
+	//"luauShorts": "",
+	//"luauPoisoned": "",
+	
+	//ARV
+	//"SterlingTrash": "",
+	//"SterlingTrain": "",
+	//"SterlingDrugs": "",
+	//"SterlingRelapse": "",
+	//"SterlingApology": "",
+	
+	//Lavril
+	//"LavrilUnlocked": "",
+	
+	//Lucikiel
+	"LucikielArrives": "A demon in Pelican Town? Well I don't think we should be quick to judge, @. #$b# You know, a lot of folks still think alchemists are heathens too. #$b# Let's just wait it out and see.",
+	"ReputationIncreased": "Now what did I tell you, @? #$b# We should always give folks a chance, and now Lucikiel is practically a Pelican Town regular!",
+	
+	//RSV
+	"RSV_GH1": "", //opening of the RSV community greenhouse
+	"keahi_prank": "Oh dear. Um, @, how do I put this? #$b# Perhaps a dip in the lake might do you some good?",
+	"Lidens_Return": "",
+	"Naomi_Return": "",
+
+	//Jorts and Jean
+	"MeetTheCats": "Talking cats? @, I have a small junimo sitting on my shoulder chatting incessantly into my ear all day long. #$b# No, I am not surprised at the talking cats.",
+	"ButteredJorts": "I will say, Pam's heart is in the right place. #$b# It's a shame that place involves so much butter.",
+	"DumpsterFishing": "",
+	"RubberCatting": "",
+	"JortsZoomies": "",
+	"OpenAllTheDoors": "",
+
+
+// GENERIC DIALOGUE
+
+    "Mon": "Do you know how foxgloves got their name?#$b#Apparently, fairies slipped the flowers onto the feet of mischievous foxes so they could sneak into henhouses and steal chickens!$1", 
+    "Tue": "I could never be a flower farmer, @.$2 Instead of picking the flowers to sell, I'd just end up leaving them all in the ground to stare at all season long!$1",
+    "Wed": "What is an alchemist? #$b# Well, it's someone who takes materials she finds in the wild and transforms them into entirely new things to help herself and her community. #$b# Oh, and maybe a bit of magic thrown in for good measure, but don't tell the wizard that.$6",
+    "Thu": "Never be without a foraging basket, @. Who knows what you might find on your daily trip into town? #$b#$1# For example, I found these lovely mushrooms just outside Robin's house!$1",
+    "Fri": "The weekend is approaching! Should I curl up with an alchemy book or go off exploring? #$b# Hmm decisions, decisions.",
+    "Sat": "Have you taken a look at the woods behind the wizard's house? #$3# I thought I spied some interesting forage in that direction...$3",
+    "Sun": "Have you had a relaxing weekend, @? I would hate to hear you are overworking yourself! #$b# One should always schedule in plenty of time for a little mischief.$6",
+
+    "Mon2": "Interested in alchemy? I must say you already have a knack for it, @. #$b# How else do you manage to cook such elaborate meals so quickly?", 
+    "Tue2": "The junimo on my shoulder? His name is Sprout. #$b# Yes, he talks, just to me usually. #$b# He hasn't decided if he likes you yet, so just be patient!",
+    "Wed2": "Do you have a favorite flower, @? #$b# If I had to pick, I think I'd say peonies are my favorite. They are just so fluffy and lovely.",
+    "Thu2": "If you're cutting some of your growing flowers for an arrangement, be sure to cut the stems at an angle. #$b# This allows them to absorb the water in the vase better and they will last longer!",
+    "Fri2": "Sometimes my eyes are bigger than my stomach. #$b# I should go share some of my extra mushrooms with Linus; the man knows how to make an excellent mushroom kebab...$1",
+    "Sat2": "I think I'll stay in and bake a pie or two today. #$b# I have to use up these foraged berries somehow.",
+    "Sun2": "...huh what was that? #$b# Sorry I was thinking about how to craft a new alchemy machine.",
+
+    "Mon4": "Sprout would like to know if you have any treats for him. #$b# If not, he would like to suggest strawberries for next time you see him.", 
+    "Tue4": "The wizard? $5 What about them? #$b# No, we don't talk much. $6#$b# They think magic and alchemy should be kept hidden from most folks and I just do not see it as an issue. #$b#$1 Folks should help each other out; magical, alchemical, or otherwise, don't you think, @?",
+    "Wed4": "I was reading in one my tomes the other day of a mushroom forest where giant mushroom trees grew. #$b# Wouldn't such a place be a forager's dream come true? I wonder if the story is based on any real life location...",
+    "Thu4": "What do I do with all the stuff I forage? #$b# Friend, what DON'T I do? #$b# It can be transformed into teas, potpourri, perfumes, baked goods...#$b# I promise I don't use the poisonous mushrooms for that last one.$6",
+    "Fri4": "I found some rare mushrooms the other day and shared a few with Maru. #$b# You should have seen how happy it made her! Always looking for a new thing to analyze that one; she'd make an excellent alchemist.$1",
+    "Sat4": "My alchemy master often spoke of a wise man from this area. I think his name was...Cannoli? #$b# He was the one who first told her about junimos, and so I came here in search of them! #$b# And then I found Sprout here, so now this place is home for both of us!$1",
+    "Sun4": "Aha! I have finally perfected my chamomile tea recipe. #$b# I must remember to share it with Caroline the next time I see her.",
+
+    "Mon6": "Do you think someone gave Abigail rock candy as a child, and so she just assumed all rocks were candy? #$b# I'm not one to judge, but I find her appetite fascinating nonetheless.$1",
+    "Tue6": "Oh, @! I wanted to mention the next time I saw you; #$b# be careful of where you let your pets access on your farm. A lot of the flowers you grow can be toxic for an overly curious cat or dog.$3",
+    "Wed6": "Sprout says your farm is coming along well! #$b# He and his friends enjoy playing in the crop fields at night. He promises they only steal a few snacks.",
+    "Thu6": "A cave full of crystals certainly sounds intriguing, doesn't it, @? #$b# Oh, it's another reference I found in yet another old book of mine. It's so hard to tell what is purely fantasy and what is a clue meant to point the way to a new secret location!",
+    "Fri6": "Ah, hello @! Another week done, another weekend to celebrate! Do you have anything exciting planned? #$b# Personally, I think I shall be testing out some new tea blends with some flowers I foraged yesterday.",
+    "Sat6": "I'll have to remember to stop by the saloon and give Emily those crystals I promised her. #$b# Imbuing spirit energy into them takes quite a bit of work, but I'm happy to help a fellow lover of the mystical and alchemical arts.",
+    "Sun6": "@! Just the person I wanted to see. $1 I ended up synthesizing too much cake in my cauldron this morning so I thought I'd share. [220 221] ",
+
+    "Mon8": "I wonder what kind of alchemical properties one could derive from a person's clothing. #$b# Like from a pair of purple shorts, perhaps?$6",
+    "Tue8": "Jas stopped me the other day to ask if she could be an alchemist too. Isn't that sweet? #$b# She can see Sprout too, so she might make a fine apprentice one day.$1",
+    "Wed8": "Sprout says that if you were to build a junimo hut on your farm, he could come over for a sleepover. #$b# He also promises NOT to throw a giant junimo party while he's there.$1",
+    "Thu8": "@! I found notes on another magical foraging location - this one seems to be a wildflower meadow on the peak of a mountain. #$b# The book doesn't give specifics, but apparently it was only discoverable by the most skilled foragers early in the spring season.",
+    "Fri8": "Oh hello there, @! Quick, take a bite and let me know what you think [608] #$b#. I added in some foraged cinnamon and I think it really helps elevate the flavor!",
+    "Sat8": "You know, if you wanted to watch me perform some alchemy you are more than welcome to. $1 We could try synthesizing some new tea flavors, or maybe a magic potion?",
+    "Sun8": "Oh, @. I'm not feeling up to talking today. #$b# No, it's nothing serious; I just might have overdone it looming over my cauldron yesterday.",
+
+    "Mon10": "What if, now hear me out on this, I used alchemy to make magical makeup? #$b# Think about it! Instead of vanishing cream for acne, it could be vanishing cream for total invisibility!",
+    "Tue10": "You are upset Sprout still isn't talking to you? #$b# I'm sorry to hear that, @. Sprout talks ABOUT you constantly, but he is a rather shy little guy in person.",
+    "Wed10": "How can I be out foraging and also mind the shop? #$b# Very simple - the person you see in the shop is actually three of Sprout's friends glamored to look like me. #$b# Works like a charm.$6",
+    "Thu10": "A secret orchard...#$b# What? Oh, sorry @. I must have been musing to myself. #$b# It seems the valley inspired many legends of secret foraging areas, and I'm determined to find them all!",
+    "Fri10": "There's my favorite guinea pig I MEAN taste tester. $1 This time, I swapped in some wild berries and added a dash of vanilla bean essence. [610]",
+    "Sat10": "Leah actually came by the other day to ask me if I could use alchemy to craft her some unique dyes and paints. #$b# It's really quite heartwarming to have different folks from town coming by the atelier for help or to chat.",
+    "Sun10": "I think I'll take a visit to see my friend Rose soon. She lives over in Sunberry Forest. #$b# I'll have to introduce you to her one day, @! #$b# You two would get along well I think.",   
+	
+	"rain":  "{{Random: Oh, @! You must be soaked to the bone! #$b# Come in and warm yourself by the cauldron. && Ah, hello @! #$b# With the rain I decided to stay inside and read up on some new alchemical recipes. Care to join me? && Sprout wanted to play out in the rain until they remembered they dislike being wet... && Come in! Come in! Care for a fresh cup of tea? && I know we tend to think rain means a wasted day,#$b# but all of our crops and flowers would be quite sad without it, so perhaps we should look for that silver lining instead. |inputSeparator=&&}}",
+   
+
+	// SPECIFIC DAY DIALOGUE
+	"spring_1": "A new year, a new spring, a new beginning! #$b# I can't wait to start planting seeds and foraging, @; what are you most excited for?",
+	"summer_1": "It's not that I dislike the summer; it just seems like summer dislikes me. #$b# Thank goodness I have this large hat to keep me from getting too badly sunburnt.",
+	"fall_1": "Cool air, crisp leaves, the scent of freshly baking pie. My, isn't autumn just divine, @?",
+	"winter_1": "Winter means less farming and more foraging! #$b# I'm on the hunt for something new and exciting, @; here's hoping I find it!",
+	"spring_12": "The egg festival? I would not miss it for anything! #$b# It might not have any more of its pagan roots, but it is still a lovely way to welcome in the spring season with friends.", // Day before the Egg Festival
+	"spring_23": "Wouldn't it be neat if, one year, the ceremony was actually flowers dancing instead of humans? #$b# It certainly would be funny to see the young ones reactions to a bunch of dancing daisies!", // Day before the Flower Dance
+	"summer_10": "I am neither partial to the summer heat nor to eating hot soup from a communal cauldron...#$b# but I shall be there to help in case, well, someone puts something questionable into the pot.", // Day before the Luau
+	"summer_27": "Autumn is nearly upon us and I have so much to do! #$b# Of course, I'll make time for the Dance of the Moonlight Jellies, though. #$b# Summer may not be my favorite season, but it is still deserving of our thanks.", // Day before the Midnight Jellies
+	"fall_15": "Will you be entering the fair this year, @? #$b# I must admit I only go for the free food Gus gives out, but I wish you luck with your display!", // Day before the Stardew Fair
+	"fall_26": "No time to talk, @, I promised to help with tomorrow's festivities! #$b# Now where did I leave that cookbook...", // Day before Spirit's Eve
+	"winter_7": "I cannot say that I find fishing into a hole in the ice particularly, fascinating, but the ice sculptures, now THAT I can appreciate. #$b# Why can't that be the contest instead?", // Day before the Ice Festival
+	"winter_24": "Ah, @. The end of the year draws near and it's nearly time to celebrate the Feast of the Winter Star! #$b# If you need help finding a gift for a secret someone, let me know I'm sure I have something here...", // Day before Winter Star
+			}
+        }
+    ]
+}

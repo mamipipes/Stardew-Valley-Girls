@@ -1,0 +1,40 @@
+{
+   "Format": "1.25.0",
+   "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "wabiicecream": "Hey farmer @!^I own a small ice cream truck up in Zuzu city but have been looking for a new place to set up shop for a while.^Robin mentioned your farm on my last trip to the valley and I think business could increase for the both of us if you let me park my truck there^... for a small investment fee^Go speak with Robin if you're interested in my proposal!^- Your new friend Daphne.[#]Daphnes Offer"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "12430123/x wabiicecream": "null"
+      }
+    },
+    {
+     "LogName": "Temp Actor Daphne",
+     "Action": "Load",
+     "Target": "Portraits/Daphne",
+     "FromFile": "assets/img/DaphnePortraits.png"
+    },
+    {
+      "LogName": "Temp Actor Daphne",
+      "Action": "Load",
+      "Target": "Characters/Daphne",
+      "FromFile": "assets/img/DaphneSprites.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "When": { "HasFlag": "StartEventDaphne" },
+      "Entries": { 
+       "124301/t 800 2300/w sunny": "CloudCountry/29 62/farmer 33 59 2/addTemporaryActor Daphne 16 32 -43 -57 2 false/skippable/viewport 39 61/move farmer 8 0 1/pause 500/playSound doorClose/warp Daphne 43 57/pause 500/emote Daphne 16/pause 500/move Daphne 0 2 2/pause 500/speak Daphne \"Hey @! I've been so busy preparing my shop that I haven't had time to introduce myself properly#$b#I'm Daphne, I finally arrived this morning and let me tell you, the drive over from the city is no joke.$1#$b#Thanks for clearing up the space to let me stay on your farm.  It means a lot to me, people back home weren't as friendly as you.$2\"/emote Daphne 28/Pause 500/speak Daphne \"But I have a new start now that I'm back in the valley! If you'd like to come see what I have in stock then I'm open everyday from 9AM til 6PM$0#$b#See you around Farmer @!$1\"/globalFade/viewport -1000 -1000/end/"
+      }
+    }
+  ]
+}
+

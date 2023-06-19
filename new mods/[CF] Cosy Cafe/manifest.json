@@ -1,0 +1,10 @@
+{
+	"Name": "[CF] Cosy Cafe",
+	"Author": "soda",
+	"Version": "1.0.2",
+	"Description": "",
+	"UniqueID": "soda.CosyCafeCF",
+	"ContentPackFor": {
+		"UniqueID": "Platonymous.CustomFurniture"
+	}
+}

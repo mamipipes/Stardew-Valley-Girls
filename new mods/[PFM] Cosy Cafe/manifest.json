@@ -1,0 +1,10 @@
+{
+	"Name": "[PFM] Cosy Cafe",
+	"Author": "soda",
+	"Version": "1.0.2",
+	"Description": "",
+	"UniqueID": "soda.CosyCafePFM.premium",
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

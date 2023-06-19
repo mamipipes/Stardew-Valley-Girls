@@ -1,0 +1,35 @@
+{
+  "Name": "Atelier Wildflour Alchemist of Ferngill NPC and Shop",
+  "Author": "wildflourmods",
+  "Version": "0.5",
+  "Description": "A new alchemist NPC sets up shop in the forest in Stardew Valley!",
+  "UniqueID": "wildflour.atelieralchemist",
+  "UpdateKeys": ["nexus:15942"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+   "Dependencies": [
+    {
+      "UniqueID": "spacechase0.JsonAssets",
+      "IsRequired": true,
+    },
+    {
+    "UniqueID": "Esca.CustomNPCExclusions",
+    "IsRequired": true,
+    },
+    {
+			"UniqueID": "Lumisteria.LumiTilesheetsIndoor",
+			"IsRequired": true
+		},
+    {
+			"UniqueID": "Lumisteria.TtilesheetsOutdoor",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "DaisyNiko.SVR3",
+			"IsRequired": false
+		}
+
+   ]
+  
+}

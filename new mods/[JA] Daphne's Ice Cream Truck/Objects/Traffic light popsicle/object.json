@@ -1,0 +1,23 @@
+{
+  "Name": "Traffic light popsicle",
+  "Description": "Ready, set, go!",
+	//"Category": "Cooking",
+  "Edibility": 45,
+  "Price": 150,
+	"EdibleBuffs": {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 0,
+    "Foraging": 0,
+    "MaxStamina": 0,
+    "MagnetRadius": 0,
+	"Speed": 2,
+	"Defense": 0,
+	"Attack": 0,
+    "Duration": 200,
+},
+  "IsColored": false,
+  "Recipe": null,
+	"CategoryTextOverride": "Cooking",
+}

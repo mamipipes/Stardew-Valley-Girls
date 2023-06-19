@@ -1,0 +1,12 @@
+{
+  "Name": "Fae's Elf Ears",
+  "Author": "FaerieFangs0",
+  "Version": "1.2.0",
+  "Description": "Adds some elf ears via Fashion Sense.",
+  "UniqueID": "FaerieFangs0.FaesElfEars",
+  "UpdateKeys": ["Nexus:15705"],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "3.0.3"
+  }
+}

@@ -1,0 +1,102 @@
+{
+	"Changes": 
+    [
+
+		//Love/Like/Dislike/Hate/Neutral
+		{
+            "LogName": "Wildflour Gift Taste Data",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries":
+            {
+                "AlchemistWildflour": "How absolutely lovely! You have made my day just that much better. Thank you, friend./item_mushroom 400 595 234 344 item_food_sweet/Ah, is this a gift for me? That is most kind! Thank you./item_forage 768 769 815/I understand that some folks may like this, but I am sorry to say I do not count myself among them.../209 306/How dare you give me such a thing?!/167 445/Ah, yes. I am sure I can find a use for this...probably. Thank you./767 80/"
+			}
+		},
+
+
+		//Modded item gift tastes
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"When": { "HasMod: |contains=wildflour.wildfoodforage": true},
+			"TextOperations": [
+				{
+				"Operation": "Append",
+				"Target": ["Fields", "AlchemistWildflour", 1], 
+					"Value": "wildflour_forage_item",
+					"Delimiter": " "
+			  }
+		],
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"When": { "HasMod: |contains=wildflour.atelierteas": true},
+			"TextOperations": [
+				{
+				"Operation": "Append",
+				"Target": ["Fields", "AlchemistWildflour", 1], 
+					"Value": "wildflour_tea_item",
+					"Delimiter": " "
+			  }
+		],
+		},
+
+    {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"When": { "HasMod: |contains=wildflour.ateliercoffee": true},
+			"TextOperations": [
+				{
+				"Operation": "Append",
+				"Target": ["Fields", "AlchemistWildflour", 1], 
+					"Value": "wildflour_coffee_item",
+					"Delimiter": " "
+			  }
+		],
+		},
+
+    {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"When": { "HasMod: |contains=wildflour.atelierfloral": true},
+			"TextOperations": [
+				{
+				"Operation": "Append",
+				"Target": ["Fields", "AlchemistWildflour", 1], 
+					"Value": "wildflour_floral_item",
+					"Delimiter": " "
+			  }
+		],
+		},
+
+    {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"When": { "HasMod: |contains=wildflour.bakery": true},
+			"TextOperations": [
+				{
+				"Operation": "Append",
+				"Target": ["Fields", "AlchemistWildflour", 1], 
+					"Value": "wildflour_recipe_item",
+					"Delimiter": " "
+			  }
+		],
+		},
+
+		{
+			"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+			"When": { "HasMod: |contains=wildflour.ateliercandy": true},
+		"TextOperations": [
+				{
+				"Operation": "Append",
+				"Target": ["Fields", "AlchemistWildflour", 1], 
+				"Value": "wildflour_candy_item",
+				"Delimiter": " "
+				}
+			]
+		}
+	
+	],
+}

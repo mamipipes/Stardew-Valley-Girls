@@ -1,0 +1,186 @@
+{
+	"Format": "1.23.0",
+	
+	"ConfigSchema": {
+		"color": {
+		  "AllowValues": "muted,vibrant",
+		  "Default": "muted"
+		}
+		
+	},
+
+	"Changes": [
+
+
+		//MUTED COLOR 
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/magickitchen.png",
+			"ToArea": {
+				"X": 16,
+				"Y": 192,
+				"Width": 80,
+				"Height": 48
+			},
+			"FromArea": {
+				"X": 16,
+				"Y": 192,
+				"Width": 80,
+				"Height": 48
+
+			},
+			"When": {"color":"muted"}
+		},
+
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/magickitchen.png",
+			"ToArea": {
+				"X": 0,
+				"Y": 304,
+				"Width": 16,
+				"Height": 16
+			},
+			"FromArea": {
+				"X": 0,
+				"Y": 304,
+				"Width": 16,
+				"Height": 16
+
+			},
+			"When": {"color":"muted"}
+		},
+
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/magickitchen.png",
+			"ToArea": {
+				"X": 176,
+				"Y": 192,
+				"Width": 16,
+				"Height": 128
+			},
+			"FromArea": {
+				"X": 176,
+				"Y": 192,
+				"Width": 16,
+				"Height": 128
+
+			},
+			"When": {"color":"muted"}
+		},
+
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/magickitchen.png",
+			"ToArea": {
+				"X": 64,
+				"Y": 304,
+				"Width": 48,
+				"Height": 48
+			},
+			"FromArea": {
+				"X": 64,
+				"Y": 304,
+				"Width": 48,
+				"Height": 48
+
+			},
+			"When": {"color":"muted"}
+		},
+
+//VIBRANT COLOR
+{
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+	"FromFile": "assets/magickitchen_vibrant.png",
+	"ToArea": {
+		"X": 16,
+		"Y": 192,
+		"Width": 80,
+		"Height": 48
+	},
+	"FromArea": {
+		"X": 16,
+		"Y": 192,
+		"Width": 80,
+		"Height": 48
+
+	},
+	"When": {"color":"vibrant"}
+},
+
+{
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+	"FromFile": "assets/magickitchen_vibrant.png",
+	"ToArea": {
+		"X": 0,
+		"Y": 304,
+		"Width": 16,
+		"Height": 16
+	},
+	"FromArea": {
+		"X": 0,
+		"Y": 304,
+		"Width": 16,
+		"Height": 16
+
+	},
+	"When": {"color":"vibrant"}
+},
+
+{
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+	"FromFile": "assets/magickitchen_vibrant.png",
+	"ToArea": {
+		"X": 176,
+		"Y": 192,
+		"Width": 16,
+		"Height": 128
+	},
+	"FromArea": {
+		"X": 176,
+		"Y": 192,
+		"Width": 16,
+		"Height": 128
+
+	},
+	"When": {"color":"vibrant"}
+},
+
+{
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+	"FromFile": "assets/magickitchen_vibrant.png",
+	"ToArea": {
+		"X": 64,
+		"Y": 304,
+		"Width": 48,
+		"Height": 48
+	},
+	"FromArea": {
+		"X": 64,
+		"Y": 304,
+		"Width": 48,
+		"Height": 48
+
+	},
+	"When": {"color":"vibrant"}
+}
+
+	]
+}

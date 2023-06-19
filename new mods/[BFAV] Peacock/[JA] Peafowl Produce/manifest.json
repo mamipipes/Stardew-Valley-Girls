@@ -1,0 +1,10 @@
+{
+   "Name": "JA Peafowl Produce",
+   "Author": "Syanide23",
+   "Version": "1.0.0",
+   "Description": "Peacock eggs and feathers.",
+   "UniqueID": "Syanide23.JAPeafowlProduce",
+   "ContentPackFor": {
+	"UniqueID": "spacechase0.JsonAssets",
+  	}
+}

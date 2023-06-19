@@ -1,0 +1,30 @@
+{
+	"Name": "Juice Dispenser",
+	"Description": "",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveExtraIndexCount": 4,
+	"Recipe":
+	{
+		"ResultCount": 1,
+		"Ingredients": [
+		{
+			"Object": 388,
+			"Count": 30,
+		},
+		{
+			"Object": 382,
+			"Count": 5,
+		},
+		],
+		"IsDefault": true,
+	},
+	"NameLocalization":
+	{
+		"ko": "주스 디스펜서"
+	},
+	"DescriptionLocalization":
+	{
+		"ko": ""
+	}
+}

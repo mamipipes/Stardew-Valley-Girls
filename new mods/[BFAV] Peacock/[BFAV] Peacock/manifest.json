@@ -1,0 +1,10 @@
+{
+  "Name": "BFAV Peacock",
+  "Author": "Syanide23",
+  "Version": "1.0.0",
+  "Description": "Adds peacocks to the barn.",
+  "UniqueID": "Syanide23.BFAVPeacock",
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

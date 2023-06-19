@@ -1,0 +1,52 @@
+{
+  "Name": "Hedgehog Cactus",
+  "Description": "Bears a bright flower at the top.",
+  "Category": "Crafting",
+  "Edibility": -300,
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": { 
+    "ResultCount": 1,
+    "Ingredients": 
+  [
+      {
+        "Object": 330,
+        "Count": 2,
+      },
+      {
+        "Object": 90,
+        "Count": 1,
+      },    
+    ],
+  "SkillUnlockName": "Farming",
+  "SkillUnlockLevel": "3",
+  "IsDefault": false,
+      },
+
+ "NameLocalization": { 
+    /*"es": "",*/
+    "ko": "고슴도치선인장",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",*/
+    "zh": "司虾鹿角柱",
+  },
+ "DescriptionLocalization": { 
+    /*"es": "",*/
+    "ko": "첨단에 꽃을 피웁니다.",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",*/
+    "zh": "顶部盛开着一株鲜艳的红花",
+  }
+}

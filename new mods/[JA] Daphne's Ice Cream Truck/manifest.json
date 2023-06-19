@@ -1,0 +1,11 @@
+{
+   "Name": "[JA]Daphne's Ice Cream Truck",
+   "Author": "Wabi",
+   "Version": "1.1.0",
+   "Description": "Adds ice cream",
+   "UniqueID": "Wabi.DaphicecreamJA",
+   "MinimumApiVersion": "3.0.0",
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    }
+}

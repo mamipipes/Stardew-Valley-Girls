@@ -1,0 +1,24 @@
+{
+    "Shops": [
+		{
+			"ShopName": "DaphneIceShop",
+			"PortraitPath": "assets/Portrait.png",
+			"Quote": "Hey what can I get for ya? <",
+
+
+			"MaxNumItemsSoldInStore": 4,
+				"ItemStocks": [
+				//all  seasons
+				{
+					"ItemType": "Object",
+					"JAPacks": [
+                      "Wabi.DaphicecreamJA"
+					]
+			}
+		],
+		    	"Stock": 1,
+			"When": ["t 900 1800/z winter"],
+			"ClosedMessage": "Sorry we're closed right now! Come back later."
+		}
+	]
+}	

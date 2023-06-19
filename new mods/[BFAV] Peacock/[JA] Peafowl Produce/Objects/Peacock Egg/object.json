@@ -1,0 +1,20 @@
+{
+"Name": "Peacock Egg",
+"Description": "An egg laid by peahens.",
+"Category": "AnimalGoods",
+"Edibility": 20,
+"EdibleIsDrink": false,
+"Price": 300,
+"IsColored": false,
+"Recipe": null,
+"GiftTastes": {
+"Love": ["Leah", "Elliot", "Gus"],
+"Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Emily", "Evelyn", "George", "Haley", "Harvey", "Jodi", "Kent","Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Wizard"],
+"Hate": ["Krobus", "Willy"],
+},
+"ContextTags": 
+        [
+        "color_white",
+		"egg_item",
+        ],
+}

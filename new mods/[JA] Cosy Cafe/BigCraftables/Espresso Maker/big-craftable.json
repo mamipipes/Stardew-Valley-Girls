@@ -1,0 +1,30 @@
+{
+	"Name": "Espresso Maker",
+	"Description": "",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveExtraIndexCount": 10,
+	"Recipe":
+	{
+		"ResultCount": 1,
+		"Ingredients": [
+		{
+			"Object": 388,
+			"Count": 30,
+		},
+		{
+			"Object": 382,
+			"Count": 5,
+		},
+		],
+		"IsDefault": true,
+	},
+	"NameLocalization":
+	{
+		"ko": "에스프레소 머신"
+	},
+	"DescriptionLocalization":
+	{
+		"ko": "전통적인 이탈리아식 에스프레소 커피를 추출하는 장치"
+	}
+}

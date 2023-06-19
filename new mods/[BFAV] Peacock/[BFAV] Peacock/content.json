@@ -1,0 +1,30 @@
+{
+  "Format": "1.0",
+  "Categories": [
+{
+      "Action": "Create",
+      "Category": "Peacock",
+      "Types": [
+        {
+          "Type": "Peacock",
+	    "DeluxeProduceLuck": 0.05,
+          "Data": "7/7/Peacock Egg/Peacock Feather/Ostrich/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/10/15/null/644/12000/Peacock/Barn",
+          "Sprites": {
+            "Adult": "assets/Peacock.png",
+            "Baby": "assets/BabyPeacock.png",
+          },
+        },
+      ],
+      "Buildings": [
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Peacock",
+        "Description": "Large peacocks that can live in the barn.",
+        "Icon": "assets/peacock_animalshop.png",
+        "Exclude": []
+      }
+    },
+  ]
+} 

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "[STF] Alchemist Shop",
+  "Author": "wildflourmods",
+  "Version": "0.5",
+  "Description": "Adds Alchemist Shop",
+  "UniqueID": "wildflour.Alchemistshop.stf",
+  "MinimumApiVersion": "2.0",
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+	"MinimumVersion": "1.0.1"
+  }
+}

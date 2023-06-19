@@ -1,0 +1,23 @@
+{
+  "Name": "Firecracker popsicle",
+  "Description": "An American popsicle flavoured with cherry, lemon and blue raspberry",
+	//"Category": "Cooking",
+  "Edibility": 25,
+  "Price": 150,
+	"EdibleBuffs": {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 2,
+    "Luck": 1,
+    "Foraging": 0,
+    "MaxStamina": 0,
+    "MagnetRadius": 2,
+	"Speed": 0,
+	"Defense": 0,
+	"Attack": 0,
+    "Duration": 150
+},
+  "IsColored": false,
+  "Recipe": null,
+	"CategoryTextOverride": "Cooking"
+} 

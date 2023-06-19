@@ -1,0 +1,42 @@
+{
+    "Name": "Succulent Sap",
+    "Description": "Fresh Sap extracted from edible succulents, sell them to food or cosmetic companies",
+    "Category": "ArtisanGoods",
+    "Edibility": 20,
+    "Price": 180,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Caroline", "Elliott", "Emily", "Evelyn", "Gus", "Harvey", "Jodi", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Haley", "Sandy"],
+        "Dislike": ["Pierre", "Jas", "Sam", "Alex", "Shane"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "선인장 수액",
+        /*"de": "",
+        "fr": "",
+        "hu": "",
+        "it": "",
+        "ja": "",
+        "pt": "",
+        "ru": "",
+        "tr": "",*/
+        "zh": "多肉植物萃汁",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "식용 다육 식물에서 추출한 신선한 수액. 식용하거나 화장품에 사용됩니다.",
+        /*"de": "",
+        "fr": "",
+        "hu": "",
+        "it": "",
+        "ja": "",
+        "pt": "",
+        "ru": "",
+        "tr": "",*/
+        "zh": "从可食用植物萃取的新鲜汁液，可销售往食品加工或化妆品公司。",
+    }
+}

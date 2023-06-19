@@ -1,0 +1,726 @@
+{
+			"RemovePacksFromVanilla": [
+				"wildflour.wildfoodforage",
+				"wildflour.atelierteas",
+				"wildflour.ateliercoffee",
+				"wildflour.ateliercandy",
+				"wildflour.atelierfloral",
+				"wildflour.specialtyales",
+				"wildflour.specialtymeads",
+				"wildflour.gourmetpantry",
+				"wildflour.pixieforage",
+				"wildflour.faeriegarden"
+			],
+			"RemovePackRecipesFromVanilla": [
+				"wildflour.wildfoodforage",
+				"wildflour.ateliertea",
+				"wildflour.ateliercoffee",
+				"wildflour.ateliercandy",
+				"wildflour.atelierfloral",
+				"wildflour.specialtyales",
+				"wildflour.specialtymeads",
+				"wildflour.gourmetpantry",
+				"wildflour.megapack"
+			],
+			"Shops": [
+
+//SEED CATALOGUE
+
+				{
+					"ShopName": "WFSeeds",
+					"StoreCurrency": "Money",
+					"CategoriesToSellHere": [-74],
+					"PortraitPath": "assets/seed_portrait.png",
+					"Quote": "There's nothing quite like finding some new and interesting seeds to plant!",
+					"When": ["t 900 2000"],
+					"ItemStocks": [
+		
+	//wild food
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 225,
+					"When":["!z spring","!z summer","!z fall"],
+					"ItemNames":["wf tealeaf seeds"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 225,
+					"When":["!z spring","!z summer"],
+					"ItemNames":["wf vanilla seeds"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 225,
+					"When":["!z summer","f Leo 500"],
+					"ItemNames":["wf jasmine seeds"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 55,
+					"When":["!z spring","!z summer","!z fall"],
+					"ItemNames":["wf mint seeds","wf thyme seeds","wf cilantro seeds","wf sage seeds"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 6000,
+					"When":["!z spring"],
+					"ItemNames":["wf lemon sapling","wf lime sapling"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 125,
+					"When":["!z spring","!z summer","!z fall"],
+					"ItemNames":["wf rosemary seeds"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 135,
+					"When":["!z spring","!z summer"],
+					"ItemNames":["wf basil seeds","wf mallow seeds","wf strawberry seeds"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 135,
+					"When":["!z summer"],
+					"ItemNames":["wf raspberry seeds"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 175,
+					"When":["!z summer"],
+					"ItemNames":["wf chickenwoods seeds"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 175,
+					"When":["!z spring"],
+					"ItemNames":["wf wheatshroom seeds"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 175,
+					"When":["!z fall"],
+					"ItemNames":["wf meringueshroom seeds"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 175,
+					"When":["!z summer","!z fall"],
+					"ItemNames":["wf milkshroom seeds"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 225,
+					"When":["!z spring","!z fall"],
+					"ItemNames":["wf lavender seeds","wf honeyfungus seeds"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 35,
+					"When":["!z spring","!z fall"],
+					"ItemNames":["wf chamomile seeds","wf redonion seeds","wf carrot seeds"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 135,
+					"When":["!z winter"],
+					"ItemNames":["wf cinnamon sapling"]
+				},
+
+	//spring flower crop seeds
+			
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 135,
+					"When":["!z spring"],
+					"ItemNames":["wf moon maiden seeds", "wf meadow buttercup seeds"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 165,
+					"When":["!z spring"],
+					"ItemNames":["wf faerie puffball seeds"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 225,
+					"When":["!z spring"],
+					"ItemNames":["wf avalune seeds"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 240,
+					"When":["!z spring"],
+					"ItemNames":["wf amber moondrop seeds"]
+				},
+
+	//summer flower crop seeds
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 210,
+					"When":["!z summer"],
+					"ItemNames":["wf arctic fox seeds"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 225,
+					"When":["!z summer"],
+					"ItemNames":["wf avalune seeds"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 165,
+					"When":["!z summer"],
+					"ItemNames":["wf summer bell seeds"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 195,
+					"When":["!z summer"],
+					"ItemNames":["wf valerian seeds","wf yarrow seeds"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 240,
+					"When":["!z summer"],
+					"ItemNames":["wf amber moondrop seeds", "wf jade moondrop seeds","wf lapis moondrop seeds","wf pearl moondrop seeds"]
+				},
+				
+
+	//fall flowers crops seeds
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 165,
+					"When":["!z fall"],
+					"ItemNames":["wf pixies breath seeds","wf mugwort seeds","wf thistle seeds"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 40,
+					"When":["!z fall"],
+					"ItemNames":["wf rose flax seeds","wf violet flax seeds"]
+				},
+
+			
+
+	//spring fruit trees
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 5750,
+					"When":["!z spring"],
+					"ItemNames":["wf sour cherry sapling","wf star anise sapling"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 6000,
+					"When":["!z spring"],
+					"ItemNames":["wf moongold apricot sapling"]
+				},
+
+				
+
+	//summer fruit trees 
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 6500,
+					"When":["!z summer"],
+					"ItemNames":["wf blood orange sapling"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 8000,
+					"When":["!z summer"],
+					"ItemNames":["wf elderberry blossoms sapling","wf snow peach sapling"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 9000,
+					"When":["!z summer","f Leo 500"],
+					"ItemNames":["wf ladyfinger banana sapling","wf sunset mango sapling"]
+				},
+
+
+	//fall fruit trees
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 7500,
+					"When":["!z fall"],
+					"ItemNames":["wf ambrosia apple sapling"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 8000,
+					"When":["!z fall"],
+					"ItemNames":["wf eversweet pomegranate sapling"]
+				},
+
+	//winter flower trees
+	
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 6000,
+					"When":["!z winter"],
+					"ItemNames":["wf milk and honey sapling"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 7500,
+					"When":["!z winter"],
+					"ItemNames":["wf moonlight blues sapling"]
+				},
+
+	//spring flower trellis
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 6000,
+					"When":["!z spring"],
+					"ItemNames":["wf primrose quartz sapling"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 5750,
+					"When":["!z spring"],
+					"ItemNames":["wf meadow violet sapling","wf daisy sapling"]
+				},
+
+	//summer flower trellis
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 7500,
+					"When":["!z summer"],
+					"ItemNames":["wf dawn lily sapling","wf dusk lily sapling"]
+				},
+
+	//fall flower trellis
+				
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 6000,
+					"When":["!z fall"],
+					"ItemNames":["wf blue chiffon sapling"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 6500,
+					"When":["!z fall"],
+					"ItemNames":["wf secret poppy sapling"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 7000,
+					"When":["!z fall"],
+					"ItemNames":["wf twinblooms sapling"]
+				},
+
+	//Mushroom Saplings
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 5750,
+					"When":["!z summer"],
+					"ItemNames":["wf amanitatrio sapling"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 9000,
+					"When":["!z fall"],
+					"ItemNames":["wf slimecap sapling"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 9000,
+					"When":["!z summer"],
+					"ItemNames":["wf coralcone sapling"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 5750,
+					"When":["!z spring"],
+					"ItemNames":["wf dawnstrumpet sapling"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 4250,
+					"When":["!z fall"],
+					"ItemNames":["wf duskcap sapling"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 5750,
+					"When":["!z winter"],
+					"ItemNames":["wf faeriehelmets sapling"]
+				},
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 8000,
+					"When":["!z spring"],
+					"ItemNames":["wf goldmushroom sapling"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 5750,
+					"When":["!z winter"],
+					"ItemNames":["wf tealumbrella sapling"]
+				},
+
+				{
+					"ItemType": "Object",
+					"IsRecipe": false,
+					"StockPrice": 4250,
+					"When":["!z fall"],
+					"ItemNames":["wf whiteumbrella sapling"]
+				},
+	
+			],
+			"ClosedMessage": "Check back tomorrow for more seeds!"
+		},
+
+//FORAGE ITEMS
+				{
+					"ShopName": "WFForage",
+					"StoreCurrency": "Money",
+					"CategoriesToSellHere": [-79, -75],
+					"PortraitPath": "assets/seed_portrait.png",
+					"Quote": "Check out the fresh forage I just brought in! See anything you like?",
+					"When": ["t 900 2000"],
+					"ItemStocks": [
+						{
+							"ItemType": "Object",
+							"IsRecipe": false,
+							"When":["!z spring"],
+							"ItemNames":["wf vanilla","wf tealeaf","wf chamomile","wf lavender","wf thyme","wf mallow","wf mint","wf lemon","wf lime","wf cacaopod","wf redonion","wf strawberry"]
+						},
+						{
+							"ItemType": "Object",
+							"IsRecipe": false,
+							"When":["!z summer"],
+							"ItemNames":["wf chickenofthwoods","wf cilantro","wf olive","wf tealeaf","wf thyme","wf mallow","wf milkshroom","wf mint","wf basil","wf wheatshroom","wf raspberry", "wf strawberry"]
+						},
+						{
+							"ItemType": "Object",
+							"IsRecipe": false,
+							"When":["!z fall"],
+							"ItemNames":["wf pistachio","wf sage","wf chamomile","wf lavender","wf walnut","wf rosemary","wf honeyfungus","wf meringueshroom","wf carrot", "wf almond"]
+						},
+						{
+							"ItemType": "Object",
+							"IsRecipe": false,
+							"When":["!z winter"],
+							"ItemNames":["wf cinnamon","wf rosemary","wf redonion","wf carrot"]
+						},
+						{
+							"ItemType": "Object",
+							"IsRecipe": false,
+							"When":["f Leo 500"],
+							"ItemNames":["wf cashew","wf jasmine"]
+						}			
+					],
+					"ClosedMessage": "Check back tomorrow for more!"
+				},
+
+
+//INGREDIENTS
+				{
+					"ShopName": "WFIngredients",
+					"StoreCurrency": "Money",
+					"CategoriesToSellHere": [-74,-6],
+					"PortraitPath": "assets/ingredients_portrait.png",
+					"Quote": "I'm sure I have just the thing you need...",
+					"When": ["t 900 2000"],
+					"ItemStocks": [
+						
+			//DAIRY
+
+						{
+							"ItemType": "Object",
+							"IsRecipe": false,
+							"StockPrice": 750,
+							"ItemNames":["wf butter","wf cream","wf cream cheese","wf buttermilk","wf yogurt"]
+						},
+
+			//NUT BUTTERS
+						{
+							"ItemType": "Object",
+							"IsRecipe": false,
+							"StockPrice": 950,
+							"ItemNames":["wf almond butter","wf cashew butter","wf coconut butter","wf hazelnut butter","wf pistachio butter","wf walnut butter"]
+						},
+			//FLOURS
+						{
+							"ItemType": "Object",
+							"IsRecipe": false,
+							"StockPrice": 1150,
+							"ItemNames":["wf almond flour","wf bread flour","wf cake flour","wf coconut flour","wf corn flour","wf pastry flour","wf rice flour"]
+						},
+
+			//SUGARS
+						{
+							"ItemType": "Object",
+							"IsRecipe": false,
+							"StockPrice": 850,
+							"ItemNames":["wf brown sugar","wf powder sugar","wf sprinkles"]
+						},
+			//MILKS
+						{
+							"ItemType": "Object",
+							"IsRecipe": false,
+							"StockPrice": 1250,
+							"ItemNames":["wf almond milk","wf cashew milk","wf coconut milk","wf hazelnut milk","wf pistachio milk","wf rice milk"]
+						},
+
+			//CHOCOLATE
+
+						{
+							"ItemType": "Object",
+							"IsRecipe": false,
+							"StockPrice": 750,
+							"ItemNames":["wf bittersweet chocolate","wf semisweet chocolate","wf white chocolate","wf cocoa powder","wf chocolate chips"]
+						},
+			//FRUIT BUTTER CURDS
+
+						{
+							"ItemType": "Object",
+							"IsRecipe": false,
+							"StockPrice": 750,
+							"ItemNames":["wf apple butter","wf honey butter","wf pumpkin butter","wf maple butter","wf lemon curd","wf lime curd","wf orange curd"]
+						},
+						{
+							"ItemType": "Object",
+							"IsRecipe": false,
+							"StockPrice": 20,
+							"ItemNames":["wf pectin"]
+						},
+
+			//MISC
+
+						{
+							"ItemType": "Object",
+							"IsRecipe": false,
+							"StockPrice": 1250,
+							"ItemNames":["wf vanilla extract","wf coconut oil","wf olive oil","wf espresso powder"]
+						},
+
+
+
+
+					],
+					"ClosedMessage": "Shop's closed! Check back tomorrow."
+				},
+
+//RECIPES
+				{
+					"ShopName": "WFRecipes",
+					"StoreCurrency": "Money",
+					"CategoriesToSellHere": [-25],
+					"PortraitPath": "assets/recipe_portrait.png",
+					"Quote": "Wildflour's Secret Recipes - Coming Soon!",
+					"When": ["t 900 1700"],
+					"ItemStocks": [
+						
+						{
+							"ItemType": "Object",
+							"IsRecipe": true,
+							"JAPacks": [
+								"wildflour.bakery",
+								"wildflour.jams",
+								"wildflour.pickles",
+								"wildflour.gourmetpantry"
+							],
+							"Stock": 1
+						}
+					],
+					"ClosedMessage": "Shop's closed! Check back tomorrow."
+				},
+				
+//ARTISAN MACHINES
+				{
+					"ShopName": "WFMachines",
+					"StoreCurrency": "Money",
+					"CategoriesToSellHere": [-25],
+					"PortraitPath": "assets/artisan_portrait.png",
+					"Quote": "Alchemical Machine Catalogue",
+					"When": ["t 900 2000"],
+					"ItemStocks": [
+						
+						{
+							"ItemType": "BigCraftable",
+							"StockPrice": 4000,
+							"When":["f Pam 1250"],
+							"IsRecipe": false,
+							"ItemNames":["wf ale keg"]
+						},
+						{
+							"ItemType": "BigCraftable",
+							"StockPrice": 3000,
+							"When":["f Robin 1250"],
+							"IsRecipe": false,
+							"ItemNames":["wf blast chiller"]
+						},
+						{
+							"ItemType": "BigCraftable",
+							"StockPrice": 3000,
+							"When":["f Maru 1250"],
+							"IsRecipe": false,
+							"ItemNames":["wf boba station"]
+						},
+						{
+							"ItemType": "BigCraftable",
+							"StockPrice": 2500,
+							"When":["f Harvey 750"],
+							"IsRecipe": false,
+							"ItemNames":["wf coffee brewer"]
+						},
+						{
+							"ItemType": "BigCraftable",
+							"StockPrice": 3500,
+							"When":["f Wizard 750"],
+							"IsRecipe": false,
+							"ItemNames":["wf candy station"]
+						},
+						{
+							"ItemType": "BigCraftable",
+							"StockPrice": 3500,
+							"When":["f Marnie 750"],
+							"IsRecipe": false,
+							"ItemNames":["wf flower station"]
+						},
+						{
+							"ItemType": "BigCraftable",
+							"StockPrice": 4000,
+							"When":["f Haley 750"],
+							"IsRecipe": false,
+							"ItemNames":["wf fragrance station"]
+						},
+						{
+							"ItemType": "BigCraftable",
+							"StockPrice": 4500,
+							"When":["f Evelyn 750"],
+							"IsRecipe": false,
+							"ItemNames":["wf flower tub"]
+						},
+						{
+							"ItemType": "BigCraftable",
+							"StockPrice": 3000,
+							"When":["f Demetrius 1250"],
+							"IsRecipe": false,
+							"ItemNames":["wf frozen treat maker"]
+						},
+						{
+							"ItemType": "BigCraftable",
+							"StockPrice": 2000,
+							"When":["f Gus 500"],
+							"IsRecipe": false,
+							"ItemNames":["wf kitchen blender"]
+						},
+						{
+							"ItemType": "BigCraftable",
+							"StockPrice": 2000,
+							"When":["f Pierre 500"],
+							"IsRecipe": false,
+							"ItemNames":["wf kitchen mortar"]
+						},
+						{
+							"ItemType": "BigCraftable",
+							"StockPrice": 3000,
+							"When":["f Jodi 1250"],
+							"IsRecipe": false,
+							"ItemNames":["wf juice station"]
+						},
+						{
+							"ItemType": "BigCraftable",
+							"StockPrice": 4000,
+							"When":["f Willy 1250"],
+							"IsRecipe": false,
+							"ItemNames":["wf mead keg"]
+						},
+						{
+							"ItemType": "BigCraftable",
+							"StockPrice": 2500,
+							"When":["f Caroline 750"],
+							"IsRecipe": false,
+							"ItemNames":["wf tea kettle"]
+						},
+						
+
+					],
+					"ClosedMessage": "Shop's closed! Check back tomorrow."
+				}		
+
+			]
+		}

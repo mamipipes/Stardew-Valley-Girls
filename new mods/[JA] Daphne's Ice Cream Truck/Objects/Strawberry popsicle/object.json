@@ -1,0 +1,23 @@
+{
+  "Name": "Strawberry popsicle",
+  "Description": "Made with fresh spring time strawberries",
+	//"Category": "Cooking",
+  "Edibility": 45,
+  "Price": 150,
+	"EdibleBuffs": {
+    "Farming": 2,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 0,
+    "Foraging": 0,
+    "MaxStamina": 0,
+    "MagnetRadius": 0,
+	"Speed": 0,
+	"Defense": 0,
+	"Attack": 0,
+    "Duration": 300,
+},
+  "IsColored": false,
+  "Recipe": null,
+	"CategoryTextOverride": "Cooking",
+}

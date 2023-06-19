@@ -1,0 +1,11 @@
+{
+   "Name": "Magical Witchy Kitchen",
+   "Author": "wildflourmods",
+   "Version": "1.0.2",
+   "Description": "Cometkins Inspired Magical Kitchen for Farmhouse and Island House",
+   "UniqueID": "wildflour.magicalkitchenCP",
+   "UpdateKeys": ["Nexus:15452"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

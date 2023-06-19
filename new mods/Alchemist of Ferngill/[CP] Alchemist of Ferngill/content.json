@@ -1,0 +1,200 @@
+{
+		
+    "Format": "1.28.0",
+	
+	"ConfigSchema":
+	{
+	"SVR3ForestEdit": {
+		"AllowValues":"true,false",
+		"Default":false
+	},
+	},
+
+	"CustomLocations": [
+		{
+			"Name": "Custom_WF_Atelier",
+			"FromMapFile": "assets/Maps/WF_Atelier_Interior.tmx"
+		},
+		{
+			"Name": "Custom_WF_Alchemist_Woods",
+			"FromMapFile": "assets/Maps/AlchemistWoods.tmx"
+		}
+    ],
+
+
+
+"Changes": [
+
+//Exterior Map Load
+
+		{
+    	"Action": "EditMap",
+    	"Target": "Maps/Forest", 
+    	"FromFile": "assets/Maps/ForestEdit.tmx",
+    	"ToArea": {
+        		"X": 12,
+        		"Y": 0,
+        		"Width": 6,
+        		"Height": 10
+    			},
+    		
+			"When":{"SVR3ForestEdit":"false"}
+ 
+
+		},
+
+		{
+   	 		"Action": "EditMap",
+    		"Target": "Maps/Forest", 
+   			"FromFile": "assets/Maps/ForestEditSVR3.tmx",
+    		"ToArea": {
+        		"X": 13,
+        		"Y": 0,
+        		"Width": 4,
+        		"Height": 4
+    			},
+    		"When":{"SVR3ForestEdit":"true"}
+		},
+
+		//WARPS
+	
+		{
+        "Action": "EditMap",
+        "Target": "Maps/Custom_WF_Alchemist_Woods",
+        "MapTiles": [
+          {
+            "Position": {"X": 20, "Y": 10},
+            "Layer": "Buildings",
+            "SetProperties": {"Action": "LockedDoorWarp 8 22 Custom_WF_Atelier 900 2000"}
+          }
+        ]
+        },
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
+			"AddWarps": [
+			  "14 1 Custom_WF_Alchemist_Woods 15 29",
+			],
+			"When":{"SVR3ForestEdit":"true"}
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
+			"AddWarps": [
+			  "15 2 Custom_WF_Alchemist_Woods 15 29",
+			],
+			"When":{"SVR3ForestEdit":"false"}
+		},
+
+
+		// NPC Disposition
+        {
+            "LogName": "Wildflour the Alchemist Arrives!",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": 
+            {
+                "AlchemistWildflour": "adult/polite/outgoing/positive/female/non-datable/null/Town/fall 22/SproutJunimo 'Sprout'/Custom_WF_Atelier 8 14/Wildflour"
+			}
+		},
+		
+		
+        //Animations
+
+        {
+        "LogName": "Wildflour Animations",
+        "Action": "EditData",
+         "Target": "Data/animationdescriptions",
+        "Entries":
+        {
+        "AlchemistWildflourForaging": "16/17 18 18 19 19 20 20 20 19 19 18 18 17/16",
+		}
+		},
+
+		//Exclusions:
+	
+		{
+			"LogName": "Wildflour NPC Exclusions",
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+                "AlchemistWildflour": "ShopDialog WinterStar ItemDelivery IslandVisit Socialize PerfectFriend MovieInvite"
+                
+			},
+		},
+		
+        //Portraits
+
+        {
+            "LogName": "Wildflour Portraits",
+            "Action": "Load",
+            "Target": "Portraits/AlchemistWildflour",
+            "FromFile": "assets/Portraits/AlchemistWildflour.png"
+		},
+		
+        //Sprites
+
+        {
+            "LogName": "Wildflour Sprites",
+            "Action": "Load",
+            "Target": "Characters/AlchemistWildflour",
+            "FromFile": "assets/Characters/wildflour_sprites.png"
+		},
+		
+		//Blank JSON load for dialogue/schedules
+
+		{
+			"LogName": "Blank JSON load",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/AlchemistWildflour, Characters/schedules/AlchemistWildflour",
+            "FromFile": "assets/data/blank.json"
+		},
+		
+		
+        // Events include
+
+		//{
+		//	"LogName": "Events Include",
+		//	"Action": "Include",
+		//	"FromFile": "assets/data/Events.json"
+		//},
+		
+		
+		//Festivals
+
+		//{
+		//	"LogName": "Festival Include",
+		//	"Action": "Include",
+		//	"FromFile": "assets/data/Festivals.json"
+		//},
+		
+		//Gift Tastes
+
+		{
+			"LogName": "Gift Tastes Include",
+			"Action": "Include",
+			"FromFile": "assets/data/GiftTastes.json"
+		},
+		
+		// Schedules and Dialogue
+
+        {
+			"LogName": "Schedule/Dialogue Includes",
+			"Action": "Include",
+			"FromFile": "assets/data/wildflour_schedule.json, assets/data/wildflour_dialogue.json"
+		},
+
+		//Conversation Topics
+
+		//{
+		//	"LogName": "Conversation Topics",
+		//	"Action": "Include",
+		//	"FromFile": "assets/data/Conversation_Topics.json"
+		//}
+		
+		
+	]
+	
+}

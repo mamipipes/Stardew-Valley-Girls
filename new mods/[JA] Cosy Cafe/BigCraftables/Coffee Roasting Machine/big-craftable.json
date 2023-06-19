@@ -1,0 +1,26 @@
+{
+	"Name": "Coffee Roasting Machine",
+	"Description": "",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveExtraIndexCount": 18,
+	"Recipe":
+	{
+		"ResultCount": 1,
+		"Ingredients": [
+		{
+			"Object": 335,
+			"Count": 5,
+		},
+		],
+		"IsDefault": true,
+	},
+	"NameLocalization":
+	{
+		"ko": "로스팅 머신"
+	},
+	"DescriptionLocalization":
+	{
+		"ko": "생두를 볶아 원두로 만드는 기계"
+	}
+}

@@ -1,0 +1,157 @@
+{
+  "Id": "Shyzie.SF.StringLights.AnimatedM",
+  "Name": "String Light Animated (M)",
+  "Description": "Decorative animated fairy string lights for your farm.",
+  "DrawShadow": false,
+  "FadeWhenBehind": false,
+  "BuildCost": 700,
+  "SourceRect": "0 0 48 48",
+  "Size": {
+    "X": 3,
+    "Y": 1
+  },
+    "Lights": [
+    {
+     "Tile": { 
+		"X": 1,
+        "Y": 1
+      },
+     "TileOffsetInPixels": {
+        "X": 0,
+        "Y": 2
+      },
+      "TextureID": 1,
+      "Radius": 5.0,
+      "Color": [ 255, 255, 255, 255 ]
+    },
+	{
+     "Tile": { 
+		"X": 2,
+        "Y": 1
+      },
+     "TileOffsetInPixels": {
+        "X": 0,
+        "Y": 2
+      },
+      "TextureID": 1,
+      "Radius": 5.0,
+      "Color": [ 255, 255, 255, 255 ]
+    }
+  ],
+  "Skins": [
+	{
+      "ID": "FireflyLightM",
+      "Name": "Firefly String Lights",
+      "Description": "Firefly string lights for your farm.",
+      "Texture": "FireflyLightsMedLight"
+    },
+	{
+      "ID": "FireflyVanillaM",
+      "Name": "Firefly String Lights",
+      "Description": "Firefly string lights for your farm.",
+      "Texture": "FireflyLightsMedVanilla"
+    },
+	{
+      "ID": "FestiveDarkM",
+      "Name": "Festive String Lights",
+      "Description": "Festive holiday string lights for your farm.",
+      "Texture": "FestiveLightsMedDark"
+    },
+	{
+      "ID": "FestiveLightM",
+      "Name": "Festive String Lights",
+      "Description": "Festive holiday string lights for your farm.",
+      "Texture": "FestiveLightsMedLight"
+    },
+	{
+      "ID": "FestivVanillaM",
+      "Name": "Festive String Lights",
+      "Description": "Festive holiday string lights for your farm.",
+      "Texture": "FestiveLightsMedVanilla"
+    },
+	{
+      "ID": "GarlandPinkDarkM",
+      "Name": "Floral Pink Garland String Lights",
+      "Description": "A floral pink garland with string lights for your farm.",
+      "Texture": "GarlandLightsPinkMedDark"
+    },
+	{
+      "ID": "GarlandPinkLightM",
+      "Name": "Floral Pink Garland String Lights",
+      "Description": "A floral pink garland with string lights for your farm.",
+      "Texture": "GarlandLightsPinkMedLight"
+    },
+	{
+      "ID": "GarlandPinkVanillaM",
+      "Name": "Floral Pink Garland String Lights",
+      "Description": "A floral pink garland with string lights for your farm.",
+      "Texture": "GarlandLightsPinkMedVanilla"
+    },
+	{
+      "ID": "GarlandWhiteDarkM",
+      "Name": "Floral White Garland String Lights",
+      "Description": "A floral white garland with string lights for your farm.",
+      "Texture": "GarlandLightsWhiteMedDark"
+    },
+	{
+      "ID": "GarlandWhiteLightM",
+      "Name": "Floral White Garland String Lights",
+      "Description": "A floral white garland with string lights for your farm.",
+      "Texture": "GarlandLightsWhiteMedLight"
+    },
+	{
+      "ID": "GarlandWhiteVanillaM",
+      "Name": "Floral White Garland String Lights",
+      "Description": "A floral white garland with string lights for your farm.",
+      "Texture": "GarlandLightsWhiteMedVanilla"
+    },
+    {
+      "ID": "GemstonesDarkM",
+      "Name": "Gemstone String Lights",
+      "Description": "Sparkly gemstone string lights for your farm.",
+      "Texture": "GemstoneLightsMedDark"
+    },
+	{
+      "ID": "GemstonesLightM",
+      "Name": "Gemstone String Lights",
+      "Description": "Sparkly gemstone string lights for your farm.",
+      "Texture": "GemstoneLightsMedLight"
+    },
+	{
+      "ID": "GemstonesVanillaM",
+      "Name": "Gemstone String Lights",
+      "Description": "Sparkly gemstone string lights for your farm.",
+      "Texture": "GemstoneLightsMedVanilla"
+    }
+  ],
+  
+	"CollisionMap": "XOX",
+	"DrawLayers": [
+    {
+      "SourceRect": "0 0 48 48",
+      "DrawPosition": {
+        "X": 0,
+        "Y": 0
+      },
+      "HideBaseTexture": true,
+      "Sequences": [
+        {
+          "Frame": 0,
+          "Duration": 700
+        },
+        {
+          "Frame": 1,
+          "Duration": 700
+        },
+        {
+          "Frame": 2,
+          "Duration": 700
+        },
+        {
+          "Frame": 3,
+          "Duration": 700
+        }
+      ],
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "Name": "Fae's Elf Ears",
+
+	// FRONT
+  "FrontHat": {
+    "ColorMasks": [
+		[ 56, 56, 56 ],
+		[ 114, 110, 100 ],
+		[ 212, 208, 197 ]
+    ],
+    "DrawAfterPlayer": true,
+    "DisableSkinGrayscale": true,
+    "SkinToneMasks": {
+		"LightTone": [ 144, 144, 144 ],
+		"MediumTone": [ 121, 121, 121 ],
+		"DarkTone": [ 73, 73, 73 ]
+    },
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": -3
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      }
+    ]
+  },
+
+	// RIGHT
+  "RightHat": {
+    "ColorMasks": [
+		[ 56, 56, 56 ],
+		[ 114, 110, 100 ],
+		[ 212, 208, 197 ]
+    ],
+    "DrawAfterPlayer": true,
+    "DisableSkinGrayscale": true,
+    "SkinToneMasks": {
+		"LightTone": [ 144, 144, 144 ],
+		"MediumTone": [ 121, 121, 121 ],
+		"DarkTone": [ 73, 73, 73 ]
+    },
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": -3
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      }
+    ]
+  },
+
+	// LEFT
+  "LeftHat": {
+    "ColorMasks": [
+		[ 56, 56, 56 ],
+		[ 114, 110, 100 ],
+		[ 212, 208, 197 ]
+    ],
+    "DrawAfterPlayer": true,
+    "DisableSkinGrayscale": true,
+    "SkinToneMasks": {
+		"LightTone": [ 144, 144, 144 ],
+		"MediumTone": [ 121, 121, 121 ],
+		"DarkTone": [ 73, 73, 73 ]
+    },
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": -3
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      }
+    ]
+  },
+
+	// BACK
+  "BackHat": {
+    "ColorMasks": [
+		[ 56, 56, 56 ],
+		[ 114, 110, 100 ],
+		[ 212, 208, 197 ]
+    ],
+    "DrawAfterPlayer": true,
+    "DisableSkinGrayscale": true,
+    "SkinToneMasks": {
+		"LightTone": [ 144, 144, 144 ],
+		"MediumTone": [ 121, 121, 121 ],
+		"DarkTone": [ 73, 73, 73 ]
+    },
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": -3
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      }
+    ]
+  }
+}

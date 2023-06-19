@@ -1,0 +1,30 @@
+{
+	"Name": "Kitchen Stove",
+	"Description": "purpose of cooking food",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveExtraIndexCount": 9,
+	"Recipe":
+	{
+		"ResultCount": 1,
+		"Ingredients": [
+		{
+			"Object": 388,
+			"Count": 30,
+		},
+		{
+			"Object": 382,
+			"Count": 5,
+		},
+		],
+		"IsDefault": true,
+	},
+	"NameLocalization":
+	{
+		"ko": "스토브"
+	},
+	"DescriptionLocalization":
+	{
+		"ko": "가스를 연료로 사용하여 음식을 조리하는 기구"
+	}
+}

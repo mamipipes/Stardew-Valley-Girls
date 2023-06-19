@@ -1,0 +1,85 @@
+{
+  "Id": "Wabi.SolidFoundations.IceCream_IceCreamTruck",
+  "Name": "Daphne's Ice Cream Truck",
+  "Description": "Hey! Once you pay my teeny tiny fee I'll head on over to the valley! Give me a few days to set up first. ",
+  "DrawShadow": false,
+  "BuildCost": 8000,
+  "BuildCondition": "PLAYER_HAS_FLAG Any wabiicecream, CAN_BUILD_FOR_CABINS IceCreamTruck",
+  "BuildDays": 3,
+  "SourceRect": "0 0 96 64",
+  "Size": {
+    "X": 6,
+    "Y": 4
+  },
+  "Skins": [
+    {
+      "ID": "Blue",
+      "Name": "Daphne's Ice Cream Truck",
+      "Description": "Hey! Once you pay my teeny tiny fee I'll head on over to the valley! Give me a few days to set up first. ",
+      "Texture": "skin_1"
+    },
+    {
+      "ID": "Green",
+      "Name": "Daphne's Ice Cream Truck",
+      "Description": "Hey! Once you pay my teeny tiny fee I'll head on over to the valley! Give me a few days to set up first. ",
+      "Texture": "skin_2"
+    }
+  ],
+  "SeasonOffset": "288, 0",
+  "HideBaseTexture": true,
+  "CollisionMap": "OOOOOO\nOOOOOO\nXXXXXX\nXXXXXX",
+
+  "ActionTiles": [
+    {
+        "Tile": {
+          "X": 4,
+          "Y": 3
+      },
+      "SpecialAction": {
+        "ModifyMailFlags": [
+          {
+            "Name": "StartEventDaphne",
+            "Operation": "Add"
+        }
+      ],
+         "OpenShop": {
+           "Name": "DaphneIceShop",
+           "Type": "STF"
+         }
+      }
+     }
+  ],
+
+  "DrawLayers": [
+    {
+      "SourceRect": "0 0 96 64",
+      "DrawPosition": {
+        "X": 0,
+        "Y": 0
+      },
+      "Sequences": [
+        {
+          "Frame": 0,
+          "Duration": 3500
+        },
+        {
+          "Frame": 1,
+          "Duration": 50
+        },
+        {
+          "Frame": 2,
+          "Duration": 50
+        },
+        {
+          "Frame": 1,
+          "Duration": 50
+        }
+      ]
+    }
+  ]
+}
+
+
+
+  
+            

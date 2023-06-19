@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="4" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="8">
+ <properties>
+  <property name="Outdoors" value="T"/>
+ </properties>
+ <tileset firstgid="1" name="z_spring_plants" tilewidth="16" tileheight="16" tilecount="204" columns="17">
+  <image source="z_spring_plants.png" width="272" height="192"/>
+ </tileset>
+ <tileset firstgid="205" name="z_spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <layer id="1" name="Back" width="4" height="4">
+  <data encoding="base64" compression="zlib">
+   eJwTZmVgEMaDRYBYB4p1gdiTCRUDAEIwApo=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Back2" width="4" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBg2MlAGKghsVWB2BzKBgAyoAE8
+  </data>
+ </layer>
+ <objectgroup id="4" name="Back2"/>
+ <layer id="5" name="Buildings" width="4" height="4">
+  <data encoding="base64" compression="zlib">
+   eJzbwcDAoAzEKkDczgABJkBsykAcAABq+AHw
+  </data>
+ </layer>
+ <objectgroup id="6" name="Buildings"/>
+ <layer id="7" name="Paths" width="4" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAMAAAAQAAB
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="9" name="Front" width="4" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYICARAbyAAAVeABi
+  </data>
+ </layer>
+ <objectgroup id="10" name="Front"/>
+ <layer id="11" name="AlwaysFront" width="4" height="4">
+  <data encoding="base64" compression="zlib">
+   eJy7x8LAcAyIjwPxQyCeDMRrgXgdEE+DsmFgHRIbBgBTJwdU
+  </data>
+ </layer>
+ <objectgroup id="12" name="AlwaysFront"/>
+</map>

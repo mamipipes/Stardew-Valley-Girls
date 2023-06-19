@@ -1,0 +1,38 @@
+{
+	"Name": "Strawberry Parfait",
+	"Description": "layers of ice cream and syrup and whipped cream",
+	"Category": "Cooking",
+	"Edibility": 90,
+	"EdibleIsDrink": false,
+	"EdibleBuffs":
+	{
+		"Farming": 0,
+		"Fishing": 0,
+		"Mining": 0,
+		"Luck": 2,
+		"Foraging": 0,
+		"MaxStamina": 0,
+		"MagnetRadius": 0,
+		"Speed": 0,
+		"Defense": 0,
+		"Attack": 0,
+		"Duration": 180,
+	},
+	"Price": 1000,
+	"IsColored": false,
+	"Recipe": null,
+	"GiftTastes":
+	{
+		"Love": ["Vincent", "Jas", "Haley", "Demetrius"],
+		"Like": ["Evelyn", "Caroline", "Jodi", "Linus", "Penny", "Sandy", "Clint", "George", "Abigail", "Alex", "Dwarf", "Elliott", "Gus", "Harvey", "Kent", "Lewis", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sebastian", "Shane", "Wizard", "Marnie"],
+		"Dislike": ["Emily", "Leah", "Krobus", "Willy"]
+	},
+	"NameLocalization":
+	{
+		"ko": "딸기 파르페",
+	},
+	"DescriptionLocalization":
+	{
+		"ko": "길다란 유리잔에 아이스크림, 과일 등을 넣어 먹는 빙과의 한 종류"
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "Name": "Redesigned Shed Layout",
+  "Author": "Aimon111",
+  "Version": "1.0.1",
+  "Description": "Makes your Shed maps look new and fresh towards more realistic layout.",
+  "UniqueID": "Aimon111.RedesignedShedLayout",
+  "UpdateKeys": [ "Nexus:15250" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+	},
+	
+ "Dependencies": [
+    {
+      "UniqueID": "aedenthorn.ExtraMapLayers",
+      "IsRequired": true
+    },
+	
+	]
+}

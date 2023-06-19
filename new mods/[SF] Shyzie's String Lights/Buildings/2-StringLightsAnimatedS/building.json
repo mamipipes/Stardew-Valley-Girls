@@ -1,0 +1,170 @@
+{
+  "Id": "Shyzie.SF.StringLights.AnimatedS",
+  "Name": "String Light Animated (S)",
+  "Description": "Decorative animated fairy string lights for your farm.",
+  "DrawShadow": false,
+  "FadeWhenBehind": false,
+  "BuildCost": 500,
+  "SourceRect": "0 0 32 48",
+  "Size": {
+    "X": 2,
+    "Y": 1
+  },
+    "Lights": [
+    {
+     "Tile": { 
+		"X": 0,
+        "Y": 1
+      },
+     "TileOffsetInPixels": {
+        "X": 0,
+        "Y": 2
+      },
+      "TextureID": 1,
+      "Radius": 4.0,
+      "Color": [ 255, 255, 255, 255 ]
+    },
+	{
+     "Tile": { 
+		"X": 1,
+        "Y": 1
+      },
+     "TileOffsetInPixels": {
+        "X": 0,
+        "Y": 2
+      },
+      "TextureID": 1,
+      "Radius": 4.0,
+      "Color": [ 255, 255, 255, 255 ]
+    },
+	{
+     "Tile": { 
+		"X": 2,
+        "Y": 1
+      },
+     "TileOffsetInPixels": {
+        "X": 0,
+        "Y": 2
+      },
+      "TextureID": 1,
+      "Radius": 4.0,
+      "Color": [ 255, 255, 255, 255 ]
+    }
+  ],
+  "Skins": [
+	{
+      "ID": "FireflyLightS",
+      "Name": "Firefly String Lights",
+      "Description": "Firefly string lights for your farm.",
+      "Texture": "FireflyLightsSmallLight"
+    },
+	{
+      "ID": "FireflyVanillaS",
+      "Name": "Firefly String Lights",
+      "Description": "Firefly string lights for your farm.",
+      "Texture": "FireflyLightsSmallVanilla"
+    },
+	{
+      "ID": "FestiveDarkS",
+      "Name": "Festive String Lights",
+      "Description": "Festive holiday string lights for your farm.",
+      "Texture": "FestiveLightsSmallDark"
+    },
+	{
+      "ID": "FestiveLightS",
+      "Name": "Festive String Lights",
+      "Description": "Festive holiday string lights for your farm.",
+      "Texture": "FestiveLightsSmallLight"
+    },
+	{
+      "ID": "FestivVanillaS",
+      "Name": "Festive String Lights",
+      "Description": "Festive holiday string lights for your farm.",
+      "Texture": "FestiveLightsSmallVanilla"
+    },
+	{
+      "ID": "GarlandPinkDarkS",
+      "Name": "Floral Pink Garland String Lights",
+      "Description": "A floral pink garland with string lights for your farm.",
+      "Texture": "GarlandLightsPinkSmallDark"
+    },
+	{
+      "ID": "GarlandPinkLightS",
+      "Name": "Floral Pink Garland String Lights",
+      "Description": "A floral pink garland with string lights for your farm.",
+      "Texture": "GarlandLightsPinkSmallLight"
+    },
+	{
+      "ID": "GarlandPinkVanillaS",
+      "Name": "Floral Pink Garland String Lights",
+      "Description": "A floral pink garland with string lights for your farm.",
+      "Texture": "GarlandLightsPinkSmallVanilla"
+    },
+	{
+      "ID": "GarlandWhiteDarkS",
+      "Name": "Floral White Garland String Lights",
+      "Description": "A floral white garland with string lights for your farm.",
+      "Texture": "GarlandLightsWhiteSmallDark"
+    },
+	{
+      "ID": "GarlandWhiteLightS",
+      "Name": "Floral White Garland String Lights",
+      "Description": "A floral white garland with string lights for your farm.",
+      "Texture": "GarlandLightsWhiteSmallLight"
+    },
+	{
+      "ID": "GarlandWhiteVanillaS",
+      "Name": "Floral White Garland String Lights",
+      "Description": "A floral white garland with string lights for your farm.",
+      "Texture": "GarlandLightsWhiteSmallVanilla"
+    },
+    {
+      "ID": "GemstonesDarkS",
+      "Name": "Gemstone String Lights",
+      "Description": "Sparkly gemstone string lights for your farm.",
+      "Texture": "GemstoneLightsSmallDark"
+    },
+	{
+      "ID": "GemstonesLightS",
+      "Name": "Gemstone String Lights",
+      "Description": "Sparkly gemstone string lights for your farm.",
+      "Texture": "GemstoneLightsSmallLight"
+    },
+	{
+      "ID": "GemstonesVanillaS",
+      "Name": "Gemstone String Lights",
+      "Description": "Sparkly gemstone string lights for your farm.",
+      "Texture": "GemstoneLightsSmallVanilla"
+    }
+  ],
+  
+	"CollisionMap": "XO",
+	"DrawLayers": [
+    {
+      "SourceRect": "0 0 32 48",
+      "DrawPosition": {
+        "X": 0,
+        "Y": 0
+      },
+      "HideBaseTexture": true,
+      "Sequences": [
+        {
+          "Frame": 0,
+          "Duration": 700
+        },
+        {
+          "Frame": 1,
+          "Duration": 700
+        },
+        {
+          "Frame": 2,
+          "Duration": 700
+        },
+        {
+          "Frame": 3,
+          "Duration": 700
+        }
+      ],
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "Name": "Vanilla Sundae",
+  "Description": "Vanilla icecream topped with chocolate sauce and a cute cherry on top",
+	//"Category": "Cooking",
+  "Edibility": 50,
+  "Price": 125,
+  "IsColored": false,
+  "Recipe": null,
+	"CategoryTextOverride": "Cooking",
+}

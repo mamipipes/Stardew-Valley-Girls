@@ -1,0 +1,28 @@
+ {
+"Changes": 
+    [
+ 
+		{
+            "LogName": "Alchemist Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/AlchemistWildflour",
+			"Entries": {
+				
+				"rain": "610 Custom_WF_Atelier 8 14 2/1600 Custom_WF_Atelier 3 12 0",
+				"Mon": "610 Custom_WF_Atelier 8 14 2/800 Forest 75 70 2 AlchemistWildflourForaging/1600 Custom_WF_Atelier 3 12 0",
+				"Tue": "610 Custom_WF_Atelier 8 14 2/800 Forest 27 44 2 AlchemistWildflourForaging/1600 Custom_WF_Atelier 3 12 0",
+				"Wed": "610 Custom_WF_Atelier 8 14 2/1000 Town 37 70 2/1700 Custom_WF_Atelier 3 12 0",
+				"Thu": "610 Custom_WF_Atelier 8 14 2/0900 Mountain 87 20 2 AlchemistWildflourForaging/1700 Custom_WF_Atelier 3 12 0",
+				"Fri": "610 Custom_WF_Atelier 8 14 2/1000 Town 30 36 1/1700 Custom_WF_Atelier 3 12 0",
+				"Sat": "610 Custom_WF_Atelier 8 14 2/1300 Saloon 25 22 3/2000 Custom_WF_Atelier 3 12 0",
+				"Sun": "610 Custom_WF_Atelier 8 14 2/1000 ArchaeologyHouse 41 14 2/1600 Custom_WF_Atelier 3 12 0",
+				"spring": "610 Custom_WF_Atelier 8 14 2"
+				
+			}
+        }
+		
+
+		
+
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "[AT] Hayao Miyazaki style furniture",
+  "Author": "ENDYLAU",
+  "Version": "1.0.0",
+  "Description": "Hayao Miyazaki style furniture",
+  "UniqueID": "ENDYLAU.furniture",
+  "UpdateKeys": ["Nexus:16615"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "3.3.2"
+  }
+}

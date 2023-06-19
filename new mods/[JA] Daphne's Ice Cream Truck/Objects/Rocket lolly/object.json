@@ -1,0 +1,23 @@
+{
+  "Name": "Rocket lolly",
+  "Description": "Strawberry, orange and lemon ice in the shape of a rocket!",
+	//"Category": "Cooking",
+  "Edibility": 45,
+  "Price": 150,
+	"EdibleBuffs": {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 1,
+    "Foraging": 0,
+    "MaxStamina": 0,
+    "MagnetRadius": 0,
+	"Speed": 0,
+	"Defense": 0,
+	"Attack": 2,
+    "Duration": 200,
+},
+  "IsColored": false,
+  "Recipe": null,
+	"CategoryTextOverride": "Cooking",
+}

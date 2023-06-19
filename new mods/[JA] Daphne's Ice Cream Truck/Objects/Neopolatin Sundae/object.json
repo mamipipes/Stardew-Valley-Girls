@@ -1,0 +1,10 @@
+{
+  "Name": "Neopolatin Sundae",
+  "Description": "A sundae filled with strawberry, chocolate and vanilla icecream",
+	//"Category": "Cooking",
+  "Edibility": 50,
+  "Price": 125,
+  "IsColored": false,
+  "Recipe": null,
+  "CategoryTextOverride": "Cooking",
+    } 

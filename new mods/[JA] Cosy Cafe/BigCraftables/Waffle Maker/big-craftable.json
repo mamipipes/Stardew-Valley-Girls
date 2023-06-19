@@ -1,0 +1,30 @@
+{
+	"Name": "Waffle Maker",
+	"Description": "appliance used to cook waffles.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveExtraIndexCount": 2,
+	"Recipe":
+	{
+		"ResultCount": 1,
+		"Ingredients": [
+		{
+			"Object": 388,
+			"Count": 30,
+		},
+		{
+			"Object": 382,
+			"Count": 5,
+		},
+		],
+		"IsDefault": true,
+	},
+	"NameLocalization":
+	{
+		"ko": "와플 메이커"
+	},
+	"DescriptionLocalization":
+	{
+		"ko": "반죽을 넣고 와플을 만드는 데 사용하는 기구"
+	}
+}

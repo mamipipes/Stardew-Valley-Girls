@@ -1,0 +1,22 @@
+﻿{
+  "Name": "[SF] Daphne's Ice Cream Truck",
+  "Author": "Wabi",
+  "Version": "2.1.0",
+  "Description": "Different buildable vans.",
+  "UniqueID": "Wabi.sfvans",
+  "UpdateKeys": ["Nexus:12430"],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.SolidFoundations",
+    "MinimumVersion": "1.0.0"
+ },
+ "Dependencies": [
+   {
+     "UniqueID": "PeacefulEnd.SolidFoundations",
+     "IsRequired": true
+    },
+   {
+     "UniqueID": "Wabi.icecreamvancp",
+     "IsRequired": true
+   }
+ ]
+}
